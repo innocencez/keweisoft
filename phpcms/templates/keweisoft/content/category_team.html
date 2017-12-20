@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="{CSS_PATH}official/common.css" />
+		<link rel="stylesheet" type="text/css" href="{CSS_PATH}official/abteam.css" />
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/bootstrap.min.css">
+		<script type="text/javascript" src="{JS_PATH}official/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}official/index.js"></script>
+		<script type="text/javascript" src="{JS_PATH}official/nav.js"></script>	
+	<!--百度统计-->
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?862c8265e86587e91bada5e06c1e576c";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>					
+	</head>
+	<body>
+<!--head-->
+{template "content","header"}
+	<div class="m-content temp"><embed width="1040" height="100" wmode="transparent" type="application/x-shockwave-flash" src="{IMG_PATH}official/melody.swf"><a href="#" class="temp-link" target="_blank"></a></div>
+<!--head-->
+		<div class="top-link m-content">
+			<a href="{siteurl($siteid)}">首页</a> > <a href="{$CATEGORYS[13][url]}">精英团队</a>
+		</div>
+		<div class="sales-team-tit">
+			<div class="m-content">
+				<img src="{IMG_PATH}keweisoft/sales-team-tit.png" />
+				<div style="font-size:20px; margin-top:95px;margin-left:180px;">他们具备科学的咨询流程</div>
+				<div style="font-size:20px; margin-top:35px;margin-left:100px;">他们拥有丰富的行业咨询规划经验</div>
+				<div style="font-size:20px; margin-top:35px;margin-left:120px;">他们为您提供知识和智慧性的服务</div>
+			</div>
+		</div>
+		<div class="sales-team-con">
+			<div class="m-content">
+				<div class="sales-team-con-items">
+					{pc:content action="lists" catid="38" num="12" order="listorder ASC" moreinfo="1"}
+					{loop $data $r}
+					<a href="{$r[url]}"><div class="sales-team-con-item{$n}" id="s{$n}" onmouseover="show(this.id)" onmouseout="hide(this.id)"><div class="team-item-h" id="sh{$n}"><span class="team-item-name">{$r[title]}</span><span class="team-item-job">{$r[job]}</span></div></div></a>
+					{/loop}
+					{/pc}
+				</div>
+				<div class="sales-team-con-tel">010-51651266</div>
+			</div>
+
+		</div>
+		<div class="implement-team-tit">
+			<div class="m-content">
+				<img src="{IMG_PATH}keweisoft/implement-team-tit.png" alt="" title="" style="margin-left:784px;" />
+				<div style="font-size:20px; margin-top:12px;margin-left:640px;">他们有着一切为客户服务</div>
+				<div style="font-size:20px; margin-top:30px;margin-left:665px;">他们拥有丰富的行业实施经验</div>
+				<div style="font-size:20px; margin-top:27px;margin-left:670px;">他们为企业项目的成功上线保驾护航</div>
+			</div>
+		</div>
+		<div class="implement-team-con">
+			<div class="m-content">
+				<div class="implement-team-con-items">
+					{pc:content action="lists" catid="39" order="listorder ASC" num="20" moreinfo="1"}
+					{loop $data $r}
+					<a href="{$r[url]}"><div class="implement-team-con-item{$n}" id="m{$n}" onmouseover="show(this.id)" onmouseout="hide(this.id)"><div class="team-item-h" id="mh{$n}"><span class="team-item-name">{$r[title]}</span><span class="team-item-job">{$r[job]}</span></div></div></a>
+					{/loop}
+					{/pc}
+				</div>
+			</div>
+		</div>
+	<script type="text/javascript">
+  	function show(id){
+  		for(var i=1;i<=20;i++)
+  		{
+  			if(id == 's'+i)
+  			{
+  				document.getElementById('sh'+i).style.display = 'block';
+  			}
+  			if (id == 'm'+i) 
+  			{
+  				document.getElementById('mh'+i).style.display = 'block';
+  			}
+  		}
+  	}
+  	function hide(id){
+  		for(var i=1;i<=20;i++)
+  		{
+  			if(id == 's'+i)
+  			{
+  				document.getElementById('sh'+i).style.display = 'none';
+  			}
+  			if (id == 'm'+i) 
+  			{
+  				document.getElementById('mh'+i).style.display = 'none';
+  			}
+  		}
+  	}
+  </script>				
+{template "content","footer"}

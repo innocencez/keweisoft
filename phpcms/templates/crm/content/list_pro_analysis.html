@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="{$SEO['keyword']}" />
+		<meta name="description" content="{$SEO['description']}" />
+		<meta name="author" content="keweisoft.com" />
+		<link href="{CSS_PATH}crm/product.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="{JS_PATH}crm/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}crm/scrolltopcontrol.js"></script>
+		<script type="text/javascript" src="{JS_PATH}crm/product.js"></script>
+	</head>	
+	<body>
+	{template "content","header"}
+		<div class="pro-banner" id="delink">
+			<div class="m-content banner-mid">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pbanner-btn"></div></a>
+			</div> 
+		</div>
+		{template "content","pro_subnav"}
+		<div class="ana-head m-content">
+			<div class="ana-head-pic"><img src="{IMG_PATH}crm/analysis-pic1.png" width="327" height="327" alt="crm决策分析" /></div>
+			<div class="ana-head-con">
+				<p class="ahc-tit">决策分析</p>
+				<p class="ahc-con">可为CRM为各模块提供灵活、可完全定制的报表&统计图表，CRM统计图表可实时显示企业的关键数据，可以很方便地图形化显现有关销售、市场、客户服务、财务等数据的对照、发展和趋势，给培训机构决策层提供强有力的数据支撑，同时也为协调各部门工作、合理控制费用支出、全面评估企业运作水平提供多方位的分析依据。</p>
+			</div>
+		</div>
+		<div class="ana-ads">
+			<div class="ana-ads-center"></div>
+		</div>
+		<div class="analysis-b1">
+			<div class="m-content">
+				<div class="ab1-con" id="analy1">
+					<p class="ab1-tit">市场营销</p>
+					<p class="ab1-item1">多维度、精准的市场营销报表分析，帮助市场总结全面把控市场招生细节，合理分配调动资源，以最少的成本获得最优的学员线索。</p>
+					<span class="ab1-item" style="margin-left:28px;">市场活动费用统计</span><span class="ab1-item" style="margin-left:12px;">市场活效果统计</span><span class="ab1-item" style="margin-left:12px;">学员邀约试听分析</span><br /><span class="ab1-item" style="margin-left:28px;">分校学员对比分析</span><span class="ab1-item" style="margin-left:12px;">丢失学员机会分析</span>
+				</div>
+				<div class="ab1-pic"><img src="{IMG_PATH}crm/analysis-pic2.png" width="390" height="301" alt="" /></div>
+			</div>
+		</div>
+		<div class="analysis-b2">
+			<div class="m-content">
+				<div class="ab2-con" id="analy2">
+					<p class="ab1-tit">销售分析</p>
+					<p class="ab1-item1">通过销售管理图表&报表分析功能，销售主管将实时掌握每个销售机会的进展情况，给予销售漏斗底部的客户更多的支持。</p>
+					<p class="ab1-item2">销售人员也可以从个人的统计报表中分析出自己相对薄弱或有待提高的环节，针对性的增强弱项，提升个人业务能力的同时也整体提升了企业的经济效益。</p>
+					<span class="ab1-item" style="margin-left:28px;">销售效果分析</span><span class="ab1-item" style="margin-left:32px;">销售机会分析</span><span class="ab1-item" style="margin-left:32px;">销售目标分析</span><br /><span class="ab1-item" style="margin-left:28px;">销售费用分析</span><span class="ab1-item" style="margin-left:32px;">线索来源分析</span><span class="ab1-item" style="margin-left:32px;">商机所在类型分析</span><span class="ab1-item" style="margin-left:28px;">跟进记录分析</span><span class="ab1-item" style="margin-left:32px;">销售计划分析</span><span class="ab1-item" style="margin-left:32px;">竞争丢单分析</span>
+				</div>
+				<div class="ab2-pic"><img src="{IMG_PATH}crm/analysis-pic3.png" width="372" height="318" alt="" /></div>
+			</div>
+		</div>	
+		<div class="analysis-b1">
+			<div class="m-content">
+				<div class="ab1-con" style="margin-top:158px;" id="analy3">
+					<p class="ab1-tit">教学质量反馈分析</p>
+					<p class="ab1-item1">系统会定期的将学员、学员家长对教学的反馈信息、评价信息生成图表的形式，通过图表可以细化分析某一个老师某一节课的反馈信息，教务人员可以及时的做出有针对性的调整，从而提高教学质量。</p>
+				</div>
+				<div class="ab3-pic"><img src="{IMG_PATH}crm/analysis-pic4.png" width="380" height="304" alt="" /></div>
+			</div>
+		</div>
+		<div class="analysis-b2">
+			<div class="m-content">
+				<div class="ab2-con" style="margin-top:88px;" id="analy4">
+					<p class="ab1-tit">教学服务分析</p>
+					<p class="ab1-item1">通过报表&图表可看到哪些老师的工作量大、哪些工作不饱和，以做出课表安排的调整，合理分配教师课时，提升教学质量。</p>
+					<p class="ab1-item2">从学员成绩分析图表中，教务人员可以得出针对特定学生的特定课程内容的成绩信息反馈，方便对学生提供个性化的辅导计划，教师也可以有针对性的布置作业，从而提升学生成绩。</p>
+					<span class="ab1-item" style="margin-left:28px;">学生成绩统计</span><span class="ab1-item" style="margin-left:42px;">上课考勤统计</span><span class="ab1-item" style="margin-left:32px;">课时消耗统计</span><br /><span class="ab1-item" style="margin-left:28px;">教师授课计划统计</span><span class="ab1-item" style="margin-left:14px;">分校排名统计</span><span class="ab1-item" style="margin-left:32px;">课程统计</span>
+				</div>
+				<div class="ab4-pic"><img src="{IMG_PATH}crm/analysis-pic5.png" width="409" height="274" alt="" /></div>
+			</div>
+		</div>	
+		<div class="analysis-b1">
+			<div class="m-content">
+				<div class="ab1-con" style="margin-top:118px;">
+					<p class="ab1-tit">财务报表分析</p>
+					<p class="ab1-item1">通过财务汇总报表分析，能够准确的查询各项资金收支状况，给领导决策层提供可靠的数据支持。实时掌握学员的收费情况，应收情况，即使出现退费学员，也能够快速的查询出申请退费学员的退费金额。</p>
+					<span class="ab1-item" style="margin-left:28px;">学员收费统计</span><span class="ab1-item" style="margin-left:12px;">课程收入统计</span><span class="ab1-item" style="margin-left:12px;">机构总部费用支出统计</span><br /><span class="ab1-item" style="margin-left:28px;">学员退费统计</span><span class="ab1-item" style="margin-left:12px;">学员续费统计</span><span class="ab1-item" style="margin-left:12px;">机构总部费用盈利统计</span>
+				</div>
+				<div class="ab5-pic"><img src="{IMG_PATH}crm/analysis-pic6.png" width="346" height="349" alt="" /></div>
+			</div>
+		</div>
+	
+		<div class="m-content" style="overflow:hidden;">
+			<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-btn">点击在线咨询</div></a><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-btn" style="margin-left:153px;">点击预约演示</div></a>						
+		</div>
+		{template "content","footer"}	
+	</body>	
+</html>

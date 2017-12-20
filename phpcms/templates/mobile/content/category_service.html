@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/service.css" rel="stylesheet"/>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->		
+	    <script type="text/javascript">
+	      $(function(){
+	        var _x = $(window).width();
+	        var _y = (_x * 264) / 640;
+	        $('.auto-banner').css({
+	          width : _x,
+	          height : _y,
+	          margin : '10px auto 0',
+	          textAlign : 'center',
+	          position : 'relative',
+	        }).find('img').attr({
+	          width : _x,
+	          height : _y,
+	        });
+	      })
+	    </script>	
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+			{template "content","head_top"}
+			{template "content","head_sub"}
+			<div class="service-banner auto-banner">
+				<img src="{IMG_PATH}m/service-banner.jpg" alt="服务概述" title="服务概述">
+			</div>				
+				<div class="service-tit">我们提供顾问式的咨询服务</div>		
+				<div class="service-consult-pic"></div>
+				<p class="service-consult-con">可为拥有最优质的咨询顾问服务团队，拥有多年行业纵深经验，对企业的业务流程和盈利模式都有较深了解，通过售前咨询，我们协助企业找到管理现状中存在的问题、优化企业现有流程中的各个环节、针对企业当前的管理问题给出全方面的解决方案，包括行业现状的分析、企业流程的优化、管理思想的应用以及最终的软件落地执行。</p>
+				<p class="service-consult-link">
+					<a href="{$CATEGORYS[265][url]}">查看更多>></a>
+				</p>
+				<div class="service-line"></div>
+				<div class="service-tit">我们专注最优质的实施服务</div>		
+				<div class="service-implement-pic"></div>
+				<p class="service-consult-con">可为软件凭借多年的项目成功实施经验，为企业提供标准的管理软件实施服务方案，引入专业的项目管理模式，可为一直坚持五分软件，五分实施，通过实施把企业的流程与软件流程相结合，搭建信息化平台；通过系统的培训，培养用户自己的信息管理者，从而使软件良好运作。</p>
+				<p class="service-consult-link">
+					<a href="{$CATEGORYS[266][url]}">查看更多>></a>
+				</p>
+				<div class="service-line"></div>
+				<div class="service-tit">我们坚持让客户满意的售后服务</div>	
+				<div class="service-aftersale-pic"></div>
+				<p class="service-consult-con">可为售后服务为客户提供产品版本更新、升级、 知识库查询以及以热线、远程、在线等非现场方式提供的软件应用指导、问题诊断与解决等一站式服务。共同打造服务生态链，满足客户的各类需求，帮助客户实现系统持续优化的运行。设立优质服务部，监督和提高员工的服务质量，为软件成功上线保驾护航。</p>
+				<p class="service-consult-link">
+					<a href="{$CATEGORYS[267][url]}">查看更多>></a>
+				</p>
+				<div class="service-line"></div>
+				<div class="service-tit">个性化定制开发服务</div>	
+				<div class="service-development-pic"></div>
+				<p class="service-consult-con">市场上软件的通用模块无法满足您企业的要求？需要只针对您企业独有的管理系统？别担心，可为金牌研发团队蓄势待发，根据企业自身需求设计开发方案，设计软件系统，选择相应的开发平台及数据库的软件开发服务。实现企业及行业的专属应用的软件管理系统，致力于帮助企业打造真正属于自己的信息化管理平台。</p>
+				<p class="service-consult-link">
+					<a href="{$CATEGORYS[268][url]}">查看更多>></a>
+				</p>
+				<div class="service-each-tit">可为服务流程</div>
+				<div class="service-process-pic">
+					<img src="{IMG_PATH}m/service-lc.png" width="320" >
+				</div>
+				<div class="pic-wrap"></div>
+				<div class="service-each-tit">服务回访</div>
+				<p class="service-each-subtit">可为设立优质服务部，监督和提高员工的服务质量，为企业软件的成功上线保驾护航</p>
+				<div class="service-hf-pic">
+					<img src="{IMG_PATH}m/service-hf.png" width="320" >
+				</div>
+				<div class="service-each-tit">服务监督</div>
+				<div class="service-jd-pic">
+					<img src="{IMG_PATH}m/service-jd.png" width="320" >
+				</div>
+			<div class="p-btn">立即预约演示</div>
+			{template "content","bottom"}
+		</div>
+	</body>
+</html>

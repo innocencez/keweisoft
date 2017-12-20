@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="{$SEO['keyword']}" />
+		<meta name="description" content="{$SEO['description']}" />
+		<meta name="author" content="keweisoft.com" />
+		<link href="{CSS_PATH}crm/solution.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="{JS_PATH}crm/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}crm/case.js"></script>
+	</head>	
+	<body>
+		{template "content","header"}
+		<div class="case-banner">
+			<div class="case-banner1"></div>
+			<div class="case-banner2">
+				<div class="case-banner2-center">
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="cbc-btn cbc1">点击预约演示</div></a>
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="cbc-btn cbc2">点击在线咨询</div></a>
+				</div>
+			</div>
+		</div>
+		<div class="m-content">
+			<p class="micro-nav">
+				<a href="{siteurl($siteid)}">首页</a> > <span>解决方案</span>
+			</p>
+		</div>
+		<div class="m-content case-b1">
+			<div class="cb1-tit"></div>
+<!--案例推荐（手风琴）-->
+		<div class="w1002" id="shoufengqin">
+			{pc:content action="lists" catid="$catid" num="8" moreinfo="1" order="listorder DESC"}
+			{loop $data $r} 
+			<div id="box{$n}">
+				<div class="hd{$n}">
+					<div class="verticalLine">
+						<a href="{$r[url]}">{str_cut($r[title],30,'...')}</a>
+					</div>
+				</div>
+				<div class="bd">
+					<div class="left"><img width="107" height="120" src="{$r[logo]}" alt="{$r[title]}" title="{$r[title]}"><p>{str_cut($r[title],24,'...')}</p>
+	                </div>
+	                <div class="right">
+	                	<a target="_blank" href=""><h4>案例情况</h4>                 
+	                	<p>公司名称：{str_cut($r[title],32,'...')}<br />
+	                		所属行业：{get_linkage($r['industry'],3377,' >> ',0)}<br />
+	                		公司规模：{get_linkage($r['scale'],3370,' >> ',0)}<br />上线时间：{$r[online_time]}<br />
+	                		管理难点：{str_cut($r[problem],38,'...')}<br />
+	                		应用价值：{str_cut($r[value],38,'...')}
+	                	</p></a>
+	                </div>	
+				</div>
+			</div>	
+			{/loop}
+			{/pc}																						
+		</div>
+<!--案例-->					
+		</div>
+		<div class="case-ads">
+			<div class="case-ads-mid">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="cam-btn">点击咨询</div></a>
+			</div>
+		</div>
+		<div class="case-b2 m-content">
+			{pc:content action="lists" catid="$catid" num="6" order="inputtime DESC" page="$page"}
+			{loop $data $r}
+			<div class="case-b2-item">
+				<div class="cbi-pic"><a href="{$r[url]}" target="_blank"><img src="{$r[thumb]}" width="516" height="200" alt="{$r[title]}" /></a></div>
+				<div class="cbi-right">
+					<a href="{$r[url]}" target="_blank"><h2 class="cbir-tit">{str_cut($r[title],64,'...')}</h2></a>
+					<p class="cbir-con">{str_cut($r[description],225,'...')}</p>
+					<span class="cbir-date">发布时间 : {date('Y-m-d',$r[inputtime])}</span><a href="http://kf2.immivip.com/new/client.php?unique_id=&unique_name=&arg=admin&style=6" class="cbir-consult" target="_blank">点击咨询>></a><a href="{$r[url]}" target="_blank"><div class="cbir-more">了解详情>></div></a>
+				</div>
+			</div>
+
+			{/loop}
+			{/pc}	
+			<div style="text-align:center;margin-top:15px;">{$pages}</div>																	
+		</div>
+		{template "content","footer"}	
+	</body>	
+</html>

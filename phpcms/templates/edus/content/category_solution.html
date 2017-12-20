@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+        <meta name="keywords" content="{$SEO['keyword']}" />
+        <meta name="description" content="{$SEO['description']}" />		
+		<link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="{CSS_PATH}edus/solution.css" />
+		<script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+	</head>
+	<body>	
+		{template "content","head"}
+		<div class="solution-banner">
+			<div class="solution-banner1"></div>
+			<div class="solution-banner2"></div>
+		</div>
+		<div class="m-content">
+			<div class="solution-tit"></div>
+			<div class="clearfix"></div>
+			<a href="{$CATEGORYS[126][url]}" target="_blank"><div class="solution-item1">中小学辅导机构管理解决方案</div></a>
+			<a href="{$CATEGORYS[127][url]}" target="_blank"><div class="solution-item2">外语辅导机构管理解决方案</div></a>
+			<a href="{$CATEGORYS[128][url]}" target="_blank"><div class="solution-item3">少儿培训机构管理解决方案</div></a>
+			<div class="clearfix"></div>
+			<a href="{$CATEGORYS[129][url]}" target="_blank"><div class="solution-item4">职业资格培训机构管理解决方案</div></a>
+			<a href="{$CATEGORYS[130][url]}" target="_blank"><div class="solution-item5">留学培训机构管理解决方案</div></a>
+			<a href="{$CATEGORYS[133][url]}" target="_blank"><div class="solution-item8">艺术培训机构管理解决方案</div></a>
+			<div class="clearfix"></div>
+			<a href=""><div class="solution-item7">体育培训机构解决方案</div></a>
+			<a href=""><div class="solution-item6">企业管理培训解决方案</div></a>
+			<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="solution-item9">为您提供专业的解决方案</div></a>
+			<div class="clearfix"></div>						
+		</div>
+		<div class="solution-ads">
+			<div class="solution-ads-center">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="solution-ads-btn">点击咨询</div></a>
+			</div>
+		</div>
+		<div class="m-content">
+			<div class="solution-subTit">
+				成功案例
+			</div>
+			<div class="case_show">
+				<div class="l-btn" id="l-btn"></div>
+				<div class="case-show-con" id="case-show-con">
+					<ul>
+						{pc:content action="lists" catid="140" order="listorder DESC" num="8" moreinfo="1"}
+						{loop $data $r}
+						<li>
+							<a href="{$r[url]}"><img src="{$r[logo]}" width="108" height="121" class="case-logo" /></a>
+							<div class="case-con">
+								<p class="case-conTit"><a href="{$r[url]}">{str_cut($r[title],20,'...')}</a></p>
+								<p class="case-conCon">所属行业：{get_linkage($r['industry'],3377,' >> ',0)}</p>
+								<p class="case-conCon">上线时间：{$r[online_time]}</p>
+							</div>
+						</li>
+						{/loop}
+						{/pc}												
+					</ul>
+				</div>
+				<div class="r-btn" id="r-btn"></div>		
+			</div>
+			<div class="solution-subTit" style="margin-top:30px;margin-bottom:30px;">
+				可为服务
+			</div>			
+			<div class="conb3-con">
+				<div class="conb3-left"></div>
+				<div class="conb3-right">
+					<div class="conb3-right1">
+						<div class="conb3-right1-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="">咨询服务</a></p>
+							<p class="inner-item">可为edus教务系统的咨询服务，帮助企业梳理流程，规划属于自己的教务管理系统。</p>
+						</div>
+					</div>
+					<div class="conb3-right2">
+						<div class="conb3-right2-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="">实施服务</a></p>
+							<p class="inner-item">实施服务团三分软件，七分实施，可为团队帮助企业打造自己的信息化管理专家。</p>
+						</div>
+					</div>
+					<div class="conb3-right3">
+						<div class="conb3-right3-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="">售后服务</a></p>
+							<p class="inner-item">可为集团提供的售后服务，以多种信息载体第一时间内向用户传递信息化知识。</p>
+						</div>
+					</div>
+					<div class="conb3-right4">
+						<div class="conb3-right4-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="">个性化定制开发</a></p>
+							<p class="inner-item">金牌研发团队可满足企业个性化管理需求进行二次开发。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="s-ads">
+			<div class="m-content">
+				<div class="s-ads-tit">更多了解可为？<br />请联系我们</div>
+				<img src="{IMG_PATH}edus/process_bottom_arrow.png" alt="" title="" style="margin-top:55px;float:left;" />
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">告诉我们您的需求</a></div>
+				<div class="s-ads-btn2"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">预约演示</a></div>
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">在线咨询可为</a></div>
+				<div class="s-ads-tel"></div>
+			</div>
+		</div>		
+<!--********************************************************************-->		
+{template "content","footer"}
+<script type="text/javascript" src="{JS_PATH}edus/scrol.js"></script>	
+<script type="text/javascript">
+	//左右切换
+	var oMorecase=document.getElementById('case-show-con');
+	var oUlCase=oMorecase.getElementsByTagName('ul')[0];
+	var aLiCase=oMorecase.getElementsByTagName('li');
+	var oLBtnCase=document.getElementById('l-btn');
+	var oRBtnCase=document.getElementById('r-btn');
+
+	oUlCase.innerHTML+=oUlCase.innerHTML;
+	var oneWidth=parseInt(getStyle(aLiCase[0], 'width'))+13;
+	oUlCase.style.width=oneWidth*aLiCase.length+'px';
+	var iNum=0;			
+		
+	oLBtnCase.onmouseover=function(){
+		  this.style.cursor='pointer';		
+	 };
+	  
+	oRBtnCase.onmouseover=function(){
+		this.style.cursor='pointer';		
+	};	
+	  
+	oLBtnCase.onclick=function(){
+		if(iNum==0){
+			iNum=(aLiCase.length/2)-1;
+			oUlCase.style.left=-oUlCase.offsetWidth/2+'px';		
+		}else{
+			iNum--;	
+		}
+		startMove(oUlCase,{left:-iNum*oneWidth});
+	};
+	
+	oRBtnCase.onclick=function(){
+		if(iNum==aLiCase.length/2){
+			iNum=0;
+			oUlCase.style.left=0;
+		}
+		iNum++;
+		
+		startMove(oUlCase,{left:-iNum*oneWidth});
+	};
+		function startMove(obj,json,fn){
+			clearInterval(obj.timer);
+			obj.timer = setInterval(function(){
+				 var bStop=true;
+				 
+				 for(var attr in json){
+					  var iCur = 0;
+		
+					  if(attr == 'opacity'){
+						  if( Math.round(getStyle(obj,attr)*100) == 0){
+							  iCur = 0;
+						  }else{
+							  iCur = Math.round(getStyle(obj,attr)*100) || 100;
+						  }
+					  }else{
+						  iCur = parseInt(getStyle(obj,attr)) || 0;
+					  }
+					  
+					  var iSpeed = (json[attr] - iCur)/8;
+					  iSpeed = iSpeed>0 ?  Math.ceil( iSpeed ) : Math.floor(iSpeed);					
+					
+					
+					  if(iCur != json[attr]){		
+						  bStop = false;
+					  }
+						  
+					  if(attr == 'opacity'){
+						  obj.style[attr] = (iCur + iSpeed)/100;
+						  obj.style.filter = 'alpha(opacity='+(iCur + iSpeed)+')';
+					  }else{
+						  obj.style[attr] = iCur + iSpeed + 'px';
+					  }					 
+				 }
+				 
+				 if(bStop){
+					 clearInterval(obj.timer);
+					 if(fn){
+					  	fn.call(obj);
+					  }
+					 
+				}
+			},15);
+		}
+		
+		function getStyle(obj,attr){
+			if(obj.currentStyle){
+				return obj.currentStyle[attr];
+			}else{
+				return getComputedStyle(obj,false)[attr];
+			}
+	}
+	</script>
+	<script>
+$(function(){
+    $(".case-show-con ul").show()
+	var wid, n = 0, flag = false;
+	var mm=[];
+	
+	$(".case-show-con li").each(function(index, element) {
+		mm[index] = element.offsetWidth;
+		
+		$(element).hover(function () {
+				flag = true;
+				window.clearInterval(wid);
+				start(element, index);
+			}, function () {
+				n = index;
+				flag = false;
+				
+			});
+	});
+	
+	function start(element, index) {
+		$(element).stop(true,true).animate({width:mm[index]+'px'},500);
+		$(element).siblings("li").stop(true,true).animate({width:"108px"},500);
+	}
+	
+	function autoplay() {
+		if (flag) return;
+		
+		if (n > 5) n = 0;
+		
+		start($(".case-show-con li")[n], n);
+		
+		n++;
+
+		wid = window.setTimeout(autoplay, 2000);
+	}
+	
+	autoplay();
+	index_ad_yellow_bar();
+	
+});
+	</script>	
+	</body>	
+</html>

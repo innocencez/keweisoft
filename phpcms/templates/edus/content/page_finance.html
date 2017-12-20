@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />    
+    <link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="{CSS_PATH}edus/product.css" />
+    <script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+  </head>
+  <body>  
+    {template "content","head"}
+	{template "content","pro-conhead"}
+		<div class="m-content">
+			<div class="pro-finaceTit">
+				<div class="pro-finaceTit-top">教务系统及时、准确、高效、多方位数据管理，帮助降低运营风险</div>
+				<div class="pro-finaceTit-bottom">财务操作灵活，面对情况较多，处理复杂，一直是培训机构管理的重要课题。可为edus教务系统拥有强大的财务管理能力，培训机构日常运作过程中的所有财务处理情况，在可为edus教务中都能找到解决方案</div>
+			</div>
+			<div class="pro-finaCon1">
+				<div class="pro-fcon-item1 pro-fcon-motto">正常收费</div>
+				<div class="pro-fcon-item2 pro-fcon-motto">优惠收费</div>
+				<div class="pro-fcon-item3 pro-fcon-motto">退费转费</div>
+				<div class="pro-fcon-item4 pro-fcon-motto">欠费提醒</div>
+				<div class="pro-fcon-item5 pro-fcon-motto">合同管理</div>
+				<div class="pro-fcon-item6 pro-fcon-motto">单据打印</div>
+				<div class="pro-fcon-item7 pro-fcon-motto">财务对账</div>
+				<div class="pro-fcon-item8 pro-fcon-motto">缴费充值</div>
+				<div class="pro-fcon-item9 pro-fcon-motto">财务报表管理</div>
+				<div class="pro-fcon-item10 pro-fcon-motto">支出管理</div>
+				<div class="pro-fcon-item11 pro-fcon-motto">收支平衡分析</div>
+				<div class="pro-fcon-item12 pro-fcon-motto">校区收入分析</div>
+				<div class="pro-fcon-item13 pro-fcon-motto">课程收入</div>
+				<div class="pro-fcon-item14 pro-fcon-motto">进销存管理</div>
+			</div>
+		</div>
+		<div class="pro-finaCon2">
+			<div class="m-content">
+				<div class="pro-fc2Item1">
+					<div class="pro-fciTop">出纳</div>
+					<div class="pro-fciSub">
+						EDUS教务管理系统提高了出纳和前台人员收费的规范性，避免事后大量补录数据，同时提高了财务准确性，避免收费人员与家长在财务方面的一些纠纷，同时提高企业形象和客户体验。
+					</div>
+				</div>
+				<div class="pro-fc2Item1" style="margin-left: 50px;">
+					<div class="pro-fciTop">校长</div>
+					<div class="pro-fciSub">
+						EDUS教务管理系统可以帮助校长实时清晰的掌握总部及分支机构费用盈利或支出情况，从而降低运营风险，将有限的资金用在更需要的地方，实现企业利益最大化。
+					</div>
+				</div>
+				<div class="pro-fc2Item1" style="margin-left: 50px;">
+					<div class="pro-fciTop">财务经理</div>
+					<div class="pro-fciSub">
+						EDUS教务管理系统可以方便、快捷的抓取各个分校的收费和支出数据，方便汇总，提供给校长进行数据决策，降低了业务人员或学员与财务人员之间不必要的一些矛盾，实现了财务动态化、准确化、及时化报表统计。
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="pro-fc2Bot">
+					适合您的方案:<a href="{$CATEGORYS[35][url]}" target="_blank"><div class="pro-fc2Btn">中小学培训机构</div></a><a href="{$CATEGORYS[36][url]}" target="_blank"><div class="pro-fc3Btn">英语培训机构</div></a>
+				</div>								
+			</div>
+		</div>
+		<div class="ana-ads"></div>
+		<div class="m-content">
+			<div class="clearfix"></div>
+			<div class="pro-fconItem1-right"></div>
+			<div class="pro-fconItem1-left">
+				<p class="proflTit">收费管理</p>
+				<p class="proflCon">好用的培训机构收费系统让课时收费管理简单轻松，机构总部制定收费标准，实现整体管控各个分校的收费，学员报名后和学员签订合同，前台收银员可以根据机构制定的收费标准和优惠标准进行相关的收费业务并打印收据。</p>
+				<p class="proflCon">财务收费管理系统自动区分定金和学费，并在学员成功报名后将定金转化成学费，支持分期付款等等，这样大大节省了财务人员的沟通成本，提高财务人员的工作效率。</p>
+			</div>
+			<div class="clearCon"></div>
+			<div class="pro-fconItem2-left"></div>
+			<div class="pro-fconItem2-right">
+				<p class="proflTit">退费管理</p>
+				<p class="proflCon">学员退费管理系统提供合理完善的退费方案，解决退费时，根据学员课时消耗情况，变更学员的优惠标准，系统完善的考勤核销体系，自动生成学员应退费金额，有理有据大大减少退费时所带来的财务纠纷；</p>
+				<p class="proflCon">学生退费怎么管理，根据机构的管理需求，进行相关退费、转费、优惠等业务时，可以设置相关人员进行审核；</p>
+				<p class="proflCon">给学员退费时，定金、食宿费、活动费、教材费不予退费。</p>
+								
+			</div>
+			<div class="clearCon"></div>
+			<div class="pro-fconItem3-right"></div>
+			<div class="pro-fconItem3-left">
+				<p class="proflTit">转费管理</p>
+				<p class="proflCon">针对教务管理人员日常工作的繁琐，系统提供转费功能，所有这些繁琐的操作通过系统可以一步到位，管理的清清楚楚，主要体现在学员转课、转班、转校（可能跨区、跨省），学员提出申请后，交由对应规划师处理，进而提交至相关审核人员，审核通过后，按实际情况进行补差或退款。</p>
+			</div>
+			<div class="clearCon"></div>
+			<div class="pro-fconItem4-left"></div>
+			<div class="pro-fconItem4-right">
+				<p class="proflTit">优惠管理</p>
+				<p class="proflCon">机构可以根据自身实际情况，制定属于自己的优惠标准，包括常规课程优惠、不同产品套餐优惠、赠课时优惠、特殊申请优惠（针对学员）以及预留自定义优惠，实现企业全方位优惠管理；</p>
+				<p class="proflCon">结合教育机构特性，一般优惠时，定金、食宿费、教材费、综合性费用不可优惠，只针对学费、活动费优惠，系统实现自动区分，并且能够灵活设置。</p>
+			</div>
+			<div class="clearCon"></div>
+			<div class="pro-fconItem5-right"></div>
+			<div class="pro-fconItem5-left">
+				<p class="proflTit">支出管理</p>
+				<p class="proflCon">Edus教务系统实现教育机构对资金的有效监管，分校活动经费需要上报总部审核，统一拨款；</p>
+				<p class="proflCon">统计教师单节课时费以及总课时费、活动支出费用及所有日常支出项费用。</p>
+			</div>	
+			<div class="clearCon"></div>
+			<div class="pro-fconItem6-left"></div>
+			<div class="pro-fconItem6-right">
+				<p class="proflTit">财务汇总、流水账管理</p>
+				<p class="proflCon">财务管理系统对全机构全体学生的资金账户变化进行全面追踪，将机构所有学生账户资金变动情况进行监控，每次课时消耗扣费、缴费充值、退费、续费等均产生独立的流水记录，每条流水记录可自动生成记账凭证，传递到对应的财务系统中，大大减轻了财务人员的工作强度，提高了精准度，教育机构因此能够实现精准的收入计算和利润核算。</p>
+			</div>
+			<div class="clearCon"></div>
+			<div class="pro-fconItem7-right"></div>
+			<div class="pro-fconItem7-left">
+				<p class="proflTit">合同管理</p>
+				<p class="proflCon">培训机构学员合同管理系统支持合同相关的付款、应收、账户、消耗情况的关联查看，不仅能够记录学生的合同基本信息，同时能够将合同和对应的定金信息、资金账户、相关的资金流动记录、应收款追踪下来，方便财务人员进行对账，打开合同，能看到与合同相关的各类信息。</p>
+			</div>	
+			<div class="clearCon"></div>
+			<div class="pro-fconItem8-left"></div>
+			<div class="pro-fconItem8-right">
+				<p class="proflTit">集团财务管控</p>
+				<p class="proflCon">Edus财务管理模块帮助清晰记录公司每天的支出、收入等资金流动情况，实现对资金的实时管控，帮助企业制定预算；实时清晰的掌握总部及分支机构费用盈利或支出情况，从而降低运营风险。</p>
+				<p class="proflCon">通过对系统内学员收费管理、退费管理、支出管理、其他费用管理的资金进行统计分析，提供决策依据，例如根据收费情况和退费率，就能提前预知收益，另一方面可以制定提高教学质量的方案来减少学员退费。</p>				
+			</div>
+			<div class="clearfix"></div>																
+		</div>
+		<div class="profinace-ads" style="margin-top:0px">
+			<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-ads-btn">在线咨询</div></a>
+		</div>
+
+		{template "content","pro-conblock"}	
+		{template "content","footer"}
+<script type="text/javascript" src="{JS_PATH}edus/scrol.js"></script>		
+	</body>	
+</html>

@@ -1,0 +1,630 @@
+/*移动CD*/
+.mapp-pro-content{
+	width: 90%;
+	margin: 16px auto 0px;
+	padding-bottom: 18px;
+	border-bottom: 1px dashed #898989;
+	overflow: hidden;
+}
+.mapp-banner{
+	width: 640px;
+	height: 264px;
+	margin: 6px auto 0;
+}
+p.mapp-tit{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 15px;
+}
+.mapp-top-pic{
+	width: 100%;
+	height: 108px;
+	background: url(../../images/m/mapp-pic1.png) center center no-repeat;
+	margin-top: 15px;
+	background-size: 246px 108px;
+}
+.mapp-top-con{
+	width: 90%;
+	margin: 20px auto 0px;
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+	text-indent: 24px;	
+}
+.mapp-pro-head{
+	width: 100%;
+	height: 36px;
+	background: url(../../images/m/sales-center-bg.jpg) left center repeat-x;
+	text-align: center;
+	line-height: 36px;
+	color: #333;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.mapp-pic1{
+	width: 100%;
+	background: url(../../images/m/mapp-pic7.png) center center no-repeat;
+	background-size: 247px 279px;
+	height: 279px;
+	margin-top:16px;
+}
+.mapp-con-tit{
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.mapp-con-word{
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+	margin-top: 6px;	
+}
+.mapp-pic2{
+	width: 100%;
+	background: url(../../images/m/mapp-pic8.png) center center no-repeat;
+	background-size: 304px 278px;
+	height: 278px;
+	margin-top:16px;
+}
+.mapp-pic3{
+	width: 100%;
+	background: url(../../images/m/mapp-pic9.png) center center no-repeat;
+	background-size: 254px 280px;
+	height: 280px;
+	margin-top:16px;
+}
+.mapp-pic4{
+	width: 100%;
+	background: url(../../images/m/mapp-pic10.png) center center no-repeat;
+	background-size: 304px 286px;
+	height: 286px;
+	margin-top:16px;
+}
+.mapp-pic5{
+	width: 100%;
+	background: url(../../images/m/mapp-pic11.png) center center no-repeat;
+	background-size: 301px 263px;
+	height: 263px;
+	margin-top:16px;
+}
+.mapp-pic6{
+	width: 100%;
+	background: url(../../images/m/mapp-pic12.png) center center no-repeat;
+	background-size: 300px 241px;
+	height: 241px;
+	margin-top:16px;
+}
+.mapp-pic7{
+	width: 100%;
+	background: url(../../images/m/mapp-pic13.png) center center no-repeat;
+	background-size: 286px 258px;
+	height: 258px;
+	margin-top:16px;
+}
+.mapp-pic8{
+	width: 100%;
+	background: url(../../images/m/mapp-pic14.png) center center no-repeat;
+	background-size: 306px 275px;
+	height: 275px;
+	margin-top:16px;
+}
+.mapp-pic9{
+	width: 100%;
+	background: url(../../images/m/mapp-pic15.png) center center no-repeat;
+	background-size: 305px 277px;
+	height: 277px;
+	margin-top:16px;
+}
+.mapp-pic10{
+	width: 100%;
+	background: url(../../images/m/mapp-pic16.png) center center no-repeat;
+	background-size: 338px 301px;
+	height: 301px;
+	margin-top:16px;
+}
+.mapp-pic11{
+	width: 100%;
+	background: url(../../images/m/mapp-pic17.png) center center no-repeat;
+	background-size: 312px 260px;
+	height: 260px;
+	margin-top:16px;
+}
+/*家校通*/
+.app-banner{
+	width: 360px;
+	height: 149px;
+	margin: 6px auto 0px;
+	overflow: hidden;	
+}
+.app-top-pic{
+	width: 100%;
+	height: 152px;
+	background: url(../../images/m/app-pic.png) center center no-repeat;
+	background-size: 344px 152px;
+	margin-top: 16px;
+}
+.app-top-con{
+	width: 90%;
+	margin: 20px auto 0px;
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+	text-indent: 24px;	
+}
+.app-pro-content{
+	width: 92%;
+	margin:10px auto 0;
+	overflow: hidden;
+}
+.app-b1-top{
+	width: 340px;
+	height: 230px;
+	margin: 16px auto 0;
+}
+.app-b1-top .left{
+	width: 160px;
+	height: 230px;
+	float: left;
+	background: url(../../images/m/app-pic2.png) center center no-repeat;
+	background-size: 160px 230px;
+}
+.app-b1-top .right{
+	width: 160px;
+	height: 230px;
+	float: right;
+	background: url(../../images/m/app-pic3.png) center center no-repeat;
+	background-size: 160px 230px;
+}
+.app-b1-sub{
+	width: 360px;
+	height: 150px;
+	background: url(../../images/m/app-pic1.png) center center no-repeat;
+	background-size: 360px 150px;
+	margin: 16px auto 0;
+}
+.app-pro-con{
+	width: 92%;
+	margin: 16px auto 0px;
+	padding-bottom: 18px;
+	border-bottom: 1px dashed #898989;
+	overflow: hidden;
+}
+.app-pro-con .app-pic1{
+	width: 100%;
+	background: url(../../images/m/app-pic4.png) center center no-repeat;
+	background-size: 300px 266px;
+	height: 266px;
+	margin-top: 16px;
+}
+p.app-con-tit{
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
+p.app-con-word{
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+	margin-top: 6px;	
+}
+.app-pic2{
+	width: 100%;
+	background: url(../../images/m/app-pic5.png) center center no-repeat;
+	background-size: 300px 263px;
+	height: 263px;
+	margin-top: 16px;
+}
+.app-pic3{
+	width: 100%;
+	background: url(../../images/m/app-pic6.png) center center no-repeat;
+	background-size: 300px 295px;
+	height: 295px;
+	margin-top: 16px;
+}
+.app-pic4{
+	width: 100%;
+	background: url(../../images/m/app-pic7.png) center center no-repeat;
+	background-size: 340px 286px;
+	height: 286px;
+	margin-top: 16px;
+}
+.app-pic5{
+	width: 100%;
+	background: url(../../images/m/app-pic8.png) center center no-repeat;
+	background-size: 320px 294px;
+	height: 294px;
+	margin-top: 16px;
+}
+/*选课报名系统*/
+.souke-banner{
+	width: 360px;
+	height: 149px;
+	margin: 6px auto 0px;
+	overflow: hidden;	
+}
+p.souke-tit{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 15px;	
+}
+.souke-top-pic{
+	width: 100%;
+	height: 284px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic1.jpg) center center no-repeat;
+	background-size:318px 284px; 
+}
+p.souke-top-con{
+	width: 90%;
+	margin: 20px auto 0px;
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+	text-indent: 24px;	
+}
+.souke-pro-head{
+	width: 100%;
+	height: 36px;
+	background: url(../../images/m/sales-center-bg.jpg) left center repeat-x;
+	text-align: center;
+	line-height: 36px;
+	color: #333;
+	font-size: 16px;
+	margin-top: 20px;	
+}
+.souke-sub-pic{
+	width: 100%;
+	margin:16px auto 0;
+	height: 321px;
+	background: url(../../images/m/souke-pic.png) center center no-repeat;
+	background-size: 334px 321px;
+}
+.souke-pro-con{
+	width: 92%;
+	margin: 16px auto 0px;
+	padding-bottom: 18px;
+	border-bottom: 1px dashed #898989;
+	overflow: hidden;	
+}
+.souke-pic1{
+	width: 100%;
+	height: 187px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic2.png) center center no-repeat;
+	background-size: 323px 187px;
+}
+p.souke-con-tit{
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;	
+}
+p.souke-con-word{
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+	margin-top: 6px;	
+}
+.souke-pic2{
+	width: 100%;
+	height: 138px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic3.png) center center no-repeat;
+	background-size: 320px 138px;
+}
+.souke-pic3{
+	width: 100%;
+	height: 157px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic4.png) center center no-repeat;
+	background-size: 325px 157px;
+}
+.souke-pic4{
+	width: 100%;
+	height: 234px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic5.png) center center no-repeat;
+	background-size: 224px 234px;
+}
+.souke-pic5{
+	width: 100%;
+	height: 303px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic6.png) center center no-repeat;
+	background-size: 320px 303px;
+}
+.souke-pic6{
+	width: 100%;
+	height: 139px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic7.png) center center no-repeat;
+	background-size: 340px 139px;
+}
+.souke-pic7{
+	width: 100%;
+	height: 136px;
+	margin-top: 16px;
+	background: url(../../images/m/souke-pic8.png) center center no-repeat;
+	background-size: 340px 136px;
+}
+/*留学CRM*/
+.fcrm-banner{
+	width: 360px;
+	height: 149px;
+	margin: 6px auto 0px;
+	overflow: hidden;	
+}
+p.fcrm-tit{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 15px;
+}
+p.fcrm-top-word{
+	width: 90%;
+	margin: 20px auto 0px;
+	font-size: 14px;
+	color: #333;
+	line-height: 28px;
+	text-indent: 28px;	
+}
+.fcrm-pro-head{
+	width: 100%;
+	height: 36px;
+	background: url(../../images/m/sales-center-bg.jpg) left center repeat-x;
+	text-align: center;
+	line-height: 36px;
+	color: #333;
+	font-size: 16px;
+	margin-top: 20px;	
+}
+.fcrm-ad-pic{
+	width: 100%;
+	background: url(../../images/m/fcrm-pic.jpg) center 16px no-repeat #f4f4f4;
+	background-size: 330px 260px;
+	height: 260px;
+	padding-bottom: 16px;
+}
+.fcrm-need-con{
+	width: 100%;
+	background-color: #f6f7f8;
+	padding:15px 0;
+	position: relative;
+}
+.fcrm-need-center{
+	width: 90%;
+	margin: 0 auto;
+}
+.fcrm-need-center .left{
+	width: 90%;
+	float: left;
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+}
+.fcrm-ad-item{
+	width: 80%;
+	margin: 50px auto 0;
+	background-color: #f6f7f8;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+	position: relative;
+	padding: 35px 12px 5px;
+}
+.fai-ico1{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico1.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+.fai-tit{
+	color: #1b1b21;
+	text-align: center;
+	font-size: 16px;
+}
+.fai-con{
+	font-size: 14px;
+	color: #333;
+	line-height: 28px;
+	margin-top: 5px;
+}
+.fai-ico2{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico2.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+.fai-ico3{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico3.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+.fai-ico4{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico4.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+
+.fcrm-pro-con{
+	width: 92%;
+	margin: 16px auto 0px;
+	padding-bottom: 18px;
+	border-bottom: 1px dashed #898989;
+	overflow: hidden;	
+}
+.fcrm-pic1{
+	width: 100%;
+	margin-top: 16px;
+	height: 193px;
+	background: url(../../images/edus/abroad-b4-pic1.png) center center no-repeat;
+	background-size: 300px 193px;
+}
+p.fcrm-con-tit{
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
+p.fcrm-con-word{
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+	margin-top: 6px;	
+}
+.fcrm-pic2{
+	width: 100%;
+	margin-top: 16px;
+	height: 194px;
+	background: url(../../images/edus/abroad-b4-pic2.png) center center no-repeat;
+	background-size: 300px 194px;
+}
+.fcrm-pic3{
+	width: 100%;
+	margin-top: 16px;
+	height: 177px;
+	background: url(../../images/edus/abroad-b4-pic3.png) center center no-repeat;
+	background-size: 300px 177px;
+}
+.fcrm-pic4{
+	width: 100%;
+	margin-top: 16px;
+	height: 193px;
+	background: url(../../images/edus/abroad-b4-pic4.png) center center no-repeat;
+	background-size: 300px 193px;
+}
+.fcrm-pic5{
+	width: 100%;
+	margin-top: 16px;
+	height: 179px;
+	background: url(../../images/edus/abroad-b4-pic5.png) center center no-repeat;
+	background-size: 300px 179px;
+}
+.fcrm-pic6{
+	width: 100%;
+	margin-top: 16px;
+	height: 186px;
+	background: url(../../images/edus/abroad-b4-pic6.png) center center no-repeat;
+	background-size: 300px 186px;
+}
+.fcrm-pic7{
+	width: 100%;
+	margin-top: 16px;
+	height: 181px;
+	background: url(../../images/edus/abroad-b4-pic7.png) center center no-repeat;
+	background-size: 300px 181px;
+}
+.fcrm-pic8{
+	width: 100%;
+	margin-top: 16px;
+	height: 177px;
+	background: url(../../images/edus/abroad-b4-pic8.png) center center no-repeat;
+	background-size: 300px 177px;
+}
+.fcrm-pic9{
+	width: 100%;
+	margin-top: 16px;
+	height: 177px;
+	background: url(../../images/edus/abroad-b4-pic9.png) center center no-repeat;
+	background-size: 300px 177px;
+}
+.fcrm-pic10{
+	width: 100%;
+	margin-top: 16px;
+	height: 176px;
+	background: url(../../images/edus/abroad-b4-pic10.png) center center no-repeat;
+	background-size: 300px 176px;
+}
+.fcrm-app-pic1{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic1.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic2{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic2.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic3{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic3.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic4{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic4.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic5{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic5.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic6{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic6.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.swiper-container {
+  width: 90%;
+  margin:20px auto;
+
+}
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide p.value-tit{
+	text-align: center;
+	line-height: 28px;
+}
+.swiper-slide p.value-tit span{
+	font-size: 16px;
+	color: #333;
+	display: inline-block;
+	padding:5px 3px;
+	border-bottom: 2px solid #666;
+}

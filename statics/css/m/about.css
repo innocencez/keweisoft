@@ -1,0 +1,342 @@
+.about-banner{
+	width:360px;
+	margin:10px auto;
+}
+.about-brief-tit,.about-mission-tit,.about-process-tit,.about-contact-tit{
+	width: 100%;
+	height:36px;
+	background: url(../../images/m/about-itemBg.jpg) left center repeat-x;
+	line-height: 36px;
+}
+.abt-left{
+	font-size: 16px;
+	color:#333;
+	margin-left:2%;
+	background: url(../../images/m/about-ico1.png) left center no-repeat;
+	background-size: 22px 18px;
+	padding-left:30px;
+	width: 76%;
+	float: left;
+	cursor: pointer;
+}
+.amt-left{
+	font-size: 16px;
+	color:#333;
+	margin-left:2%;
+	background: url(../../images/m/about-ico2.png) left center no-repeat;
+	background-size: 20px 16px;
+	padding-left:30px;
+	width: 76%;
+	float: left;
+	cursor: pointer;
+}
+.apt-left{
+	font-size: 16px;
+	color:#333;
+	margin-left:2%;
+	background: url(../../images/m/about-ico3.png) left center no-repeat;
+	background-size: 17px 16px;
+	padding-left:30px;
+	width: 76%;
+	float: left;
+	cursor: pointer;
+}
+.act-left{
+	font-size: 16px;
+	color:#333;
+	margin-left:2%;
+	background: url(../../images/m/about-ico4.png) left center no-repeat;
+	background-size: 17px 17px;
+	padding-left:30px;
+	width: 76%;
+	float: left;
+	cursor: pointer;
+}
+.abt-active-add{
+	width: 20px;
+	height: 20px;
+	background: url(../../images/m/in-solu-add.png) center center no-repeat;
+	display: inline-block;
+	float: right;
+	margin-right: 6%;
+	margin-top: 8px;
+}
+.abt-active-sub{
+	width: 20px;
+	height: 20px;
+	background: url(../../images/m/in-solu-sub.png) center center no-repeat;
+	display: inline-block;
+	float: right;
+	margin-right: 6%;
+	margin-top: 8px;
+}
+.about-brief-con{
+	width:96%;
+	margin: 10px auto;
+	font-size:12px;
+	color:#333;
+	line-height: 18px;
+}
+.about-brief-con p,.about-brief-con a{
+	font-size:12px;
+	color:#333;
+	line-height: 18px;	
+}
+.about-mission-conall{
+	width: 100%;
+	overflow: hidden;
+}
+.about-mission-con{
+	width: 96%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.amc-tit{
+	width:81px;
+	height: 24px;
+	background: #f4603e;
+	font-size:14px;
+	color:#fff;
+	line-height: 24px;
+	text-align: center;
+	float: left;
+}
+.amc-dash{
+	width:7px;
+	height: 12px;
+	float: left;
+	border-bottom: 1px solid #b5b5b5;
+}
+.amc-con{
+	font-size: 14px;
+	color:#666;
+	padding:0px 2px;
+	line-height: 24px;
+	float: left;
+	width: 68%;
+}
+.about-process-con{
+	width: 96%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.apc-year{
+	font-size: 14px;
+	color:#333;
+	font-weight: bold;
+	margin-top: 6px;
+}
+.apc-event{
+	font-size:12px;
+	color:#666;
+	line-height: 22px;
+	text-indent: 24px;
+}
+.about-contact-con{
+	width: 96%;
+	margin: 10px auto;
+}
+.acc-item{
+	font-size:12px;
+	color:#333;
+	line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.news-yanshi{
+	width: 100%;
+	background: #fff;
+}
+.ny-btn{
+	height: 30px;
+	width: 85%;
+	background: #ff0000;
+	font-size: 14px;
+	color:#fffcfc;
+	margin: 20px auto 0px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.edu-all-link{
+	width: 100%;
+	height: 143px;
+	margin-top:10px;
+}
+.eal-item{
+	width: 24%;
+	height: 70px;
+	background:#f6f7fc;
+	float: left;
+	text-align: center;
+	margin-left:1%;
+}
+.eal-item a{
+	font-size: 14px;
+	color:#666;
+}
+.eali1{
+	background:url(../../images/m/in-bo1.png) center center no-repeat;
+	background-size: 25px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali2{
+	background:url(../../images/m/in-bo2.png) center center no-repeat;
+	background-size: 26px 18px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali3{
+	background:url(../../images/m/in-bo3.png) center center no-repeat;
+	background-size: 22px 23px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali4{
+	background:url(../../images/m/in-bo4.png) center center no-repeat;
+	background-size: 27px 21px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali5{
+	background:url(../../images/m/in-bo5.png) center center no-repeat;
+	background-size: 22px 26px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali6{
+	background:url(../../images/m/in-bo6.png) center center no-repeat;
+	background-size: 21px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali7{
+	background:url(../../images/m/in-bo7.png) center center no-repeat;
+	background-size: 23px 22px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali8{
+	background:url(../../images/m/in-bo8.png) center center no-repeat;
+	background-size: 22px 19px;
+	padding-top:45px;
+	display: inline-block;
+}
+/*列表页*/
+.news-t-link{
+	width:100%;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	margin-top: 8px;
+}
+.news-t-link a{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	margin-right: 5px;
+}
+.news-list-item{
+	width:96%;
+	height:56px;
+	margin: 10px auto 0px;
+	border: 1px solid #dcdcdc;
+	background: url(../../images/m/news-listBg.jpg) left center repeat-x;
+	position: relative;
+}
+.nli-tit,.nli-sub{
+	padding-left:5px;
+	padding-top:5px;
+}
+.nli-tit a{
+	font-size: 14px;
+	color:#333;	
+}
+.nli-sub{
+	font-size:12px;
+	color:#666;
+}
+.nli-more{
+	width: 8px;
+	height: 14px;
+	background: url(../../images/m/news-list-more.png) center center no-repeat;
+	position: absolute;
+	top:21px;
+	right:2%;
+}
+.news-pages{
+	width: 202px;
+	height: 20px;
+	margin:18px auto 0px;
+	line-height: 20px;
+}
+.news-pages a,.news-pages span{
+	display: inline-block;
+	margin-right: 12px;
+	font-size: 14px;
+	color:#333;
+}
+.np-prev{
+	width: 8px;
+	height: 9px;
+	background:url(../../images/m/news_page_left.png) center center no-repeat;
+}
+.np-next{
+	width: 8px;
+	height: 8px;
+	background:url(../../images/m/news_page_right.png) center center no-repeat;
+}
+/*内容页*/
+.news-tit{
+	width: 90%;
+	margin:12px auto;
+	text-align: center;
+	font-size:16px;
+	font-weight: normal;
+	color:#ff0000;
+}
+.news-tit-sub{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	color:#666;
+}
+.news-content{
+	width: 90%;
+	margin: 18px auto;
+	font-size: 14px;
+	color:#666;
+	line-height: 24px;
+}
+.news-relations{
+	width: 90%;
+	height: 120px;
+	margin:16px auto;
+}
+.rela-tit{
+	font-size: 14px;
+	color:#ff0000;
+	margin-bottom: 5px;
+}
+.rela-item{
+	line-height: 24px;
+}
+.rela-item a{
+	font-size: 14px;
+	color:#666;	
+}
+.rela-item a:hover{
+	color:#ff2424;
+}

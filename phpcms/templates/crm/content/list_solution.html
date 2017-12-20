@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />
+    <meta name="author" content="keweisoft.com" />
+    <link href="{CSS_PATH}crm/solution.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="{JS_PATH}crm/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}crm/imgScroll.js"></script>
+    <script type="text/javascript" src="{JS_PATH}crm/product.js"></script>
+  </head> 
+  <body>
+  {template "content","header"}
+    <div class="solution-banner">
+      <div class="solution-banner1"></div>
+      <div class="solution-banner2">
+        <div class="solution-banner-btn">
+          <a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="sbt-item1">点击在线咨询</div></a>
+          <a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="sbt-item2">点击预约演示</div></a>
+        </div>
+      </div>
+    </div>
+  <div class="m-content">
+  <div class="title"><a href="{siteurl($siteid)}">首页</a> <span id="dt">&nbsp;>&nbsp;</span> <a href="{$CATEGORYS[125][url]}">解决方案</a>&nbsp;>&nbsp;{$title}<div class="Eng">Solution</div></div>
+  {pc:content action="lists" catid="$catid" num="1" moreinfo="1"}
+  {loop $data $r}
+  <div class="left">
+    <div class="left_Con">
+    <h1 class="Font_Title">{$r[title]}</h1>
+    <div class="Data">{date('Y-m-d',$r[inputtime])}</div>
+    <div class="Eyes"><span id="hits"><script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$r[id]}&modelid={$modelid}"></script></span></div>
+    <div style="clear:both;"></div>
+    <div class="Text_Con">
+    <span style="font-weight:bold;color:#ff6600;font-size:16px;margin:15px 0px;display:inline-block;">行业介绍：</span>
+　  <p>{$r[kstatus]}</p>
+<span style="font-weight:bold;color:#ff6600;font-size:16px;margin:15px 0px;display:inline-block;">管理难点：</span>
+　   <p>{$r[diffcult]}</p>
+    <p class="caseCon-line"></p>  
+<span style="font-weight:bold;color:#ff6600;font-size:16px;margin:15px 0px;display:inline-block;">可为解决方案：</span>
+     <p>{$r[content]}</p>
+   </div>  
+      </div>
+</div>
+ {/loop}
+ {/pc}
+ 
+
+                 <div class="right_2">
+                 <div class="Bar_2">最近更新:</div>
+                 {pc:content action="lists" catid="44" order="inputtime DESC" num="5"} 
+                 {loop $data $r}
+                 <div class="img_1"><a href="#"><img src="{$r[thumb]}" width="286" height="150" alt="{$r[title]}" title="{$r[title]}"/></a></div>
+                 <p class="LittleTit_1"><a href="{$r[url]}" style="font-size:14px;color:#333; font-weight:bold;">{str_cut($r[title],30,'...')}</a></p>
+                 <div class="ConY_1"><p class="Con_1"><a href="{$r[url]}" style="font-size:12px;color:#666; line-height:20px;">{str_cut($r[description],85,'...')}</p></a></div>
+                 {/loop}
+                 {/pc}              
+                 </div>
+          </div> 
+           <div style="clear:both"></div> 
+
+		{template "content","footer"}	
+	</body>	
+</html>

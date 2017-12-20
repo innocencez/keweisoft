@@ -1,0 +1,402 @@
+/*公共样式*/
+*{margin:0;padding:0;-webkit-appearance:none;}
+html,body,ul,li,ol,dl,dd,dt,header,nav,footer,section,artical,h1,h2,h3,h4,h5,h6,p{margin:0;padding:0;}
+html,body{background:#fff;}
+li{list-style-type:none;}
+body{font:14px/1.5 "微软雅黑","XinGothic-SinaWeibo","Microsoft Yahei","Simsun";min-width:320px;overflow-x:hidden;}
+img,a{border:0;text-decoration:none;}
+.clearfix{clear: both;}
+/**********/
+#page-body{
+	position: relative;
+	overflow-x: hidden;
+}
+.content{
+	width: 100%;
+	display: block;
+	position: relative;	
+	left:0px;
+}
+.m-content{
+	width:84%;
+	margin:0 auto;
+}
+.top{
+	width:100%;
+	height: 40px;
+}
+.in-top-left{
+	margin-left:2%;
+	width: 22px;
+	height: 18px;
+	margin-top:10px;
+	float: left;
+	background:url(../../images/m/in-menu-left.png) center center no-repeat;
+}
+.in-top-right{
+	width:18px;
+	height: 18px;
+	float: right;
+	margin-right: 2%;
+	background:url(../../images/m/in-menu-right.png) center center no-repeat;
+	margin-top: 10px;
+}
+.in-top-center{
+	text-align: center;
+	height: 39px;
+	margin-top:-20px;
+}
+.in-tel{
+	width:100%;
+	height: 26px;
+	background:#ff0000;
+	overflow: hidden;
+}
+.in-tel-con{
+	width:140px;
+	float: right;
+	padding-top: 4px;
+}
+.itc-link{
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	background:url(../../images/m/in-tel.png) left center no-repeat;
+	padding-left:30px;
+	background-size: 23px 17px;
+}
+.news-head{
+	width:100%;
+	height: 36px;
+	border-bottom:1px solid #b5b5b5;
+	margin-top:10px;
+}
+.nh-his{
+	display:inline-block;
+	width:14px;
+	height: 14px;
+	background: url(../../images/m/link-prev.png) center center no-repeat;
+	float: left;
+	margin-left: 2%;
+	margin-top: 11px;
+}
+.nh-home{
+	display: inline-block;
+	width: 21px;
+	height: 18px;
+	background: url(../../images/m/link-home.png) center center no-repeat;
+	float: right;
+	margin-right: 2%;
+	margin-top:9px;
+}
+.news-head-tit{
+	width:100%;
+	text-align:center;
+	font-size:16px;
+	color:#333;
+	margin-top: -30px;
+	font-weight:bold;
+}
+/**/
+.in-copyright{
+	width: 100%;
+	height: 54px;
+	text-align: center;
+	line-height: 54px;
+	font-size: 16px;
+	color:#858080;
+}
+.in-button{
+	width:100%;
+	height: 66px;
+	background: url(../../images/m/in-bottom-bg.jpg) left center repeat-x;
+	position: fixed;
+	bottom:0px;
+	white-space: nowrap;
+}
+.in-button a{
+	width: 33.33%;
+	display: block;
+	height: 66px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	line-height: 66px;
+}
+.ib-item1{
+	font-size: 14px;
+	display: inline-block;
+	color: #fff;
+	background: url(../../images/m/submit.png) center top no-repeat;
+	padding-top: 8px;
+	background-size: 32px 30px;
+	margin-top: 9px;
+}
+.ib-item2{
+	font-size: 14px;
+	display: inline-block;
+	color: #fff;
+	background: url(../../images/m/Consultation.png) center top no-repeat;
+	padding-top: 8px;
+	background-size: 32px 30px;
+	margin-top: 9px;
+}
+.ib-item3{
+	font-size: 14px;
+	display: inline-block;
+	color: #fff;
+	background: url(../../images/m/follow.png) center top no-repeat;
+	padding-top: 8px;
+	background-size: 32px 30px;
+	margin-top: 9px;
+}
+
+/*分享插件*/
+.m-layer,.m-layer .lymask{top:0;left:0;width:100%;height:100%;}
+.m-layer{display:none;position:fixed;_position:absolute;z-index:999;}
+.m-layer .lymask{position:absolute;background:#000;opacity:0.6;filter:alpha(opacity=60);}
+.m-layer .lytable{table-layout:fixed;width:100%;height:100%;}
+.m-layer .lytd{width:100%;height:100%;vertical-align:middle;}
+.m-layer .lywrap{position:relative;width:320px;margin:0 auto;border:5px solid #aaa;border:5px solid rgba(0,0,0,0.3);box-shadow:0 2px 10px rgba(0,0,0,0.2);}
+.m-layer .lytt{position:relative;padding:10px;height:20px;margin:0 0 -1px;line-height:20px;border-bottom:1px solid #ddd;background:#fafafa;}
+.m-layer .lytt h2{float:left;font-size:16px;}
+.m-layer .lyclose{float:right;font-weight:bold;font-family:arial;font-size:24px;_font-size:16px;color:#ccc;text-shadow:0 1px #fff;cursor:pointer;}
+.m-layer .lyclose:hover{color:#aaa;}
+.m-layer .lyct:last-child,.m-layer .lybt{}
+.m-layer .lyct:first-child{}
+.m-layer .lyct{padding:20px;background:#fff;}
+.m-layer .lybt{height:30px;line-height:30px;padding:10px;margin:-1px 0 0;border-top:1px solid #ddd;background:#f7f7f7;}
+.m-layer .lyother{float:left;color:#999;}
+.m-layer .lybtns{float:right;}
+.m-layer .lybtns button{float:left;margin-left:10px;}
+/* 显示 */
+.m-layer-show{display:block;}
+.m-layer .lycancel {background: #fff; color: #000; text-align: center; padding: 15px 0; border-top: 1px solid #ddd; }
+#JS-share-page{display: none;}
+.bshare-custom{ overflow: hidden; text-align: center;}
+.bshare-custom li{ float: left; width: 50%; height:60px; margin-bottom: 10px;}
+.bshare-custom.icon-medium-plus .bshare-custom a{margin-right: 0;}
+.bshare-custom.icon-medium-plus span{display: block; font-size: 0.8em;margin-top: 5px;}
+.m-layer .lyct .lyct-wechat{width: 220px;height: 220px;margin:0 auto;}
+.m-layer .lyct .lyct-word{text-align:center;}
+/*侧边栏菜单*/
+.sidebar-left{
+	padding:10px;
+	background:#333;
+	position: fixed;
+	overflow: hidden;
+	z-index: 99;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 220px !important;
+}
+.sidebar-hide-scroll-left {
+    width: 270px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    height: 100%;
+}
+.home-nav-icon {
+    background-image: url("../../images/m/img-index.png");
+    background-repeat: no-repeat;
+	background-size: 16px 17px;
+	padding-left: 30px !important;
+	background-position: 2px 0px;      
+}
+.nav-item {
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #E7E7E7;
+    display: block;
+    padding-bottom: 10px;
+    margin-right: 22px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    text-transform: uppercase;
+    padding-left: 40px;
+    margin-left: 25px;
+}
+.nav-item em {
+    background-image: url("../../images/m/arrow.png");
+    display: block;
+    width: 6px;
+    height: 8px;
+    float: right;
+    margin-top: 6px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+}
+.side-deco {
+    width: 230px;
+    display: block;
+    height: 1px;
+    margin-bottom: 10px;
+    background-color: #5D5D5F;
+}
+.crm-nav-icon {
+    background-image: url("../../images/m/img-crm.png");
+    background-repeat: no-repeat;
+	background-size: 18px 19px;
+	padding-left: 30px;    
+}
+.edus-nav-icon {
+    background-image: url("../../images/m/img-edus.png");
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+	background-size: 20px 21px;
+	padding-left: 30px;     
+}
+.solution-nav-icon {
+    background-image: url("../../images/m/img-solution.png");
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+	background-size: 20px 21px;
+	padding-left: 30px;     
+}
+.jxt-nav-icon {
+	background-image: url("../../images/m/img-jxt.png");
+	background-repeat: no-repeat;
+	background-size: 19px 20px;
+	padding-left: 30px;
+}
+.news-nav-icon {
+    background-image: url("../../images/m/img-news.png");
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+	background-size: 20px 21px;
+	padding-left: 30px;     
+}
+.case-nav-icon {
+    background-image: url("../../images/m/img-case.png");
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+   	background-size: 20px 21px;
+	padding-left: 30px; 
+}
+.souke-nav-icon {
+    background-image: url("../../images/m/img-souke.png");
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+   	background-size: 18px 19px;
+	padding-left: 30px; 
+}
+.fcrm-nav-icon {
+    background-image: url("../../images/m/img-fcrm.png");
+    background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 17px 18px;
+	padding-left: 30px; 
+}
+.app-nav-icon {
+    background-image: url("../../images/m/img-app.png");
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+   	background-size: 20px 21px;
+	padding-left: 30px; 
+}
+.about-nav-icon {
+    background-image: url("../../images/m/mail.png");
+    background-repeat: no-repeat;
+    background-position: -5px -6px;
+    padding-left:30px;  
+}
+.service-nav-icon {
+    background-image: url("../../images/m/service.png");
+    background-repeat: no-repeat;
+    background-size: 20px 21px;
+    padding-left:30px;  
+}
+.nav-item strong {
+    background-image: url("../../images/m/arrow-down.png");
+    display: block;
+    width: 8px;
+    height: 6px;
+    float: right;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+}
+.sub-menu-one {
+    margin-bottom: 10px;
+    display: none;
+}
+.sub-menu-item {
+    background-image: url("../../images/m/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 40px 5px;
+    display: block;
+    color: #E7E7E7;
+    text-decoration: none;
+    font-family: "Microsoft YaHei",sans-serif;
+    font-size: 12px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+.sub-menu-item1 {
+    background-image: url("../../images/m/arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: 40px 5px;
+    display: block;
+    color: #E7E7E7;
+    text-decoration: none;
+    font-family: "Microsoft YaHei",sans-serif;
+    font-size: 12px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+.sub-menu-item2 {
+    background-image: url("../../images/m/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 60px 5px;
+    display: block;
+    color: #E7E7E7;
+    text-decoration: none;
+    font-family: "Microsoft YaHei",sans-serif;
+    font-size: 12px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+}
+/*右侧边栏*/
+.sidebar-right {
+    position: fixed;
+    overflow: hidden;
+    z-index: 99;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 222px;
+    background: #333;
+    display: none;
+}
+.sidebar-hide-scroll-right {
+    width: 240px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    height: 100%;
+}
+.fb-nav-icon {
+    background-image: url("../../images/m/facebook.png");
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}
+.tw-nav-icon {
+    background-image: url("../../images/m/twitter.png");
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}
+.mail-nav-icon {
+    background-image: url("../../images/m/mail.png");
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}
+.call-nav-icon {
+    background-image: url("../../images/m/phone.png");
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}
+.text-nav-icon {
+    background-image: url("../../images/m/speach.png");
+    background-repeat: no-repeat;
+    background-position: 0px -8px;
+}

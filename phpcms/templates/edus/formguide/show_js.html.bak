@@ -1,0 +1,40 @@
+<script language="javascript" type="text/javascript" src="{JS_PATH}dialog.js"></script>
+<link href="{CSS_PATH}dialog.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="{JS_PATH}dialog.js"></script>
+<form method="post" action="{APP_PATH}index.php?m=formguide&c=index&a=show&formid={$formid}&siteid=<?php echo $this->siteid;?>"{if $no_allowed} target="member_login"{/if} name="myform" id="myform">
+<p class="dev"><span class="left">联系人：</span>
+{loop $forminfos_data $field $info}	
+ {if $n==1}
+ 	{$info['form']}
+	{if $info['star']} <span class="star">*</span>{/if}  
+{/if}
+{/loop}
+<span class="right">联系方式：</span>	
+{loop $forminfos_data $field $info}	
+ {if $n==2}
+ 	{$info['form']}
+	{if $info['star']} <span class="star">*</span>{/if} 
+	<br /> 
+{/if}
+{/loop}	
+</p>
+<p class="dev" style="margin-top:14px;"><span class="left">机构名称：</span>
+{loop $forminfos_data $field $info}	
+ {if $n==4}
+ 	{$info['form']}<br /> 
+{/if}
+{/loop}	
+</p>
+<p class="dev" style="margin-top:14px;"><span class="left">产品版本：</span><span class="select-style">
+{loop $forminfos_data $field $info}	
+ {if $n==6}
+ 	{$info['form']}<br /> 
+{/if}
+{/loop}	
+</span>
+</p>
+<p class="dev-btn">
+<input type="submit"{if $no_allowed} disabled=""{/if} name="dosubmit" id="dosubmit" value="免费申请" class="submit hvr-box-shadow-outset">
+<a href="http://www.keweisoft.com/login/login.html" target="_blank"><span class="login hvr-box-shadow-outset">会员登录</span></a>
+</p>
+</form>

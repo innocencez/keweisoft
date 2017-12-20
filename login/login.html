@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>	
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<meta http-equiv="Cache-Control" content="no-store"/>
+		<meta http-equiv="Pragma" content="no-cache"/>
+		<meta http-equiv="Expires" content="0"/>
+		<link rel="stylesheet" href="css/login.css" type="text/css" />
+		<link rel="stylesheet" href="css/common.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/ui.js"></script>
+		<script type="text/javascript">
+			function loginWeb(e){
+			    // 兼容FF和IE和Opera    
+		        var theEvent = e || window.event;  
+		        if (theEvent!=null && theEvent!=undefined) {  
+			        var code = theEvent.keyCode || theEvent.which || theEvent.charCode;  
+			        if (code!=undefined && code != 13 && code != 1) { 
+			        	return;
+			        } 
+		        }
+		        var proId = '';
+				$.ajax({
+					url: "/blxk_auto_new/login_in.do",
+					type: "post",
+					data: $("#loginForm").serialize()+"&isRemember="+($('#logrem').is(':checked')?1:0) + "&proId=" + proId+"&defaultLanguege="+$('#defaultLanguege').omCombo('value'),
+					success: function(msg){
+						if(msg.indexOf("1,")==0){
+							alert(msg.substr(2));
+						} else if(msg.indexOf("0,")==0) {
+							window.location.href=msg.substr(2);
+						}
+					},
+					error: function(){
+						canDoLogin=true;
+						alert("抱歉,服务器错误");
+					}
+				});
+			}
+			
+				
+			$(document).ready(function(){
+	  	        $(".log_lb").toggle(function(e){
+	  	        	e.stopPropagation();
+	  	            $(this).find(".log_remcksp").addClass("log_remckspact");
+	  	            $('#logrem').attr('checked',true);
+	  	        },function(e){
+	  	        	e.stopPropagation();
+	  	            $(this).find(".log_remcksp").removeClass("log_remckspact");
+	  	            $('#logrem').attr('checked',false);
+	  	        });
+	  	        document.onkeydown=loginWeb;
+	  	        if ('zhanghe'!='') {
+	  	        	$('#logrem').attr('checked',true);
+	  	        	$(".log_lb").find(".log_remcksp").addClass("log_remckspact");
+	  	        }
+	  	        
+	  	        $('#defaultLanguege').omCombo({
+			        dataSource:[{value:0,text:'中文'}],
+			        value:'0'
+			    });
+			    //调用动画效果
+		  	    $('.DB_tab25').DB_tabMotionBanner({
+		            key: 'b28551',
+		            autoRollingTime: 6000,
+		            bgSpeed: 500,
+		            motion: {
+		                DB_1_1: { top: 430, opacity: 0, speed: 1000, delay: 500 },
+		                DB_1_2: { left: -430, opacity: 0, speed: 1000, delay: 1000 },
+		                DB_1_3: { top: -430, opacity: 0, speed: 1000, delay: 1500 },
+		                DB_2_1: { left: 500, opacity: 0, speed: 1000, delay: 500 },
+		                DB_2_2: { left: -500, opacity: 0, speed: 1000, delay: 1000 },
+		                DB_2_3: { top: -100, opacity: 0, speed: 1000, delay: 1500 },
+		                DB_3_1: { left: 500, opacity: 0, speed: 1000, delay: 500 },
+		                DB_3_2: { left: 300, opacity: 0, speed: 1000, delay: 1000 },
+		                DB_3_3: { left: 300, opacity: 0, speed: 1000, delay: 1500 },
+		                end: null
+		            }
+		        });
+	  	    });
+	  	    
+		</script>
+		<style>
+			.selectLanguege{
+				width:80px;
+			}
+			.om-combo{
+				float:right;
+				height:20px;
+				border-radius:4px;
+			}
+			.om-combo .om-combo-trigger{
+				height:20px;
+			}
+			.om-combo-list-row{
+				height:20px;
+				line-height:20px;
+				font-size:12px;
+			}
+			.defaultLanguege{
+				width:50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="log_box">
+            <div class="log_top">
+                <div class="log_topmid">
+                    <span class="log_logo"><img src="images/newLogin_03.png" /></span>
+                    <span class="log_sysnm">可为EDUS教务管理系统</span>
+                    <!-- <span class="log_bete">v1.0</span> -->
+                </div>
+            </div>
+            <div class="log_con">
+            	<!-- <img src="newStyle/images/login_bg_02.jpg" class="log_bgimg" /> -->
+               	<div class="log_imgbox">
+                	<div class="DB_tab25">
+				        <ul class="DB_bgSet">
+				            <li style="background:#5a9afb;"></li>
+				            <li style="background:#b0dff9;"></li>
+				            <li style="background:#33cca6;"></li>
+				            <!--<li style="background: url(images/stu_banner2.jpg) no-repeat 100% 100%;"></li>-->
+				        </ul>
+				        <ul class="DB_imgSet">
+				            <li onclick="javascript:window.location.href='#';">
+				                <img class="DB_1_1" src="images/newlogin_bg1_03.png" alt="" />
+				                <img class="DB_1_2" src="images/newlogin_bg1_06.png" alt="" />
+				                <img class="DB_1_3" src="images/newlogin_bg1_10.png" alt="" />
+				            </li>
+				            <li onclick="javascript:window.location.href=#';">
+				                <img class="DB_2_1" src="images/newlogin_bg2_02.png" alt="" />
+				                <img class="DB_2_2" src="images/newlogin_bg2_03.png" alt="" />
+				                <img class="DB_2_3" src="images/newlogin_bg2_06.png" alt="" />
+				            </li>
+				            <li onclick="javascript:window.location.href='#';">
+				                <img class="DB_3_1" src="images/newlogin_bg3_11.png" alt="" />
+				                <img class="DB_3_2" src="images/newlogin_bg3_03.png" alt="" />
+				                <img class="DB_3_3" src="images/newlogin_bg3_06.png" alt="" />
+				            </li>
+				        </ul>
+					    <div class="DB_menuWrap">
+				            <ul class="DB_menuSet">
+				                <li>
+				                    <img src="images/btn_off.png" alt="" />
+				                </li>
+				                <li>
+				                    <img src="images/btn_off.png" alt="" />
+				                </li>
+				                <li>
+				                    <img src="images/btn_off.png" alt="" />
+				                </li>
+				            </ul>
+				            <div class="DB_next">
+				                <img src="images/nextArrow.png" alt="NEXT" />
+				            </div>
+				            <div class="DB_prev">
+				                <img src="images/prevArrow.png" alt="PREV" />
+				            </div>
+				        </div>
+				    </div>
+			    </div>
+                <div class="log_conmid">
+                    <div class="log_area">
+                        <p class="log_tit">用户登录</p>
+                        <p class="log_titbot"></p>
+                        <div class="log_bgcon">
+	                        <form action="#" id="loginForm" method="post">
+		                        <ul class="log_ul">
+		                            <li class="log_li">
+		                                <span class="log_tag"><img src="images/newLogin_14.png" /></span>
+		                                <input type="text" class="log_ipt" autofocus="true" placeholder="username" name="loginName" id="loginName"  />
+		                            </li>
+		                            <li class="log_li">
+		                                <span class="log_tag"><img src="images/newLogin_18.png" /></span>
+		                                <input type="password" class="log_ipt" placeholder="password" name="password" id="password"  />
+		                            </li>
+		                            <!-- <li class="log_li">
+		                                <input type="text" class="log_ipt log_ipts"  placeholder="验证码" />
+		                                <span class="log_verti"><img src="newStyle/images/loginicons_22.png" /></span>
+		                                <a class="log_vertich" href="#">换一张 </a>
+		                            </li>-->
+		                        </ul>
+		                        <p class="log_blk">
+		                            <label class="log_lb" for="logrem">
+		                                <input type="checkbox" class="log_remck" id="logrem" />
+		                                <span class="log_remcksp" ></span>
+		                                <span class="log_rem">记住用户名和密码</span>
+		                            </label>
+		                            
+		                        </p>
+	                        </form>
+	                        <p class="log_blk">
+	                            <input type="button" class="log_btn" value="登 录" onclick="loginWeb();" />
+	                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="log_bot">
+            	<div class="log_webxin">
+            		<div class="log_webxin_l">
+            			<a class="log_webxin_limg"><img src="images/newLogin_44.png" /></a>
+            			<span class="log_webxin_ltxt">为了保证您在使用拥有良好的体验，请使用火狐浏览器访问项目。</span>
+            		</div>
+            		<div class="log_webxin_m">
+            			<a class="log_webxin_mimg"><img src="images/newLogin_41.png" /></a>
+            			<span class="log_webxin_mtxt"><b>可为时代公众号</b>扫码关注公众号进入"可为时代"了解更多产品资讯！</span>
+            		</div>
+            		<div class="log_webxin_r">
+            			<a class="log_webxin_mimg"><img src="images/newLogin_37.png" /></a>
+            			<span class="log_webxin_mtxt"><b>教务客户化移动平台</b>扫码下载教务客户化app，为您开启移动端办公体验。</span>
+            		</div>
+            	</div>
+                <p class="log_botcon">
+                    <span>Copyright ©2015-2020  ALLRights Reserved   北京可为时代科技有限公司 · 版权所有</span>
+                </p>
+                <p class="log_botcon">
+                    <span>地址：北京海淀区海淀北二街8号 中关村soho大厦 910室         联系电话：010-51651266      400-810-1006</span>
+                </p>
+            </div>
+        </div>	
+	</body>
+</html>

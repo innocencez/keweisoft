@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/pro-crm.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+	    <script type="text/javascript">
+	      $(function(){
+	        var _x = $(window).width();
+	        var _y = (_x * 264) / 640;
+	        $('.auto-banner').css({
+	          width : _x,
+	          height : _y,
+	          margin : '10px auto 0',
+	          textAlign : 'center',
+	          position : 'relative',
+	        }).find('img').attr({
+	          width : _x,
+	          height : _y,
+	        });
+	      })
+	    </script> 		
+<!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		{template "content","head_sub"}
+		<div class="market-banner auto-banner">
+			<img src="{IMG_PATH}m/market-banner.png" alt="市场管理" title="市场管理" />
+		</div>
+		<div class="p-content">
+			<div class="pc-item">
+				<p class="market-pic1"></p>
+				<h2 class="pc-tit">招生线索</h2>
+				<div class="pc-con">1. 将各种渠道获得的潜在学员信息导入到系统中，通过对线索源、获取时间、聊天记录的整合，实现高效的学员线索统一管理和分配。</div>
+				<div class="pc-con">2. 可为CRM系统支持自动线索分配和人工线索分配，支持审批流和自动编号。</div>
+				<div class="pc-con">3. 可以利用线索进行商机立项的管理，审查过滤掉无效的线索，最终将潜在学员线索转换为客户、联系人和商机给销售人员进行跟进。</div>
+			</div>
+			<div class="pc-item">
+				<p class="market-pic2"></p>
+				<h2 class="pc-tit">营销管理</h2>
+				<div class="pc-con">1. 可为CRM整合了主动营销、效果营销和互动营销一些常见市场手段，可以帮助市场部门的员工提升工作效率，增强市场活动的计划性。</div>
+				<div class="pc-con">2. 帮助培训学校以最低的成本找到更优质的学员资源，并通过对营销效果进一步的评估分析，深度挖掘潜在学员。</div>
+				<div class="pc-con">3. 可为CRM系统能有效的组合营销资源，高效协调、组织各部门的协同配合，围绕营销活动，实现意向学员的跟踪、分析、转化。</div>
+			</div>
+			<div class="pc-item">
+				<p class="market-pic3"></p>
+				<h2 class="pc-tit">市场活动</h2>
+				<div class="pc-con">1. 通过CRM的主动推送营销工具，您可以节省大量广告预算，转而利用个性化邮件、短信等方式，吸引潜在学员，达成多次交易。</div>
+				<div class="pc-con">2. 可以在线捕获学员的意向需求，并将营销活动产生的潜在学员转为业务机会，有效规划、管理并跟踪网络、会议等市场营销项目，能够实时分析营销活动的投入产出，方便评估活动效果；</div>
+				<div class="pc-con">3. 可定制各种字段，将特殊学员标识出来，建立特殊学员群体，进行系统化和精准化推广。</div>
+			</div>
+			<div class="pc-item">
+				<p class="market-pic4"></p>
+				<h2 class="pc-tit">短信/邮件沟通方式</h2>
+				<div class="pc-con">1. 可为CRM提供短信及邮件发送平台，只需登录系统，简单设置，即可完成发送。</div>
+				<div class="pc-con">2. 大幅度的提升工作人员的工作效率，加强了培训机构与学员的沟通，同时帮助培训机构更好地维系客户关系。</div>
+			</div>
+			<div class="pc-item">
+				<p class="market-pic5"></p>
+				<h2 class="pc-tit">学员信息管理</h2>
+				<div class="pc-con">1. 对学员信息进行全面、细致的管理，包括联系方式、地址、兴趣爱好等、生日等所有信息及相关商机，跟进活动。</div>
+				<div class="pc-con">2. 可为CRM系统学员信息管理功帮助培训机构：1、自动触发学员生日提醒、跟进计划提醒，做到优质服务，增强客户黏性；2、通过其他方式获取的商机，可以从外部ERP系统或office中导入学员信息，不遗漏任何渠道的线索；3、培训机构内部共享学员信息，实现培训机构内部市场、销售各部门的协同，提高工作效率。</div>
+			</div>	
+			<div class="pc-item">
+				<p class="market-pic6"></p>
+				<h2 class="pc-tit">动态全面竞争分析</h2>
+				<div class="pc-con">1. 可为CRM能够在销售过程中收集分析竞争对手的动态信息，如价格变化、撞单次数、丢单原因、竞争份额、销售潜力等，以此帮助决策层制定有效的竞争策略，保持竞争优势。</div>
+			</div>	
+			<div class="pc-item" style="border-bottom:none;">
+				<p class="market-pic7"></p>
+				<h2 class="pc-tit">市场营销效果分析</h2>
+				<div class="pc-con">1. 可为CRM系统根据活动带来的商机和潜在学员信息评估市场活动的投入产出比。</div>
+				<div class="pc-con">2. 能够清晰的看到哪一种市场手段，哪一次的市场活动带来的收益和产出效果最好，以便跟踪营销活动的效果 。</div>
+			</div>																		
+		</div>
+		<div class="p-btn">立即预约演示</div>
+		{template "content","bottom"}
+	</body>	
+</html>

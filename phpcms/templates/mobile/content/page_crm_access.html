@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/pro-crm.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				var _x = $(window).width();
+				var _y = (_x * 264) / 640;
+				$('.auto-banner').css({
+					width : _x,
+					height : _y,
+					margin : '10px auto 0',
+					textAlign : 'center',
+					position : 'relative',
+				}).find('img').attr({
+					width : _x,
+					height : _y,
+				});
+			})
+		</script>		
+<!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		{template "content","head_sub"}
+		<div class="access-banner auto-banner">
+			<img src="{IMG_PATH}m/access-banner.png" alt="权限管理" title="权限管理" />
+		</div>
+		<div class="access-sub-con">可为CRM通过权限控制，实现企业中各业务数据的严格管控，做到多分支、不同业务线、不同职位员工的权限明确划分，为了保证数据安全，系统可以控制用户的访问权限，基于角色的安全管理包括角色、岗位、数据共享规则、字段访问设置和部门群组等。</div>
+		<div class="sales-pro-head" style="margin-top:0px;">核心管控点</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic1"></p>
+			<p class="sp-tit">部门管理权限</p>
+			<p class="sp-con">系统通过部门管理，满足企业多组织架构、多业务的需要，部门下面是人员管理，人员和角色相对应，最终根据客户的业务需要将部门分配给不同的系统模块，实现业务细分，管理精细化。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic2"></p>
+			<p class="sp-tit">业务角色权限管理</p>
+			<p class="sp-con">系统实现了精细化的项目管控，明确相关人员在具体业务中的定位，通过制定业务执行过程中的工作任务，并指派给对应的业务角色，达到规范业务管理流程，更好的将业务往下一个阶段进行推进。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic3"></p>
+			<p class="sp-tit">员工权限管理</p>
+			<p class="sp-con">可为CRM通过对员工管理，将机构、部门和系统角色进行关联，将公司的人员和岗位职能明确划分，实现权限的精细化数据级管控。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic4"></p>
+			<p class="sp-tit">用户权限管理</p>
+			<p class="sp-con">系统的用户只有在“启用”状态下才可使用，暂时不使用的用户，可以将其“休眠”。多次输入密码错误的账号，系统就会自动锁定该用户，可以通过找回密码或系统管理员重新启用用户，即可正常登录。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic5"></p>
+			<p class="sp-tit">数据共享权限管理</p>
+			<p class="sp-con">系统的内部数据共享功能，帮助管理用户间的共享规则以及业务默认的共享设置。并且，系统将定义其数据的访问级别。例如：当多个销售人员跟踪一个客户的时的共享客户的方法。共享给财务/客户服务人员只读权限，他们也可以使用CRM工具管理回款、开票、客户投诉和服务。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic6"></p>
+			<p class="sp-tit">评论权限管理</p>
+			<p class="sp-con">可为CRM提供评论权限管理的功能，员工只能修改和删除自己的评论。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic7"></p>
+			<p class="sp-tit">附件权限管理</p>
+			<p class="sp-con">系统对有编辑权限的员工可以对附件进行附件的添加、加锁操作，附件的解锁只能由住对象的所有者和加锁者解锁，系统可以设置员工不能删除附件，尤其加锁的附件就更加删除不了。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="ap-pic8"></p>
+			<p class="sp-tit">知识权限管理</p>
+			<p class="sp-con">系统具有知识分类管理，只有CRM菜单权限的人员才能对知识进行增加、编辑和删除的操作，可以为知识增加数据角色和附件； 知识浏览菜单只用于知识的查看操作，不能增加、删除、修改知识信息。</p>
+		</div>
+		<div class="sales-pro-content" style="border-bottom:none;">
+			<p class="ap-pic9"></p>
+			<p class="sp-tit">系统角色权限管理</p>
+			<p class="sp-con">在系统中，管理员可以设定若干个角色。每个角色可以单独的指定可以操作的业务模块及操作方式。在“角色权限”设置页面中，分为系统配置权限、CRM权限、操作权限和数据权限四类设置。</p>
+		</div>																			
+
+		<div class="p-btn">立即预约演示</div>
+		{template "content","bottom"}
+	</body>
+</html>

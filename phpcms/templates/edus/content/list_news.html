@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />    
+    <link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+    <link type="text/css" href="{CSS_PATH}edus/news.css" rel="stylesheet"/>
+    <script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+  </head>
+  <body>  
+    {template "content","head"} 
+        <div class="banner">
+          <div class="banner1"></div>
+          <div class="banner2">
+            <a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="bannerBut">点击在线演示</div></a>            
+          </div>
+        </div>         
+     <div class="main">     
+         <div class="title"><a href="{siteurl($siteid)}">首页</a> <span id="dt">&nbsp;>&nbsp;</span> <a href="{$CATEGORYS[$catid][url]}">{$CATEGORYS[$catid][catname]}</a><div class="Eng">NEWS</div></div>
+            <div class="left">
+            {pc:content action="lists" catid="$catid" num="8" order="inputtime DESC" page="$page" moreinfo="1"}
+            {loop $data $r}
+            <div class="left-content">
+                <div class="leftLittle">
+                    <img src="{$r[thumb]}" width="276" height="180" alt="{$r[title]}" title="{$r[title]}"/>
+                </div>
+                   <div class="rightLittle">
+                      <p class="rigLit_1"><a href="{$r[url]}" target="_blank" style="font-weight:bold; color:#1e71be; font-size:18px;">{str_cut($r[title],60,'...')}</a></p>
+                      <p class="rightText_1" style="margin-top:15px; margin-bottom: 35px;"><a href="{$r[url]}" target="_blank" style="font-size:14px; color:#666; line-height:24px;">
+                        {str_cut($r[description],192,'...')}
+                      </a></p> 
+                      <p class="view_1"><a style="font-weight:bold; color:#1e71be;font-size:14px;">view：</a></p>
+                      {php $db = pc_base::load_model('hits_model'); $hr = $db->get_one(array('hitsid'=>'c-'.$modelid.'-'.$r[id])); $views = $hr[views]; }
+                      <p class="viewT_1"><a style="font-size:14px;color:#666;">{$views}</a></p>
+                       {php $keywords = explode(' ',$r[keywords]);}
+                      <p class="tagsT_1">{loop $keywords $keyword}{if $n==1}<a style="font-size:14px;color:#666;">{$keyword}</a>{/if}{/loop}</p>
+                      <p class="tags_1"><a style="font-weight:bold; color:#1e71be;font-size:14px;">tags：</a></p>
+                      <div style="clear:both"></div>
+                       <p class="detail_1"><a href="{$r[url]}">详情>></a></p>
+                   </div>
+                 </div>
+                 {/loop}
+                 {/pc}
+                 <div id="pages" class="text-c">{$pages}</div>
+        </div>
+        <div class="right">
+             <div class="Bar1">热点资讯（Hot）</div>
+             {pc:content  action="hits" catid="$catid" siteid="$siteid" num="8" order="views DESC" cache="3600"}
+             {loop $data $r}
+             {if $n<=3}<div class="RedFirst"><img src="{IMG_PATH}edus/Information_{$n}.jpg"/></div>{else}
+             <p class="Num_4"><a style="font-size:12px;color:#666;">{$n}</a></p>{/if}
+             <p class="new_1"><a href="{$r[url]}" style="font-size:12px;color:#666;">{str_cut($r[title],50,'...')}</a></p>
+             <p class="data_1"><a style="font-size:12px;color:#666;">{date('m-d',$r[inputtime])}</a></p>
+             <div style="clear:both"></div>
+             {/loop}
+             {/pc}        
+        </div>
+        <div class="rightNext">
+            <div class="Bar2">最新案例</div>
+            {pc:content action="lists" catid="140" order="listorder DESC" num="5"}
+            {loop $data $r}
+             <div class="img_1"><a href="{$r[url]}"><img src="{$r[thumb]}" width="286" height="150" alt="{$r[title]}" title="{$r[title]}"/></a></div>
+             <p class="LittleTit_1"><a href="{$r[url]}" style="font-size:14px;color:#666; font-weight:bold;">{str_cut($r[title],65,'...')}</a></p>
+             <div class="ConY_1"><p class="Con_1"><a href="{$r[url]}" style="font-size:12px;color:#666; line-height:20px;">{str_cut($r[description],135,'...')}</p></a></div>
+            {/loop}
+            {/pc}         
+        </div>
+ 
+     <div style="clear:both;"></div>
+     <div class="shadow"></div> 
+      <div class="Fountion"><img src="{IMG_PATH}edus/Information_Fountion_Title.png"/></div>
+
+<div class="Information_content" id="sub-case">
+             <a href="javascript:void(0)" class="arrL" id="l-btn">&nbsp;</a>
+      <a href="javascript:void(0)" class="arrR" id="r-btn">&nbsp;</a> 
+              <ul>
+             <li class="fram_1"><img class="yingxiao" width="130" src="{IMG_PATH}edus/Information_UI_1.png"/>
+                           <p class="yingxiao_Tit"><a href="{$CATEGORYS[115][url]}" style=" font-size:18px; font-weight:bold; color:#333;">市场营销管理</a></p>
+                          <p class="yingxiao_Con"><a href="{$CATEGOEYS[115][url]}" style=" font-size:14px; color:#666;">系统整合了主动营销，效果营销和互动营销的一些常见市场手段可以效率...              </a></p>
+              </li>
+            
+             <li class="fram_2"><img class="yiduiyi" width="130" src="{IMG_PATH}edus/Information_UI_2.png"/>
+                          <p class="yiduiyi_Tit"><a href="{$CATEGORYS[117][url]}" style=" font-size:18px; font-weight:bold; color:#333;">一对一管理</a></p>
+                          <p class="yiduiyi_Con"><a href="{$CATEGOEYS[117][url]}" style=" font-size:14px; color:#666;">一对一管理是对教育机构整体的业务流程进行的搭建，环环相扣，教师、教...              </a></p>
+                       </li>
+             <li class="fram_1"><img class="jiaowu" width="130" src="{IMG_PATH}edus/Information_Ui_3.png"/>
+                          <p class="jiaowu_Tit"><a href="{$CATEGORYS[118][url]}" style=" font-size:18px; font-weight:bold; color:#333;">一对多管理</a></p>
+                          <p class="jiaowu_Con"><a href="{$CATEGOEYS[118][url]}" style=" font-size:14px; color:#666;">一对多班课管理解决开班、分班、班级排课、教学日志、回访学生家长...              </a></p>
+                      </li>
+              <li class="fram_2"><img class="yiduiduo" width="130" src="{IMG_PATH}edus/Information_UI_4.png"/>
+                          <p class="yiduiduo_Tit"><a href="{$CATEGORYS[119][url]}" style=" font-size:18px; font-weight:bold; color:#333;">教务管理</a></p>
+                          <p class="yiduiduo_Con"><a href="{$CATEGORYS[119][url]}" style=" font-size:14px; color:#666;">能够合理有序的安排教师、教室、学员资源，统筹时间和计划，实现教学...              </a></p>
+                   </li>
+             <li class="fram_1"><img class="jiaowu" width="130" src="{IMG_PATH}edus/Information_UI_5.png"/>
+                          <p class="jiaowu_Tit"><a href="{$CATEGORYS[121][url]}" style=" font-size:18px; font-weight:bold; color:#333;">财务管理</a></p>
+                          <p class="jiaowu_Con"><a href="{$CATEGORYS[121][url]}" style=" font-size:14px; color:#666;">可为edus教务系统方便、快捷的抓取各个分校的收费和支出数据，方便汇总...              </a></p>
+                      </li>
+              <li class="fram_2"><img class="yiduiduo" width="130" src="{IMG_PATH}edus/Information_UI_6.png"/>
+                          <p class="yiduiduo_Tit"><a href="{$CATEGOEYS[116][url]}" style=" font-size:18px; font-weight:bold; color:#333;">学员管理</a></p>
+                          <p class="yiduiduo_Con"><a href="{$CATEGORYS[116][url]}" style=" font-size:14px; color:#666;">EDUS学员管理系统提供学员基本信息、学员成绩、学员考勤、学...              </a></p>
+                       </li> 
+              <li class="fram_2"><img class="yiduiduo" width="130" src="{IMG_PATH}edus/Information_UI_7.png"/>
+                          <p class="yiduiduo_Tit"><a href="{$CATEGORYS[122][url]}" style=" font-size:18px; font-weight:bold; color:#333;">决策分析管理</a></p>
+                          <p class="yiduiduo_Con"><a href="{$CATEGORYS[122][url]}" style=" font-size:14px; color:#666;">通过总结分析不断的改进工作方式，提升工作效率增加机构的效益...              </a></p>
+                       </li> 
+              <li class="fram_2"><img class="yiduiduo" width="130" src="{IMG_PATH}edus/Information_UI_8.png"/>
+                          <p class="yiduiduo_Tit"><a href="{$CATEGORYS[123][url]}" style=" font-size:18px; font-weight:bold; color:#333;">集成拓展管理</a></p>
+                          <p class="yiduiduo_Con"><a href="{$CATEGORYS[123][url]}" style=" font-size:14px; color:#666;">可为EDUS教务管理系统不仅拥有完善的功能，采用Brower-Server...              </a></p>
+                       </li>
+              <li class="fram_2"><img class="yiduiduo" width="130" src="{IMG_PATH}edus/Information_UI_9.png"/>
+                          <p class="yiduiduo_Tit"><a href="{$CATEGORYS[120][url]}" style=" font-size:18px; font-weight:bold; color:#333;">考勤管理</a></p>
+                          <p class="yiduiduo_Con"><a href="{$CATEGORYS[120][url]}" style=" font-size:14px; color:#666;">科学、严谨的考勤—让学员的上课进程和老师的教学统计都尽在掌控之中...              </a></p>
+                       </li> 
+              <li class="fram_2"><img class="yiduiduo" width="130" src="{IMG_PATH}edus/Information_UI_10.png"/>
+                          <p class="yiduiduo_Tit"><a href="{$CATEGORYS[114][url]}" style=" font-size:18px; font-weight:bold; color:#333;">多校区管理</a></p>
+                          <p class="yiduiduo_Con"><a href="{$CATEGORYS[114][url]}" style=" font-size:14px; color:#666;">通过多校区管理模式，总部可以轻松掌握各校区的经营状况，辅助各学校...              </a></p>
+                       </li>                                                                                                              
+        </ul>
+  </div>                            
+    </div>
+{template "content","footer"}
+ <script type="text/javascript" src="{JS_PATH}edus/news.js"></script> 
+</body>
+</html>

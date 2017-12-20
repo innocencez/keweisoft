@@ -1,0 +1,602 @@
+.service-banner{
+  width: 360px;
+  height: 148px;
+  margin:6px auto 0px;
+}
+.service-tit{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.service-consult-pic{
+  width: 100%;
+  height: 148px;
+  background: url(../../images/edus/serv-pic1.png) center center no-repeat;
+  margin-top: 15px;
+  background-size: 268px 148px;
+}
+.service-consult-con{
+  width: 90%;
+  margin: 20px auto 0px;
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+  text-indent: 24px;
+}
+p.service-consult-link{
+  width: 90%;
+  margin: 20px auto 0;
+  text-align: right;
+}
+p.service-consult-link a{
+  font-size: 12px;
+  color: #f00;
+}
+.service-implement-pic{
+  width: 100%;
+  height: 148px;
+  background: url(../../images/edus/serv-pic2.jpg) center center no-repeat;
+  margin-top: 15px;
+  background-size: 268px 148px;
+}
+.service-line{
+  width: 90%;
+  margin: 20px auto 0;
+  border-bottom: 1px dashed #666;
+}
+.service-aftersale-pic{
+  width: 100%;
+  height: 148px;
+  background: url(../../images/edus/serv-pic3.jpg) center center no-repeat;
+  margin-top: 15px;
+  background-size: 268px 148px;
+}
+.service-development-pic{
+  width: 100%;
+  height: 148px;
+  background: url(../../images/edus/serv-pic4.jpg) center center no-repeat;
+  margin-top: 15px;
+  background-size: 268px 148px;
+}
+.service-each-tit{
+    background: url(../../images/m/sales-center-bg.jpg) left center repeat-x;
+    color: #333;
+    font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+.service-process-pic{
+    width: 320px;
+    height: 171px;
+    margin: 20px auto;
+}
+p.service-each-subtit{
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+.service-hf-pic{
+    width: 320px;
+    height: 84px;
+    margin: 0px auto 20px;
+}
+.service-jd-pic{
+    width: 320px;
+    height: 142px;
+    margin: 20px auto;
+}
+.p-btn{
+    background: #f00 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;  
+}
+/*咨询服务*/
+.consult-b1{
+    width: 100%;
+    background-color: #e8edf3;
+    padding:20px 0;
+}
+.consult-tit{
+    font-size: 16px;
+    text-align: center;
+}
+.consult-b1-pic{
+  width: 100%;
+  height: 313px;
+  background: url(../../images/m/consult-pic1.jpg) center center no-repeat;
+  margin-top: 15px;
+  background-size: 300px 313px;  
+}
+.consult-b1-con,.consult-b2-con{
+  width: 85%;
+  margin:15px auto;
+}
+.consult-b1-con li,.consult-b2-con li{
+  font-size: 14px;
+  line-height: 28px;
+  color:#666;
+  list-style: disc;
+}
+.consult-b1-btn{
+  background: #f00 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+.consult-b2-pic{
+  width: 100%;
+  height: 226px;
+  background: url(../../images/m/consult-pic2.jpg) center center no-repeat;
+  margin-top: 15px;
+  background-size: 300px 226px;  
+}
+.consult-b3-pic{
+  width: 100%;
+  height: 196px;
+  background: url(../../images/m/consult-pic3.png) center center no-repeat;
+  margin-top: 15px;
+  background-size: 320px 196px;  
+}
+.consult-b4-pic1{
+  width: 100%;
+  height: 280px;
+  background: url(../../images/edus/consult-b2-pic1.png) center center no-repeat;
+  margin-top: 20px;
+  background-size: 280px 280px;   
+}
+p.consult-b4-tit{
+  width: 90%;
+  font-size: 12px;
+  color: #333;
+  font-weight: bold;
+  margin: 15px auto;
+}
+p.consult-b4-con{
+  width: 90%;
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+  margin: 0 auto 15px;
+}
+.consult-b4-pic2{
+  width: 100%;
+  height: 280px;
+  background: url(../../images/edus/consult-b2-pic2.png) center center no-repeat;
+  margin-top: 20px;
+  background-size: 280px 280px;   
+}
+.consult-b4-pic3{
+  width: 100%;
+  height: 280px;
+  background: url(../../images/edus/consult-b2-pic3.png) center center no-repeat;
+  margin-top: 20px;
+  background-size: 280px 280px;   
+}
+.consult-b4-pic4{
+  width: 100%;
+  height: 280px;
+  background: url(../../images/edus/consult-b2-pic4.png) center center no-repeat;
+  margin-top: 20px;
+  background-size: 280px 280px;   
+}
+/*实施服务*/
+.implement-tit{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+.impelment-b1-pic{
+  width: 100%;
+  height: 239px;
+  background: url(../../images/m/implement-pic1.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 239px;  
+}
+.implement-b1-con{
+  margin: 15px auto;
+  width: 85%;
+}
+.implement-b1-con li{
+  color: #666;
+  font-size: 14px;
+  line-height: 28px;
+  list-style: disc;
+}
+.implement-b1-btn{
+  background: #f00 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
+.im-advantage-tit{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+.im-advantage-each{
+  width: 85%;
+  margin: 15px auto 0;
+  border: 2px solid #eee;
+  background: #f9f9f9;
+  padding:12px;
+}
+.im-advantage-each p.each1-tit{
+  height: 30px;
+  font-size: 14px;
+  color: #5786de;
+  background: url(../../images/edus/im-b2-ico1.png) left center no-repeat;
+  background-size: 30px 30px;
+  padding-left:35px;
+  line-height: 30px;
+}
+.im-advantage-each p.each-con{
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+.im-advantage-each p.each2-tit{
+  height: 30px;
+  font-size: 14px;
+  color: #5786de;
+  background: url(../../images/edus/im-b2-ico4.png) left center no-repeat;
+  background-size: 30px 30px;
+  padding-left:35px;
+  line-height: 30px;
+}
+.im-advantage-each p.each3-tit{
+  height: 30px;
+  font-size: 14px;
+  color: #5786de;
+  background: url(../../images/edus/im-b2-ico3.png) left center no-repeat;
+  background-size: 30px 30px;
+  padding-left:35px;
+  line-height: 30px;
+}
+.im-advantage-each p.each4-tit{
+  height: 30px;
+  font-size: 14px;
+  color: #5786de;
+  background: url(../../images/edus/im-b2-ico5.png) left center no-repeat;
+  background-size: 30px 30px;
+  padding-left:35px;
+  line-height: 30px;
+}
+.im-advantage-each p.each5-tit{
+  height: 30px;
+  font-size: 14px;
+  color: #5786de;
+  background: url(../../images/edus/im-b2-ico2.png) left center no-repeat;
+  background-size: 30px 30px;
+  padding-left:35px;
+  line-height: 30px;
+}
+.im-advantage-each p.each6-tit{
+  height: 30px;
+  font-size: 14px;
+  color: #5786de;
+  background: url(../../images/edus/im-b2-ico6.png) left center no-repeat;
+  background-size: 30px 30px;
+  padding-left:35px;
+  line-height: 30px;
+}
+.implement-b3-con{
+  width: 100%;
+  height: 300px;
+  background: #f4f9fd url(../../images/m/im-b3-pic.png) center center no-repeat;
+  background-size: 320px 266px;
+}
+/*售后服务*/
+.aftersale-block1{
+  width: 100%;
+  background-color: #ededec;
+  overflow: hidden;
+}
+.aftersale-b1-tit{
+  width: 100%;
+  height: 52px;
+  margin-top: 20px;
+  background: url(../../images/edus/afb1-tit-bg.jpg) center center no-repeat;
+  text-align: center;
+  line-height: 52px;
+  font-size: 16px;
+  color: #fff;
+  background-size: 320px 52px;
+}
+.aftersale-block1 .each1-pic{
+  width: 100%;
+  height: 90px;
+  background: url(../../images/edus/afb1-item2-bg.png) center center no-repeat;
+  margin-top: 20px;  
+  background-size: 90px 90px;
+}
+.aftersale-block1 .each-tit{
+  text-align: center;
+  font-size: :14px;
+  color: #333;
+  margin-top: 15px;
+}
+.aftersale-block1 .each-con{
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  width: 85%;
+  margin: 15px auto 20px;
+}
+.aftersale-block1 .each2-pic{
+  width: 100%;
+  height: 90px;
+  background: url(../../images/edus/afb1-item3-bg.png) center center no-repeat;
+  margin-top: 20px;  
+  background-size: 90px 90px;
+}
+.aftersale-block1 .each3-pic{
+  width: 100%;
+  height: 90px;
+  background: url(../../images/edus/afb1-item4-bg.png) center center no-repeat;
+  margin-top: 20px;  
+  background-size: 90px 90px;
+}
+.aftersale-block1 .each4-pic{
+  width: 100%;
+  height: 90px;
+  background: url(../../images/edus/afb1-item5-bg.png) center center no-repeat;
+  margin-top: 20px;  
+  background-size: 90px 90px;
+}
+.aftersale-block1 .each5-pic{
+  width: 100%;
+  height: 90px;
+  background: url(../../images/edus/afb1-item6-bg.png) center center no-repeat;
+  margin-top: 20px;  
+  background-size: 90px 90px;
+}
+.aftersale-block1 .each6-pic{
+  width: 100%;
+  height: 90px;
+  background: url(../../images/edus/afb1-item7-bg.png) center center no-repeat;
+  margin-top: 20px;  
+  background-size: 90px 90px;
+}
+.aftersale-b2-pic{
+  width: 100%;
+  height: 200px;
+  background: url(../../images/m/aftersale-pic1.png) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 200px;
+}
+.aftersale-b2-con{
+  width: 85%;
+  margin: 20px auto 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+}
+.aftersale-b2-sub{
+  margin: 15px auto 0;
+  width: 85%;
+}
+.aftersale-b2-sub li{
+  color: #666;
+  font-size: 14px;
+  line-height: 28px;
+  list-style: disc;  
+}
+.aftersale-b3-pic{
+  width: 100%;
+  height: 160px;
+  background: url(../../images/m/aftersale-pic2.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 160px;  
+}
+.aftersale-b4-pic{
+  width: 100%;
+  height: 226px;
+  background: url(../../images/m/aftersale-pic3.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 226px;  
+}
+.aftersale-b5-pic{
+  width: 100%;
+  height: 231px;
+  background: url(../../images/m/aftersale-pic4.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 300px 231px;  
+}
+.aftersale-b6-pic{
+  width: 100%;
+  height: 336px;
+  background: url(../../images/m/aftersale-pic5.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 300px 336px;  
+}
+.aftersale-b7-pic{
+  width: 100%;
+  height: 131px;
+  background: url(../../images/m/aftersale-pic6.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 131px;  
+}
+/*个性化定制开发*/
+.development-b1-tit{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+.development-b1-pic{
+  width: 100%;
+  height: 214px;
+  background: url(../../images/m/develop-b1-pic.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 300px 214px;  
+}
+ul.development-b1-con{
+  margin: 15px auto 0;
+  width: 85%;
+}
+.development-b1-con li{
+  color: #666;
+  font-size: 14px;
+  line-height: 28px;
+  list-style: disc;  
+}
+.development-b1-btn{
+  background: #f00 none repeat scroll 0 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  margin: 15px auto;
+  text-align: center;
+  width: 50%;  
+}
+.development-b2-pic{
+  width: 100%;
+  height: 179px;
+  background: url(../../images/m/develop-b2-pic.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 200px 179px;    
+}
+.development-b2-con{
+  color: #666;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 auto 15px;
+  width: 90%;
+  margin-top:15px;
+}
+.development-b3-each1{
+  width: 50%;
+  height: 60px;
+  margin: 15px auto 0;
+  background: url(../../images/edus/db3-con1-ico6.png) left center no-repeat;
+  background-size: 80px 80px;
+  padding-left:88px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  padding-top:20px;
+}
+.development-b3-each2{
+  width: 50%;
+  height: 60px;
+  margin: 15px auto 0;
+  background: url(../../images/edus/db3-con1-ico5.png) left center no-repeat;
+  background-size: 80px 80px;
+  padding-left:88px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  padding-top:20px;
+}
+.development-b3-each3{
+  width: 50%;
+  height: 60px;
+  margin: 15px auto 0;
+  background: url(../../images/edus/db3-con1-ico4.png) left center no-repeat;
+  background-size: 80px 80px;
+  padding-left:88px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  padding-top:20px;
+}
+.development-b3-each4{
+  width: 50%;
+  height: 60px;
+  margin: 15px auto 0;
+  background: url(../../images/edus/db3-con1-ico3.png) left center no-repeat;
+  background-size: 80px 80px;
+  padding-left:88px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  padding-top:20px;
+}
+.development-b3-each5{
+  width: 50%;
+  height: 60px;
+  margin: 15px auto 0;
+  background: url(../../images/edus/db3-con1-ico2.png) left center no-repeat;
+  background-size: 80px 80px;
+  padding-left:88px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  padding-top:20px;
+}
+.development-b3-each6{
+  width: 50%;
+  height: 60px;
+  margin: 15px auto 0;
+  background: url(../../images/edus/db3-con1-ico1.png) left center no-repeat;
+  background-size: 80px 80px;
+  padding-left:88px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  padding-top:20px;
+}
+.development-b4-pic{
+  width: 100%;
+  height: 182px;
+  background: url(../../images/edus/db5-pic.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 182px;    
+}
+.development-b4-con{
+  width: 90%;
+  margin:15px auto 0;
+  font-size: 12px;
+  line-height:20px;
+  color: #666;
+}
+.development-b4-sub{
+  width: 100%;
+  height: 123px;
+  background: url(../../images/m/develop-b4sub-pic.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 123px;    
+}
+.development-b5-pic{
+  width: 100%;
+  height: 181px;
+  background: url(../../images/edus/db6-pic.jpg) center center no-repeat;
+  margin-top: 20px;
+  background-size: 320px 181px;    
+}
+.development-b5-line{
+  width: 90%;
+  height: 1px;
+  margin: 18px auto 0;
+  border-bottom: 1px dashed #666;
+}

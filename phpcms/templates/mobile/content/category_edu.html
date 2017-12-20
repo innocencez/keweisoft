@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/edu.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->		
+	<script type="text/javascript">
+		$(function(){
+			var _x = $(window).width();
+			var _y = (_x * 264) / 640;
+			$('.auto-banner').css({
+				width : _x,
+				height : _y,
+				margin : '10px auto 0',
+				textAlign : 'center',
+				position : 'relative',
+			}).find('img').attr({
+				width : _x,
+				height : _y,
+			});
+		})
+	</script>	
+	</head>
+	<body>		
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		<div class="edu-banner auto-banner">
+		<img src="{IMG_PATH}m/edu-banner2X.jpg " alt="可为EDUS" title="可为EDUS" />
+		<a href="" target="_blank"><div class="edu-banner-btn">点击咨询</div></a>
+		</div>
+		<div class="edu-ftit">
+			系统模块
+		</div>
+		<table class="edu-block">
+			<tr>
+				<td class="edu-block-item"><a href="{$CATEGORYS[157][url]}" target="_blank" class="ebi1">多校区管理</a></td>
+				<td class="edu-block-item"><a href="{$CATEGORYS[158][url]}" target="_blank" class="ebi2">市场营销</a></td>
+				<td class="edu-block-item"><a href="{$CATEGORYS[159][url]}" target="_blank" class="ebi3">教务管理</a></td>
+				<td class="edu-block-item"><a href="{$CATEGORYS[162][url]}" target="_blank" class="ebi4">财务管理</a></td>
+			</tr>
+			<tr>
+				<td class="edu-block-item"><a href="{$CATEGORYS[160][url]}" target="_blank" class="ebi5">学员管理</a></td>
+				<td class="edu-block-item"><a href="{$CATEGORYS[163][url]}" target="_blank" class="ebi6">一对一</a></td>
+				<td class="edu-block-item"><a href="{$CATEGORYS[164][url]}" target="_blank" class="ebi7">一对多</a></td>
+				<td class="edu-block-item"><a href="{$CATEGORYS[161][url]}" target="_blank" class="ebi8">考勤管理</a></td>
+			</tr>
+			<tr>
+				<td class="edu-block-item"><a href="{$CATEGORYS[165][url]}" target="_blank" class="ebi9">决策分析</a></td>
+				<td class="edu-block-item"><a href="{$CATEGORYS[166][url]}" target="_blank" class="ebi10">集成拓展</a></td>
+				<td class="edu-block-item"><a href="" target="_blank" class="ebi11">点击咨询</a></td>
+				<td class="edu-block-item"><a href="" target="_blank" class="ebi12">在线演示</a></td>
+			</tr>						
+		</table>
+		<div class="edu-ftit" style="margin-top:10px;">
+			产品简介
+		</div>
+		<p class="edu-pro-pic"></p>
+		<p class="edu-pro-tit">一体化</p>
+		<p class="edu-pro-con">可为EDUS帮助培训机构快速实现市场、销售、客户服务、教学、教务、财务一体化，多校区多部门的多中心管理等业务全面的信息化与一体化，实现全流程、可管理、可监控、可运
+营、可追溯的高质量信息化管理体系。 
+</p>
+		<a href="" target="_blank"><div class="edu-pro-btn">点击预约演示</div></a>
+		<div class="edu-ftit" style="margin-top:20px;">
+			行业方案
+		</div>	
+		<div class="s-edu-con">
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec1-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[203][url]}" target="_blank">中小学辅导机构解决方案</a>
+				</div>
+			</div>
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec2-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[204][url]}" target="_blank">外语辅导机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec3-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[205][url]}" target="_blank">少儿辅导机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec4-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[206][url]}" target="_blank">职业资格培训机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec5-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[210][url]}" target="_blank">艺术训机构解决方案</a>
+				</div>
+			</div>												
+		</div>			
+		<a href="{$CATEGORYS[202][url]}" target="_blank"><div class="edu-pro-btn">更多解决方案</div></a>
+		<div class="edu-ftit" style="margin-top:20px;">
+			客户方案
+		</div>
+		<div class="edu-case-con">
+			{pc:content action="lists" catid="228" num="4" moreinfo="1" order="listorder DESC"}
+			{loop $data $r}
+			<div class="ecc-item" {if $n!=1}style="margin-top:3px;"{/if}>
+				<div class="ecc-con">
+					<a href="{$r[url]}" target="_blank"><div class="ecc-logo">
+						<img src="{$r[logo]}" height="50" width="50" alt="{$r[title]}" title="{$r[title]}" />
+						<span class="ecc-t">推荐</span>
+					</div></a>
+					<div class="ecc-right">
+						<a href="{$r[url]}" target="_blank"><p class="eccr-tit">{str_cut($r[title],35,'...')}</p></a>
+						<a href="" target="_blank"><p class="eccr-con">{str_cut($r[description],95,'...')}</p></a>
+					</div>
+				</div>
+			</div>
+			{/loop}
+			{/pc}								
+		</div>
+		<div class="edu-bottom-btn">
+			<a href="{$CATEGORYS[228][url]}" target="_blank"><div class="ebb-item">更多客户案例</div></a>
+			<a href="" target="_blank"><div class="ebb-item" style="margin-left:5%;">点击预约演示</div></a>
+		</div>
+		{template "content","bottom_top"}
+		{template "content","bottom"} 
+	</body>
+</html>

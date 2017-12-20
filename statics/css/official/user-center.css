@@ -1,0 +1,211 @@
+/*表单验证*/
+.onShow,.onFocus,.onError,.onCorrect,.onLoad,.onTime{display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline; vertical-align:middle;background:url(../../../images/official/msg_bg.png) no-repeat;	color:#444;line-height:18px;padding:2px 10px 2px 23px; margin-left:90px;margin-top:4px}
+.onShow{background-position:3px -147px;border-color:#40B3FF;color:#959595}
+.onFocus{background-position:3px -147px;border-color:#40B3FF;}
+.onError{background-position:3px -47px;border-color:#40B3FF; color:red}
+.onCorrect{background-position:3px -247px;border-color:#40B3FF;}
+.onLamp{background-position:3px -200px}
+.onTime{background-position:3px -1356px}
+/*会员中心*/
+.uc-slink{
+	margin-top:5px;
+	color:#666;
+}
+.uc-slink a,.uc-slink span{
+	font-size: 14px;
+	color:#666;
+}
+.uc-block{
+	overflow: hidden;
+	margin-top:15px;
+}
+.uc-b1-left{
+	width: 170px;
+	height: 480px;
+	float: left;
+	background: #f2f2f2;
+}
+.ubl-nav{
+	width: 100%;
+	height: 42px;
+	background: #b6cefe;
+	text-align: center;
+	line-height: 42px;
+}
+.ubl-nav a{
+	font-size: 16px;
+	color:#fff;
+}
+.ubl-snav{
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+}
+.ubl-snav:hover{
+	background: #ccc;
+}
+.ubl-snav a{
+	color:#333;
+	font-size: 14px;
+}
+.uc-b1-right{
+	width: 832px;
+	float: right;
+}
+.ubr-tit{
+	width: 832px;
+	height: 62px;
+	overflow: hidden;
+}
+.ubr-tit-avator{
+	width: 60px;
+	height: 60px;
+	float: left;
+	border: 1px solid #f2f2f2;
+}
+.ubr-tit-detail{
+	height: 62px;
+	width: 425px;
+	float: left;
+	margin-left:16px;
+}
+.utd-top{
+	margin-top:10px;
+}
+.utd-top-name{
+	color:#f93;
+	font-size: 18px;
+}
+.utd-top-group{
+	font-size: 12px;
+	margin-left:10px;
+	color:#888;
+}
+.utd-bottom{
+	margin-top: 5px;
+}
+.utd-sub{
+	font-size: 12px;
+	color: #888;
+}
+.ubr-center{
+	width: 830px;
+	height: 220px;
+	border: 1px solid #f1f1f1;
+	margin-top:30px;
+}
+.ubr-center-tit{
+	font-size: 16px;
+	line-height: 38px;
+	padding-left:15px;
+	color:#333;
+}
+.ubr-center-con{
+	margin-top:30px;
+}
+.ucc-sec1{
+	display: inline-block;
+	width: 96px;
+	text-align: center;
+	padding-top:110px;
+	font-size: 16px;
+	color: #666;
+	background: url(../../images/official/ucc-sec1.png) top center no-repeat;
+	margin-left: 50px;
+}
+.ucc-sec1:hover{
+	background: url(../../images/official/ucc-sec1-h.png) top center no-repeat;
+}
+.ucc-sec2{
+	display: inline-block;
+	width: 84px;
+	padding-left: 12px;
+	padding-top:110px;
+	font-size: 16px;
+	color: #666;
+	background: url(../../images/official/ucc-sec2.png) top center no-repeat;
+	margin-left: 50px;
+}
+.ucc-sec3{
+	display: inline-block;
+	width: 96px;
+	text-align: center;
+	padding-top:110px;
+	font-size: 16px;
+	color: #666;
+	background: url(../../images/official/ucc-sec3.png) top center no-repeat;
+	margin-left: 50px;
+}
+.ucc-sec4{
+	display: inline-block;
+	width: 96px;
+	text-align: center;
+	padding-top:110px;
+	font-size: 16px;
+	color: #666;
+	background: url(../../images/official/ucc-sec4.png) top center no-repeat;
+	margin-left: 50px;
+}
+.ucc-sec5{
+	display: inline-block;
+	width: 96px;
+	text-align: center;
+	padding-top:110px;
+	font-size: 16px;
+	color: #666;
+	background: url(../../images/official/ucc-sec5.png) top center no-repeat;
+	margin-left: 50px;
+}
+.ucc-sec2:hover{
+	background: url(../../images/official/ucc-sec2-h.png) top center no-repeat;
+}
+.ucc-sec3:hover{
+	background: url(../../images/official/ucc-sec3-h.png) top center no-repeat;
+}
+.ucc-sec4:hover{
+	background: url(../../images/official/ucc-sec4-h.png) top center no-repeat;
+}
+.ucc-sec5:hover{
+	background: url(../../images/official/ucc-sec5-h.png) top center no-repeat;
+}
+.ubr-bottom-item{
+	line-height: 30px;
+	padding-left:45px;
+}
+.ubr-bottom-item a:hover{
+	text-decoration:underline;
+}
+.ubr-bottom{
+	width: 830px;
+	height: 260px;
+	border: 1px solid #f1f1f1;
+	margin-top:30px;
+}
+/*修改个人信息*/
+#memberArea{
+	margin-top:15px;
+	margin-bottom:15px;
+	overflow: hidden;
+}
+.user-right{
+	width:800px;
+	float: left;
+	margin-left:20px;
+}
+.title{
+	font-weight: normal;
+	font-size: 14px;
+	margin-bottom: 20px;
+	color:#666 !important;	
+}
+.button{
+	background: #f93 !important;
+	border: none !important;
+	color: #fff !important;
+	line-height: 10px !important;
+	font-size: 14px !important;	
+}
+th,td{
+	border:none !important;
+	font-size: 14px;
+}

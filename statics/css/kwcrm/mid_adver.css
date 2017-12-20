@@ -1,0 +1,30 @@
+/*初始化*/
+html ,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+
+/*广告*/
+.pro4{
+	width:100%;
+}
+.pro4Top{
+	width:100%;
+	height:10px;
+	background:url(../../images/kwcrm/pro4_pointline.png) repeat-x;
+}
+.pro4Bottom{
+	width:100%;
+	height:99px;
+	background:#023d65;
+	text-align:center;
+	margin-top:10px;
+}
+.pro4Bottom a{
+	display:inline-block;
+	width:1000px;
+	height:99px;
+}

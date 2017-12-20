@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />    
+    <link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="{CSS_PATH}edus/product.css" />
+    <script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}edus/pro-tab.js"></script>    
+    <script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+
+  </head>
+  <body>  
+    {template "content","head"} 		
+	{template "content","pro-conhead"}
+		<div class="m-content">
+			<div class="ana-tit">
+				<p class="ana-tit-top">
+					可视化的报表设计任意拖拉维度、指标，企业想要什么样的分析报表做决策支撑都可以！
+				</p>
+				<p class="ana-tit-bottom">不同管理岗位，不同角色都会有自己相应的管理报表，便于管理日常业务和未来业务分析指导，为企业决策提供充足的依据。可为EDUS系统还支持客户自定义的报表功能，客户根据自身管理需求定义出具有独特管理思想的数据报表。</p>
+			</div>
+			<div class="ana-b1" id="tab">
+				<div class="tab-list">
+					<ul>
+						<li class="t-before">
+							<p class="ana-item1"></p>
+							<p class="ana-item2">集团运营<br />管理层</p>
+						</li>
+						<li style="margin-left:52px;" class="t-before">
+							<p class="ana-item3"></p>
+							<p class="ana-item2">分支机构校长<br />及管理层</p>
+						</li>
+						<li style="margin-left:52px;" class="t-before">
+							<p class="ana-item4"></p>
+							<p class="ana-item2">市场营销部</p>
+						</li>
+						<li style="margin-left:52px;" class="t-before">
+							<p class="ana-item5"></p>
+							<p class="ana-item2">教务老师</p>
+						</li>
+						<li style="margin-left:52px;" class="t-before">
+							<p class="ana-item6"></p>
+							<p class="ana-item2">教学老师</p>
+						</li>
+						<li style="margin-left:52px;" class="t-before">
+							<p class="ana-item7"></p>
+							<p class="ana-item2">后端助教<br />老师</p>
+						</li>
+						<li style="margin-left:52px;" class="t-before">
+							<p class="ana-item8"></p>
+							<p class="ana-item2">财务人员</p>
+						</li>							
+					</ul>
+				</div>
+				<div class="tab-con">
+					<div class="tab-con1">
+						<div class="tab-con-pic"></div>
+						<div class="tab-con-item">从人、财、权来管控各个分校及加盟校的经营状况，包括财务收支情况，教务教学情况，总结分析以后形成更好的指导型文件，指导下属分校更好的开展业务。
+						</div>
+					<div class="tab-con-bottom">
+						<div class="tcon-left">管控点</div>
+						<div class="tcon-left">报表视图</div>
+					</div>	
+					</div>
+					<div class="tab-con1" style="display:none;">
+						<div class="tab-con-pic"></div>
+						<div class="tab-con-item">可以很清楚的看到与自己本校区业务的经营状况，包括财务收支情况，教务教学情况,通过报表能够知道本校区过去任意一个时间段内的流水情况，老师学生上课出勤率，班级课时数情况，学员对我们的教务教学有哪些意见和建议。
+						</div>
+					<div class="tab-con-bottom">
+						<div class="tcon-left">管控点</div>
+						<div class="tcon-left">报表视图</div>
+					</div>	
+					</div>
+					<div class="tab-con1" style="display:none;">
+						<div class="tab-con-pic"></div>
+						<div class="tab-con-item">通过市场营销分析招生情况，实时掌握营销效果评估，投入产出比分析以及预售班课我们的市场规划情况。
+						</div>
+					<div class="tab-con-bottom">
+						<div class="tcon-left">管控点</div>
+						<div class="tcon-left">报表视图</div>
+					</div>	
+					</div>
+					<div class="tab-con1" style="display:none;">
+						<div class="tab-con-pic"></div>
+						<div class="tab-con-item">可以通过课时统计报表分析出哪些授课老师工作量大，哪些老师工作不饱和，通过学员信息反馈数据报表看到每一个老师的教学质量，针对不足和存在的问题及时改进。提供报表统计出校区班级分布情况，班级课时数情况。帮助老师统计出学员考试的成绩，方便以后对学生进行针对性的辅导等
+						</div>
+					<div class="tab-con-bottom">
+						<div class="tcon-left">管控点</div>
+						<div class="tcon-left">报表视图</div>
+					</div>	
+					</div>	
+					<div class="tab-con1" style="display:none;">
+						<div class="tab-con-pic"></div>
+						<div class="tab-con-item">通过教师课表能够清晰的看到教务老师给自己安排的课程表，知道自己未来的课程时间，合理调配自己的时间来上课。通过学员的分析报表，有针对性给学员布置作业，对一些突出的学员制定个性化的辅导计划。
+						</div>
+					<div class="tab-con-bottom">
+						<div class="tcon-left">管控点</div>
+						<div class="tcon-left">报表视图</div>
+					</div>	
+					</div>
+					<div class="tab-con1" style="display:none;">
+						<div class="tab-con-pic"></div>
+						<div class="tab-con-item">通过系统报表可以实时掌握各个班级的教学开展情况，协助前端老师做好后勤保障工作，督促学员完成老师布置的作业，协助授课老师检查批改作业，提升学员的学习成绩，提升学员和家长对机构的满意度。
+						</div>
+					<div class="tab-con-bottom">
+						<div class="tcon-left">管控点</div>
+						<div class="tcon-left">报表视图</div>
+					</div>	
+					</div>
+					<div class="tab-con1" style="display:none;">
+						<div class="tab-con-pic"></div>
+						<div class="tab-con-item">通过财务汇总报表，准确详实的查询到各项财务数据，资金收支状况，给领导决策层提供可靠的数据支持。实时掌握学员的收费情况，应收情况，即使出现退费学员，也能够快速的查询出申请退费学员的退费金额。避免扯皮现象的发生。
+						</div>
+					<div class="tab-con-bottom">
+						<div class="tcon-left">管控点</div>
+						<div class="tcon-left">报表视图</div>
+					</div>	
+					</div>																			
+				</div>	
+			</div>
+		</div>
+		<div class="ana-b1-bottom">
+			<div class="m-content">
+				<div class="ana-b1-bottom-item1"></div>
+				<div class="ana-b1-bottom-con">
+					可实时管控培训机构的关键数据<br />立体化的显示有关招生、教务、教学、财务等数据的对照、发展和趋势<br />因此，我们EDUS系统致力于培训机构管理的各个业务环节
+				</div>	
+				<div class="ana-b1-bottom-sub"></div>				
+			</div>
+		</div>
+		<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="ana-ads"></div></a>
+		<div class="ana-con">
+		<div class="m-content">
+			<div class="ana-con1">
+				<div class="ana-con1-right"></div>
+				<div class="ana-con1-left">
+					<p class="ana-con1-left-tit">市场营销管理</p>
+					<div class="ana-con1-left-con">
+						<div class="ana-con1-left1">
+							1、营销计划统计；<br />
+							3、市场活动费用统计；<br />
+							5、学生来源统计分析；<br />
+							7、学生记录和数据分析；<br />
+							9、学员类别统计分析；<br />
+							11、丢失学员机会分析；<br />
+						</div>
+						<div class="ana-con1-left1">
+							2、市场活动计划统计；<br />
+							4、市场活动成果分析；<br />
+							6、学生的邀约、试听、交费；<br />
+							8、跟踪记录统计分析；<br />
+							10、各分校学员对比分析；<br />
+							12、销售漏斗统计分析。<br />
+						</div>						
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="ana-con1-subleft"></div>
+				<div class="ana-con1-subright">
+					<p class="ana-con1-subtit">教务一对一管理</p>
+					<div class="ana-con1-left-con">
+						<div class="ana-con1-left1">
+							1、上课记录统计分析；<br />
+							3、学生评价统计分析；<br />
+							5、学生成绩报表；<br />
+							7、课时不足/需要续费统计表；<br />
+						</div>
+						<div class="ana-con1-left1">
+							2、上课考勤统计分析；<br />
+							4、每周、月课时消耗统计分析；<br />
+							6、教师授课质量定时反馈表；<br />
+							8、每周、月教师课时数/课时费统计分析.<br />
+						</div>						
+					</div>					
+				</div>
+			</div>
+			<div class="ana-con2">
+				<div class="ana-con2-right"></div>
+				<div class="ana-con2-left">
+					<p class="ana-con2-leftit">教务班课管理</p>
+					<div class="ana-con1-left-con">
+						<div class="ana-con1-left1">
+							1、学员分班情况统计分析；<br />
+							3、班级学员线下/网上评价统计分析；<br />
+							5、每周、月课时消耗统计分析；<br />
+							7、每周、月教师课时费统计分析。<br />
+						</div>
+						<div class="ana-con1-left1">
+							2、班级考勤统计分析；<br />
+							4、教师上课时段统计分析；<br />
+							6、每周、月教师课时数统计分析；<br />
+						</div>						
+					</div>					
+				</div>
+				<div class="clearfix"></div>
+				<div class="ana-con2-subleft"></div>
+				<div class="ana-con2-subright">
+					 <p class="ana-con2-subtit">教学老师管理</p>
+					<div class="ana-con1-left-con">
+						<div class="ana-con1-left1" style="width:40%;">
+							1、学生成绩统计分析；<br />
+							3、分校排名统计分析；<br />
+						</div>
+						<div class="ana-con1-left1" style="width:60%;">
+							2、教师授课计划统计分析；<br />
+							4、教师代课、请假等异常情况统计分析；<br />
+						</div>
+						<div class="clearfix"></div>
+						<div class="ana-con1-left1" style="width:100%;margin-top:0px;">
+							5、分校续报数据、新生人数、新生收入等数据统计分析；
+						</div>	
+						<div class="ana-con1-left1" style="width:100%;margin-top:0px;">
+							6、课程表（教师课程表、教室课程表、学生课程表、班级课程表）统计。
+						</div>											
+					</div>					 
+				</div>
+			</div>
+			<div class="ana-con3">
+				<div class="ana-con3-right"></div>
+				<div class="ana-con3-left">
+					<div class="ana-con3-leftit">财务管理</div>
+					<div class="ana-con1-left-con">
+						<div class="ana-con1-left1" style="width:45%;">
+							1、学员基本收费统计；<br />
+							3、学员退费统计；<br />
+							5、课程收入统计；<br />
+							7、课酬费用统计；<br />
+							9、学员学费核销实时统计分析；<br />
+						</div>
+						<div class="ana-con1-left1" style="width:55%;">
+							2、部门/项目收入统计汇总；<br />
+							4、学员欠费统计；<br />
+							6、总部及分支机构费用盈利或支出情况；<br />
+							8、学员续费统计分析/续保率；<br />
+							10、教师单节课时费以及总课时费统计；<br />
+						</div>
+						<div class="ana-con1-left1" style="width:100%;margin-top:0px;">
+							11、活动支出费用及所有日常支出项统计分析；
+						</div>	
+						<div class="ana-con1-left1" style="width:100%;margin-top:0px;">
+							12、收费管理、退费管理、支出管理、其他费用管理资金统计分析。
+						</div>											
+					</div>						
+				</div>
+			</div>						
+		</div>
+		</div>
+		<div class="promarket-ads" style="margin-top:0px">
+			<div class="promarket-ads-center">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-ads-btn">在线咨询</div></a>
+			</div>
+		</div>
+
+		{template "content","pro-conblock"}	
+		{template "content","footer"}
+<script type="text/javascript" src="{JS_PATH}edus/scrol.js"></script>		
+	</body>		
+</html>

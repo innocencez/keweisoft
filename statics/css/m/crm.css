@@ -1,0 +1,410 @@
+.crm-banner{
+	width:360px;
+	height: 149px;
+	text-align: center;
+	margin:10px auto 0px;
+}
+.edu-ftit{
+	width:100%;
+	height: 36px;
+	background:url(../../images/m/edu_subTbg.png) left center repeat-x;
+	text-align: center;
+	line-height: 36px;
+	font-size: 16px;
+	color:#333;
+}
+.crm-block{
+	width:93%;
+	max-width: 93%;
+	border:1px solid #e4e4e4;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	margin:10px auto 0px;
+}
+.crm-block-item{
+	height: 80px;
+	width: 33.3%;
+	border:1px solid #e4e4e4;
+	text-align: center;
+}
+.crm-block-item a{
+	font-size:14px;
+	color:#5d5c5c;
+	display: inline-block;
+}
+.cbi1{
+	background: url(../../images/m/crm_ico1.png) center top no-repeat;
+	background-size: 28px 23px;
+	padding-top:30px;
+}
+
+.cbi2{
+	background: url(../../images/m/crm_ico2.png) center top no-repeat;
+	background-size: 28px 26px;
+	padding-top:30px;
+}
+.cbi3{
+	background: url(../../images/m/crm_ico3.png) center top no-repeat;
+	background-size: 24px 22px;
+	padding-top:30px;
+}
+.cbi4{
+	background: url(../../images/m/crm_ico4.png) center top no-repeat;
+	background-size: 23px 32px;
+	padding-top:30px;
+}
+.cbi5{
+	background: url(../../images/m/crm_ico5.png) center top no-repeat;
+	background-size: 26px 26px;
+	padding-top:30px;
+}
+.cbi6{
+	background: url(../../images/m/crm_ico6.png) center top no-repeat;
+	background-size: 23px 20px;
+	padding-top:30px;
+}
+.cbi7{
+	background: url(../../images/m/crm_ico7.png) center top no-repeat;
+	background-size: 22px 22px;
+	padding-top:30px;
+}
+.cbi8{
+	background: url(../../images/m/crm_ico8.png) center top no-repeat;
+	background-size: 24px 21px;
+	padding-top:30px;
+}
+.cbi9{
+	background: url(../../images/m/crm_ico9.png) center top no-repeat;
+	background-size: 25px 23px;
+	padding-top:30px;
+}
+.slideAdv{
+	width:96%;
+	height: 135px;
+	overflow: hidden;
+	background:#f6f7ff;
+	margin:10px auto 0px;
+	border-radius:3px;
+	position: relative;
+}
+.bd{
+	width: 257px;
+	height: 119px;
+	position:relative;
+	z-index:0;
+	margin:10px auto 0px;
+}
+.bd ul li{
+	display: block;
+	width: 100%;
+}
+.adv-tit{
+	font-size:14px;
+	color:#ff0000;
+	text-align: center;
+}
+.adv-con{
+	font-size:14px;
+	color:#666;
+	text-indent: 28px;
+	line-height: 22px;
+	margin-top: 7px;
+}
+.prev{
+	position: absolute;
+	width:12px;
+	height: 18px;
+	background: url(../../images/m/pro-crm-arrowL.png) center center no-repeat;
+	top:50px;
+	left:-25px;
+}
+.next{
+	position: absolute;
+	width:12px;
+	height: 18px;
+	background: url(../../images/m/pro-crm-arrowR.png) center center no-repeat;
+	top:50px;
+	right:-25px;
+}
+.crm-soluBox{
+	width:90%;
+	height: 123px;
+	margin:20px auto 0px;
+}
+.cs-tit{
+	width:100%;
+	height: 26px;
+	overflow: hidden;
+}
+.cst-ico{
+	width:39px;
+	height: 20px;
+	float: left;
+	background:url(../../images/m/in-news-ico.png) left center no-repeat;
+	margin-top: 3px;
+	line-height:20px;
+	color:#fff;
+	text-align: center;
+	font-size:14px;
+}
+.cst-item,.cst-item1,.cst-item2{
+	display: inline-block;
+	margin-left: 6%;
+	height: 24px;
+	float: left;
+	text-align:center;
+	line-height: 24px;
+	font-size: 14px;
+	color:#333;
+}
+
+.cst-on{
+	color:#ef3b0b;
+	border-bottom: 2px solid #ff0000;
+}
+.cs-con,.cs-con1,.cs-con2{
+	width:100%;
+	height: 100px;
+	overflow: hidden;
+	margin-top:5px;
+}
+.cs-con ul li,.cs-con1 ul li,.cs-con2 ul li{
+	display: block;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #eee;
+}
+.csc-item{
+	display: inline-block;
+	float: left;
+	background: url(../../images/m/crm-solu-dot.png) left center no-repeat;
+	padding-left: 15px;
+	color:#666;
+	font-size:14px;
+}
+.csc-item:hover{
+	color:#ef3b0b;
+	background: url(../../images/m/crm-solu-dotH.png) left center no-repeat;
+}
+.csc-more{
+	display: inline-block;
+	float: right;
+	background: url(../../images/m/pro-crm-solu-more.png) left center no-repeat;
+	width: 9px;
+	height: 32px;
+}
+
+
+
+
+
+
+
+
+.edu-case-con{
+	width: 100%;
+	background: #eee;
+	padding:6px 0px;
+	margin-top: 10px;
+}
+.ecc-item{
+	width: 100%;
+	height: 75px;
+	background:url(../../images/m/edu-case-itemBg.png) left center repeat-x;
+	padding-top:8px;
+}
+.ecc-con{
+	width: 95%;
+	height: 66px;
+	margin: 0 auto;
+}
+.ecc-logo{
+	width:93px;
+	height: 60px;
+	float: left;
+	background: url(../../images/m/edu-case-bg.png) left center no-repeat;
+	position: relative;
+	text-align: center;
+	padding-top: 6px;
+	position: relative;
+}
+.ecc-t{
+	position: absolute;
+	width: 30px;
+	height: 13px;
+	background:url(../../images/m/edu-tuijian.png) left center no-repeat;
+	left:0;
+	top:10px;
+	line-height: 13px;
+	color:#fff;
+	font-size: 11px;
+	text-align: center;
+}
+.ecc-right{
+	height: 66px;
+	width:65%;
+	float: left;
+	margin-left:13px;
+}
+.eccr-tit{
+	text-align: left;
+	font-size:14px;
+	color:#666;
+}
+.eccr-con{
+	font-size:12px;
+	color:#888686;
+	margin-top: 7px;
+	line-height: 18px;
+}
+.edu-bottom-btn{
+	width: 92%;
+	height: 30px;
+	margin:10px auto 0px;
+}
+.ebb-item{
+	width: 47%;
+	height: 30px;
+	float: left;
+	background: #ff0000;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color:#fdfcfc;
+	border-radius: 5px;
+}
+.edu-all-link{
+	width: 100%;
+	height: 143px;
+	margin-top:10px;
+}
+.eal-item{
+	width: 24%;
+	height: 70px;
+	background:#f6f7fc;
+	float: left;
+	text-align: center;
+	margin-left:1%;
+}
+.eal-item a{
+	font-size: 14px;
+	color:#666;
+}
+.eali1{
+	background:url(../../images/m/in-bo1.png) center center no-repeat;
+	background-size: 25px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali2{
+	background:url(../../images/m/in-bo2.png) center center no-repeat;
+	background-size: 26px 18px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali3{
+	background:url(../../images/m/in-bo3.png) center center no-repeat;
+	background-size: 22px 23px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali4{
+	background:url(../../images/m/in-bo4.png) center center no-repeat;
+	background-size: 27px 21px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali5{
+	background:url(../../images/m/in-bo5.png) center center no-repeat;
+	background-size: 22px 26px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali6{
+	background:url(../../images/m/in-bo6.png) center center no-repeat;
+	background-size: 21px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali7{
+	background:url(../../images/m/in-bo7.png) center center no-repeat;
+	background-size: 23px 22px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali8{
+	background:url(../../images/m/in-bo8.png) center center no-repeat;
+	background-size: 22px 19px;
+	padding-top:45px;
+	display: inline-block;
+}
+
+.edu-pro-btn{
+	width: 82%;
+	height: 27px;
+	background: #ff0000;
+	margin: 20px auto 0px;
+	text-align: center;
+	line-height: 27px;
+	font-size: 14px;
+	color:#fffcfc;
+	border-radius:5px;
+}
+
+.s-edu-con,.s-crm-con{
+	width: 100%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.sec-item{
+	width: 100%;
+	height: 39px;
+	background:url(../../images/m/in-solu-itembg1.png) left center repeat-x;
+	padding-top:7px;
+}
+.sec1-left{
+	width: 12%;
+	background:url(../../images/m/in-solu-ico14.png) center center no-repeat;
+	background-size: 30px 30px;
+	height: 30px;
+	float: left;
+}
+.sec2-left{
+	width: 12%;
+	background:url(../../images/m/in-solu-ico13.png) center center no-repeat;
+	background-size: 30px 30px;
+	height: 30px;
+	float: left;
+}
+.sec3-left{
+	width: 12%;
+	background:url(../../images/m/in-solu-ico12.png) center center no-repeat;
+	background-size: 30px 30px;
+	height: 30px;
+	float: left;
+}
+.sec4-left{
+	width: 12%;
+	background:url(../../images/m/in-solu-ico11.png) center center no-repeat;
+	background-size: 30px 30px;
+	height: 30px;
+	float: left;
+}
+.sec5-left{
+	width: 12%;
+	background:url(../../images/m/in-solu-ico10.png) center center no-repeat;
+	background-size: 30px 30px;
+	height: 30px;
+	float: left;
+}
+.sec1-center{
+	display: inline-block;
+	color:#333;
+	width: 80%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	float: left;
+}

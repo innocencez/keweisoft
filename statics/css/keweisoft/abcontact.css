@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  关于我们
+*******************************************************************************/
+.top-link{
+	height:55px;
+	line-height:55px;
+}
+.top-link a{
+	color:#666;
+	font-size:16px;
+}
+.contact-con{
+	width:100%;
+	height:804px;
+	margin-top:30px;
+}
+.contact-tit{
+	width:100%;
+	height:250px;
+	background: #eee;
+}
+.contact-time{
+	width:800px;
+	height:50px;
+	background: url(../../images/keweisoft/contact-time.png) 35px 5px no-repeat;
+	padding-left:90px;
+	line-height: 50px;
+	letter-spacing: 1px;
+}
+
+.contact-tel{
+	width:800px;
+	height:50px;
+	background: url(../../images/keweisoft/contact-tel.png) 35px 15px no-repeat;
+	padding-left:90px;
+	line-height: 50px;
+	letter-spacing: 1px;
+	margin-top:5px;
+}
+
+.contact-add{
+	width:800px;
+	height:50px;
+	background: url(../../images/keweisoft/contact-add.png) 35px 10px no-repeat;
+	padding-left:90px;
+	line-height: 50px;
+	letter-spacing: 1px;
+	margin-top:5px;
+}
+
+.contact-bus{
+	width:900px;
+	height:59px;
+	background: url(../../images/keweisoft/contact-bus.png) 35px 10px no-repeat;
+	padding-left:90px;
+	line-height: 29px;
+	letter-spacing: 1px;
+	margin-top:15px;
+}
+.about-con-all{
+	width: 100%;
+	line-height: 14px;
+	text-align: left;
+	color: #343434;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#allmap{
+	width:1040px;
+	height:497px;
+	margin:30px auto;
+}

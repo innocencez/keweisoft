@@ -1,0 +1,1081 @@
+.index-banner{
+    position: relative; 
+    overflow: hidden; 
+}
+.in-wx{
+    position: absolute;
+    width: 174px;
+    height: 240px;
+    background: rgb(255,255,255);
+    border: 1px solid #cdcdcd;
+    top: 20px;
+    right: 40px;
+    z-index: 98;
+}
+.wx-close {
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+.index-banner-center{
+    width: 1040px;
+    height: 560px;
+    position: relative;
+    margin: 0 auto;
+}
+.index-banner-center .btn1{
+    width: 196px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #fd5d1e;
+    color:#fff;
+    font-size: 24px;
+    position: absolute;
+    top:428px;
+    left:264px;
+    border-radius: 7px;
+}
+.index-banner-center .btn2{
+    width: 196px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #fd5d1e;
+    color:#fff;
+    font-size: 24px;
+    position: absolute;
+    top:428px;
+    left:579px;
+    border-radius: 7px;
+}
+.banner-center-link{
+    width: 100%;
+    height: 560px;
+    display: block;
+}
+.slider{
+    height: 560px;
+}
+.index-banner-zhanhui{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/zhanhui-banner.jpg) center center no-repeat; 
+}
+
+.index-banner1{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-banner1.jpg) center center no-repeat;     
+}
+.index-banner2{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/app-banner.jpg) center center no-repeat;     
+}
+/*.index-banner-gjss{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/gjss-banner.jpg) center center no-repeat;     
+}*/
+.index-banner-sy{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/sy-banner.jpg) center center no-repeat;     
+}
+.index-banner-xt{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-xt-banner.jpg) center center no-repeat;     
+}
+.xt-banner-btn-left{
+    width: 188px;
+    height: 38px;
+    position: absolute;
+    border-radius: 15px;
+    left:272px;
+    top:462px;
+    background-color: #fcd124;
+    text-align: center;
+    line-height: 38px;
+    font-size: 24px;
+    color: #c71d3e;
+}
+.xt-banner-btn-left:hover,.xt-banner-btn-right:hover{
+    box-shadow: 0px 2px 2px rgba(0,0,0,.5);    
+}
+.xt-banner-btn-right{
+    width: 188px;
+    height: 38px;
+    position: absolute;
+    border-radius: 15px;
+    left:580px;
+    top:462px;
+    background-color: #2744c1;
+    text-align: center;
+    line-height: 38px;
+    font-size: 24px;
+    color: #fff;
+}
+.index-banner-sybtn{
+    width: 186px;
+    height: 41px;
+    background: url(../../images/edus/sy-banner-btn.png) center center no-repeat;
+    margin:461px auto 0;
+}
+.index-banner-abroad{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/abroad-banner.jpg) center center no-repeat;     
+}
+.index-banner-kuakao{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-banner-kuakao.jpg) center center no-repeat;     
+}
+.index-banner-youjia{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-banner-youjia.jpg) center center no-repeat;     
+}
+.index-banner-wexk{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-banner-wexk.jpg) center center no-repeat;    
+}
+.index-banner-btn{
+    width: 186px;
+    height: 41px;
+    background: url(../../images/edus/wendu-btn.png) center center no-repeat;
+    text-align: center;
+    line-height: 38px;
+    margin: 463px auto 0;
+    font-size: 20px;
+    color: #fff;
+}
+.app-banner-btn{
+    width: 202px;
+    height: 44px;
+    background: #009df6;
+    position: absolute;
+    left: 1px;
+    top: 405px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 44px;
+    letter-spacing: 1px;    
+}
+.souke-banner-btn {
+    width: 220px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background: #ef7d19;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 405px;
+    border-radius: 10px;
+}
+.index-banner3{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/souke-banner.jpg) center center no-repeat;     
+}
+.index-banner-mapp{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-banner-mapp.png) center center no-repeat;     
+}
+.index-banner4{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-banner2.jpg) center center no-repeat;     
+}
+.index-banner5{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/special/baili-banner.jpg) center center no-repeat;     
+}
+
+.index-banner6{
+    float: left;
+    height: 560px !important;
+    background: url(../../images/edus/index-banner4.jpg) center center no-repeat;     
+}
+.jiupai-banner-center {
+    width: 1040px;
+    height: 560px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.last-case {
+    width: 100%;
+    height: 40px;
+    background: url(../../images/edus/index-case-bg.png) top center repeat-x;
+}
+.pro-topCase {
+    width: 1135px;
+    height: 37px;
+    margin: 0 auto;
+    line-height: 37px;
+    padding-left: 65px;
+}
+.pro-topCase-tit {
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+#intrends {
+    width: 880px;
+    height: 22px;
+    display: inline;
+    overflow: hidden;
+}
+#trends {
+    width: 850px;
+    height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#trend1, #trend2 {
+    display: inline;
+}
+.adv1_movingLink {
+    display: inline;
+    background: url(../../images/edus/adv1_movingbg.png) no-repeat left center;
+    font-size: 14px;
+    color: #666;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.index-block1{
+	width: 100%;
+	overflow: hidden;
+    background: #f3f2f2;
+	padding-top:60px;
+    padding-bottom: 40px;
+    margin-top: 15px;
+}
+.index-block1-tit{
+	width: 100%;
+	height: 55px;
+	background: url(../../images/edus/index-tit1.png) center center no-repeat;
+}
+.index-block1 .dev{
+	width: 100%;
+	height: 330px;
+	margin-top:35px;
+}
+.index-block1 .dev .item{
+	width: 250px;
+	height: 310px;
+	float: left;
+}
+.index-block1 .dev .item1-pic{
+	width: 218px;
+	height: 218px;
+	background: url(../../images/edus/index-solution-pic1.png) center center no-repeat;
+    margin: 0 auto;
+}
+.index-block1 .dev .item-tit{
+    text-align: center;
+    margin-top:15px;
+}
+.index-block1 .dev .item-tit a{
+    font-size: 24px;
+    color:#343844;
+}
+.index-block1 .dev .item-btn{
+    text-align: center;
+    margin-top:15px;
+}
+.index-block1 .dev .item-btn span{
+    text-align: center;
+    padding:8px 20px;
+    font-size: 14px;
+    background:#fd5d1e;
+    color:#fff;
+    border-radius: 5px;
+}
+.index-block1 .dev .item2-pic{
+    width: 218px;
+    height: 218px;
+    background: url(../../images/edus/index-solution-pic2.png) center center no-repeat;
+    margin: 0 auto;
+}
+.index-block1 .dev .item3-pic{
+    width: 218px;
+    height: 218px;
+    background: url(../../images/edus/index-solution-pic3.png) center center no-repeat;
+    margin: 0 auto;
+}
+.index-block1 .dev .item4-pic{
+    width: 218px;
+    height: 218px;
+    background: url(../../images/edus/index-solution-pic4.png) center center no-repeat;
+    margin: 0 auto;
+}
+.index-block1 .dev .item5-pic{
+    width: 218px;
+    height: 218px;
+    background: url(../../images/edus/index-solution-pic5.png) center center no-repeat;
+    margin: 0 auto;
+}
+.index-block1 .dev .item6-pic{
+    width: 218px;
+    height: 218px;
+    background: url(../../images/edus/index-solution-pic6.png) center center no-repeat;
+    margin: 0 auto;
+}
+.index-block2{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.index-block2-tit{
+    width: 100%;
+    height: 55px;
+    background: url(../../images/edus/index-tit2.png) center center no-repeat;
+    margin-top:60px;
+}
+.index-b2-topcon{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.index-b2-topcon .item{
+    width:338px;
+    height: 426px;
+    float: left;  
+    overflow: hidden;
+    position: relative;  
+}
+.index-b2-topcon .b2-pic1{
+    width: 311px;
+    height: 168px;
+    background: url(../../images/edus/index-product-pic1.png) center center no-repeat;
+    margin: 22px auto 0;
+}
+.index-b2-topcon .b2-top-item-con{
+    width: 314px;
+    height: 156px;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    padding:12px;
+}
+.index-b2-topcon .b2-top-item-con p.tit{
+    text-align: center;
+    color:#fd5d1e;
+    font-size: 18px;
+}
+.index-b2-topcon .b2-top-item-con p.con{
+    font-size: 14px;
+    color:#666;
+    line-height: 24px;
+    margin-top: 7px;
+}
+.index-b2-topcon .b2-top-item-con p.link{
+    text-align: right;
+    margin-top:7px;
+}
+.index-b2-topcon .b2-top-item-con p.link a{
+    font-size: 14px;
+    color:#fd5d1e;
+}
+.index-b2-topcon .b2-top-item-con p.link a::before{
+    right:0.7em !important;
+    top:0.2em !important;
+}
+.index-b2-topcon .b2-pic2{
+    width: 239px;
+    height: 209px;
+    background: url(../../images/edus/index-product-pic2.png) center center no-repeat;
+    margin: 5px auto 0;
+}
+.index-b2-topcon .b2-pic3{
+    width: 237px;
+    height: 205px;
+    background: url(../../images/edus/index-product-pic3.png) center center no-repeat;
+    margin: 17px auto 0;
+}
+.index-b2-subcon {
+    overflow: hidden;
+    margin-top: 60px;
+}
+.index-b2-subtit{
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    color:#343844;
+}
+.index-b2-ttit{
+    text-align: center;
+    font-size:18px;
+    color: #343844;
+    margin-top:38px;
+}
+.index-b2-subcon .dev{
+    width: 100%;
+    height: 187px;
+    margin-top:58px;
+}
+.index-b2-subcon .dev .each{
+    width: 174px;
+    height: 187px;
+    float: left;
+}
+.index-b2-subcon .im{
+    display: block !important;
+}
+.index-b2-subcon .pic1{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico1.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic2{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico2.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic3{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico3.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic4{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico4.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic5{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico5.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic6{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico6.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic7{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico7.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic8{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico8.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic9{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico9.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .pic10{
+    width: 102px;
+    height: 102px;
+    background: url(../../images/edus/index-product-ico10.png) center center no-repeat;
+    margin:0 auto;
+}
+.index-b2-subcon .tit{
+    text-align: center;
+    margin-top:27px;
+}
+.index-b2-subcon .tit a{
+    font-size: 18px;
+    color:#343844;
+}
+.index-b2-subcon .tit a:hover{
+    color:#fd5d1e;
+}
+.index-b2-subcon .sub{
+    text-align: center;
+    font-size: 14px;
+    color:#343844;
+    margin-top:16px;
+}
+.index-b2-btn{
+    width: 220px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    margin: 20px auto 0;
+    font-size: 18px;
+    color:#fd5d1e;
+    display: block !important;
+    font-weight: bold;
+}
+.index-block3{
+    overflow: hidden;
+    margin-top: 60px;
+}
+.index-block3-tit{
+    width: 100%;
+    height: 55px;
+    background: url(../../images/edus/index-tit3.png) center center no-repeat;
+}
+.index-b3-dev{
+    width: 100%;
+    height: 240px;
+    margin-top: 60px;
+}
+.index-b3-dev li{
+    width: 240px;
+    float: left;
+}
+.index-b3-dev li .view{
+    width: 224px;
+    height: 224px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    border:8px solid #b9d3e0;
+}
+.index-b3-dev li .view .succ-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.view-fourth .succ-img {
+    -webkit-transition: all 0.4s ease-in-out 0.2s;
+    -moz-transition: all 0.4s ease-in-out 0.2s;
+    -o-transition: all 0.4s ease-in-out 0.2s;
+    -ms-transition: all 0.4s ease-in-out 0.2s;
+    transition: all 0.4s ease-in-out 0.2s;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.view .mask {
+    position: absolute;
+    overflow: hidden;
+    border-radius: 150px;
+    top: 0;
+    left: 0;
+}
+.view-fourth .mask {
+    width: 100%;
+    height: 100%;
+    background-color: #444443;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(0) rotate(-180deg);
+    -moz-transform: scale(0) rotate(-180deg);
+    -o-transform: scale(0) rotate(-180deg);
+    -ms-transform: scale(0) rotate(-180deg);
+    transform: scale(0) rotate(-180deg);
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    -webkit-border-radius: 1500px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    text-align: center;
+}
+.view-fourth:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transform: scale(1) rotate(0deg);
+   -moz-transform: scale(1) rotate(0deg);
+   -o-transform: scale(1) rotate(0deg);
+   -ms-transform: scale(1) rotate(0deg);
+   transform: scale(1) rotate(0deg);
+   -webkit-transition-delay: 0.2s;
+   -moz-transition-delay: 0.2s;
+   -o-transition-delay: 0.2s;
+   -ms-transition-delay: 0.2s;
+   transition-delay: 0.2s;
+}
+.view-fourth:hover .succ-img {
+   -webkit-transform: scale(0);
+   -moz-transform: scale(0);
+   -o-transform: scale(0);
+   -ms-transform: scale(0);
+   transform: scale(0);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;
+}
+.view .mask span.c-title {
+    font-size: 18px;
+    display: block;
+    margin-top: 40px;
+    color: #fff;
+}
+.case-industry {
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 35px;
+}
+.case-con{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+    color: #fff;
+}
+.index-block4{
+    width: 100%;
+    overflow: hidden;
+    margin-top:30px;
+}
+.index-block4-tit{
+    height: 55px;
+    width: 100%;
+    background: url(../../images/edus/index-tit4.png) center center no-repeat;
+}
+.index-block4-con{
+    width:100%;
+    height: 568px;
+    background: url(../../images/edus/index-needs-bg.jpg) center center no-repeat;
+    position: relative;
+    margin-top: 336px;
+    display: inline-block;
+}
+.index-b4-top{
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    top:-275px;
+}
+.index-b4-top .item{
+    width: 254px;
+    height: 380px;
+    float: left;
+    background: #f6f6f6;
+}
+.index-b4-top .pic{
+    width: 254px;
+    height: 196px;
+    background: url(../../images/edus/index-service-pic1.png) center top no-repeat;
+    position: relative;
+}
+.index-b4-top .pic-sub{
+    width: 254px;
+    height: 38px;
+    background: #fd5d1e;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    color:#fff;
+    top: 158px;
+    position: absolute;
+}
+.index-b4-top .con{
+    width: 234px;
+    height: 172px;
+    padding:10px 10px 0;
+    font-size: 14px;
+    line-height: 22px;
+    color:#343844;
+}
+.index-b4-top .pic1{
+    width: 254px;
+    height: 196px;
+    background: url(../../images/edus/index-service-pic2.png) center top no-repeat;
+    position: relative;
+}
+.index-b4-top .pic2{
+    width: 254px;
+    height: 196px;
+    background: url(../../images/edus/index-service-pic3.png) center top no-repeat;
+    position: relative;
+}
+.index-b4-top .pic3{
+    width: 254px;
+    height: 196px;
+    background: url(../../images/edus/index-service-pic4.png) center top no-repeat;
+    position: relative;
+}
+.index-b4-sub{
+    width: 100%;
+    height: 348px;
+    background: rgba(244,245,249,.88);
+    margin-top:150px;
+    position: relative;
+}
+.index-b4-need-left{
+    width: 590px;
+    height: 330px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.index-b5{
+    overflow: hidden;
+    margin-top: 60px;
+}
+.index-b4-need-left p.dev{
+    width: 100%;
+    height:34px;
+    margin-top:20px;
+}
+.index-b4-need-left p.dev span.left{
+    width: 140px;
+    height: 34px;
+    text-align: right;
+    display: inline-block;
+    line-height: 34px;
+    font-size: 18px;
+    color:#343844;
+    vertical-align: top;
+}
+input[type="text"],select{
+    height: 34px;
+    border: 1px solid #d4d3d3;
+    vertical-align: top;
+    margin-left:-5px;
+}
+#pername{
+    width: 378px;
+    padding:0 0 0 12px !important;
+    background: #fff;
+    font-size: 14px;
+    color:#cdcdcd;
+}
+.index-b4-need-left p.dev .star{
+    font-size: 18px;
+    color:#cdcdcd;
+}
+.index-b4-need-left p.dev span.right{
+    width: 140px;
+    height: 34px;
+    text-align: right;
+    display: inline-block;
+    line-height: 34px;
+    font-size: 18px;
+    color:#343844;
+}
+#mobile{
+    width: 378px;
+    padding:0 0 0 12px !important;
+    background: #fff;
+    font-size: 14px;
+    color:#cdcdcd;
+}
+#pcname{
+    width: 378px;
+    padding:0 0 0 12px !important;
+    background: #fff;
+    font-size: 14px;
+    color:#cdcdcd;
+}
+#pversion{
+    width: 410px;
+    padding:0 0 0 12px !important;
+    font-size: 14px;
+    color:#cdcdcd;
+    background: transparent;
+    margin-left:0;
+    border-color: #d4d3d3;
+}
+.select-style{
+    width: 391px;
+    height: 34px;
+    overflow: hidden;
+    display: inline-block;
+    background: url(../../images/edus/selectBg.png) 366px center no-repeat #fff;
+    border-right:1px solid #d4d3d3;
+}
+#pernameTip,#mobileTip,#mobile_verifyTip{
+    font-size: 14px;
+    margin-left: 138px;
+    margin-top: 3px;
+}
+.hqyz{
+    float: left;
+    margin-left: 140px;
+    background: #fd5d1e;
+    width: 145px;
+    height: 32px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+.jym{
+    float: left;
+    margin: 3px 0 0 15px;
+    font-size: 18px;
+    color: #343844;
+}
+#mobile_verify{
+    width: 114px;
+    padding: 0 0 0 12px !important;
+    background: #fff;
+    font-size: 14px;
+    color: #cdcdcd;  
+    margin-top: -1px; 
+}
+
+.index-b4-need-right{
+    width: 590px;
+    height: 330px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+.index-b4-need-right .scale{
+    width: 100%;
+    height: 123px;
+    margin-top: 29px;
+}
+.index-b4-need-right .scale span.left{
+    width: 140px;
+    height: 34px;
+    text-align: right;
+    display: block;
+    line-height: 34px;
+    font-size: 18px;
+    color: #343844; 
+    float: left;   
+}
+.index-b4-need-right .scale .right{
+    width: 411px;
+    height: 119px;
+    float: left;
+    padding-top:4px;
+}
+/*radio美化*/
+.index-b4-need-right .scale .right .ib{
+   width: 200px !important;
+   height: 30px;
+   float: left; 
+   font-size: 16px;
+   line-height: 30px;
+   color: #343844;
+   background: url(../../images/edus/radio-normal.png) left center no-repeat;
+   padding-left: 5px;
+}
+.index-b4-need-right .scale .right .on{
+   background: url(../../images/edus/radio-on.png) left center no-repeat;    
+}
+.index-b4-need-right .scale .right .ib input[type="radio"]{
+    opacity: 0;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+}
+.index-b4-need-right .scale .right p.word{
+    font-size: 14px;
+    color:#343844;
+    margin-top: 13px;
+}
+.index-b4-need-right .need{
+    width: 100%;
+    height: 96px;
+    margin-top: 8px;    
+}
+.index-b4-need-right .need .left{
+    width: 140px;
+    height: 34px;
+    text-align: right;
+    display: block;
+    line-height: 34px;
+    font-size: 18px;
+    color: #343844; 
+    float: left;   
+}
+.index-b4-need-right .need .right{
+    width: 411px;
+    height: 96px;
+    float: left;
+}
+.index-b4-need-right .need .right #pneed{
+    width: 388px !important;
+    height: 94px !important;
+    border: 1px solid #d4d3d3;
+    background: #fff;  
+    resize:none;
+    color:#cdcdcd;
+
+}
+.index-b4-need-right p.dev-btn{
+    width: 100%;
+    height:36px;
+    margin-top:23px;
+}
+.index-b4-need-right p.dev-btn input.submit{
+    width: 170px;
+    margin-left: 115px;
+    height: 36px;
+    background: #fd5d1e;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 36px;
+    color:#fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+.index-b4-need-right p.dev-btn span.login{
+    width: 170px;
+    margin-left: 32px;
+    height: 36px;
+    background: #fd5d1e;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 36px;
+    color:#fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+
+
+.index-b5-tit{
+    width: 100%;
+    height: 55px;
+    background: url(../../images/edus/index-tit5.png) center center no-repeat;
+}
+.index-b5-con{
+    width: 100%;
+    overflow: hidden;
+    margin-top:58px;
+    height: 338px;
+}
+.index-b5-con .dev{
+    width: 100%;
+    height: 268px;
+    overflow: hidden;
+}
+.index-b5-con .dev .item{
+    width: 330px;
+    height: 268px;
+    float: left;
+    position: relative;
+}
+.index-b5-con .dev .img{
+    width: 330px;
+    height: 219px;
+    overflow: hidden;
+}
+.index-b5-con .on-img{
+    width: 330px;
+    height: 219px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+}
+.index-b5-con .on-img span.ico{
+    display: block;
+    width: 54px;
+    height: 54px;
+    background: url(../../images/edus/index-video-pic.png) center center no-repeat;
+    margin: 83px auto 0;
+}
+.index-b5-con .dev p.tit{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 18px;
+    color:#343844;
+    width: 100%;
+    font-weight:bold;
+}
+.index-b5-btn{
+    width: 220px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    margin: 32px auto 0;
+    background: #fd5d1e;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;    
+    display: block !important;
+}
+.index-b6{
+    overflow: hidden;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.index-b6-tit{
+    width: 100%;
+    height: 55px;
+    background: url(../../images/edus/index-tit6.png) center center no-repeat;
+}
+.b6-left{
+    height: 279px;
+    width:555px;
+    float: left;
+    margin-top:15px;
+}
+.b6-left ul,.b6-right ul{
+    padding-top:15px;
+}
+.b6-left li,.b6-right li{
+    width:537px;
+    margin-top:10px;
+    font-size:14px;
+    background: url(../../images/edus/index-b6-ico.png) left center no-repeat;
+    padding-left:18px;
+    height: 19px;
+}
+.b6-left li a,.b6-right li a{
+    color:#666;
+    float: left;
+}
+.b6-left li a:hover,.b6-right li a:hover{
+    color:#ff6600;
+}
+.b6-left-tit,.b6-right-tit{
+    width:548px;
+    height: 55px;
+    padding-left:7px;
+    background: url(../../images/edus/index-b6-tit.png) bottom center no-repeat;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 55px;
+    position: relative;
+}
+.b6-left-tit a.more,.b6-right-tit a.more{
+    display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    color:#f60;
+    font-weight: normal;
+    right: 0;
+    bottom: 10px;
+    width: 72px;
+    height: 20px;
+    line-height: 20px;
+}
+.b6-right{
+    height: 279px;
+    width:555px;
+    float: right;
+    margin-top:15px;
+}
+

@@ -1,0 +1,110 @@
+		<div class="pro-banner">
+			<div class="pro-banner1"></div>
+			<div class="pro-banner2">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-btn1">
+					点击预约演示
+				</div></a>
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-btn2">
+					点击在线咨询
+				</div></a>
+			<div class="pro-nav">
+				<div {if $catid == 114}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem1"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[114][url]}" target="_blank">多校区管理</a>
+					</p>
+				</div>
+				<div {if $catid == 115}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem2"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[115][url]}" target="_blank">市场营销</a>
+					</p>					
+				</div>
+				<div {if $catid == 119}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem3"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[119][url]}" target="_blank">教务管理</a>
+					</p>					
+				</div>
+				<div {if $catid == 116}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem4"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[116][url]}" target="_blank">学员管理</a>
+					</p>					
+				</div>
+				<div {if $catid == 117}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem5"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[117][url]}" target="_blank">一对一</a>
+					</p>					
+				</div>
+				<div {if $catid == 118}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem6"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[118][url]}" target="_blank">一对多</a>
+					</p>					
+				</div>
+				<div {if $catid == 120}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem7"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[120][url]}" target="_blank">考勤管理</a>
+					</p>					
+				</div>
+				<div {if $catid == 121}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem8"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[121][url]}" target="_blank">财务管理</a>
+					</p>					
+				</div>
+				<div {if $catid == 122}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem9"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[122][url]}" target="_blank">决策分析</a>
+					</p>					
+				</div>
+				<div {if $catid == 123}class="pro-nav-item-cur"{else}class="pro-nav-item"{/if}>
+					<p class="pro-navItem10"></p>
+					<p class="pro-navTit">
+						<a href="{$CATEGORYS[123][url]}" target="_blank">集成拓展</a>
+					</p>					
+				</div>
+			</div>				
+			</div>
+		</div>
+		<div class="pro-topCase">
+			<span class="pro-topCase-tit">最新签约动态：</span>
+<!--滚动案例-->			
+			<div id="intrends">
+			<div id="trends">
+				<div id="trend1">
+					{pc:content action="lists" catid="140" order="listorder DESC" num="8" moreinfo="1"}
+					{loop $data $r}
+					<a href="{$r[url]}" class="adv1_movingLink" target="_blank">  {$r[online_time]}     {str_cut($r[title],65,'...')}</a>
+					{/loop}
+					{/pc}
+				</div>
+				<div id="trend2"></div>
+			</div>
+			<script type="text/javascript">
+			function scrollLeftPanel(){
+			var speed = 30;
+			var demo = document.getElementById("trends");
+			var demo1 = document.getElementById("trend1");
+			var demo2 = document.getElementById("trend2");
+			demo2.innerHTML = demo1.innerHTML;
+			function marquee(){
+				if(demo2.offsetWidth-demo.scrollLeft<=0) 
+					demo.scrollLeft-=demo.offsetWidth; 
+				else 
+					demo.scrollLeft++; 
+				}
+			var MyMar=setInterval(marquee,speed); 
+			demo.onmouseover=function() {clearInterval(MyMar);} 
+			demo.onmouseout=function() {MyMar=setInterval(marquee,speed);} 
+			}
+			</script>
+			<script type="text/javascript">scrollLeftPanel();</script> 
+			</div>
+		</div>
+<!---->		
+		</div>

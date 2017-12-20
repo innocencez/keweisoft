@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+        <meta charset="utf-8" />
+        <meta name="keywords" content="{$SEO['keyword']}" />
+        <meta name="description" content="{$SEO['description']}" />
+        <meta name="author" content="keweisoft.com" />
+        <link rel="stylesheet" type="text/css" href="{CSS_PATH}crm/abcontact.css" />
+        <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+        <script type="text/javascript" src="{JS_PATH}crm/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="{JS_PATH}crm/product.js"></script>        
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=HUDKY0GLSrVUAaIMxpRiYn3i"></script>
+        <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+    </head> 
+    <body>
+    {template "content","header"}
+    <div class="aboutus-banner">
+        <div class="aboutus-banner1"></div>
+        <div class="aboutus-banner2"></div>
+    </div>
+    {template "content","about_sub"}
+
+        <div class="banner-top"></div>
+        <div class="banner-bottom"></div>
+        <div class="top-link m-content">
+            <a href="{siteurl($siteid)}">首页</a> > <a href="{CATEGORYS[$catid][url]}">联系我们</a>
+        </div>
+        <div class="contact-con">
+            <div class="m-content">
+                <div class="contact-tit">
+                    <div class="contact-time"><span style="font-size:18px;color:#333;">工作时间：</span><span style="font-size:14px;">周一至周五（8:30-18:00）</span></div>
+                    <div class="contact-tel"><span style="font-size:18px;color:#333;">电话：</span><span style="font-size:14px;">010-51651266&nbsp;&nbsp;&nbsp;&nbsp;400-8101006</span><span style="font-size:18px;color:#333; margin-left:63px;">邮编：</span><span style="font-size:14px;">100080</span></div>
+                    <div class="contact-add"><span style="font-size:18px;color:#333;">地址：</span><span style="font-size:14px;">北京市海淀区海淀北二街8号 中关村SOHO 910室   乘坐4号线中关村站下车，向西500米即到 </span></div>
+                    <div class="contact-bus"><span style="font-size:18px;color:#333;">乘车路线：</span><span style="font-size:14px;">公交26路、47路、302路、384路、608路、641路、718路、740内、740外、751路、913路、944支、982路、983支、特9内、特9外、运通106、运通109、运通110、运通113等中关村西站下车西行至海淀西街，向南走100米即到 </span></div>
+                </div>
+
+                <div class="about_con_all"> 
+                    <div id="allmap" style="overflow:hidden;zoom:1;position:relative;"> 
+                        <div id="map" style="height:100%;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;"></div>
+                        <div id="panelWrap" style="width:0px;position:absolute;top:0px;right:0px;height:100%;overflow:auto;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;">
+                        <div style="width:20px;height:200px;margin:-100px 0 0 -10px;color:#999;position:absolute;opacity:0.5;top:50%;left:50%;">此处用于展示结果面板</div>
+                        <div id="panel" style="position:absolute;"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>  
+        {template "content","footer"}   
+</html>
+<script src="{JS_PATH}crm/baiduMap.js" type="text/javascript"></script>        
+    </body> 

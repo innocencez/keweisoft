@@ -1,0 +1,112 @@
+/*表单验证*/
+.onShow,.onFocus,.onError,.onCorrect,.onLoad,.onTime{display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline; vertical-align:middle;background:url(../../images/msg_bg.png) no-repeat;	color:#444;line-height:18px;padding:2px 10px 2px 23px; margin-left:90px;margin-top:4px}
+.onShow{background-position:3px -147px;border-color:#40B3FF;color:#959595}
+.onFocus{background-position:3px -147px;border-color:#40B3FF;}
+.onError{background-position:3px -47px;border-color:#40B3FF; color:red}
+.onCorrect{background-position:3px -247px;border-color:#40B3FF;}
+.onLamp{background-position:3px -200px}
+.onTime{background-position:3px -1356px}
+/*注册页*/
+.f-top{
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+.f-top-link{
+	width: 1040px;
+	height: 100px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.r-mid{
+	width:664px;
+	margin: 15px auto;
+}
+.r-mid-tit{
+	font-size: 30px;
+	color:#333;
+	line-height: 48px;
+	border-bottom:1px dashed #898a89;
+}
+.input{
+	width: 403px;
+	height: 38px;
+	margin: 28px auto 0px;
+}
+.input label,.submit label{
+	width:80px;
+	text-align: right;
+	display: inline-block;
+	font-size: 16px;
+	color:#333;
+}
+.form{
+	width: 380px;
+	height: 38px;
+	display: inline;	
+}
+#mobile_div{
+	width: 300px;
+	display: inline;
+}
+#mobile{
+	width: 160px;
+}
+.hqyz{
+	width: 125px;
+	display: inline;
+	margin-left: 10px;
+	height: 38px;
+	background-color: #f7a245;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+
+}
+.input-text{
+	width: 300px;
+	height: 38px;
+	border: none;
+	background: #eaeaea;
+	margin-left: 8px;
+	padding-left:10px;
+}
+.submit{
+	width: 403px;
+	height: 44px;
+	margin: 35px auto 0px;	
+}
+#submit{
+	width: 310px;
+	height: 44px;
+	background: #f7a245;
+	text-align: center;
+	line-height: 44px;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.r-login{
+	margin-top: 10px;
+}
+.r-login a{
+	font-size: 14px;
+	color:#e58c2a;
+	display: inline-block;
+	margin-left: 325px;
+}
+.input-focus{
+	width: 300px;
+	height: 38px;
+	border: none;
+	background: #d9d6d6;
+	margin-left: 8px;
+	padding-left:10px;
+}
+#code_img{
+	cursor:pointer;
+}
+/*登录页*/

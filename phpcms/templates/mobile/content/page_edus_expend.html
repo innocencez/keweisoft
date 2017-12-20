@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/pro-edus.css" rel="stylesheet"/>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->	
+	    <script type="text/javascript">
+	      $(function(){
+	        var _x = $(window).width();
+	        var _y = (_x * 264) / 640;
+	        $('.auto-banner').css({
+	          width : _x,
+	          height : _y,
+	          margin : '10px auto 0',
+	          textAlign : 'center',
+	          position : 'relative',
+	        }).find('img').attr({
+	          width : _x,
+	          height : _y,
+	        });
+	      })
+	    </script>		
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		{template "content","head_sub"}
+		<div class="expend-banner auto-banner">
+			<img src="{IMG_PATH}m/edu-expend-banner.jpg" alt="集成拓展" title="集成拓展" />
+		</div>				
+		<div class="expend-sub-pic"></div>
+		<div class="expend-sub-item">
+			<p class="esi-tit1">多维业务界面整合</p>
+			<p class="esi-con">对外可集成其他业务系统，应用系统集成功能使教务系统与其他系统各个数据可以相互关联，相互传递，减少人工干预，从而减少了出错率，提高了工作效率。</p>
+		</div>
+		<div class="expend-sub-item" style="margin-top:5px;">
+			<p class="esi-tit2">关联系统整合</p>
+			<p class="esi-con">       可以实现单点登录功能可以避免多次登陆多个系统，教务产品作为一个入口连接到到别的系统中去，减少人员操作的时间。</p>
+		</div>
+		<div class="expend-sub-item" style="margin-top:5px;">
+			<p class="esi-tit3">整合消息流程</p>
+			<p class="esi-con">文档接口，实现了不同系统里或者外部的与教务有关的文件，集成到教务产品系统中去，提高了消息，流程，文档集中度和处理速度和使用价值。</p>
+		</div>
+		<div class="expend-sub-item" style="margin-top:5px;">
+			<p class="esi-tit4">标准插件技术</p>
+			<p class="esi-con">对外可集成其他业务系统，应用系统集成功能使教务系统与其他系统各个数据可以相互关联，相互传递，减少人工干预，从而减少了出错率，提高了工作效率。</p>
+		</div>						
+		<div class="expend-t-pic"></div>													
+		<div class="expend-t-con">
+			<p class="etc-pic1"></p>
+			<p class="etc-con">教务产品的集成功能提供了与企业官网对接和其他一些网站的对接，从官网和其他网站关联数据，提供移动端的实现，也提供与业务系统对接，例如与NC，U8，SAP，ORCLE对接，实现了数据的自由流转，结束了以前的业务操作系统与财务系统和人事系统等众多系统对接问题，真正使企业信息化达到了无缝对接。</p>
+		</div>
+		<div class="expend-t-con">
+			<p class="etc-pic2"></p>
+			<p class="etc-con">不同业务的教育培训行业我们提供客户化开发平台，可以进行定制化开发，满足教育培训行业的管理需求，拓展了与微信和微博等社交平台的关联，紧跟社交潮流，以提供多种的多方式的入口，系统还预留了与其他平台的接口。</p>
+		</div>	
+		<p class="expend-f-tit">教务系统拓展性如图，通过交换平台和接口实<br />现教务核心应用和其他系统的对接。</p>	
+		<p class="expend-f-pic"></p>
+		<div class="expend-f-con">
+			<p class="expend-f-item">外部接口封装为WebService服务，易于集成</p>
+			<p class="expend-f-item">接口数据标准采用XML格式描述</p>
+			<p class="expend-f-item">承载在HTTP/HTTPS协议上</p>
+			<p class="expend-f-item">内外部接口标准统一</p>
+		</div>
+		<div class="expend-b-con">可为EDUS教务系统提供了一整套教育行业信息化解决方案，信息化的无缝对接为教育培训机构的带来数据分析的全面，完整，准确，及时的好处，使教育培训机构信息化管理提高到了一个新的阶段，给教育培训机构带来了管理的优化和提升，使教育培训机构更加顺畅的执行公司的战略，并且通过无缝的信息化平台执行战略，获取数据以检验公司战略执行，进而对公司战略进行调整。</div>
+		<div class="p-btn">立即预约演示</div>
+		{template "content","bottom"}
+	</body>
+</html>

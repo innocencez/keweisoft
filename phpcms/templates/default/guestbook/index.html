@@ -1,0 +1,34 @@
+{template "content","header"}
+<link href="{CSS_PATH}guestbook.css" rel="stylesheet" type="text/css" />
+<!--main-->
+<div class="main">
+  <!--left_bar-->
+  <div class="col-left">
+    <div class="crumbs"><a href="{siteurl($siteid)}">网站首页</a><span> &gt; </span><a href="{APP_PATH}index.php?m={ROUTE_M}&siteid={$siteid}">留言板</a></div>
+    <div class="box boxsbg cboxs">
+      <div class="tag_a"> {pc:guestbook action="lists" siteid="$siteid"  order="desc" num="6" return="dat"}
+        {loop $dat $v}
+        <table class="ltable" width="95%" border="0"  align="center">
+          <tr>
+          <td width="25%">用户：{$v[username]}</td>
+          <td>时间：{date('Y-m-d H:i:s',$v[addtime])} </td>
+          </tr>
+          <tr>
+            <td colspan="4"><span><b>留言内容：</b>&nbsp;{$v[introduce]}</span></td>
+           </tr>
+          <tr>
+            <td colspan="4"><span class="huifu"><b>管理员回复：</b>&nbsp;{$v[reply]}</span></td>
+          </tr>
+        </table>
+        {/loop}
+        {/pc} </div>
+      
+      <!--pages--> 
+    </div>
+  </div>
+    <div class="bk10"></div>
+    {if $setting[$siteid]['is_post']=='1'}
+    <div class="txt_c"> <a href="{APP_PATH}index.php?m=guestbook&c=index&a=register&siteid={$siteid}"  target="_blank">我要留言</a> </div>
+    {/if} </div>
+</div>
+{template "content","footer"} 

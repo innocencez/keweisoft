@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/news.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">
+		{template "content","head_top"}
+		{template "content","head_sub"}
+		<p class="news-t-link">
+			<a href="{siteurl($siteid)}" target="_blank">首页</a><a> > <a href="{$CATEGORYS[202][url]}" target="_blank">EDUS解决方案</a><a> ></a><a href="{$CATEGORYS[$catid][url]}" target="_blank">{$CATEGORYS[$catid][catname]}</a>
+		</p>
+		{pc:content action="lists" num="1" catid="$catid" order="listorder DESC" moreinfo="1"}
+		{loop $data $r}		
+		<h1 class="news-tit">{$r[title]}</h1>
+		<p class="news-tit-sub"><span>浏览量 <span id="hits"><script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$r[id]}&modelid={$modelid}"></script></span></span><span style="margin-left:40px;">更新时间 {date('Y-m-d',$r[inputtime])}</span></p>
+		<div class="news-content">
+			<p><span style="font-size:14px;font-weight:bold;color:#f00;">行业介绍：</span></p>
+			<p>{$r[kstatus]}</p>
+			<p><span style="font-size:14px;font-weight:bold;color:#f00;">管理难点：</span></p>
+			<p>{$r[diffcult]}</p>
+			<p><span style="font-size:14px;font-weight:bold;color:#f00;">可为解决方案：</span></p>
+			<p>{$r[content]}</p>											
+		</div>
+		{/loop}
+		{/pc}
+		<div class="news-yanshi">
+			<a href="" target="_blank"><div class="ny-btn">立即预约演示</div></a>
+		</div>
+		{template "content","bottom_top"}
+		{template "content","bottom"}		
+	</body>
+</html>

@@ -1,0 +1,1 @@
+jQuery(".lx-nav .lx-navBD").slide({type:"menu",titCell:".nav-item",targetCell:".nav-bd",delayTime:0,triggerTime:0,defaultPlay:!1,returnDefault:!0});

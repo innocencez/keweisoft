@@ -1,0 +1,140 @@
+/*初始化*/
+html ,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+
+/*服务块*/
+.pro6{
+	background:#f3f3f3 url(../../images/kwcrm/pro6_bg.png) repeat-x;;
+	width:100%;
+	height:718px;
+}
+.pro6_mid{
+	margin:0 auto;
+	width:1000px;
+	height:100%;
+}
+.pro6_top{
+	width:960px;
+	height:530px;
+	background:url(../../images/kwcrm/pro_topbg.png) repeat;
+	border:#0b9be1 solid 3px;
+	margin:16px auto 0;
+}
+.pro6_toptit1{
+	width:100%;
+	text-align:center;
+	height:66px;
+	color:#0b9be2;
+	font-size:28px;
+	font-weight:bold;
+	background:url(../../images/kwcrm/pro5_titbg.png) no-repeat scroll center 100%;
+	margin-top:20px;
+}
+.pro6_toptit2{
+	width:100%;
+	text-align:center;
+	color:#9a9a9a;
+	font-size:18px;
+	line-height:28px;
+	margin-top:5px;
+	letter-spacing:1px;
+}
+.pro6_topcons{
+	width: 900px;
+	margin: 20px 30px;
+	position: relative;
+	display: inline-block;
+	z-index:1;
+}
+.pro6_topcon{
+	float: left;
+	background: #e0eeff;
+	width: 430px;
+	height: 158px;
+	margin: 10px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+}
+.pro6_topcon:hover {
+	background: #c7def9;
+}
+.pro6_topimg{
+	float: left;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.pro6_toptxt{
+	float: left;
+	width: 200px;
+	height: 100%;
+	line-height: 1.5;
+	margin-left: 20px;
+}
+.pro6_txtTit{
+	width: 100%;
+	text-align: left;
+	color: #5d5d5d;
+	font-size: 18px;
+	float: left;
+	margin-top: 30px;
+}
+.pro6_txtcon{
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #5d5d5d;
+	font-size: 14px;
+}
+.pro6_topcenter{
+	position: absolute;
+	width: 161px;
+	height: 161px;
+	background: url(../../images/kwcrm/server_center.png) no-repeat;
+	top: 100px;
+	left: 368px;
+}
+.pro6_bottom{
+	width:960px;
+	height:142px;
+	margin:20px auto 0;
+	overflow:hidden;
+}
+.pro6_bottomImg{
+	float:left;
+	margin-left:10px;
+	display:inline;
+	width:225px;
+	height:142px;
+}
+.pro6_bottomTxt{
+	float:left;
+	width:670px;
+	height:100%;
+	margin-left:40px;
+	display:inline;
+	line-height:2;
+}
+.pro6_bottomTxtext{
+	width: 100%;
+	text-align: left;
+	color: #606060;
+	font-size: 36px;
+	float: left;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+.pro6_bottomTxtcon{
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #98989a;
+	font-size: 18px;
+}

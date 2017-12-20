@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/slick/slick.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/index.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/touchSlide.js"></script>
+
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->			
+	</head>
+	<body>		
+		<div id="page-body">
+		<div class="content">
+		{template "content","head_top"}	
+<!-- 		<div class="slideBox" id="slideBox">
+			<div class="bd">
+			<ul>
+				<li><a href="{$CATEGORYS[155][url]}" target="_blank"><img src="{IMG_PATH}m/in-banner1.jpg" width="360" alt="" title="" /></a></li>
+				<li><a href="{$CATEGORYS[230][url]}" target="_blank"><img src="{IMG_PATH}m/crm_promotionbanner.png" width="360" alt="" title="" /></a></li>
+				<li><a href="{$CATEGORYS[231][url]}" target="_blank"><img src="{IMG_PATH}m/edus_Administrationbanner.png" width="360" alt="" title="" /></a></li>
+			</ul>
+			</div>
+			<div class="hd">
+				<ul></ul>
+			</div>
+		</div> -->
+		<div class="slider autoplay">
+			<div><div class="image"><a href="{$CATEGORYS[155][url]}" target="_blank"><img src="{IMG_PATH}m/in-banner1.jpg" width="360" alt="" title="" /></a></div></div>
+			<div><div class="image"><a href="{$CATEGORYS[230][url]}" target="_blank"><img src="{IMG_PATH}m/crm_promotionbanner.png" width="360" alt="" title="" /></a></div></div>
+			<div><div class="image"><a href="{$CATEGORYS[231][url]}" target="_blank"><img src="{IMG_PATH}m/edus_Administrationbanner.png" width="360" alt="" title="" /></a></div></div>	
+		</div>
+		<div class="in-edu-head">可为产品简介</div>
+		<div class="in-edu-con">
+			<div class="in-edu-item1 pro-edu"><a href="{$CATEGORYS[155][url]}" target="_blank" class="iei-t1">教育培训ERP</a></div>
+			<div class="in-edu-item2 pro-edu"><a href="{$CATEGORYS[260][url]}" target="_blank" class="iei-t2">教务APP</a></div>
+			<div class="in-edu-item1 pro-edu"><a href="{$CATEGORYS[144][url]}" target="_blank" class="iei-t3">CRM移动版</a></div>
+			<div class="clearfix"></div>
+			<div class="in-edu-item1 pro-edu"><a href="{$CATEGORYS[263][url]}" target="_blank" class="iei-t4">留学ERP</a></div>
+			<div class="in-edu-item2 pro-edu"><a href="{$CATEGORYS[262][url]}" target="_blank" class="iei-t5">选课系统</a></div>
+			<div class="in-edu-item1 pro-edu"><a href="{$CATEGORYS[261][url]}" target="_blank" class="iei-t6">家校通</a></div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="in-solution-head" style="margin-top:20px;">行业解决方案</div>
+		<div class="s-edu-con s-conb">
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec1-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[203][url]}" target="_blank">中小学辅导机构解决方案</a>
+				</div>
+			</div>
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec2-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[204][url]}" target="_blank">外语辅导机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec3-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[205][url]}" target="_blank">少儿辅导机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec4-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[206][url]}" target="_blank">职业资格培训机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec5-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[210][url]}" target="_blank">艺术培训机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec6-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[207][url]}" target="_blank">留学培训机构解决方案</a>
+				</div>
+			</div>															
+		</div>
+		<div class="in-case-head">客户成功案例</div>
+		<div class="ich-con">
+			<div class="ich-con-item">
+				<div class="ici-item">
+					<a href="http://m.keweisoft.com/case-edus/show_10_1.html" target="_blank"><img src="{IMG_PATH}m/xnh.jpg" width="142" height="50" alt="" title="" /></a>
+				</div>
+				<div class="ici-item">
+					<a href="http://m.keweisoft.com/case-edus/show_19_1.html" target="_blank"><img src="{IMG_PATH}m/hnyg.jpg" width="142" height="50" alt="" title="" /></a>
+				</div>				
+			</div>
+			<div class="ich-con-item">
+				<div class="ici-item">
+					<a href="http://m.keweisoft.com/case-edus/show_11_1.html" target="_blank"><img src="{IMG_PATH}m/xhd.jpg" width="142" height="50" alt="" title="" /></a>
+				</div>
+				<div class="ici-item">
+					<a href="http://m.keweisoft.com/case-edus/show_9_1.html" target="_blank"><img src="{IMG_PATH}m/jc.jpg" width="142" height="50" alt="" title="" /></a>
+				</div>				
+			</div>
+			<div class="ich-con-item">
+				<div class="ici-item">
+					<a href="http://m.keweisoft.com/case-edus/show_17_1.html" target="_blank"><img src="{IMG_PATH}m/blxk.jpg" width="142" height="50" alt="" title="" /></a>
+				</div>
+				<div class="ici-item">
+					<a href="http://m.keweisoft.com/case-edus/show_21_1.html" target="_blank"><img src="{IMG_PATH}m/rh.jpg" width="142" height="50" alt="" title="" /></a>
+				</div>				
+			</div>	
+			<div class="iec-btn"><a href="{$CATEGORYS[228][url]}" target="_blank">更多案例</a></div>	
+		</div>
+		<div class="in-news-head" style="margin-top:20px;position:relative">
+			行业资讯
+			<span class="inh-last">最新</span>
+		</div>	
+		<div class="inh-blank"></div>	
+		{pc:content action="position" posid="26" num="4" order="listorder DESC"}
+		{loop $data $r}
+		<div class="inh-item">
+			<a href="{$r[url]}" target="_blank">{str_cut($r[title],45,'...')}</a>
+		</div>
+		<div class="inh-line"></div>
+		{/loop}
+		{/pc}
+{template "content","bottom"}
+<script type="text/javascript" src="{CSS_PATH}m/slick/slick.js"></script>
+<script type="text/javascript">
+    $('.autoplay').slick({
+        autoplay : true,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slide: 'div',
+        cssEase: 'linear'
+    });
+</script>	 
+	</body>
+</html>

@@ -1,0 +1,851 @@
+.abroad-banner{
+	width: 100%;
+	height: 560px;
+	background: url(../../images/edus/abroad-banner.jpg) center center no-repeat;
+}
+.abroad-block1{
+	overflow: hidden;
+	margin-top: 80px;
+}
+.abroad-b1-tit{
+	width: 100%;
+	height: 58px;
+	background: url(../../images/edus/abroad-tit1.png) center center no-repeat;
+}
+.abroad-b1-subtit{
+	font-size: 20px;
+	color: #555;
+	line-height: 38px;
+	text-align: center;
+	margin-top: 10px;
+}
+.abroad-b1-con{
+	width: 100%;
+	height: 442px;
+	background: url(../../images/edus/abroad-block1-bg.png) 382px center no-repeat;
+	margin-top: 35px;
+	position: relative;
+}
+.abroad-b1-right{
+	width: 438px;
+	height: 325px;
+	background-color: #f2f8ff;
+	position: absolute;
+	right: 0;
+	bottom: 12px;
+}
+.abroad-b1-right p.content{
+	font-size: 14px;
+	color: #555;
+	line-height: 33px;
+	padding:0 20px;
+	margin-top: 23px;
+}
+.abroad-b1-right p.content a.btn1{
+	width: 138px;
+	height: 36px;
+	background-color: #fdba29;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 12px;
+	display: inline-block;
+	font-size: 16px;
+	color: #555;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+.abroad-b1-right p.content a.btn2{
+	width: 138px;
+	height: 36px;
+	background-color: #7ebdfb;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 12px;
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 35px;
+	margin-left: 73px;
+}
+.ab1-btn:hover{
+	box-shadow: 1px 2px 2px rgba(0,0,0,.3);
+} 
+.abroad-b1-left1{
+	width: 332px;
+	height: 69px;
+	position: absolute;
+	left:64px;
+	top:100px;
+}
+.abl1-top{
+	width: 332px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	background-color: #fdba29;
+	font-size: 16px;
+	color: #555;
+}
+.abl1-sub{
+	width: 332px;
+	height: 41px;
+	background-color: #f3f3f5;
+	line-height: 41px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,.16);
+}
+.abl1-sub-text{
+	padding: 0 10px;
+}
+.abl1-sub-text span,.abl2-sub-text span,.abl3-sub-text span{
+	font-size: 14px;
+	color: #666;
+}
+.abroad-b1-left2{
+	width: 348px;
+	height: 123px;
+	position: absolute;
+	left:0px;
+	top:193px;
+}
+.abl2-top{
+	width: 348px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	background-color: #fdba29;
+	font-size: 16px;
+	color: #555;
+}
+.abl2-sub{
+	width: 348px;
+	height: 95px;
+	background-color: #f3f3f5;
+	box-shadow: 0px 2px 2px rgba(0,0,0,.16);
+}
+.abl2-sub-text{
+	padding: 15px 10px 0;
+}
+.abroad-b1-left3{
+	width: 332px;
+	height: 69px;
+	position: absolute;
+	left:57px;
+	bottom:29px;
+}
+.abl3-top{
+	width: 332px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	background-color: #fdba29;
+	font-size: 16px;
+	color: #555;
+}
+.abl3-sub{
+	width: 332px;
+	height: 41px;
+	line-height: 41px;
+	background-color: #f3f3f5;
+	box-shadow: 0px 2px 2px rgba(0,0,0,.16);
+}
+.abl3-sub-text{
+	padding: 0 10px;
+}
+.abroad-block2{
+	overflow: hidden;
+	margin-top: 90px;
+}
+.abroad-b2-tit{
+	width: 100%;
+	height: 58px;
+	background: url(../../images/edus/abroad-tit2.png) center center no-repeat;
+}
+.abroad-b2-top{
+	width: 100%;
+	height: 296px;
+	background-color: #f6f7f8;
+	margin-top: 30px;
+}
+.ab2-left{
+	width: 338px;
+	float: left;
+	margin-left: 170px;
+}
+.ab2-left p.con-text{
+	text-align: right;
+	font-size: 16px;
+	color: #555;
+}
+.ab2-center{
+	width: 2px;
+	height: 283px;
+	float: left;
+	margin-left: 82px;
+	margin-top: 24px;
+	background-color: #fdba29;
+}
+.ab2-right{
+	width: 370px;
+	float: left;
+	margin-left: 81px;
+}
+.ab2-right p.con-text{
+	font-size: 16px;
+	color: #555;
+}
+.abroad-b2-solution{
+	width: 100%;
+	height: 62px;
+	padding-top:118px;
+	background: url(../../images/edus/abroad-b2-bg.jpg) center center no-repeat;
+}
+.abroad-b2-solution-btn{
+	width: 224px;
+	height: 36px;
+	margin: 0 auto;
+	border-radius: 15px;
+	border: 2px solid #fff;
+	text-align: center;
+	line-height:36px;
+	font-size: 18px;
+	color: #fff;
+}
+.abroad-b2-solution-btn:hover{
+	width: 228px;
+	height: 40px;	
+	border: none;
+	line-height: 40px;
+	background-color: #5ca8f4;
+}
+.abroad-block3{
+	margin-top: 78px;
+}
+.abroad-b3-tit{
+	width: 100%;
+	height: 58px;
+	background: url(../../images/edus/abroad-tit3.png) center center no-repeat;
+}
+.abroad-b3-con{
+	width: 100%;
+	height: 340px;
+	margin-top: 107px;
+}
+.abroad-b3-con .each{
+	width: 286px;
+	height: 340px;
+	float: left;
+	background-color: #f6f7f8;
+	margin-left: 12px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+}
+.abroad-b3-con .each .ico1{
+	width: 110px;
+	height: 110px;
+	background: url(../../images/edus/abroad-b3-ico1.png) center center no-repeat;
+	margin: -55px auto 0;
+}
+.abroad-b3-con .each p.tit{
+	font-size: 24px;
+	color: #1b1b21;
+	margin-top: 30px;
+	text-align: center;
+}
+.abroad-b3-con .each p.con{
+	font-size: 14px;
+	color: #666;
+	line-height: 34px;
+	padding:0 16px;
+	margin-top: 23px;
+}
+.abroad-b3-con .each .ico2{
+	width: 110px;
+	height: 110px;
+	background: url(../../images/edus/abroad-b3-ico2.png) center center no-repeat;
+	margin: -55px auto 0;
+}
+.abroad-b3-con .each .ico3{
+	width: 110px;
+	height: 110px;
+	background: url(../../images/edus/abroad-b3-ico3.png) center center no-repeat;
+	margin: -55px auto 0;
+}
+.abroad-b3-con .each .ico4{
+	width: 110px;
+	height: 110px;
+	background: url(../../images/edus/abroad-b3-ico4.png) center center no-repeat;
+	margin: -55px auto 0;
+}
+.abroad-block4{
+	overflow: hidden;
+	margin-top: 78px;
+}
+.abroad-b4-tit{
+	width: 100%;
+	height: 58px;
+	background: url(../../images/edus/abroad-tit4.png) center center no-repeat;
+}
+.abroad-b4-thumb{
+	margin-top: 60px;
+}
+.abroad-b4-thumb .item1{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico1.png) center top no-repeat;
+}
+.abroad-b4-thumb  p.text{
+	font-size: 18px;
+	color: #1b1b21;
+	text-align: center;
+	line-height: 18px;
+	margin-top: 122px;
+	font-weight: bold;
+}
+.abroad-b4-thumb .item2{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico2.png) center top no-repeat;
+	margin-left: 150px;
+}
+.abroad-b4-thumb .item3{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico3.png) center top no-repeat;
+	margin-left: 150px;
+}
+.abroad-b4-thumb .item4{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico4.png) center top no-repeat;
+	margin-left: 150px;
+}
+.abroad-b4-thumb .item5{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico5.png) center top no-repeat;
+	margin-left: 150px;
+}
+.abroad-b4-thumb .item6{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico6.png) center top no-repeat;
+	margin-top: 60px;
+}
+.abroad-b4-thumb .item7{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico7.png) center top no-repeat;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+.abroad-b4-thumb .item8{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico8.png) center top no-repeat;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+.abroad-b4-thumb .item9{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico9.png) center top no-repeat;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+.abroad-b4-thumb .item10{
+	width: 116px;
+	height: 140px;
+	float: left;
+	background: url(../../images/edus/abroad-b4-ico10.png) center top no-repeat;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+.abroad-b4-gray{
+	width: 100%;
+	height: 480px;
+	background-color: #f7f8fa;
+}
+.abroad-b4-pro1{
+	width: 1180px;
+	height: 480px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic1.png) 630px 78px no-repeat;
+}
+.abroad-b4-gray-text{
+	width: 502px;
+	float: left;
+}
+.abroad-b4-gray-text p.tit{
+	font-size: 30px;
+	color: #1b1b21;
+	line-height: 30px;
+	margin-top: 128px;
+}
+.abroad-b4-gray-text p.subtit{
+	font-size: 18px;
+	color: #1b1b21;
+	margin-top: 24px;
+	line-height: 18px;
+}
+.abroad-b4-gray-text p.content{
+	font-size: 14px;
+	color: #666;
+	line-height: 34px;
+	margin-top: 20px;
+}
+.abroad-b4-white{
+	width: 100%;
+	height: 475px;
+}
+.abroad-b4-pro2{
+	width: 1180px;
+	height: 475px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic2.png) 0px 60px no-repeat;
+}
+.abroad-b4-white-text{
+	width: 496px;
+	float: left;
+	margin-left: 682px;
+}
+.abroad-b4-white-text p.tit{
+	font-size: 30px;
+	color: #1b1b21;
+	line-height: 30px;
+	margin-top: 136px;
+}
+.abroad-b4-white-text p.subtit{
+	font-size: 18px;
+	color: #1b1b21;
+	margin-top: 24px;
+	line-height: 18px;
+}
+.abroad-b4-white-text p.content{
+	font-size: 14px;
+	color: #666;
+	line-height: 34px;
+	margin-top: 20px;
+}
+.abroad-b4-pro3{
+	width: 1180px;
+	height: 480px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic3.png) 624px 96px no-repeat;
+}
+.abroad-b4-pro4{
+	width: 1180px;
+	height: 475px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic4.png) 0px 63px no-repeat;
+}
+.abroad-b4-pro5{
+	width: 1180px;
+	height: 480px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic5.png) 626px 92px no-repeat;
+}
+.abroad-b4-pro6{
+	width: 1180px;
+	height: 475px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic6.png) 0px 51px no-repeat;
+}
+.abroad-b4-pro7{
+	width: 1180px;
+	height: 480px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic7.png) 635px 92px no-repeat;
+}
+.abroad-b4-pro8{
+	width: 1180px;
+	height: 475px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic8.png) 0px 74px no-repeat;
+}
+.abroad-b4-pro9{
+	width: 1180px;
+	height: 480px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic9.png) 624px 92px no-repeat;
+}
+.abroad-b4-pro10{
+	width: 1180px;
+	height: 475px;
+	margin: 0 auto;
+	background: url(../../images/edus/abroad-b4-pic10.png) 0px 76px no-repeat;
+}
+.abroad-block5{
+	overflow: hidden;
+	margin-top: 80px;
+}
+.abroad-b5-tit{
+	width: 100%;
+	height: 58px;
+	background: url(../../images/edus/abroad-tit5.png) center center no-repeat;
+}
+.abroad-b5-con{
+	margin-top: 60px;
+}
+.abroad-b5-con .item1{
+	width: 355px;
+	height: 472px;
+	float: left;
+	margin-left: 1px;
+	background: url(../../images/edus/abroad-b5-pic1.png) center top no-repeat;
+}
+.abroad-b5-con .item .tit{
+	font-size: 30px;
+	color: #1b1b21;
+	margin-top: 377px;
+	text-align: center;
+	line-height: 30px;
+}
+.abroad-b5-con .item .con{
+	font-size: 14px;
+	line-height: 26px;
+	color: #666;
+	text-align: center;
+	margin-top: 9px;
+}
+.abroad-b5-con .item2{
+	width: 355px;
+	height: 472px;
+	float: left;
+	margin-left: 57px;
+	background: url(../../images/edus/abroad-b5-pic2.png) center top no-repeat;
+}
+.abroad-b5-con .item3{
+	width: 355px;
+	height: 472px;
+	float: left;
+	margin-left: 57px;
+	background: url(../../images/edus/abroad-b5-pic3.png) center top no-repeat;
+}
+.abroad-b5-con .item4{
+	width: 355px;
+	height: 472px;
+	float: left;
+	margin-left: 1px;
+	margin-top: 31px;
+	background: url(../../images/edus/abroad-b5-pic4.png) center top no-repeat;
+}
+.abroad-b5-con .item5{
+	width: 355px;
+	height: 472px;
+	float: left;
+	margin-left: 57px;
+	margin-top: 31px;
+	background: url(../../images/edus/abroad-b5-pic5.png) center top no-repeat;
+}
+.abroad-b5-con .item6{
+	width: 355px;
+	height: 472px;
+	float: left;
+	margin-left: 57px;
+	margin-top: 31px;
+	background: url(../../images/edus/abroad-b5-pic6.png) center top no-repeat;
+}
+.abroad-block6{
+	width: 100%;
+	height: 640px;
+	background: url(../../images/edus/abroad-b6-bg.jpg) center center no-repeat;
+	margin-top: 75px;
+	overflow: hidden;
+}
+.abroad-b6-tit{
+	width: 100%;
+	height: 60px;
+	background: url(../../images/edus/abroad-tit6.png) center center no-repeat;
+	margin-top: 58px;
+}
+.abroad-b6-con{
+	margin-top: 32px;
+}
+.abroad-b6-con .tab-head{
+	width: 672px;
+	height: 42px;
+	margin: 0 auto;
+}
+.abroad-b6-con .tab-head .head-item{
+	width: 120px;
+	height: 42px;
+	float: left;
+	font-size: 24px;
+	color: #fff;
+	line-height: 28px;
+	text-align: center;
+	cursor: pointer;
+}
+.abroad-b6-con .tab-head .head-item-active{
+	color: #333;
+	background: url(../../images/edus/abroad-b5-eachbg.png) center center no-repeat;
+}
+.abroad-b6-con .tab-head .head-mid{
+	width: 18px;
+	height: 42px;
+	float: left;
+	background: url(../../images/edus/abroad-b5-mid.png) center 6px no-repeat;
+}
+.abroad-b6-con .tab-sub{
+	width: 1180px;
+	height: 185px;
+	margin-top: 13px;
+}
+.tab-sub-item{
+	width: 1102px;
+	height: 145px;
+	border-radius:18px;
+	background-color: rgba(244,246,252,.6);	
+	padding-top:40px;
+	padding-left: 78px;
+}
+.tab-sub-item p span{
+	font-size: 16px;
+	color: #333;
+	height: 16px;
+	display: inline-block;
+	background: url(../../images/edus/abroad-b6-point.png) left center no-repeat;
+	padding-left: 16px;
+	line-height: 16px;
+}
+.abroad-b6-subtit{
+	font-size: 34px;
+	color: #fff;
+	text-shadow:1px 0px 1px 020202;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 62px;
+}
+.abroad-b6-btn{
+	width: 226px;
+	height: 38px;
+	margin: 18px auto 0;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 16px;
+	background-color: #fdba29;
+	color: #333;
+	font-size: 18px;
+}
+.abroad-b6-btn:hover{
+	background-color: #5ca8f4;
+}
+.abroad-block7{
+	overflow: hidden;
+	margin-top: 79px;
+	margin-bottom: 60px;
+}
+.abroad-b7-tit{
+	width: 100%;
+	height: 55px;
+	background: url(../../images/edus/abroad-tit7.png) center center no-repeat;
+}
+.abroad-b7-con{
+	width: 100%;
+	height: 180px;
+	margin-top: 65px;
+}
+.abroad-b7-con .item1{
+	width: 149px;
+	height: 180px;
+	float: left;
+	position: relative;
+	background: url(../../images/edus/abroad-b7-logo1.png) center 7px no-repeat;
+	margin-left: 78px;
+}
+.abroad-b7-con .item p.tit{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: #f56727;
+	position: absolute;
+	bottom: 0;
+}
+.abroad-b7-con .item2{
+	width: 163px;
+	height: 180px;
+	float: left;
+	position: relative;
+	background: url(../../images/edus/abroad-b7-logo2.png) center 10px no-repeat;
+	margin-left: 63px;
+}
+.abroad-b7-con .item3{
+	width: 133px;
+	height: 180px;
+	float: left;
+	position: relative;
+	background: url(../../images/edus/abroad-b7-logo3.png) center 3px no-repeat;
+	margin-left: 69px;
+}
+.abroad-b7-con .item4{
+	width: 186px;
+	height: 180px;
+	float: left;
+	position: relative;
+	background: url(../../images/edus/abroad-b7-logo4.png) center 5px no-repeat;
+	margin-left: 51px;
+}
+.abroad-b7-con .item5{
+	width: 166px;
+	height: 180px;
+	float: left;
+	position: relative;
+	background: url(../../images/edus/abroad-b7-logo5.png) center -14px no-repeat;
+	margin-left: 37px;
+}
+/*侧边栏*/
+#menu{
+	width: 83px;
+	height: 529px; 
+	position: fixed;
+	top: 50%;
+	right: 5px;
+	margin-top: -100px;
+	display: none;
+}
+#menu ul{
+	display: block;
+	list-style: none;
+}
+#menu ul li{
+	width: 65px;
+	height: 54px;
+	background-color: #fff;
+	border: 1px solid #bfbfbf;
+	border-bottom: 0px solid #fff;
+	border-radius: 2px;
+	text-align: center;
+	position: relative;
+}
+#menu ul .menu-cur{
+	background-color: #fdba29;
+}
+#menu-backtop{
+	background-color: #fdba29 !important;
+	border-bottom: 1px solid #bfbfbf !important;
+}
+#menu ul li a.menu-brief{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico1.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 19px 21px;
+}
+#menu ul li a.menu-need{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico2.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 21px 21px;
+}
+#menu ul li a.menu-advantage{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico3.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 32px 21px;
+}
+#menu ul li a.menu-product{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico4.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 24px 21px;
+}
+#menu ul li a.menu-app{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico5.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 17px 24px;
+}
+#menu ul li a.menu-value{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico6.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 22px 22px;
+}
+#menu ul li a.menu-case{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico7.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 22px 19px;
+}
+#menu ul li a.menu-top{
+	font-size: 14px;
+	color: #666;
+	display: block;
+	background: url(../../images/edus/sidebar-ico8.png) center top no-repeat;
+	padding-top: 24px;
+	margin-top: 8px;
+	background-size: 16px 18px;
+}
+.menu-product-wrap{
+	position: absolute;
+	width: 142px;
+	height:320px;
+	right: 65px;
+	top:-128px;
+}
+#product-list{
+	width: 108px;
+	height: 320px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #d1d1d1;
+	background-color: #fff;
+}
+#product-list li{
+	width: 80px !important;
+	height: 31px !important;
+	border: none !important;
+	border-radius: none !important;
+	line-height: 31px;
+	margin: 0 auto;
+	border-bottom: 1px dotted #d1d1d1 !important;
+}
+#product-list li a{
+	font-size: 14px;
+	color: #666;
+}
+#product-list li a.link-cur{
+	color: #fdba29;
+}
+#product-list li a:hover{
+	color: #fdba29;
+}
+.product-triangle{
+	width: 11px;
+	height: 320px;
+	float: right;
+	background: url(../../images/edus/triangle.png) left center no-repeat;
+	position: absolute;
+	top:0;
+	left: 107px;
+	z-index: 2;
+}

@@ -1,0 +1,159 @@
+<!--产品页面底部公共部分-->		
+		<div class="m-content">
+			<div class="pro-conb1">
+				<p class="pro-conb1-tit">可为EDUS教务系统的使用下，每一家培训机构都能看到自己的企业
+信息化运营迅速发展。</p>
+				<p class="pro-conb1-subtit">通过系统信息化管控，<span style="font-size:24px;color:#fb6b0b">90%</span>的培训机构盈利提升<span style="font-size:24px;color:#fb6b0b">5%-10%</span>，您要做的就是与他们一同竞争的成长！</p>
+			</div>
+			<div class="pro-conb1-con">
+				{pc:content action="lists" catid="140" order="listorder DESC" num="3" moreinfo="1"}
+				{loop $data $r}
+				<div class="pro-conb1-item" {if $n!=1}style="margin-left:41px;"{/if}>
+					<a href="{$r[url]}"><img src="{$r[thumb]}" alt="{$r[title]}" title="{$r[thumb]}" width="366" height="230">
+            		<figcaption>
+                		<h2>{str_cut($r[title],36,'...')}</h2>
+                		<p style="margin-top:25px;"><span style="font-weight:bold;">所属领域：</span>{get_linkage($r[industry],3377,' >> ',0)}</p>
+                		<p><span style="font-weight:bold;">上线时间：</span>{$r[online_time]}</p>
+            		</figcaption>
+            		</a>	
+				</div>
+				{/loop}
+				{/pc}	
+			</div>
+			<a href="{$CATEGORYS[29][url]}"><div class="case-btn">查看更多案例</div></a>
+			<div class="pro-conb2">
+				<p class="pro-conb2-tit">可为edus教务系统行业应用，数十年教育培训行业解决方案积累。</p>
+				<p class="pro-conb2-subtit">解决方案不仅仅是解决问题，为大中型教育机构制定适合未来发展的信息化解决方案，提升您的发展速度！<span style="font-size:24px;color:#fb6b0b">满意度</span>，提高机构<span style="font-size:24px;color:#fb6b0b">竞争力</span>，更多功能等您了解</p>
+			</div>
+			<div class="scrol">
+				<a id="prev" class="prev arrow"></a>
+				<a id="next" class="next arrow"></a>
+				<a id="prevTop" class="prev"></a>
+				<a id="nextTop" class="next"></a>	
+				<div id="listBox" class="listBox">
+					<ul>
+						<li class="list1"></li>
+						<li class="list2"></li>
+						<li class="list-on3"></li>
+						<li class="list4"></li>
+						<li class="list5"></li>
+						<li class="list6"></li>
+						<li class="list7"></li>
+						<li class="list8"></li>
+					</ul>
+				</div>
+				<div id="picBox" class="picBox">
+					<ul>
+						<li>
+							<div class="picBox1-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">少儿辅导机构</p>
+								<p class="pRight-con">从婴幼儿培训机构日常运作管理需求出发，市场营销、招生管理，到教务教学管理、财务管理、行政办公管理全面覆盖。业务流程每一环节均可自动即时生成统计报表。</p>
+								<p class="pRight-link"><a href="{$CATEGORYS[128][url]}" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox2-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">英语辅导机构</p>
+								<p class="pRight-con">实现了语言培训机构的信息化管理，摒弃了低效落后的手工管理模式，全面实现电子化流程；彻底摆脱了种类繁多... ...</p>
+								<p class="pRight-link"><a href="{$CATEGORYS[127][url]}" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox3-left"></div>
+							<div class="picBox3-right">
+								<p class="pRight-tit">中小学辅导机构</p>
+								<p class="pRight-con">可为edus教务管理系统运用了现代化云桌面操作系统支持多个分校或教学区，方便总校管理，分校监管。总部... ...</p>
+								<p class="pRight-link"><a href="{$CATEGORYS[126][url]}" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox4-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">职业技能培训</p>
+								<p class="pRight-con">可为edus教务管理系统运用了现代化云桌面操作系统支持多个分校或教学区，方便总校管理，分校监管。总部... ...</p>
+								<p class="pRight-link"><a href="{$CATEGORYS[129][url]}" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox5-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">运动健身机构</p>
+								<p class="pRight-con">可为edus教务管理系统运用了现代化云桌面操作系统支持多个分校或教学区，方便总校管理，分校监管。总部... ...</p>
+								<p class="pRight-link"><a href="" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox6-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">企业培训机构</p>
+								<p class="pRight-con">解决了学员咨询、学员报读方案、学员报名缴费、欠费学员、学员上课、学员续费情况、学员补课情况，信息无法及时共享，造成无法全面进行的数据分析。</p>
+								<p class="pRight-link"><a href="" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox7-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">艺术培训机构</p>
+								<p class="pRight-con">各层级员工只对其负责范围内的数据有操作处理权限，实现了信息的可控共享，实现多校区跨地域联网管理，公司整体运作效率大大提高，对客户及市场响应速度较以前更快速。 </p>
+								<p class="pRight-link"><a href="{$CATEGORYS[133][url]}" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox8-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">留学机构</p>
+								<p class="pRight-con">解决了留学机构每月底要统计计算销售数据、报读数据、上课考勤数据、老师课酬等，计算工作量大，容易出错，数据不及时的问题。</p>
+								<p class="pRight-link"><a href="" id="detail">查看详情>></a></p>
+							</div>
+						</li>																																				
+					</ul>
+				</div>				
+			</div>
+			<a href="{$CATEGORYS[26][url]}"><div class="case-btn">查看更多解决方案</div></a>
+			<div class="pro-conb3">
+				<p class="pro-conb2-tit">高效的实施，高速的响应，没有高效完善的实施服务，再完美的产品等于零！
+</p>
+				<p class="pro-conb2-subtit">历经<span style="font-size:24px;color:#fb6b0b">十年</span>可为咨询服务团队结合 <span style="font-size:24px;color:#fb6b0b">上万个</span>服务案例，总结出最适合中国企业的咨询规划</p>
+			</div>
+			<div class="conb3-con">
+				<div class="conb3-left"></div>
+				<div class="conb3-right">
+					<div class="conb3-right1">
+						<div class="conb3-right1-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="{$CATEGORYS[135][url]}">咨询服务</a></p>
+							<p class="inner-item">可为edus教务系统的咨询服务，帮助企业梳理流程，规划属于自己的教务管理系统。</p>
+						</div>
+					</div>
+					<div class="conb3-right2">
+						<div class="conb3-right2-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="{$CATEGORYS[136][url]}">实施服务</a></p>
+							<p class="inner-item">凭借多年的项目成功实施经验，为企业提供标准的管理软件实施服务方案。</p>
+						</div>
+					</div>
+					<div class="conb3-right3">
+						<div class="conb3-right3-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="{$CATEGORYS[137][url]}">售后服务</a></p>
+							<p class="inner-item">可为集团提供的售后服务，以多种信息载体第一时间内向用户传递信息化知识。</p>
+						</div>
+					</div>
+					<div class="conb3-right4">
+						<div class="conb3-right4-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="{$CATEGORYS[138][url]}">个性化定制开发</a></p>
+							<p class="inner-item">金牌研发团队可满足企业个性化管理需求进行二次开发。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pro-bottom-bg">
+			<div class="pro-bottom">
+				<p>他们中包括IT、金融、房地产、教育等各类行业，您也将成为他们中的一员，现在开始，成为佼佼者。</p>
+			</div>
+		</div>	
+<!--********************************************************************-->	

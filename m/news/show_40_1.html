@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>巧妙利用权限，实现数据安全 - 行业动态 - 可为时代科技有限公司</title>
+		<link type="text/css" href="http://www.keweisoft.com/statics/css/m/common.css" rel="stylesheet" />
+		<link type="text/css" href="http://www.keweisoft.com/statics/css/m/news.css" rel="stylesheet" />
+		<script type="text/javascript" src="http://www.keweisoft.com/statics/js/m/jquery.js"></script>
+		<script type="text/javascript" src="http://www.keweisoft.com/statics/js/m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="http://www.keweisoft.com/statics/js/m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="http://www.keweisoft.com/statics/js/m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+				<div class="top">
+			<a href="#" class="open-left-sidebar"><div class="in-top-left"></div></a>
+			<a href="#" class="open-right-sidebar"><div class="in-top-right"></div></a>
+			<div class="clearfix"></div>
+			<div class="in-top-center">
+				<a href="" ><img src="http://www.keweisoft.com/statics/images/m/logo.png" width="111" height="" alt="" title="" /></a>
+			</div>
+		</div>
+		<div class="in-tel">
+			<div class="in-tel-con">
+				<a href="tel:010-51651266" class="itc-link">010-51651266</a>
+			</div>
+		</div>		<div class="news-head">
+		<a href="javascript:history.go(-1)" class="nh-his"></a>
+		<a href="http://m.keweisoft.com" class="nh-home"></a>
+</div>
+		<p class="news-head-tit">行业动态</p>		<p class="news-t-link">
+			<a href="http://m.keweisoft.com/news/">行业动态</a> > <a>巧妙利用权限，实现数据安全</a>
+		</p>
+		<h1 class="news-tit">巧妙利用权限，实现数据安全</h1>
+		<p class="news-tit-sub"><span>浏览量 <span id="hits"><script language="JavaScript" src="http://www.keweisoft.com/api.php?op=count&id=40&modelid=23"></script></span></span><span style="margin-left:40px;">更新时间 2015-04-07</span></p>
+		<div class="news-content">
+			　　企业机密数据的泄露，会给企业带来很大的损失。如客户信息的泄露，客户就有可能被竞争对手挖走;产品价格泄露，就可能会影响企业的利润;等等。所以，随着信息化工具的普及，很多企业开始关注数据方面的安全。<br />
+　　CRM系统，因为其关系到的都是客户相关的数据，所以，CRM系统设计时，对于权限的控制，有严格的要求。　　一是要求权限能够符合企业数据安全的需要，不让企业的数据泄露，解除企业的后顾之忧;二是要求权限设置简便，通过一些简单的步骤，就可以实现企业的需求，如步骤太过于繁多，则用户很难掌握其要领，也就失去了其存在的意义。<br />
+　　CRM系统在权限设计时，结合了Window是系统权限设计的经典，有一套比较优秀的权限控制方案。<br />
+　　一般的CRM管理系统，在权限控制方面，有如下特色：<br />
+　　一、系统管理用户跟作业用户分开<br />
+　　CRM系统使用人员，根据型性质不同，分为两类，一类是系统管理员，一类是实际的业务操作员。企业一般要求，系统管理员不能够查询或者修改跟业&nbsp;务相关的数据，如不能新建、删除、修改客户数据或者产品数据，其只能进行一些跟系统维护相关的操作，如数据库的优化、报表的设计等等;而操作用户也不能涉&nbsp;及跟系统后台相关的动作，如直接访问数据库或者进行报表的修改等动作。<br />
+　　如此设计，可以保证CRM系统平台，不会在无意中被非系统管理员修改，从而保障系统的稳定性;同时，系统管理员因为其没必要访问业务数据，所以，对此加以限制，就可以防止系统操作员任意的访问数据，或者把数据泄露给企业的竞争对手。<br />
+　　二、按组来设计权限，便于操作<br />
+　　在客户关系管理中，有时候同一个部门的人员具有相同的权限。如销售员都有建立、修改客户信息的权利，此时，就可以建立一个组权限，然后把销售员&nbsp;分配到这个组中去，如此，就不用为每个销售人员分别建议权限，可以大大减少权限设置的工作量。有的CRM系统虽然没有组的的概念，但是，其采用了另外一种&nbsp;方式，即权限模板设置，这跟组的作用，如出一辙。<br />
+　　用户甚至还可以给组设置一个组长，组长可以做如下工作：<br />
+　　1、&nbsp;把员工加人到这个组。若企业的销售员工有变化，增加了一个新员工，组长就有这个权利把这个销售员加入到自己的团队中。当然，当员工离职或者调离本部门时，组长也可以把这个员工&ldquo;咔嚓&rdquo;掉，防止他走后，还可以访问本不应该访问的资源。<br />
+　　2、&nbsp;可以访问当整个部门的所有资源。有时候企业为了安全的需要，可能设置每个销售员之间，不能相互进行访问。即销售员A不能访问销售员B负责的客户，反过来也&nbsp;是如此。有时候，对于客户的修改、作废权限也有限制，如只有销售经理可以对客户今进行作废设置等等。遇到这种情况，可以把修改等权限交给组长，或者组长可&nbsp;以查询各个销售员负责的客户信息或者单据信息。<br />
+　　3、&nbsp;一般可以按部门来设置组，而且，一般组与组之间的数据不能够相互更改，可以有限制的查询。如可以把销售部门设置成为一个销售组，而把质量部门设置成为一个&nbsp;质量组。实现，这两个组之间建立的单据，双方可以相互查询，但是，其可以设置一定的限制，如质量组查询销售组的单据时，价格是保密的;同时，销售组虽然可&nbsp;以查询质量组的开立的单据信息，但是，不能对其进行修改或者删除操作，这些，都可以通过组来实现。<br />
+　　三、作业层次上的权限控制<br />
+　　除了以上的限制，一般CRM系统还提供作业层次上的限制，如可以限制报表导出的限制。因为如把客户信息通过一张报表导出，泄露出去的话，对企业&nbsp;的影响是很大的，所以，企业有时候要限制，任何人都无法对一些敏感信息进行导出作业，这可以在一定程度上，保护企业数据的安全。<br />
+　　四、Guest用户的作用<br />
+　　大家对于Guest用户，只要用过Windows系统的人，一定印象深刻。这个用户，只能够查看操作系统中的内容，但是，无法对操作系统进行任何的更改，包括安装软件、删除软件、更改硬件等任何影响系统的操作。<br />
+　　在CRM系统中，也有类似的用户。这类用户在CRM系统中，只能查看一般数据，而无法查询机密数据或者对于CRM系统进行&ldquo;写&rdquo;相关的操作。一&nbsp;般，这主要是为企业的新员工准备的，可以用这个帐户为新员工讲解CRM系统的功能，如此，因为新员工的操作不会影响CRM系统，所以，比较安全。<br />
+　　所以，CRM因为涉及到企业不少的机密数据，可见，其在权限控制上是花了不少心思的，否则，企业不会冒着数据被泄露的风险，采用CRM系统。		</div>
+								<div class="news-yanshi">
+			<a href="" target="_blank"><div class="ny-btn">立即预约演示</div></a>
+		</div>
+		<div class="edu-all-link">
+			<div class="eal-item">
+				<a href="http://m.keweisoft.com/crm/" target="_blank" class="eali1">可为CRM</a>
+			</div>
+			<div class="eal-item">
+				<a href="http://m.keweisoft.com/edus/" target="_blank" class="eali2">可为EDUS</a>
+			</div>	
+			<div class="eal-item">
+				<a href="http://m.keweisoft.com" target="_blank" class="eali3">解决方案</a>
+			</div>
+			<div class="eal-item">
+				<a href="" target="_blank" class="eali4">资讯中心</a>
+			</div>
+			<div class="eal-item" style="margin-top:3px;">
+				<a href="http://m.keweisoft.com/case-edus/" target="_blank" class="eali5">客户案例</a>
+			</div>
+			<div class="eal-item" style="margin-top:3px;">
+				<a href="http://m.keweisoft.com/aboutus/" target="_blank" class="eali6">关于可为</a>
+			</div>
+			<div class="eal-item" style="margin-top:3px;">
+				<a href="" target="_blank" class="eali7">在线咨询</a>
+			</div>
+			<div class="eal-item" style="margin-top:3px;">
+				<a href="http://m.keweisoft.com" target="_blank" class="eali8">站点首页</a>
+			</div>																					
+		</div>				<div class="in-copyright">Copyright ©1993-2015   可为时代</div>	
+		<div class="in-button">
+			<a href="http://www.keweisoft.com/index.php?m=formguide&c=index&a=show&formid=27&siteid=3">
+				<span class="ib-item1">免费试用</span>
+			</a>
+			<a href="http://www8.53kf.com/m.php?cid=72140145&style=5" >
+				<span class="ib-item2">在线咨询</span>
+			</a>
+			<a href="javascript:void(0);" class="JS-show-share" >
+				<span class="ib-item3">关注微信</span>
+			</a>									
+		</div>	
+
+    <div id="JS-share-page" class="m-layer m-layer-show">
+        <div class="lymask"></div>
+        <table class="lytable"><tbody><tr><td class="lytd">
+        <div class="lywrap">
+<!--分享-->            
+            <div class="lytt"><h2 class="u-tt">关注微信</h2><span class="lyclose">×</span></div>
+            <div class="lyct">
+                  <div class="lyct-wechat"><img src="http://www.keweisoft.com/statics/images/m/wechat.jpg" width="220" height="220" alt="可为时代" title="可为时代" /></div>
+                  <p class="lyct-word">打开微信，搜索“可为时代”，关注可为</p>
+            </div>
+            <div class="lycancel">
+                取消
+            </div>
+        </div></td></tr></tbody></table>
+    </div>
+
+    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/button.js#style=-1&amp;uuid=7e69fe40-5550-44e5-be51-468fae5d77db&amp;pophcol=2&amp;lang=zh"></script><a class="bshareDiv" onClick="javascript:return false;"></a>
+    <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+	</div>    
+<!--侧边栏菜单-->
+	<div class="sidebar-left">
+		<div class="sidebar-hide-scroll-left">
+			<a href="http://m.keweisoft.com" class="nav-item home-nav-icon" target="_blank">首页
+			<em></em>
+			</a>
+			<div class="side-deco"></div>
+			<div id="sub-menu-two" class="nav-item edus-nav-icon">
+				产品中心
+				<strong></strong>
+			</div>
+			<div class="sub-menu-two" style="display:none">
+				<a class="sub-menu-item" href="http://m.keweisoft.com/edus/" target="_blank">教育培训erp</a>
+				<a class="sub-menu-item" href="http://m.keweisoft.com/mapp/" target="_blank">移动APP</a>
+				<a class="sub-menu-item" href="http://m.keweisoft.com/app/" target="_blank">EDUS家校通</a>	
+				<a class="sub-menu-item" href="http://m.keweisoft.com/souke/" target="_blank">选课报名系统</a>	
+				<a class="sub-menu-item" href="http://m.keweisoft.com/fcrm/" target="_blank">可为留学ERP</a>		
+			</div>
+			<div class="side-deco"></div>
+			<a  href="http://m.keweisoft.com/edus-solution/" class="nav-item solution-nav-icon">
+				解决方案
+				<strong></strong>
+			</a>											
+			<div class="side-deco"></div>
+			<div id="sub-menu-five" class="nav-item case-nav-icon">
+				客户案例
+				<strong></strong>
+			</div>
+			<div class="sub-menu-five" style="display:none">
+				<a class="sub-menu-item" href="http://m.keweisoft.com/case-crm/" target="_blank">CRM案例</a>
+				<a class="sub-menu-item" href="http://m.keweisoft.com/case-edus/" target="_blank">教务案例</a>
+			</div>
+			<div class="side-deco"></div>
+			<div id="sub-menu-three" class="nav-item service-nav-icon">
+				服务体系
+				<strong></strong>
+			</div>
+			<div class="sub-menu-three" style="display:none">
+				<a class="sub-menu-item" href="http://m.keweisoft.com/service/" target="_blank">服务概述</a>
+				<a class="sub-menu-item" href="http://m.keweisoft.com/service/consult/" target="_blank">咨询服务</a>
+				<a class="sub-menu-item" href="http://m.keweisoft.com/service/implement/" target="_blank">实施服务</a>
+				<a class="sub-menu-item" href="http://m.keweisoft.com/service/after-sales/" target="_blank">售后服务</a>
+				<a class="sub-menu-item" href="http://m.keweisoft.com/service/development/" target="_blank">个性化定制开发</a>
+			</div>
+			<div class="side-deco"></div>
+			<a href="http://m.keweisoft.com/news/" class="nav-item news-nav-icon">
+				资讯中心
+				<strong></strong>
+			</a>
+			<div class="side-deco"></div>
+			<a class="nav-item about-nav-icon" href="http://m.keweisoft.com/aboutus/" target="_blank">
+				关于可为
+				<em></em>
+			</a>
+			<div class="side-deco"></div>
+		</div>
+	</div> 
+<!--右侧边栏-->	 
+<div class="sidebar-right">
+  <div class="sidebar-hide-scroll-right"  >
+            <a href="http://blog.sina.com.cn/u/2947838275" class="nav-item fb-nav-icon" style="margin-top:10px;">微博<em></em></a>        	
+            <div class="side-deco"></div>           
+            <a href="http://www.keweisoft.com/index.php?m=formguide&c=index&a=show&formid=27&siteid=3" class="nav-item mail-nav-icon">联系<em></em></a>				
+            <div class="side-deco"></div>
+            <a href="tel:010-51651266" class="nav-item call-nav-icon">电话<em></em></a>				
+            <div class="side-deco"></div>
+            <a href="sms:010-51651266" class="nav-item text-nav-icon">短信<em></em></a>				
+            <div class="side-deco"></div>
+        </div>
+    </div>  
+</div>
+	</div> 
+<!--53聊天代码-->
+<script>
+(function() {
+	  var _53code = document.createElement("script");
+	  _53code.src = "//tb.53kf.com/code/code/10140145/5";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(_53code, s);
+})();
+</script>
+
+		</body>	
+</html>

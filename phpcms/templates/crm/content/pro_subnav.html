@@ -1,0 +1,22 @@
+		<div class="sub-nav">
+			<div class="m-content">
+				<ul class="sub-nav-list"> 
+					{pc:content action="category" catid="40" siteid="$siteid" order="listorder ASC"}
+					{loop $data $r}
+					<li {if $r[catid] == $catid}style="background:#fa8032"{/if}><a href="{$r[url]}" {if $r[catid] == $catid}style="color:#fff"{/if}>{$r[catname]}</a></li>
+					{/loop}
+					{/pc}												
+				</ul>
+			</div>
+		</div>
+		<div class="sub-nav-down" id="snd" style="display:none;">
+			<div class="m-content">
+				<ul class="sub-nav-down-list"> 
+					{pc:content action="category" catid="40" siteid="$siteid" order="listorder ASC"}
+					{loop $data $r}
+					<li {if $r[catid] == $catid}style="background:#fa8032"{/if}><a href="{$r[url]}">{$r[catname]}</a></li>
+					{/loop}
+					{/pc}											
+				</ul>				
+			</div>
+		</div>

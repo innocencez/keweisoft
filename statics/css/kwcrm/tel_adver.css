@@ -1,0 +1,28 @@
+/*初始化*/
+html ,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+
+/*电话广告*/
+.problock2_bottom{
+	width:100%;
+	background:#013d65;
+	height:92px;
+	text-align:center;
+	margin-top:35px;
+}
+.problock2_bottomImg{
+	margin-top:-31px;
+}
+.probottext{
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font-size:24px;
+	font-weight:bold;
+	margin-top:18px;
+}

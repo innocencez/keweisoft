@@ -1,0 +1,206 @@
+.fcrm-banner{
+	width: 100%;
+	height: 560px;
+	background: url(../../images/edus/fcrm-banner.png) center center no-repeat;
+	overflow: hidden;
+}
+.fcrm-banner-btn{
+	width: 186px;
+	height: 41px;
+	background: url(../../images/edus/fcrm-banner-btn.png) center top no-repeat;
+	margin: 487px auto 0;
+}
+.fcrm-banner-btn:hover{
+	background: url(../../images/edus/fcrm-banner-btnh.png) center top no-repeat;
+}
+.fcrm-b1{
+	overflow: hidden;
+}
+.fcrm-b1-tit{
+	width: 100%;
+	height: 64px;
+	background: url(../../images/edus/fcrm-tit1.png) center center no-repeat;
+	margin: 50px auto 14px;
+}
+.fcrm-b1-con{
+	width: 100%;
+	height: 351px;
+	background: url(../../images/edus/fcrm-pic1.png) 605px center no-repeat;
+	overflow: hidden;
+}
+.fcrm-b1-con .con{
+	width: 509px;
+	float: left;
+	font-size: 16px;
+	line-height: 32px;
+	text-indent: 32px;
+	color: #333;
+	padding-top:90px;
+}
+.fcrm-b2{
+	width: 100%;
+	padding-bottom:20px; 
+	margin-top: 50px;
+	overflow: hidden;
+	background-color: #f4f4f4;
+}
+.fcrm-b2-tit{
+	width: 100%;
+	height: 68px;
+	background: url(../../images/edus/fcrm-tit2.png) center center no-repeat;
+	margin-top: 48px;
+}
+.fcrm-b2-con{
+	height: 650px;
+	margin-top: 15px;
+	background: url(../../images/edus/fcrm-b2-bg.png) 318px 103px no-repeat;
+	position: relative;
+}
+.fcrm-b2-con .item1{
+	width: 330px;
+	height: 194px;
+	position: absolute;
+	top: 15px;
+	left: 32px;
+	background: url(../../images/edus/fcrm-b2-ico1.png) 24px 0 no-repeat;
+}
+.fcrm-b2-con .item1 p.tit{
+	font-size: 16px;
+	color: #f90;
+	margin-top: 99px;
+}
+.fcrm-b2-con p.con{
+	color: #727272;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 5px;
+}
+.fcrm-b2-con .item2{
+	width: 312px;
+	height: 208px;
+	position: absolute;
+	top: 231px;
+	left: 0px;
+	background: url(../../images/edus/fcrm-b2-ico2.png) 28px 0 no-repeat;
+}
+.fcrm-b2-con .item2 p.tit{
+	font-size: 16px;
+	color: #f90;
+	margin-top: 105px;
+}
+.fcrm-b2-con .item3{
+	width: 367px;
+	height: 180px;
+	position: absolute;
+	top: 462px;
+	left: 39px;
+	background: url(../../images/edus/fcrm-b2-ico3.png) 30px 0 no-repeat;
+}
+.fcrm-b2-con .item3 p.tit{
+	font-size: 16px;
+	color: #f90;
+	margin-top: 106px;
+}
+.fcrm-b2-con .item4{
+	width: 326px;
+	height: 194px;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	background: url(../../images/edus/fcrm-b2-ico4.png) 30px 0 no-repeat;
+}
+.fcrm-b2-con .item4 p.tit{
+	font-size: 16px;
+	color: #f90;
+	margin-top: 99px;
+}
+.fcrm-b2-con .item5{
+	width: 295px;
+	height: 207px;
+	position: absolute;
+	top: 231px;
+	right: 0px;
+	background: url(../../images/edus/fcrm-b2-ico5.png) 30px 0 no-repeat;
+}
+.fcrm-b2-con .item5 p.tit{
+	font-size: 16px;
+	color: #f90;
+	margin-top: 105px;
+}
+.fcrm-b2-con .item6{
+	width: 310px;
+	height: 102px;
+	position: absolute;
+	top: 462px;
+	right: 20px;
+	background: url(../../images/edus/fcrm-b2-ico6.png) 30px 0 no-repeat;
+}
+.fcrm-b2-con .item6 p.tit{
+	font-size: 16px;
+	color: #f90;
+	margin-top: 106px;
+}
+.fcrm-b3{
+	overflow: hidden;
+	padding-bottom:50px;
+}
+.fcrm-b3-tit{
+	width: 100%;
+	height: 64px;
+	background: url(../../images/edus/fcrm-tit3.png) center center no-repeat;
+	margin-top: 59px;
+}
+.fcrm-b3 .item1{
+	width: 100%;
+	height: 180px;
+	margin-top: 92px;
+	background: url(../../images/edus/fcrm-pic2.png) 591px 39px no-repeat;
+}
+.fcrm-b3 .conL{
+	width: 505px;
+	float: left;
+}
+.fcrm-b3 .conR{
+	width: 505px;
+	float: right;
+}
+.fcrm-b3 .tit{
+	font-size: 30px;
+	color: #f90;
+}
+.fcrm-b3 .con{
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+	margin-top: 27px;
+}
+.fcrm-b3 .item2{
+	width: 100%;
+	height: 205px;
+	margin-top: 90px;
+	background: url(../../images/edus/fcrm-pic3.png) 62px top no-repeat;
+}
+.fcrm-b3 .item3{
+	width: 100%;
+	height: 225px;
+	margin-top: 83px;
+	background: url(../../images/edus/fcrm-pic4.png) 628px 42px no-repeat;
+}
+.fcrm-b3 .item4{
+	width: 100%;
+	height: 225px;
+	margin-top: 68px;
+	background: url(../../images/edus/fcrm-pic5.png) 100px top no-repeat;
+}
+.fcrm-b3 .item5{
+	width: 100%;
+	height: 220px;
+	margin-top: 111px;
+	background: url(../../images/edus/fcrm-pic6.png) 609px top no-repeat;
+}
+.fcrm-b3 .item6{
+	width: 100%;
+	height: 253px;
+	margin-top: 27px;
+	background: url(../../images/edus/fcrm-pic7.png) 155px top no-repeat;
+}

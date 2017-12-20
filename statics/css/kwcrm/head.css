@@ -1,0 +1,210 @@
+/*初始化*/
+html ,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+/*头部顶端*/
+.head_top{
+	width:100%;
+	height:40px;
+	background: #e4e4e4;
+}
+.head_top_mid{
+	width:1000px;
+	height:40px;
+	margin:0 auto;
+}
+.head_top_mid p{
+	height:100%;
+	width:144px;
+	text-align:left;
+	line-height:40px;
+	float:left;
+}
+.head_top_mid p a{
+	font-size:12px;
+	color:#666;
+}
+.head_top_mid p a:hover{
+	font-size:12px;
+	color:#333;
+}
+.head_top_motto{
+	height:100%;
+	width:380px;
+	text-align: center;
+	line-height:40px;
+	margin-left:95px;
+	float: left;
+}
+.head_top_motto a{
+	color:#666;
+	font-size: 12px;
+}
+.head_top_motto_tel{
+	background: url(../../images/kwcrm/hphone.png) no-repeat scroll left center;
+	padding-left:16px;
+}
+.head_top_motto_400{
+	margin-left:40px;
+	background: url(../../images/kwcrm/h400.png) no-repeat scroll left center;
+	padding-left:16px;
+}
+
+/* menu */
+.menu2{
+	height:40px;
+	width:187px;
+	float: right;
+	overflow:hidden;
+}
+.menu2 ul li{
+	float:right;
+	position:relative;
+	text-align:center;
+	line-height:40px;
+	height:45px;
+	overflow:hidden;
+}
+.menu2 ul li a{
+	position:relative;/* 必要元素 */
+	display:block;
+	width:100px;height:40px;
+	letter-spacing: 1px;
+}
+.menu2 ul li a span{
+	position:absolute;/* 必要元素 */
+	left:0;
+	width:100%;
+	font-weight:bold;
+}
+.menu2 ul li a span.out{
+	font-size:12px;
+	top:0px;
+}
+.menu2 ul li a span.over0,.menu2 ul li a span.over1,.menu2 ul li a span.over2,.menu2 ul li a span.bg{
+	top:-40px;
+	font-size:12px;
+}
+.top-weixin{
+	font-size:13px;
+	color:#fff;
+	float: right;
+	height:40px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	color:#333;
+	font-weight: bold;
+}
+.weixin{
+	width:200px;
+	height:280px;
+	position: absolute;
+	border: 1px solid #edeef0;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+	top:40px;
+	right:90px;
+	z-index: 999;
+	background: #fff;
+	display: none;
+}
+.m-weixin{
+	position: relative;
+}
+.wx-img{
+	cursor: pointer;
+}
+#wx-word{
+	font-size:14px;
+	line-height: 20px;
+	padding:0px 16px;
+}
+/* 实例二 */
+#menu2{
+	background:#e4e4e4;
+}
+#menu2 ul li a{
+	color:#333;
+}
+#menu2 ul li a span.over0{
+	background:#F65314;
+	color:#333;
+}
+#menu2 ul li a span.over1{
+	background:#7cbb00;
+	color:#333;
+}
+#menu2 ul li a span.over2{
+	background:#00a1f1;
+	color:#333;
+}
+
+/*头部开始*/
+.head{
+	width:100%;
+	background:url(../../images/kwcrm/head_bg.png) repeat-x;
+}
+.head_mid{
+	width:1000px;
+	height:60px;
+	margin:0 auto;
+	overflow:hidden;
+	_zoom:1;
+}
+.logo1{
+	width:150px;
+	height:35px;
+	float:left;
+	margin-top:12px;
+	margin-left:9px;
+	display:inline;
+}
+.nav{
+	float:right;
+	width:800px;
+}
+.nav_a{
+	float:left;
+	width:auto;
+	border-bottom:5px solid #212730;
+	padding:0 8px;
+	margin-right:30px;
+	height:55px;
+	line-height:60px;
+	color:#ffffff;
+	font-size:18px;
+}
+.nav_a:hover{
+	border-bottom:5px solid #4269b6;
+}
+/*navigation*/
+.head-v3{position:relative;z-index:100;min-width:1000px}
+.head-v3 .navigation-inner{margin:0 auto;width:980px;position:relative}
+.navigation-up{height:60px;background:#27303f}
+.navigation-up .navigation-v3{margin-left:155px;float:left;_margin-left:10px}
+.navigation-up .navigation-v3 ul{float:left}
+.navigation-up .navigation-v3 li{float:left;font:normal 16px/59px "microsoft yahei";color:#fff}
+.navigation-up .navigation-v3 .nav-up-selected{background:#344157}
+.navigation-up .navigation-v3 .nav-up-selected-inpage{background:#202833}
+.navigation-up .navigation-v3 li h2{font-weight:normal;padding:0;margin:0}
+.navigation-up .navigation-v3 li h2 a{padding:0 25px;color:#fff;display:inline-block;height:60px;font-family:"microsoft yahei"}
+
+.navigation-down{position:absolute;top:100px;left:0px;width:100%}
+.navigation-down .nav-down-menu{width:100%;margin:0;background:#e4e4e4;position:absolute;top:0px;box-shadow:5px 5px 3px #333;z-index:9999;}
+.navigation-down .nav-down-menu .navigation-down-inner{margin:auto;width:100%;position:relative}
+.navigation-down .nav-down-menu dl{float:left;margin:18px 30px 18px 0}
+.navigation-down .menu-1 dl{margin:20px 30px 25px 0}
+.navigation-down .menu-1 #pro_rest{margin:62px 30px 25px 0}
+.navigation-down .menu-1 #pro_func{margin-right:-170px; text-align:center;}
+.navigation-down .menu-1 dt{padding-bottom:10px;border-bottom:1px solid #61789e;margin-bottom:10px}
+.navigation-down .menu-1 dt a{font:normal 16px "microsoft yahei";color:#333;}
+.navigation-down .menu-1 dd{text-align: center; margin:2px 0px; letter-spacing:1px;}
+.navigation-down .menu-1 dd a{color:#333;font:normal 14px "microsoft yahei"}
+.nav-down-menu dd a{color:#333;font:normal 16px "microsoft yahei"}
+.navigation-down .menu-1 dd a:hover,.nav-down-menu dd a:hover,.navigation-down .menu-1 dt a:hover{color:#60aff6}
+.navigation-down .menu-2 dd a,.navigation-down .menu-3 dd a{color:#333;font:normal 14px "microsoft yahei"}
+

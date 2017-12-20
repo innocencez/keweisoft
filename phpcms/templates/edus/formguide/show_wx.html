@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+	<title>需求表单</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="{CSS_PATH}edus/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="{CSS_PATH}edus/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="{CSS_PATH}edus/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+	<link href="{CSS_PATH}edus/templatemo_style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="{JS_PATH}dialog.js"></script>
+</head>
+<body class="templatemo-bg-image-2">
+	<div class="container">
+		<div class="col-md-12">			
+			<form class="form-horizontal templatemo-contact-form-1" action="?m=formguide&c=index&a=show&formid={$formid}&siteid=<?php echo $this->siteid;?>" method="post" name="myform" id="myform">
+				<div class="form-group">
+					<div class="col-md-12">
+						<h1 class="margin-bottom-15">需求表单</h1>
+						<p>请将您的姓名、联系方式、需求或建议填入下边的表单中。可为专业的咨询顾问随后会与您取得联系，帮助您答疑解惑。</p>
+					</div>
+				</div>				
+		        <div class="form-group">
+		          <div class="col-md-12">		          	
+		            <label for="name" class="control-label">姓名 *</label>
+		            <div class="templatemo-input-icon-container">
+		            	{loop $forminfos_data $field $info}	
+ 						{if $n==1}
+ 						{$info['form']}
+		            	<!--<input type="text" class="form-control" id="name" placeholder="">-->
+		            	{/if}
+		            	{/loop}
+		            </div>		            		            		            
+		          </div>              
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		            <label for="email" class="control-label">邮箱 *</label>
+		            <div class="templatemo-input-icon-container">
+		  
+		            	{loop $forminfos_data $field $info}	
+ 						{if $n==2}
+ 						{$info['form']}
+		            	{/if}
+		            	{/loop}
+		            </div>
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		            <label for="website" class="control-label">联系电话 *</label>
+		            <div class="templatemo-input-icon-container">
+
+		            	{loop $forminfos_data $field $info}	
+ 						{if $n==3}
+ 						{$info['form']}
+		            	{/if}
+		            	{/loop}
+		            </div>
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		            <label for="subject" class="control-label">咨询产品</label>
+		            <div class="templatemo-input-icon-container">
+
+		            	{loop $forminfos_data $field $info}	
+ 						{if $n==4}
+ 						{$info['form']}
+		            	{/if}
+		            	{/loop}
+		            </div>
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		            <label for="message" class="control-label">需求详情</label>
+		            <div class="templatemo-input-icon-container">
+
+		            	{loop $forminfos_data $field $info}	
+ 						{if $n==5}
+ 						{$info['form']}
+		            	{/if}
+		            	{/loop}
+		            </div>
+		          </div>
+		        </div>
+		        <div class="form-group">
+		          <div class="col-md-12">
+		            <input type="submit" name="dosubmit" id="dosubmit" value="提交表单" class="btn btn-success pull-right">
+		          </div>
+		        </div>		    	
+		      </form>		      
+		</div>
+	</div>
+<script type="text/javascript">
+<!--
+	function show_ajax(obj) {
+		var keywords = $(obj).text();
+		var offset = $(obj).offset();
+		var jsonitem = '';
+		$.getJSON("{APP_PATH}index.php?m=content&c=index&a=json_list&type=keyword&modelid={$modelid}&id={$id}&keywords="+encodeURIComponent(keywords),
+				function(data){
+				var j = 1;
+				var string = "<div class='point key-float'><div style='position:relative'><div class='arro'></div>";
+				string += "<a href='JavaScript:;' onclick='$(this).parent().parent().remove();' hidefocus='true' class='close'><span>关闭</span></a><div class='contents f12'>";
+				if(data!=0) {
+				  $.each(data, function(i,item){
+					j = i+1;
+					jsonitem += "<a href='"+item.url+"' target='_blank'>"+j+"、"+item.title+"</a><BR>";
+					
+				  });
+					string += jsonitem;
+				} else {
+					string += '没有找到相关的信息！';
+				}
+					string += "</div><span class='o1'></span><span class='o2'></span><span class='o3'></span><span class='o4'></span></div></div>";		
+					$(obj).after(string);
+					$('.key-float').mouseover(
+						function (){
+							$(this).siblings().css({"z-index":0})
+							$(this).css({"z-index":1001});
+						}
+					)
+					$(obj).next().css({ "left": +offset.left-100, "top": +offset.top+$(obj).height()+12});
+				});
+	}
+
+	function add_favorite(title) {
+		$.getJSON('{APP_PATH}api.php?op=add_favorite&title='+title+'&url='+encodeURIComponent(location.href)+'&'+Math.random()+'&callback=?', function(data){
+			if(data.status==1)	{
+				$("#favorite").html('收藏成功');
+			} else {
+				alert('请登录');
+			}
+		});
+	}
+
+$(function(){
+  $('#Article .content img').LoadImage(true, 660, 660,'{IMG_PATH}s_nopic.gif');    
+})
+//-->
+</script>
+
+<script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script>	
+</body>
+</html>

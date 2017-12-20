@@ -1,0 +1,298 @@
+/*留学ERP*/
+.fcrm-banner{
+	width: 360px;
+	height: 149px;
+	margin: 6px auto 0px;
+	overflow: hidden;	
+}
+p.fcrm-tit{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 15px;
+}
+p.fcrm-top-word{
+	width: 90%;
+	margin: 20px auto 0px;
+	font-size: 14px;
+	color: #333;
+	line-height: 28px;
+	text-indent: 28px;	
+}
+.fcrm-pro-head{
+	width: 100%;
+	height: 36px;
+	background: url(../../images/m/sales-center-bg.jpg) left center repeat-x;
+	text-align: center;
+	line-height: 36px;
+	color: #333;
+	font-size: 16px;
+	margin-top: 20px;	
+}
+.fcrm-ad-pic{
+	width: 100%;
+	background: url(../../images/m/fcrm-pic.jpg) center 16px no-repeat #f4f4f4;
+	background-size: 330px 260px;
+	height: 260px;
+	padding-bottom: 16px;
+}
+.fcrm-need-con{
+	width: 100%;
+	background-color: #f6f7f8;
+	padding:15px 0;
+	position: relative;
+}
+.fcrm-need-center{
+	width: 90%;
+	margin: 0 auto;
+}
+.fcrm-solution-btn{
+	width: 55%;
+	height: 28px;
+	text-align: center;
+	background-color: #fdba29;
+	line-height: 28px;
+	border-radius: 8px;
+	font-size: 14px;
+	color: #fff;
+	margin: 10px auto 0;
+}
+.fcrm-need-center .left{
+	width: 90%;
+	float: left;
+	font-size: 14px;
+	line-height: 30px;
+	color: #333;
+}
+.fcrm-ad-item{
+	width: 80%;
+	margin: 50px auto 0;
+	background-color: #f6f7f8;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.15);
+	position: relative;
+	padding: 35px 12px 5px;
+}
+.fai-ico1{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico1.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+.fai-tit{
+	color: #1b1b21;
+	text-align: center;
+	font-size: 16px;
+}
+.fai-con{
+	font-size: 14px;
+	color: #333;
+	line-height: 28px;
+	margin-top: 5px;
+}
+.fai-ico2{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico2.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+.fai-ico3{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico3.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+.fai-ico4{
+	width: 50px;
+	height: 50px;
+	background: url(../../images/edus/abroad-b3-ico4.png) center center no-repeat;
+	background-size: 50px 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: -25px;
+}
+
+.fcrm-pro-con{
+	width: 92%;
+	margin: 16px auto 0px;
+	padding-bottom: 18px;
+	border-bottom: 1px dashed #898989;
+	overflow: hidden;	
+}
+.fcrm-pic1{
+	width: 100%;
+	margin-top: 16px;
+	height: 193px;
+	background: url(../../images/edus/abroad-b4-pic1.png) center center no-repeat;
+	background-size: 300px 193px;
+}
+p.fcrm-con-tit{
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
+p.fcrm-con-word{
+	font-size: 14px;
+	color: #333;
+	line-height: 28px;
+	margin-top: 6px;	
+}
+.fcrm-pic2{
+	width: 100%;
+	margin-top: 16px;
+	height: 194px;
+	background: url(../../images/edus/abroad-b4-pic2.png) center center no-repeat;
+	background-size: 300px 194px;
+}
+.fcrm-pic3{
+	width: 100%;
+	margin-top: 16px;
+	height: 177px;
+	background: url(../../images/edus/abroad-b4-pic3.png) center center no-repeat;
+	background-size: 300px 177px;
+}
+.fcrm-pic4{
+	width: 100%;
+	margin-top: 16px;
+	height: 193px;
+	background: url(../../images/edus/abroad-b4-pic4.png) center center no-repeat;
+	background-size: 300px 193px;
+}
+.fcrm-pic5{
+	width: 100%;
+	margin-top: 16px;
+	height: 179px;
+	background: url(../../images/edus/abroad-b4-pic5.png) center center no-repeat;
+	background-size: 300px 179px;
+}
+.fcrm-pic6{
+	width: 100%;
+	margin-top: 16px;
+	height: 186px;
+	background: url(../../images/edus/abroad-b4-pic6.png) center center no-repeat;
+	background-size: 300px 186px;
+}
+.fcrm-pic7{
+	width: 100%;
+	margin-top: 16px;
+	height: 181px;
+	background: url(../../images/edus/abroad-b4-pic7.png) center center no-repeat;
+	background-size: 300px 181px;
+}
+.fcrm-pic8{
+	width: 100%;
+	margin-top: 16px;
+	height: 177px;
+	background: url(../../images/edus/abroad-b4-pic8.png) center center no-repeat;
+	background-size: 300px 177px;
+}
+.fcrm-pic9{
+	width: 100%;
+	margin-top: 16px;
+	height: 177px;
+	background: url(../../images/edus/abroad-b4-pic9.png) center center no-repeat;
+	background-size: 300px 177px;
+}
+.fcrm-pic10{
+	width: 100%;
+	margin-top: 16px;
+	height: 176px;
+	background: url(../../images/edus/abroad-b4-pic10.png) center center no-repeat;
+	background-size: 300px 176px;
+}
+.fcrm-app-pic1{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic1.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic2{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic2.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic3{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic3.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic4{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic4.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic5{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic5.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.fcrm-app-pic6{
+	width: 100%;
+	margin-top: 16px;
+	height: 220px;
+	background: url(../../images/edus/abroad-b5-pic6.png) center center no-repeat;
+	background-size: 213px 220px;	
+}
+.swiper-container {
+  width: 90%;
+  margin:20px auto;
+  padding-bottom:15px;
+
+}
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-flow:column;
+}
+.swiper-slide p.value-tit{
+	text-align: center;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+.swiper-slide p.value-tit span{
+	font-size: 16px;
+	color: #333;
+	display: inline-block;
+	padding:0px 3px;
+	border-bottom: 2px solid #f60;
+}
+.swiper-slide ul li{
+	line-height: 28px;
+	background: url(../../images/edus/abroad-b6-point.png) left center no-repeat;
+	padding-left:13px;
+}
+.swiper-pagination{
+	bottom: 0 !important;
+}

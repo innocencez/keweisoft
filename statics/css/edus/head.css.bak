@@ -1,0 +1,432 @@
+/*公共样式*/
+html,body,div,p,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input{margin:0;padding:0;}
+img{border:0 none; vertical-align: top;}
+ul,li{list-style-type: none;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+body,div,form,input,select,button{font-family:Microsoft YaHei;}
+button{cursor:pointer;}
+body{background: #fff;color:#666;}
+a{text-decoration: none;}
+/*返回顶部小火箭*/
+#rocket-to-top div {
+    left:0;
+    margin:0;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    top:0;
+    width:149px;
+}
+#rocket-to-top .level-2 {
+    background:url("../../images/edus/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+    display:none;
+    height:250px;
+    opacity:0;
+    z-index:1;
+}
+#rocket-to-top .level-3 {
+    background:none repeat scroll 0 0 transparent;
+    cursor:pointer;
+    display:block;
+    height:150px;
+    z-index:2;
+}
+#rocket-to-top {
+    background:url("../../images/edus/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+    cursor:default;
+    display:block;
+    height:250px;
+    margin:-125px 0 0;
+    overflow:hidden;
+    padding:0;
+    position:fixed;
+    right:0;
+    top:80%;
+    width:149px;
+    z-index:11;
+}
+/**/
+.m-content{
+	width:1180px;
+	margin:0 auto;
+}
+.header{
+	width: 100%;
+	height: 70px;
+}
+.inner{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	background: #fff;
+	left: 0;
+	box-shadow: 0 0 4px rgba(0,0,0,.25);	
+}
+.header div.header-left{
+	width: 174px;
+	height: 43px;
+	float: left;
+	margin-top:15px;
+}
+.header-nav{
+	width: 840px;
+	height: 70px;
+	float: left;
+	margin-left:88px;
+}
+.header-nav li{
+	height: 70px;
+	line-height: 70px;
+	margin-right: 68px;
+	float: left;
+	position: relative;
+}
+.header-nav li a{
+	font-size: 14px;
+	color:#343434;
+}
+.header-nav li a:hover{
+	color:#f60;
+}
+.header-nav li ul.s-nav{
+	position: absolute;
+	display: none;
+	top:70px;
+	box-shadow: 0px 0px 10px #666;
+	background: #fff;
+}
+#product{
+	width: 910px;
+	left:-200px;
+	height: 300px;
+	background: #f7f7f7;
+	z-index: 999;
+}
+#product div.left{
+	width: 190px;
+	height: 300px;
+	padding:0 0 0 10px;
+	float: left;
+	background: #fff;
+	margin-top: 0;
+}
+#product div.left .item{
+	line-height: 40px;
+	border-bottom: 1px solid #f3f3f3;
+	width: 150px;
+	margin-left: 13px;
+}
+#product div.left .item a{
+	color:#f60;
+}
+#product div.left .item a:hover{
+	color:#343434;
+}
+#product div.left .line{
+	width: 170px;
+	height: 10px;
+	border-bottom: 1px solid #ececec;
+	margin-top:5px;
+}
+#product div.left .con{
+	line-height: 20px;
+	font-size: 12px;
+	color:#666;
+	padding-right:15px;
+	margin-top:15px;
+}
+#product div.left .pic{
+	width: 170px;
+	height: 113px;
+	margin-top: 8px;
+}
+#product div.left .link{
+	margin-top: 15px;
+	line-height: 20px;
+}
+#product div.right{
+	width: 670px;
+	height: 270px;
+	float: left;
+	padding:15px 20px;
+	overflow: hidden;
+	margin-top: 0;
+	border:none;
+}
+#product div.right .each{
+	width: 100%;
+	line-height: 20px;
+	margin-top: 14px;
+	height: 60px;
+}
+#product div.right .each .item{
+	width: 130px;
+	float: left;
+}
+#product div.right .each a{
+	font-size: 14px;
+	color:#343434;
+}
+#product div.right .each a:hover{
+	color: #343434;
+}
+#product div.right .each span{
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+	margin-top: 5px;
+}
+#solution{
+	width: 150px;
+	height: 330px;
+	left:-45px;
+	box-shadow: 1px 2px 5px #666;
+	background: #fff;
+	z-index: 999;
+}
+#solution a,#service a,#help a,#about a{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+}
+#solution a:hover,#service a:hover,#help a:hover,#about a:hover{
+	background: #f7f7f7;
+}
+#service{
+	width: 150px;
+	height: 230px;
+	left:-45px;
+	box-shadow: 1px 2px 5px #666;
+	background: #fff;
+	z-index: 999;
+}
+#help{
+	width: 150px;
+	height: 130px;
+	left:-45px;
+	box-shadow: 1px 2px 5px #666;
+	background: #fff;
+	z-index: 999;
+}
+#about{
+	width: 150px;
+	height: 280px;
+	left:-45px;
+	box-shadow: 1px 2px 5px #666;
+	background: #fff;
+	z-index: 999;
+}
+.header-right{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	color: #fff;
+	background: #fc7c4a;
+	border-radius: 3px;
+	padding:2px 5px;
+	margin-top:24px;
+}
+
+.pro-bottom{
+	width:100%;
+	height: 206px;
+	background: url(../../images/edus/pro-bottom-bg.png) top center no-repeat;
+}
+.pro-bottom p{
+	font-size: 18px;
+	width: 653px;
+	color:#b4b4b4;
+	position: absolute;
+	margin-top:120px;
+	margin-left:570px;
+}
+.case-btn{
+	width:272px;
+	height: 53px;
+	margin:30px auto;
+	background: url(../../images/edus/pro-case-btn.png) center center no-repeat;
+	cursor: pointer;
+	line-height: 53px;
+	text-align: center;
+	color:#fff;
+	font-size: 24px;
+	text-shadow:2px 2px 1px #333;
+}
+.case-btn:hover{
+	background: url(../../images/edus/pro-case-btn-hover.png) center center no-repeat;
+}
+.bottom{
+	width:100%;
+	height:353px;
+	background:#394350;
+}
+.bottom-items{
+	width:119px;
+	height:172px;
+	float:left;
+	margin-top:30px;
+}
+.bottom-items dt{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	text-align: left;
+}
+.bottom-items dt a{
+	color:#fff;
+	font-size:18px;
+	background: url(../../images/edus/bottom_pic1.png) left 6px no-repeat;
+	padding-left:24px;
+}
+.bottom-items dd{
+	width:100%;
+	height:31px;
+	line-height:31px;
+	text-align: center;
+}
+.bottom-items dd a{
+	color:#fff;
+	font-size:14px;
+}
+.items2{
+	margin-left:146px;
+}
+.items2 dt a{
+	background: url(../../images/edus/bottom_pic2.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items3{
+	margin-left:146px;
+}
+.items3 dt a{
+	background: url(../../images/edus/bottom_pic3.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items4{
+	margin-left:146px;
+}
+.items4 dt a{
+	background: url(../../images/edus/bottom_pic4.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items5{
+	margin-left:147px;
+}
+.items5 dt a{
+	background: url(../../images/edus/bottom_pic5.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.bottom-line{
+	width:100%;
+	height:38px;
+	padding-top:220px;
+	border-bottom: 1px solid #fff;
+}
+.bottom p a{
+	color:#fff;
+	font-size:13px;
+}
+.bottom p{
+	font-size:14px;
+}
+/*侧边栏*/
+#moquu_top,#moquu_wxin,#moquu_wshare,#moquu_wmaps {
+	z-index:2;
+	width:50px;
+	height:50px;
+	right:10px;
+	position:fixed;
+	cursor:pointer;
+	_position:absolute;
+	_bottom:auto;
+	_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))
+}
+
+#moquu_wxin {
+	top:360px;
+	_margin-top:360px
+}
+#moquu_wxin a {
+	background:url(../../images/edus/sbtn.png) 0 -0px;
+	right:0;
+	float:left;
+	width:50px;
+	height:50px;
+	text-indent:-9999px
+}
+#moquu_wxin a:hover {
+	background:url(../../images/edus/sbtn.png) -50px -0px
+}
+#moquu_wshare {
+	top:412px;
+	_margin-top:412px
+}
+#moquu_wshare a {
+	background:url(../../images/edus/sbtn.png) 0 -50px;
+	width:50px;
+	height:50px;
+	right:0;
+	float:left;
+	text-indent:-9999px
+}
+#moquu_wshare a:hover {
+	background:url(../../images/edus/sbtn.png) -50px -50px
+}
+#moquu_wmaps {
+	top:464px;
+	_margin-top:464px
+}
+#moquu_wmaps a {
+	background:url(../../images/edus/sbtn.png) 0 -150px;
+	width:50px;
+	height:50px;
+	right:0;
+	float:left;
+	text-indent:-9999px
+}
+#moquu_wmaps a:hover {
+	background:url(../../images/edus/sbtn.png) -50px -150px
+}
+#moquu_top {
+	top:516px;
+	_margin-top:516px;
+	background:url(../../images/edus/sbtn.png) 0 -101px;
+	width:50px;
+	height:50px
+}
+#moquu_top:hover {
+	background:url(../../images/edus/sbtn.png) -50px -101px
+}
+.moquu_wxin,.moquu_wshare {
+	position:relative;
+	z-index:2
+}
+.moquu_wxin a:hover .moquu_wxinh,.moquu_wshare a:hover .moquu_wshareh {
+	display:block
+}
+.moquu_wxin .moquu_wxinh {
+	position:absolute;
+	display:none;
+	left:-280px;
+	top:-200px;
+	width:275px;
+	height:355px;
+	background:url(../../images/edus/lrtk_weixin.png) 0 -2px no-repeat
+}
+.moquu_wshare .moquu_wshareh {
+    position: absolute;
+    display: none;
+    left: -280px;
+    top: -50px;
+    width: 271px;
+    height: 132px;
+    background: url(../../images/edus/lrtk_app.png) no-repeat;
+}
+.clearfix{
+	clear: both;
+}

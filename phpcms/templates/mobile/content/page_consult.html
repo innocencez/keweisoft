@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/service.css" rel="stylesheet"/>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->		
+	    <script type="text/javascript">
+	      $(function(){
+	        var _x = $(window).width();
+	        var _y = (_x * 264) / 640;
+	        $('.auto-banner').css({
+	          width : _x,
+	          height : _y,
+	          margin : '10px auto 0',
+	          textAlign : 'center',
+	          position : 'relative',
+	        }).find('img').attr({
+	          width : _x,
+	          height : _y,
+	        });
+	      })
+	    </script>	
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+			{template "content","head_top"}
+			{template "content","head_sub"}
+			<div class="service-banner auto-banner">
+				<img src="{IMG_PATH}m/service-chbanner.jpg" alt="咨询服务" title="咨询服务">
+			</div>
+			<div class="consult-b1">
+				<div class="consult-tit">您的企业是否遇到过这样的问题？</div>
+				<div class="consult-b1-pic"></div>
+				<ul class="consult-b1-con">
+					<li>公司客户服务投诉越来越多？</li>
+					<li>销售业绩下降却不知如何查找原因？</li>
+					<li>手工管理客户资料特别繁琐？</li>
+					<li>企业员工对信息化比较抵触？</li>
+					<li>员工离职带走客户资源信息？</li>
+					<li>市场上管理软件太模板化，不符合公司业务流程？</li>
+				</ul>
+				<a href="http://www8.53kf.com/m.php?cid=72140145&style=5"><div class="consult-b1-btn">咨询可为管理顾问</div></a>
+			</div>				
+			<div class="consult-tit" style="margin-top:20px;">经调查表明，<font color="#f00">80%</font>的企业在选择咨询团队的时候<br/>会考虑以下的问题：</div>
+			<div class="consult-b2-pic"></div>
+			<ul class="consult-b2-con">
+				<li>行业经验是否丰富?</li>
+				<li>企业需求分析是否到位？</li>
+				<li>咨询流程是否科学？</li>
+				<li>改善方案是否可行？</li>
+			</ul>
+			<div class="service-line"></div>
+			<div class="consult-tit" style="margin-top:20px;">可为服务团队通过对大量成功案例的研究和专业的数据分析得出，成功咨询方案必备“四要”：</div>
+			<div class="consult-b3-pic"></div>
+			<div class="service-each-tit">可为咨询之路“四部曲”</div>
+			<div class="consult-tit" style="margin-top:20px;">选择软件，搭建企业自己的信息化管理系统，<br>我们能为你做些什么？</div>
+			<div class="consult-b4-pic1"></div>
+			<p class="consult-b4-tit">第一步：需求调研</p>
+			<p class="consult-b4-con">可为资深行业咨询顾问根据企业实际业务运行遇到的问题，按照岗位、业务流程进行一一的调研，并作出调研需求文档。</p>
+			<div class="consult-b4-pic2"></div>
+			<p class="consult-b4-tit">第二步：需求分析</p>
+			<p class="consult-b4-con">根据企业真实的调研需求文档提交给行业高级工程师进行专业性的需求分析，并整理出解决方案，确保解决方案的专业性和科学性</p>
+			<div class="consult-b4-pic3"></div>
+			<p class="consult-b4-tit">第三步：需求确认</p>
+			<p class="consult-b4-con">根据行业咨询顾问整理的解决方案与企业负责人进行需求和解决方案的确认，确保方案的可行性和适用性</p>
+			<div class="consult-b4-pic4"></div>
+			<p class="consult-b4-tit">第四步：价值呈现</p>
+			<p class="consult-b4-con">资深行业顾问需求的调研，高级工程师需求的分析，并且制定出可行性方案与企业负责人进行核对，打造出属于企业自己的信息化管理系统</p>
+			<div class="p-btn">立即预约演示</div>
+			{template "content","bottom"}
+		</div>
+	</body>
+</html>

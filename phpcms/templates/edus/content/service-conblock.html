@@ -1,0 +1,30 @@
+			<p class="cb3-tit" style="margin-top:35px;">他们携手可为一起，获得了巨大的成功...</p>
+			<div style="clear:both"></div>
+			<div class="consult-case">
+				<div class="m-content">
+				{pc:content action="lists" catid="140" order="listorder DESC" num="5" moreinfo="1"}
+				{loop $data $r}
+				<div class="case1" {if $n!=1 && $n!=5}style="margin-left:10px;"{/if}>
+					<p class="case1-tit">{str_cut($r[title],26,'...')}</p>
+					<p class="case1-thumb"><img src="{$r[logo]}" height="121" style="margin-left:40px;" /></p>
+					<p class="case1-industry"><strong style="color:#333;">所属行业：</strong>{get_linkage($r['industry'],3377,' >> ',0)}</p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">公司规模：</strong>{get_linkage($r['scale'],3369,' >> ',0)}</p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">上线时间：</strong>{$r[online_time]}</p>
+					<p class="case1-con">{str_cut(strip_tags($r[content]),125,'...')}</p>
+					<p style="text-align:right;padding-right:10px;margin-top:15px;"><a href="{$r[url]}" style="color:#13558f;font-size:14px;">详情>></a></p>
+				</div>
+				{/loop}
+				{/pc}
+			</div>
+		</div>
+		<div style="clear:both;height:20px;"></div>
+		<div class="s-ads">
+			<div class="m-content">
+				<div class="s-ads-tit">更多了解可为？<br />请联系我们</div>
+				<img src="{IMG_PATH}edus/process_bottom_arrow.png" alt="" title="" style="margin-top:55px;float:left;" />
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">告诉我们您的需求</a></div>
+				<div class="s-ads-btn2"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">预约演示</a></div>
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">在线咨询可为</a></div>
+				<div class="s-ads-tel"></div>
+			</div>
+		</div>

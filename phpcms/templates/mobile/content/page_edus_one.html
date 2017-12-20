@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/pro-edus.css" rel="stylesheet"/>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+    <script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<!---->  
+      <script type="text/javascript">
+        $(function(){
+          var _x = $(window).width();
+          var _y = (_x * 264) / 640;
+          $('.auto-banner').css({
+            width : _x,
+            height : _y,
+            margin : '10px auto 0',
+            textAlign : 'center',
+            position : 'relative',
+          }).find('img').attr({
+            width : _x,
+            height : _y,
+          });
+        })
+      </script>   
+	</head>
+
+<body>
+      <div class="pagebody">
+         <div class="content">
+		{template "content","head_top"}
+		{template "content","head_sub"}
+        <div class="e_onebanner auto-banner">
+               <img src="{IMG_PATH}m/e_onebanner.png" alt="一对一" title="一对一"/>
+               </div> 
+         <div class="e_oneContent">
+            <p class="e_one_tit">一对一管理是对教育培训机构整体的业务<br>流程进行的搭建</p>
+            <div class="e_onePic"><img src="{IMG_PATH}m/e_onePic.jpg" width="308" height="" alt=""></div>
+             <div class="title_bar">核心管控点</div> 
+             <div class="e_content1">
+                 <p class="e_onePic1"></p>
+                <h2 class="estudentPic1_tit">教师时间管理</h2>
+                <div class="pc-con2"> 系统可以精确过滤老师预约时间。知道老师可预约的时间段；在预约提交后，系统会提示预约是否成功，并且给学员和教师发送预约短信，提高老师学生预约效率和时间准确率，及时告知老师和学生。</div>
+               </div>
+            <div class="e_content1">
+                 <p class="e_onePic2"></p>
+                <h2 class="estudentPic1_tit">学生分配管理</h2>
+                <div class="pc-con2">        学员分配主要是一对一学员分配老师，分配老时，系统会自动过滤这个学生所报的课程校区所有老师，按照学员报的课程排序校区老师时间空闲度，这样便于合理给老师安排学员，已分配老师的学员，系统会有分配过老师记录，分配成功后，并可对学员、教师发送短信；教师可通过“教师分配学员列表”查看分配到的学员信息；分配教师后学员会在“学员分配列表”模块内显示，方便对应人员了解学员分配情况。 </div>
+               </div>
+               <div class="e_content1">
+                 <p class="e_onePic3"></p>
+                <h2 class="estudentPic1_tit">课程表管理</h2>
+                <div class="pc-con2">              教师可查询分配给自己的学员信息和预约上课情况，并需教师对课表进行确认，老师确认时间没问题，如果有问题，老师可以申请修改课程时间。 </div>
+         
+               </div>
+                       <div class="e_content1">
+                 <p class="e_onePic4"></p>
+                <h2 class="estudentPic1_tit">一对一考勤</h2>
+                <div class="pc-con2">  一对一学员考勤主要是对学员学习期间上课情况的记录，根据学习状态确定学生是否准时来上课，系统可以提前提醒我们老师，学生是否来上课，避免企业承担风险，一对一学员考勤可为企业对预约学员上课情况的了解提供方便。 </div>
+         </div>
+              <div class="e_content1">
+                 <p class="e_onePic5"></p>
+                <h2 class="estudentPic1_tit">一对一教学日志</h2>
+                <div class="pc-con2">  一对一教学日志主要是对老师上课的反馈记录统计，老师每次上完课，要写今天教学日志，教了什么，哪些学员在上课时有问题，哪些学员在知识点还不太懂，可很好记录每节课学员上课情况，同时也可通过此处对学员的每节课评价进行查看，提高老师责任心。 </div>
+         </div>
+          <div class="e_content1">
+                 <p class="e_onePic6"></p>
+                <h2 class="estudentPic1_tit">一对一作业管理</h2>
+                <div class="pc-con2">         一对一作业模块主要是教师课后对学员布置作业、批改作业等操作；老师上完课，可针对今天所讲的内容布置作业，查看今天学员学习成果，也是对教学质量把控；学员登陆系统下载作业，做完作业上传系统，老师可以批改；学员可以看见老师批改结果，把控学员课堂课下教学质量，提升企业竞争力。 </div>
+         </div>
+          <div class="e_content2">
+                 <p class="e_onePic7"></p>
+                <h2 class="estudentPic1_tit">培训结果处理</h2>
+                <div class="pc-con2">       培训结果处理即当学员在规定的时间内没来上课或者在上完课以后忘记打卡以及对教师的授课不满意等情况，进行处理；主要解决老师上课是否负责任，让学生来监督老师教学质量，也是老师绩效考核参照数据。</div>
+         </div>
+         </div>
+         
+      <div class="p-btn">立即预约演示</div>
+	{template "content","bottom"}
+</body>
+</html>

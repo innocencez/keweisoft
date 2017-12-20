@@ -1,0 +1,171 @@
+.case-banner{
+	width:360px;
+	height: 149px;
+	margin:15px auto 0px;
+}
+.edu-case-con{
+	width: 100%;
+	background: #eee;
+	padding:6px 0px;
+	margin-top: 10px;
+}
+.ecc-item{
+	width: 100%;
+	height: 75px;
+	background:url(../../images/m/edu-case-itemBg.png) left center repeat-x;
+	padding-top:8px;
+}
+.ecc-con{
+	width: 95%;
+	height: 66px;
+	margin: 0 auto;
+	min-width: 306px;
+}
+.ecc-logo{
+	width:93px;
+	height: 60px;
+	float: left;
+	background: url(../../images/m/edu-case-bg.png) left center no-repeat;
+	position: relative;
+	text-align: center;
+	padding-top: 6px;
+	position: relative;
+}
+.ecc-t{
+	position: absolute;
+	width: 30px;
+	height: 13px;
+	background:url(../../images/m/edu-tuijian.png) left center no-repeat;
+	left:0;
+	top:10px;
+	line-height: 13px;
+	text-align: center;
+	color:#fff;
+	font-size: 11px;
+}
+.ecc-right{
+	height: 66px;
+	width:65%;
+	float: left;
+	margin-left:13px;
+}
+.eccr-tit{
+	text-align: left;
+	font-size:14px;
+	color:#666;
+}
+.eccr-con{
+	font-size:12px;
+	color:#888686;
+	margin-top: 7px;
+	line-height: 18px;
+}
+.eccr-date{
+	font-size:12px;
+	color:#666;
+	text-align: right;
+}
+
+.news-pages{
+	width: 100%;
+	height: 20px;
+	margin:18px auto 0px;
+	line-height: 20px;
+	text-align: center;
+}
+.news-pages a,.news-pages span{
+	display: inline-block;
+	margin-right: 12px;
+	font-size: 14px;
+	color:#333;
+}
+.np-prev{
+	width: 8px;
+	height: 9px;
+	background:url(../../images/m/news_page_left.png) center center no-repeat;
+}
+.np-next{
+	width: 8px;
+	height: 8px;
+	background:url(../../images/m/news_page_right.png) center center no-repeat;
+}
+.news-yanshi{
+	width: 100%;
+	background: #fff;
+}
+.ny-btn{
+	height: 30px;
+	width: 85%;
+	background: #ff0000;
+	font-size: 14px;
+	color:#fffcfc;
+	margin: 20px auto 0px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+}
+.edu-all-link{
+	width: 100%;
+	height: 143px;
+	margin-top:10px;
+}
+.eal-item{
+	width: 24%;
+	height: 70px;
+	background:#f6f7fc;
+	float: left;
+	text-align: center;
+	margin-left:1%;
+}
+.eal-item a{
+	font-size: 14px;
+	color:#666;
+}
+.eali1{
+	background:url(../../images/m/in-bo1.png) center center no-repeat;
+	background-size: 25px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali2{
+	background:url(../../images/m/in-bo2.png) center center no-repeat;
+	background-size: 26px 18px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali3{
+	background:url(../../images/m/in-bo3.png) center center no-repeat;
+	background-size: 22px 23px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali4{
+	background:url(../../images/m/in-bo4.png) center center no-repeat;
+	background-size: 27px 21px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali5{
+	background:url(../../images/m/in-bo5.png) center center no-repeat;
+	background-size: 22px 26px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali6{
+	background:url(../../images/m/in-bo6.png) center center no-repeat;
+	background-size: 21px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali7{
+	background:url(../../images/m/in-bo7.png) center center no-repeat;
+	background-size: 23px 22px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali8{
+	background:url(../../images/m/in-bo8.png) center center no-repeat;
+	background-size: 22px 19px;
+	padding-top:45px;
+	display: inline-block;
+}

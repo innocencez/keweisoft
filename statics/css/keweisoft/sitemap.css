@@ -1,0 +1,43 @@
+.sm-tit{
+	width: 1024px;
+	margin: 0 auto;
+	height: 35px;
+	background:#BC252E;
+	line-height: 35px;
+	font-size:18px;
+	font-weight: bold;
+	padding-left:16px;
+	color:#fff;
+}
+.sm-con1{
+	overflow: hidden;
+	border: 1px solid #333;
+	margin-top: 10px;
+}
+.sm1-tit{
+	width: 1030px;
+	padding-left: 10px;
+	height: 35px;
+	background: #ccc;
+	line-height: 35px;
+}
+.sm1-tit a{
+	font-size: 16px;
+	color:#333;
+}
+.sm1-b1{
+	padding:10px 0px 10px 10px;
+	border-bottom: 1px solid #ccc;
+	width: 1030px;
+}
+.sm1-b1 a{
+	margin-right:10px;
+	display: inline-block;
+}
+.sm1-b1 a:hover{
+	font-weight: bold;
+}
+.a-tit{
+	color:#BC252E;
+}
+

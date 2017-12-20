@@ -1,0 +1,505 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  1.0
+*Level:  global
+*Explain:  频道页 crm
+*******************************************************************************/
+.edu-subnav{
+	height: 56px;
+	background: #eee;
+	overflow: hidden;
+	margin-top:20px;
+}
+.edu-subnav-tit{
+	width:173px;
+	height: 56px;
+	background: url(../../images/keweisoft/crm-navBg.png) left center no-repeat;
+	color:#fff;
+	line-height: 56px;
+	font-size:24px;
+	float: left;
+	padding-left:5px;
+}
+.es-item1{
+	width: 120px;
+	height: 51px;
+	float: left;
+	text-align: center;
+	padding-top:5px;
+}
+.es-item1 li{
+	margin-top:12px;
+}
+.es-item1 li a{
+	font-size:16px;
+	color:#666;
+	line-height: 24px;
+}
+.edu-b1{
+	height: 300px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.edu-b1-banner{
+	height: 100%;
+	width: 691px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.oUlplay { 
+	width:99999px; 
+	position:absolute; 
+	left:0; 
+	top:0;
+}
+.oUlplay li{ 
+	float:left;
+}
+.pre{ 
+	cursor:pointer; 
+	width:45px; 
+	height:45px; 
+	background:url(../../images/keweisoft/l.png) no-repeat; 
+	position:absolute; 
+	top:140px; 
+	left:10px; 
+	z-index:10;
+}
+.next{ 
+	cursor:pointer; 
+	width:45px; 
+	height:45px; 
+	background:url(../../images/keweisoft/r.png) no-repeat; 
+	position:absolute; 
+	top:140px; 
+	right:10px; 
+	z-index:10;
+}
+.smalltitle {
+	width:1000px; 
+	height:10px; 
+	position:absolute; 
+	bottom:15px; 
+	z-index:10
+}
+
+.smalltitle ul{ 
+	width:120px; 
+	margin:0 auto;
+}
+.smalltitle ul li{ 
+	width:10px; 
+	height:10px; 
+	margin:0 5px; 
+	border-radius:10px; 
+	background:#ffffff; 
+	float:left; 
+	overflow:hidden;
+	*display:inline;
+	*zoom:1;
+}
+.smalltitle .thistitle{ 
+	background:#69aaec;
+}
+.edu-b1-right{
+	width:330px;
+	height: 298px;
+	float: right;
+	border: 1px solid #eeeef0;
+}
+.ebr-top{
+	width:100%;
+	height: 38px;
+	background: url(../../images/keweisoft/edu-b1TitBg.jpg) left bottom no-repeat;
+}
+.ebr-top-left{
+	font-size:16px;
+	background: url(../../images/keweisoft/edu-b1-tit.png) left center no-repeat;
+	display: inline-block;
+	padding-left:22px;
+	margin-top:10px;
+	float: left;
+	margin-left: 5px;
+}
+.ebr-top-right{
+	font-size:14px;
+	color:#64bdf5;
+	display: inline-block;
+	float: right;
+	margin-top:15px;
+}
+.ebr-con{
+	line-height: 28px;
+	margin-top:5px;
+}
+.ebr-item-left{
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	font-size: 14px;
+	background: url(../../images/keweisoft/edu-b1ItemBg.jpg) left center no-repeat;
+	padding-left: 12px;
+}
+.ebr-item-right{
+	font-size:14px;
+	display: inline-block;
+	float: right;
+	margin-right: 5px;
+}
+
+.edu-b2{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.edu-b2-tit{
+	height: 48px;
+	width: 100%;
+	background: #eee;
+}
+.ebt-left{
+	width:207px;
+	height:48px;
+	background: url(../../images/keweisoft/edu-itemBg.png) left center no-repeat;
+	font-size: 20px;
+	color:#fff;
+	line-height: 48px;
+	padding-left:10px;
+	float: left;
+}
+.ebt-right{
+	width: 175px;
+	height: 25px;
+	background: url(../../images/keweisoft/edu-itemTel.png) left center no-repeat;
+	float: right;
+	margin:13px 15px 0px 0px;
+}
+.edu-b2-item{
+	width:316px;
+	height: 156px;
+	padding:12px;
+	background: url(../../images/keweisoft/pro-bg.jpg) left center no-repeat;
+	float: left;
+	margin-top:20px;
+}
+.ebi-left{
+	width: 110px;
+	height: 155px;
+	float: left;
+	border-right: 1px solid #898989;
+}
+.ebi-left-item1{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item1.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item1:hover{
+	background: url(../../images/keweisoft/crm-b2-item1-hov.png) center center no-repeat;
+}
+.ebi-link{
+	width:90px;
+	height: 30px;
+	background: url(../../images/keweisoft/edu-b2-btn.png) center center no-repeat;
+	line-height: 30px;
+	text-align: center;
+	font-size:18px;
+	color:#fff;
+	margin-top:30px;
+	margin-left:5px;
+}
+.ebi-link:hover,.ebi-rlink:hover{
+	background: url(../../images/keweisoft/edu-b2-btn-hov.png) center center no-repeat;
+	color:#076cac;
+}
+.ebi-right{
+	width:205px;
+	height:155px;
+	float: left;
+}
+.ebi-right-tit{
+	text-align: center;
+	font-size:18px;
+	color:#333;
+	font-weight: normal;
+}
+.ebi-right-con{
+	font-size:14px;
+	color:#666;
+	line-height: 24px;
+	padding:12px 12px 0px 16px;	
+}
+.ebi-rlink{
+	width:90px;
+	height: 30px;
+	background: url(../../images/keweisoft/edu-b2-btn.png) center center no-repeat;
+	line-height: 30px;
+	text-align: center;
+	font-size:18px;
+	color:#fff;
+	margin-top:7px;
+	margin-left:50px;
+}
+.edu-b2-ot{
+	margin-left: 10px;
+}
+.ebi-left-item2{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item2.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item2:hover{
+	background: url(../../images/keweisoft/crm-b2-item2-hov.png) center center no-repeat;
+}
+.ebi-left-item3{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item3.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item3:hover{
+	background: url(../../images/keweisoft/crm-b2-item3-hov.png) center center no-repeat;
+}
+.ebi-left-item4{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item4.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item4:hover{
+	background: url(../../images/keweisoft/crm-b2-item4-hov.png) center center no-repeat;
+}
+.ebi-left-item5{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item5.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item5:hover{
+	background: url(../../images/keweisoft/crm-b2-item5-hov.png) center center no-repeat;
+}
+.ebi-left-item6{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item6.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item6:hover{
+	background: url(../../images/keweisoft/crm-b2-item6-hov.png) center center no-repeat;
+}
+.ebi-left-item7{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item7.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item7:hover{
+	background: url(../../images/keweisoft/crm-b2-item7-hov.png) center center no-repeat;
+}
+.ebi-left-item8{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item8.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item8:hover{
+	background: url(../../images/keweisoft/crm-b2-item8-hov.png) center center no-repeat;
+}
+.ebi-left-item9{
+	width: 82px;
+	height: 82px;
+	background: url(../../images/keweisoft/crm-b2-item9.png) center center no-repeat;
+	cursor:pointer;
+	margin:5px  7px;
+}
+.ebi-left-item9:hover{
+	background: url(../../images/keweisoft/crm-b2-item9-hov.png) center center no-repeat;
+}
+
+.edu-ad1{
+	height: 113px;
+	background: url(../../images/keweisoft/crm-b2-ads.jpg) left center no-repeat;
+	overflow: hidden;
+	margin-top:20px;
+}
+.edu-b3{
+	overflow: hidden;
+	margin-top:20px;
+}
+.edu-b3-left{
+	width:700px;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.ebl-so{
+	width:340px;
+	float: left;
+	overflow: hidden;
+}
+.ebl-soHead{
+	width:340px;
+	height: 40px;
+	border-bottom:1px solid #c9c9c9;
+
+}
+.ebl-soLeft{
+	height: 40px;
+	display: inline-block;
+	width:88px;
+	background: url(../../images/keweisoft/edu-b3-titBg.png) left bottom no-repeat;
+	line-height: 34px;
+	font-size: 20px;
+	text-align: center;
+	float: left;
+}
+.ebl-soRight{
+	font-size:14px;
+	color:#f6680c;
+	display: inline-block;
+	float: right;
+	margin-top:15px;
+}
+.ebl-desc{
+	width:100%;
+	height: 86px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.ebl-dImg{
+	float: left;
+}
+.ebl-dCon{
+	width:167px;
+	float: left;
+	padding:0px 10px;
+	line-height: 24px;
+	position: relative;
+}
+.ebl-dCon a{
+	font-size:14px;
+}
+.ebl-dCon a:hover{
+	text-decoration: underline;
+}
+.ebl-item{
+	line-height: 25px;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.ebl-item li{
+	 width:100%;
+	 float: left;
+}
+.ebl-link {
+    color: #F6680C;
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: 17px;
+}
+.ebl-subLink{
+	background: url("../../images/keweisoft/edu-b3-itemBg.png") no-repeat scroll left center transparent;
+	display:inline-block;
+	width:350px;
+	padding-left:10px;
+	font-size:14px;
+	line-height:22px;
+}
+.ebl-subLink:hover{
+	color:#F6680C;
+}
+.ebl-item li a{
+	font-size:14px;
+	background: url(../../images/keweisoft/edu-b3-itemBg.png) left center no-repeat;
+	padding-left:12px;
+	display: inline-block;
+	float: left;
+}
+.ebl-item li a:hover{
+	color:#f6680c;
+}
+.edu-b3-center {
+    width: 20px;
+    background: url(../../images/keweisoft/edu-b3-mid.png) repeat-y scroll center center transparent;
+    float: left;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.ebl-date{
+	display: inline-block;
+	float: right;
+	font-size:14px;
+}
+.ebl-news{
+	width:700px;
+	float: left;
+	overflow: hidden;
+	margin-top:20px;	
+}
+.ebl-newsHead{
+	width:700px;
+	height: 40px;
+	border-bottom:1px solid #c9c9c9;	
+}
+.ebl-news-item{
+	line-height: 25px;
+	margin-top:10px;
+	width: 268px;
+	float: left;
+}
+.ebl-news-item li a{
+	font-size:14px;
+}
+.ebl-news-item li a:hover{
+	color:#f6680c;
+}
+.edu-b3-right {
+    width: 324px;
+    height: 404px;
+    border: 1px solid #EEEEF0;
+    float: right;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.edu-b3-banner{
+	height: 160px;
+	width: 324px;
+	position: relative;
+	overflow: hidden;
+}
+.edu-b3-tit{
+	color: #5a95e6;
+	font-size:18px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-left:7px;
+}
+.edu-b3-item{
+	line-height: 26px;
+	overflow: hidden;
+	margin-top:15px;
+}
+.edu-b3-item li{
+	padding-left:15px;
+}
+.edu-b3-item li a{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/edu-b3-itemRbg.png) left center no-repeat;
+	padding-left:13px;
+}
+.edu-b3-item li a:hover{
+	color:#f6680c;
+}

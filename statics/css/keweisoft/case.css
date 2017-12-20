@@ -1,0 +1,806 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  1.0
+*Level:  global
+*Explain:  频道页 成功案例
+*******************************************************************************/
+/*公共样式*/
+html,body,div,p,span,ul,li,dl,dt,dd,a,table,h1,h2,h3,h4,h5,h6,form,input,textarea{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color:#666;
+	font-family: Microsoft YaHei;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:0;
+}
+.clearfix{
+	clear:both;
+}
+/*********************************/
+.header-top{
+	width:100%;
+	height: 37px;
+	background-color: #f2f2f2;
+	line-height: 37px;
+	min-width: 1400px;
+}
+.m-content{
+	width:1040px;
+	margin: 0 auto;
+}
+.head-top-left{
+	padding-left:20px;
+	background: url(../../images/keweisoft/index-top1.png) left center no-repeat;
+}
+.head-top-mid{
+	display: inline-block;
+	margin-left:129px;
+}
+.link-mline{
+	display: inline-block;
+	margin:0 5px;
+}
+.head-top-center{
+	display: inline-block;
+}
+.head-top-tel{
+	display: inline-block;
+	margin-left:129px;
+	background: url(../../images/keweisoft/index-top2.png) left center no-repeat;
+	padding-left:25px;
+}
+.head-top-collect{
+	display: inline-block;
+	margin-left:100px;
+}
+.head-logo{
+	float: left;
+	margin-top:22px;
+}
+.head-sign{
+	display: inline-block;
+	background: url(../../images/keweisoft/in-topBox.jpg) left center no-repeat;
+	padding-left:47px;
+	padding-top:5px;
+	height: 37px;
+	float: right;
+	margin-right: 15px;
+	margin-top:22px;
+}
+.head-sign:hover{
+	color:#f67c0f;
+}
+.head-appoint{
+	display: inline-block;
+	background: url(../../images/keweisoft/in-topTv.jpg) left center no-repeat;
+	padding-left:47px;
+	padding-top:5px;
+	height: 37px;
+	float: right;
+	margin-right: 50px;
+	margin-top:22px;
+}
+.head-appoint:hover{
+	color:#017cd6;
+}
+.head-tel{
+	display: inline-block;
+	background: url(../../images/keweisoft/in-topTel.jpg) left center no-repeat;
+	padding-left:47px;
+	padding-top:5px;
+	height: 37px;
+	float: right;
+	margin-right: 50px;
+	margin-top:22px;
+}
+.head-tel:hover{
+	color:#d02c39;
+}
+.navigation{
+	background-color: #bc252e;
+	height: 50px;
+	min-width: 1400px;
+}
+.nav-item{
+	width:130px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+.nav-item a{
+	color:#fff;
+	font-size:18px;
+}
+.nav-item:hover{
+	background: url(../../images/keweisoft/in-nav-hov.jpg) center center no-repeat;
+}
+/********/
+.temp{
+	height: 100px;
+	overflow: hidden;
+	margin-top: 21px;
+	background: #89b9fa;
+}
+/********/
+
+.edu-b1{
+	height: 300px;
+	margin-top: 20px;
+}
+.edu-b1-banner{
+	height: 100%;
+	width: 691px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.oUlplay { 
+	width:99999px; 
+	position:absolute; 
+	left:0; 
+	top:0;
+}
+.oUlplay li{ 
+	float:left;
+}
+.pre{ 
+	cursor:pointer; 
+	width:45px; 
+	height:45px; 
+	background:url(../../images/keweisoft/l.png) no-repeat; 
+	position:absolute; 
+	top:140px; 
+	left:10px; 
+	z-index:10;
+}
+.next{ 
+	cursor:pointer; 
+	width:45px; 
+	height:45px; 
+	background:url(../../images/keweisoft/r.png) no-repeat; 
+	position:absolute; 
+	top:140px; 
+	right:10px; 
+	z-index:10;
+}
+.smalltitle {
+	width:1000px; 
+	height:10px; 
+	position:absolute; 
+	bottom:15px; 
+	z-index:10
+}
+
+.smalltitle ul{ 
+	width:120px; 
+	margin:0 auto;
+}
+.smalltitle ul li{ 
+	width:10px; 
+	height:10px; 
+	margin:0 5px; 
+	border-radius:10px; 
+	background:#ffffff; 
+	float:left; 
+	overflow:hidden;
+	*display:inline;
+	*zoom:1;
+}
+.smalltitle .thistitle{ 
+	background:#69aaec;
+}
+.case-b1-right{
+	width:331px;
+	height: 300px;
+	float: right;
+}
+
+.cb1r-title{
+	width: 100%;
+	height: 38px;
+	background: #f7f8fc;
+	text-align: center;
+	line-height: 38px;
+	color:#e94c1b;
+	font-size: 16px;
+}
+
+.cb1r-LeftTitle{
+	width: 165px;
+	height: 38px;
+	display: inline-block;
+	background: #f7f8fc;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	color:#4a5870;
+	margin-top:1px;
+	float: left;
+}
+.cur{
+	color:#c76127;
+}
+.cb1r-RightTitle{
+	width: 165px;
+	height: 38px;
+	display: inline-block;
+	background: #f7f8fc;
+	text-align: center;
+	line-height: 38px;
+	font-size: 14px;
+	color:#4a5870;
+	margin-top:1px;
+	margin-left: 1px;
+	float: left;
+}
+.cb1r-con{
+	width: 100%;
+	height: 250px;
+}
+.cb1r-con-item{
+	width: 109px;
+	height: 82px;
+	background: #f7f8fc;
+	float: left;
+	margin-top: 1px;
+	text-align: center;
+}
+.cb1r-con-item a:hover{
+	color:#c76127;
+}
+.cci-link1{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci1.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link2{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci2.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link3{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci3.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link4{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci4.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link5{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci5.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link6{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci6.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link7{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci7.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link8{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci8.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link9{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci9.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link10{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci10.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link11{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci11.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link12{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci12.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link13{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci13.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link14{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci14.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link15{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci15.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link16{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci16.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link17{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci17.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+.cci-link18{
+	font-size: 14px;
+	color:#4a5870;
+	background: url(../../images/keweisoft/cci18.png) center top no-repeat;
+	padding-top:34px;
+	display: block;
+	margin-top: 13px;
+}
+
+.case-b2-title{
+	width: 686px;
+	height: 40px;
+	background: url(../../images/keweisoft/cb2t-bg.jpg) left bottom #f7f8fc no-repeat;
+	line-height:40px;
+	font-size: 18px;
+	padding-left: 5px;
+	color:#24313a;
+}
+.cbl-tit a{
+	color:#1672ba;
+	font-size: 16px;
+}
+
+
+.case-b2{
+	overflow: hidden;
+	margin-top:10px;
+}
+.case-b2-left{
+	width: 691px;
+	float: left;
+}
+.cbl-item{
+	width: 335px;
+	height: 91px;
+	background: url(../../images/keweisoft/case-itemBg2.jpg) center center no-repeat;
+	float: left;
+}
+
+.cbl-tit a:hover{
+	color:#e94c1b;
+}
+.cbl-con{
+	font-size: 12px;
+	line-height: 22px;
+	padding: 15px 0px 0px 5px;
+}
+.case-b2-right{
+	width: 326px;
+	height: 224px;
+	float: right;
+	background: #f6f6f6;
+	border: 1px solid #e5e5e4;
+	margin-top: 35px;
+}
+.cbr-head{
+	height: 32px;
+	width: 326px;
+	background: url(../../images/keweisoft/case-line.png) left bottom no-repeat;
+}
+.cbr-tit{
+	font-size:16px;
+	color:#66b4e5;
+	display: inline-block;
+	margin-top:5px;
+	margin-left:3px;
+}
+.cbr-con{
+	overflow: hidden;
+	margin-top: 10px;
+	padding: 0px 9px;
+}
+.cbr-con li{
+	height: 22px;
+	line-height: 22px;
+}
+
+.cbr-item{
+	font-size:12px;
+	display: inline-block;
+	float: left;
+}
+.cbr-date{
+	font-size: 12px;
+	display: inline-block;
+	float: right;
+}
+.cbr-item:hover{
+	color:#e94c1b;
+}
+
+.case-ads{
+	height: 99px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.case-ads-left{
+	width: 691px;
+	height: 99px;
+	background: url(../../images/keweisoft/case-ads1.png) center center no-repeat;
+	float: left;
+}
+.case-ads-right{
+	width: 329px;
+	height: 99px;
+	background: url(../../images/keweisoft/case-ads2.png) center center no-repeat;
+	float: right;
+}
+.case-b3{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.case-b3-head{
+	width: 100%;
+	height: 48px;
+	background: #fce7e0;
+}
+.cbh-left{
+	width: 139px;
+	background: #e94c1b;
+	height: 48px;
+	float: left;
+	line-height: 48px;
+	text-align: center; 
+	font-size: 18px;
+	color:#fff;
+}
+.cbh-mid{
+	width: 173px;
+	height: 48px;
+	background: url(../../images/keweisoft/edu-itemTel.png) center center no-repeat;
+	float: left;
+	margin-left:570px; 
+}
+.cbh-right{
+	width: 126px;
+	height: 40px;
+	background: url(../../images/keweisoft/case-btn-hov.png) center center no-repeat;
+	float: left;
+	margin-left:15px;
+	margin-top:4px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+}
+.cbh-right:hover{
+	background: url(../../images/keweisoft/case-btn.png) center center no-repeat;
+}
+.case-b3-top{
+	width: 100%;
+	margin-top: 7px;
+}
+.case-b3-item{
+	height: 205px;
+	width: 336px;
+	float: left;
+}
+.cbi-head{
+	height: 38px;
+	width: 336px;
+	background: url(../../images/keweisoft/case-itemBg3.png) left bottom no-repeat #f7f8fc;
+}
+.cbi-head-left{
+	font-size: 14px;
+	color:#666;
+	margin-top:7px;
+	display: inline-block;
+	font-weight: bold;
+}
+.cbi-pic{
+	float: left;
+	margin-top:15px;
+}
+.cbi-desc{
+	padding:0px 5px;
+	float: right;
+	width:180px;
+	margin-top:15px;
+	font-size:14px;
+	line-height: 20px;
+}
+.cbi-con{
+	overflow: hidden;
+	margin-top:5px;
+}
+.cbi-con li{
+	line-height: 23px;
+	height: 23px;
+}
+.cbi-con-item{
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+}
+.cbi-con-date{
+	font-size:14px;
+	display: inline-block;
+	float: right;
+}
+.cbi-con-item:hover{
+	color:#e94c1b;
+}
+.case-b3-bottom{
+	width: 100%;
+	height: 199px;
+	margin-top:14px;
+}
+.cbb-left{
+	height: 100%;
+	width:688px;
+	float: left;
+}
+.cbb-left-head{
+	height: 38px;
+	width: 100%;
+	background: url(../../images/keweisoft/case-itemBg4.png) left bottom no-repeat #f7f8fc;
+}
+.clh-tit{
+	font-size:14px;
+	color:#e94c1b;
+	display: inline-block;
+	float: left;
+	margin-top:7px;
+}
+.clh-list li{
+	width: 85px;
+	height: 35px;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.clh1-list li{
+	width: 73px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.cur{
+	color:#e94c1b;
+}
+.clh-conb{
+	width: 688px;
+	height: 148px;
+	margin-top:20px;
+}
+.clh-con{
+	width: 688px;
+	height: 148px;
+	overflow: hidden;
+}
+.clh1-con{
+	width: 688px;
+	height: 148px;
+	overflow: hidden;
+}
+.clh-con-pic{
+	float: left;
+}
+.clh-con-right{
+	width:446px;
+	height: 148px;
+	float: right;
+}
+.clh-con-detail{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.clh-con-link{
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+	margin-top:50px;
+}
+.clh-con-link:hover{
+	color:#e94c1b;
+}
+.cbb-right{
+	width:336px;
+	height: 196px;
+	float: right;
+	background: #f6f6f6;
+	border:1px solid #e5e5e4;
+}
+.cbb-right-head{
+	width: 100%;
+	height: 30px;
+	background: url(../../images/keweisoft/case-line1.png) left bottom no-repeat;
+}
+.crh-left{
+	font-size: 14px;
+	color:#66b4e5;
+	display: inline-block;
+	float: left;
+	margin-top:5px;
+	margin-left:3px;
+}
+.crh-right{
+	font-size: 12px;
+	color:#e94c1b;
+	display: inline-block;
+	float: right;
+	margin-top: 5px;
+	margin-right: 3px;
+}
+.crh-con{
+	overflow: hidden;
+	margin-top:10px;
+	line-height: 24px;
+}
+.crh-item{
+	font-size: 12px;
+	display: inline-block;
+	float: left;
+}
+.crh-date{
+	font-size: 12px;
+	display: inline-block;
+	float: right;
+	margin-right: 5px;
+}
+.crh-item:hover{
+	color:#e94c1b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.f-link{
+	width:1020px;
+	border: 1px solid #898989;
+	padding:10px;
+	margin:20px auto;
+	overflow: hidden;
+}
+.f-link-tit{
+	display:inline-block;
+	font-size:18px;
+	color:#333;
+	float: left;
+}
+.f-link-item{
+	float: left;
+	margin-left: 20px;
+	line-height: 26px;
+}
+.f-link-item a{
+	font-size: 14px;
+	color:#666;
+}
+.d-link{
+	width:100%;
+	height: 42px;
+	background: #bc252e;
+	overflow: hidden;
+	margin-top:5px;
+	min-width: 1400px;
+}
+.d-content{
+	width:875px;
+	margin: 0 auto;
+}
+.d-link-item{
+	width:100px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	float: left;
+}
+.d-link-item a{
+	color:#fff;
+	font-size:14px;
+}
+.bottom{
+	width:100%;
+	height: 175px;
+	background: #f4f4f4;
+}
+.b-con{
+	text-align: center;
+	font-size:14px;
+	line-height: 32px;
+	overflow: hidden;
+	padding-top: 15px;
+}

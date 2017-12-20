@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />    
+    <link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{CSS_PATH}edus/case-show.css">
+    <script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+    <script src='{JS_PATH}edus/tagscloud.js' type="text/javascript"></script>    
+  </head>
+  <body>  
+    {template "content","head"}        
+    {if $id == 9}
+  <div class="banner-s1">
+    <div class="banner-s1-1"></div>
+    <div class="banner-s1-2">
+        <a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">
+          <div class="banner-sbt1"></div>
+        </a>
+        <a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">
+        <div class="banner-sbt2"></div>
+        </a>      
+    </div>
+
+  </div>
+  {else}
+      <div class="banner">
+        <div class="banner1"></div>
+        <div class="banner2">
+          <a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="bannerBut">点击在线演示</div></a>            
+        </div>
+      </div>
+  {/if}
+  <div class="main">
+  <div class="title"><a href="{siteurl($siteid)}">首页</a> <span id="dt">&nbsp;>&nbsp;</span> <a href="{$CATEGORYS[$catid][url]}">{$CATEGORYS[$catid][catname]}</a>&nbsp;>&nbsp;{$title}<div class="Eng">NEWS</div></div>
+  <div class="left">
+    <div left_Con>
+    <h1 class="Font_Title">{$title}</h1>
+    <div class="Data">{date('Y-m-d',strtotime($inputtime))}</div>
+    <div class="Eyes"><span id="hits"><script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script></span></div>
+    <div style="clear:both;"></div>
+    <div class="Text_Con">
+    <P><span style="font-weight:bold;color:#f60;font-size:14px;">公司名称：</span>{$title}</p>
+    <P><span style="font-weight:bold;color:#f60;font-size:14px;">所属行业：</span>{$industry}</p>
+    <P><span style="font-weight:bold;color:#f60;font-size:14px;">公司规模：</span>{$scale}</p>
+    <P><span style="font-weight:bold;color:#f60;font-size:14px;">应用模块：</span>{$usefunction}</p>	
+     <span style="font-weight:bold;color:#f60;font-size:14px;display:inline-block;">公司介绍：</span>
+     <p>{$brief}</p>
+<div class="case-conTit1">
+      <div class="case-conTit1-right">公司管理遇到的问题<br /><span style="color:#333;">Diffculties</span></div>
+    </div>
+　  <p>{$problem}</p>
+    <div class="case-conTit2">
+      <div class="case-conTit1-right">可为edus解决方案<br /><span style="color:#333;">Solutions</span></div>
+    </div>
+　   <p>{$content}</p>
+    <div class="case-conTit3">
+      <div class="case-conTit1-right">系统应用价值<br /><span style="color:#333;">Values</span></div>
+    </div>
+     <p>{$value}</p>
+    <div class="case-conTit4">
+      <div class="case-conTit1-right">客户感言<br /><span style="color:#333;">Thanks</span></div>
+    </div>
+     <p style="padding: 10px 20px;font-style: oblique;font-size: 14px;color: #000;">{$word} </p>
+     <a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="case-subBtn">在线咨询</div></a><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="case-subBtn" style="margin-left:50px;">预约演示</div></a>
+     <a><img src="{IMG_PATH}edus/b8-Map_Telephone.png" style="display:inline-block;margin-left:50px;margin-top:25px;" /><div style="display:inline-block;margin-left:15px;font-size:28px;color:#ff6600">010-51651266</div></a>
+     <p style="text-align:center;font-size:24px; margin-top:35px;line-height:36px;color:#333;">微信“扫一扫”，可为EDUS案例全知道!<br />或搜索公众微信“可为时代”、“kewei_1993”</p>
+    <p class="case-erweima"></p>
+   </div>  
+      </div>
+</div>
+                <div class="right_1">
+                      <div class="Bar_1">热门标签：</div>
+                       <div id="tagscloud">
+                       {pc:get sql="SELECT keyword,videonum FROM kewei_keyword order by videonum desc" num="15"}
+                       {loop $data $r}<a href="{APP_PATH}index.php?m=content&c=tag&a=lists&tag={urlencode($r[keyword])}" class="tags-blue">{$r[keyword]}</a>{/loop}
+                       {/pc}
+                       </div>
+                 </div>  
+                 <div class="right_2">
+                 <div class="Bar_2">最近更新:</div>
+                 {pc:content action="lists" catid="140" order="listorder DESC" num="5"} 
+                 {loop $data $r}
+                 <div class="img_1"><a href="#"><img src="{$r[thumb]}" width="286" height="150" alt="{$r[title]}" title="{$r[title]}"/></a></div>
+                 <p class="LittleTit_1"><a href="{$r[url]}" style="font-size:14px;color:#333; font-weight:bold;">{str_cut($r[title],30,'...')}</a></p>
+                 <div class="ConY_1"><p class="Con_1"><a href="{$r[url]}" style="font-size:12px;color:#666; line-height:20px;">{str_cut($r[description],85,'...')}</p></a></div>
+                 {/loop}
+                 {/pc}
+               
+                 </div>
+          </div> 
+           <div style="clear:both"></div>          
+    <div class="s-ads">
+      <div class="m-content">
+        <div class="s-ads-tit">更多了解可为？<br />请联系我们</div>
+        <img src="{IMG_PATH}edus/process_bottom_arrow.png" alt="" title="" style="margin-top:55px;float:left;" />
+        <div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5">告诉我们您的需求</a></div>
+        <div class="s-ads-btn2"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5">预约演示</a></div>
+        <div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5">在线咨询可为</a></div>
+        <div class="s-ads-tel"></div>
+      </div>
+    </div>    
+<!--********************************************************************-->   
+{template "content","footer"}
+  </body>  
+</html>

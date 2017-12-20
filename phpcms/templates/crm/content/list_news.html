@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="{$SEO['keyword']}" />
+		<meta name="description" content="{$SEO['description']}" />
+		<meta name="author" content="keweisoft.com" />
+		<link href="{CSS_PATH}crm/solution.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="{JS_PATH}crm/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}crm/product.js"></script>	
+	</head>	
+	<body>
+	{template "content","header"}
+		<div class="news-banner">
+			<div class="news-banner-mid"></div>
+		</div>
+		<div class="m-content">
+			<p class="micro-nav">
+				<a href="{siteurl($siteid)}"> 首页</a> > <span>产品资讯</span>
+			</p>
+		</div>
+		<div class="news-con m-content">
+			<div class="news-con-left">
+				{pc:content action="lists" catid="$catid" num="5" order="updatetime DESC" page="$page" moreinfo="1"}
+				{loop $data $r}
+				<div class="ncl-item">
+					<div class="ncl-item-pic"><a href="{$r[url]}" target="_blank"><img src="{$r[thumb]}" width="278" height="180" alt="{$r[title]}" /></a></div>
+					<div class="ncl-item-right">
+						<p class="nir-tit">{str_cut($r[title],56,'...')}</p>
+						<p class="nir-con">{str_cut(strip_tags($r[content]),225,'...')}</p>
+						<p class="nir-sub">
+							<span style="float:left"><font color="#ED992C" style="margin-right:5px;">author:</font>{$r[username]}</span>
+							{php $keywords = explode(' ',$r[keywords]);}
+							{loop $keywords $keyword}
+							{if $n==1}
+							<span style="float:right"><font color="#ED992C" style="margin-right:5px;">tags:</font>{$keyword}</span>
+							{/if}
+							{/loop}
+						</p>
+						<a href="{$r[url]}" target="_blank"><div class="nir-more">了解详情</div></a>
+					</div>
+				</div>
+				{/loop}
+				{/pc}	
+				<div style="text-align:center;margin-bottom:20px;">{$pages}</div>														
+			</div>
+			<div class="news-con-right">
+				<div class="ncr-top">
+					<div class="ncr-top-tit">热门文章</div>
+					<div class="ncr-top-con">
+						{pc:content action="lists" catid="$catid" siteid="$siteid" order="listorder DESC" num="7"}
+						{loop $data $r}
+						<div class="ntc-item">
+							<div class="ntc-item-pic"><a href="{$r[url]}" target="_blank"><img src="{$r[thumb]}" width="63" height="63" alt="" /></a></div>
+							<div class="ntc-item-con">
+								<p class="nic-tit"><a href="{$r[url]}" target="_blank">{str_cut($r[title],40,'...')}</a></p>
+								<p class="nic-date">{date('Y.m.d',$r[updatetime])}</p>
+							</div>							
+						</div>
+						{/loop}
+						{/pc}																			
+					</div>
+				</div>
+				<div class="ncr-sub">
+					<div class="ncr-top-tit">标签分类</div>	
+					<div class="ncr-sub-con">
+						{pc:get sql="SELECT keyword,videonum FROM kewei_keyword order by videonum desc" start="1" num="16" return="data"}
+						{loop $data $r}
+						<a href="{APP_PATH}index.php?m=content&c=tag&a=lists&tag={urlencode($r[keyword])}" target="_blank"><span class="nsc-item">{str_cut($r[keyword],12,'')}</span></a>
+						{/loop}
+						{/pc}
+					</div>				
+				</div>
+			</div>
+		</div>
+		{template "content","footer"}	
+	</body>	
+</html>

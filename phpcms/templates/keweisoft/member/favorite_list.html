@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="keweisoft.com" />
+		<meta name="keywords" content="{$SEO['keyword']}" />
+		<meta name="description" content="{$SEO['description']}" />
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/common.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/user-center.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/hover.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}member.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}table_form.css">
+		<script type="text/javascript" src="{JS_PATH}official/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}official/index.js"></script>		
+		<script type="text/javascript" src="{JS_PATH}formvalidator.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="{JS_PATH}formvalidatorregex.js" charset="UTF-8"></script>		
+		<link href="{CSS_PATH}dialog.css" rel="stylesheet" type="text/css" />
+		<script language="javascript" type="text/javascript" src="{JS_PATH}dialog.js"></script>		
+		<script language="javascript" type="text/javascript" src="{JS_PATH}content_addtop.js"></script>
+		<style type="text/css">
+		.col-1{background: none !important;border:none !important;}
+		.title{border-bottom: 1px solid #B6CEFE !important;line-height: 26px !important;}
+		</style>
+	</head>
+<body>	
+{template 'content', 'header'}
+<div id="memberArea">
+	{template 'member', 'left'}
+	<div class="col-auto user-right">
+		<div class="col-1 ">
+			<h5 class="title">{L('favorite_list')}</h5>
+			<div class="content">
+				
+			<form method="post" action="" id="myform" name="myform">
+				<table width="100%" cellspacing="0" class="table_form">
+					<tr>
+						<td>{L('title')}</td>
+						<td>{L('adddate')}</td>
+						<td>{L('operation')}</td>
+					</tr>
+					{loop $favoritelist $k $v}
+					<tr>
+						<td><a href="{$v['url']}" target="_blank">{$v['title']}</a></td>
+						<td>{format::date($v['adddate'], 1)}</td>
+						<td><a href="index.php?m=member&c=index&a=favorite&id={$v['id']}">{L('delete')}</a></td>
+					</tr>
+					{/loop}
+				</table>
+			</form>
+			
+			</div>
+			<div id="pages">{$pages}</div>
+			<span class="o1"></span><span class="o2"></span><span class="o3"></span><span class="o4"></span>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+{template 'content', 'footer'}

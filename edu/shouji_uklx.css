@@ -1,0 +1,74 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; }
+body { font-size:12px; color:#666; font-family: Microsoft YaHei; background:#fff; line-height:24px; }
+fieldset, img { border:0; }
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; } 
+/*======== Link ========*/
+a { color: #666; text-decoration:none; display: block; }
+img{ width: 100%; display: block; }
+
+/*头底css*/
+*,*:after,*:before { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
+.header,{ max-width: 640px; margin:0 auto ; }
+.top{width:100%;height:auto;overflow: hidden;background:#de333e;}
+.top .box-l{width:165px;height:auto;overflow: hidden;float:left;margin: 2% 4%;}
+.top .box-l .logo{width:30px;height:20px;float:left;}
+.top .box-l .logo img,.top .al img{width:100%;height:100%;}
+.top .box-l p{float:left;font-size: 19px;color:#fff;text-align: center;margin-left: 10px;}
+.top .al{width:18px;height:20px;float:right;margin: 2% 4%;}
+.iphone_footer_fixed {
+    background: #fff;
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99999;
+}
+.iphone_footer_fixed, .iphone_listnav_tag {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.iphone_listnav_tag{    border-top: 1px solid #f5f5f5;}
+.iphone_listnav_tag li{width:33.33%;float:left;}
+.iphone_footer_fixed .iphone_listnav_tag li a {
+    padding-top: 7%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 7%;
+
+}
+.mt{border-left: 1px solid #f5f5f5;border-right: 1px solid #f5f5f5;}
+.iphone_footer_fixed .iphone_listnav_tag li.mt a{margin-top: -1%;}
+.iphone_footer_fixed .iphone_listnav_tag li.last{background:#de333e;}
+.iphone_footer_fixed .iphone_listnav_tag li.last a{color:#fff;margin-top: -1%;}
+.iphone_footer_fixed .iphone_listnav_tag li.last a:hover{color:#fff !important;}
+.iphone_footer_fixed .iphone_listnav_tag li a>i{display:inline-block;vertical-align: middle;margin-right: 3px;
+}
+.iphone_footer_fixed .iphone_listnav_tag li a>i.zixun{background:url(shou/zx.png) no-repeat;width:18px;height:16px;margin-top: -6px;}
+.iphone_footer_fixed .iphone_listnav_tag li a>i.tel{background:url(shou/tel1.png) no-repeat;width:15px;height:18px;}
+.iphone_footer_fixed .iphone_listnav_tag li a>i.mianfei{background:url(shou/massge.png) no-repeat;width:18px;height:16px;}
+        .bounce {background-color:#000000;/* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */background-color:rgba(0,0,0,0.2); /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */}
+        .bounce2{background-color:#000000;/* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */background-color:rgba(0,0,0,0.2); /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */}
+
+@media (max-width:375px){
+  .top .box-l p{font-size: 16px;}
+}
+/*头底css*/
+.con { max-width: 640px; margin: 0 auto; }
+.con04 ul { overflow: hidden; background: #f2f2f2; }
+.con05 ul { overflow: hidden; background: #fff6ed; display: block; }
+.con08 ul { background: #f2f2f2; overflow: hidden; display: block;}
+.con02 ul li,.con04 ul li,.con05 ul li  { float: left; width: 48%; margin-left: 1.5%; margin-bottom: 2%; }
+.con08 ul li { width: 31%; margin-left: 1.5%; float: left; margin-bottom: 2%; }
+.con09 .phi_02 { display: none; }
+@media (max-width:400px) {
+   .con09 .phi_01 { display: none; }
+   .con09 .phi_02 { display: block; }
+}
+

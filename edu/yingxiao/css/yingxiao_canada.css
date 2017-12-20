@@ -1,0 +1,1376 @@
+@charset "UTF-8";
+.ml0{
+    margin-left: 0 !important;
+}
+.mr0{
+    margin-right:0 !important;
+}
+.mb0{
+    margin-bottom:0 !important;
+}
+.br0{
+    border-right: none !important;
+}
+
+/**头部开始**/
+.header {
+    background: #f6f6f6;
+}
+.header_top {
+    height: 60px;
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1111;/*此处z-index为兼容ie7 勿删*/
+}
+.header_top .header_top_new {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+/**左**/
+.header_top .header_top_left {
+    width: 740px;
+    float: left;
+    overflow: hidden;
+}
+.header_top .header_top_left ul {
+    overflow: hidden;
+}
+.header_top .header_top_left ul li {
+    float: left;
+    width: 90px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 14px;
+    color: #666;
+    border-right: 1px solid #b5b5b5;
+    text-align: center;
+}
+.header_top .header_top_left ul li.last {
+    border-right: none;
+}
+.header_top .header_top_left ul li a {
+    color: #2d2d2d;
+}
+.header_top .header_top_left ul li>a:hover {
+    color: #d93c32;
+}
+.header_top .header_top_left .fa {
+    width: 65px;
+    padding-left: 23px;
+    text-align: left;
+    background: url(../images/usa_liuxue/up.png) no-repeat 57px 21px;
+    display: block;
+}
+.header_top .header_top_left .header_bor_l {
+    border-left: 0 none;
+    display: block;
+    width: 178px;
+    height: 25px;
+    border-right: none;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+.header_top .header_top_left .header_bor_r, .header_top .header_top_left .header_bor_p {
+    margin-top: 20px;
+}
+.header_top .header_top_left .header_bor_r {
+    width: 60px;
+    padding-left: 20px;
+    background: url(../images/yingxiao_canada/new_top.png) no-repeat -15px -21px;
+}
+.header_top .header_top_left .header_bor_r.pad0 {
+    width: 54px;
+    padding-left: 0;
+    background: none;
+}
+.header_top .header_top_left .header_bor_p {
+    border-right: none;
+    border-left: 1px solid #ccc;
+}
+/**右**/
+.header_top .header_top_right {
+    width: 388px;
+    width: 398px\0;
+    *width:398px;
+    height: 26px;
+    float: right;
+    margin-top: 17px;
+}
+.header_top .header_top_right p {
+    float: left;
+}
+.login ul li.header_top_name {
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
+    color: #d93c32;
+    position: relative;
+}
+.login ul li.header_top_name img {
+    margin-bottom: -6px;
+    padding-right: 5px;
+}
+p.header_bor_phon {
+    height: 26px;
+    float: left;
+    margin-left: 15px;
+    font: 18px/30px "微软雅黑";
+    background: url(../images/yingxiao_canada/new_top.png) no-repeat -19px -211px;
+    padding-left: 36px;
+    width: 137px;
+    width: 142px\0;
+    *width:142px;
+}
+.header_bor_line, .header_bor_pinggu {
+    width: 85px;
+    font: 14px/26px "微软雅黑";
+    text-align: center;
+    position: relative;
+}
+.header_bor_line em, .header_bor_pinggu em {
+    width: 31px;
+    height: 30px;
+    position: absolute;
+    left: -7px;
+    top: -1px;
+}
+.header_bor_line a, .header_bor_pinggu a {
+    display: block;
+    color: #010101;
+}
+.header_bor_line a:hover, .header_bor_pinggu a:hover {
+    color: #d93c32;
+}
+.header_bor_line {
+    margin-right: 20px;
+}
+.header_bor_pinggu {
+    padding-left: 10px;
+}
+.header_bor_line em {
+    background: url("../images/yingxiao_canada/yingxiao_sk_tj_03.png") no-repeat;
+}
+.header_bor_pinggu em {
+    background: url("../images/yingxiao_canada/yingxiao_sk_tj_03.png") -50px 0px no-repeat;
+}
+/*************************************logo************************/
+.g_wrap1 {
+    width: 100%;
+    overflow: hidden;
+}
+.g_logo {
+    width: 1140px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.g_biao {
+    display: block;
+    float: left;
+}
+.g_zhengti {
+    float: left;
+    width: 190px;
+    text-align: center;
+    margin-top:5px;
+}
+.g_logo ul {
+    float: left;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.g_logo ul li {
+    float: left;
+    margin-right: 20px;
+}
+.g_logo ul li img {
+    display: block;
+    float: left;
+}
+.g_logo ul li p {
+    float: left;
+    font: 14px/22px "微软雅黑";
+    color: #333333;
+    margin-left: 13px;
+}
+.g_logo ul li p span {
+    color: #d6000f;
+}
+.sk_erwei{
+    width:76px;
+    height:76px;
+    float:right;
+    margin-top:14px;
+}
+/***************************************导航***********************/
+.g_wrap2{width:100%; z-index:9999;}
+.g-cnt {
+    position: relative;
+    width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    zoom: 1;
+    z-index:9999;
+}
+.lx-navBD {
+    padding-left: 198px;
+}
+.lx-navBD>li {
+    float: left;
+    position: relative;
+    line-height: 39px;
+}
+.lx-navBD>li em {
+    position: absolute;
+    top: 17px;
+    right: -2px;
+    width: 11px;
+    height: 7px;
+    background:url(../images/yingxiao_canada/usa_liuxue_27.jpg) no-repeat;
+}
+.lx-navBD>li.on em{background:url(../images/yingxiao_canada/usa_liuxue_24.jpg) no-repeat;}
+
+.lx-navBD>li h3 a {
+    display: inline-block;
+    padding: 0 11.5px;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    border-bottom:1px solid #d6000f;
+}
+.lx-navBD>li.nav_last h3 a{
+    padding-right:0;
+}
+.lx-navBD>li.on h3 a{
+    color:#d6000f;
+}
+.lx-navBD>li h3 a:hover{
+    color:#d6000f;
+}
+.nav-item .nav-bd {
+    position: absolute;
+    top: 40px;
+    z-index: 1000;
+    padding: 18px 0 18px 30px;
+    width: 900px;
+    overflow: hidden;
+    background: #fff;
+    z-index:999999999999;
+	left:-535px;
+}
+.nav-item.nav-item01 .nav-bd {
+    left: 0px;
+}
+.nav-item.nav-item02 .nav-bd {
+    left: -127px;
+}
+.nav-item.nav-item03 .nav-bd {
+    left: -268px;
+}
+.nav-item.nav-item04 .nav-bd {
+    left: -423px;
+}
+.nav-item.nav-item05 .nav-bd {
+    left: -508px;
+}
+.nav-bdLTop{
+    width:100%;
+    overflow:hidden;
+}
+.nav-item .nav-bdL h4 {
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    float:left;
+}
+.nav-item .nav-bdL ul {
+    padding-bottom: 10px;
+    overflow: hidden;
+    float:left;
+    width:95%;
+}
+.nav-item .nav-bdL li {
+    float: left;
+    margin-left: 20px;
+    line-height: 28px;
+    white-space:nowrap;
+}
+.nav-item .nav-bdL li a{
+    color:#333;
+}
+.nav-item .nav-bdL li a:hover{
+    color:#d92631;
+}
+.nav-item .nav-bdL li.g_nav_li_one{
+    margin-left:0;
+}
+.lx-navL {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 198px;
+    overflow: hidden;
+}
+.lx-navLTit {
+    position: relative;
+    width: 178px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    background: #d6000f;
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    padding-left:20px;
+}
+.lx-navLTit img{
+    margin-bottom:-5px;
+    margin-right:5px;
+}
+.lx-navLC {
+    display: block;
+    height: 480px;
+    padding:0 3px;
+    overflow: hidden;
+    background:rgba(0,0,0,0.5);
+    z-index:9999;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+.lx-navLC li {
+    padding: 12px 10px;
+    border-bottom: 1px solid #616266;
+}
+.lx-navLC li h4 {
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.lx-navLC li h4,.lx-navLC li h4 a {
+    font-size: 16px;
+    color: #fad805;
+}
+.lx-navLC li p {
+    line-height: 30px;
+}
+.lx-navLC li a {
+    font-size: 14px;
+    color: #fff;
+}
+.lx-navLC li a:hover,.lxpx-menu a:hover p{
+    color:#d6000f;
+}
+.lx-navLC li a.lx-navLCS1 {
+    display: inline;
+    margin-left: 20px;
+}
+.lx-navLC li a.lx-navLCS2 {
+    display: inline;
+    margin-left: 20px;
+}
+.lx-navLC li a.lx-navLCS {
+    display: inline;
+    margin-left: 10px;
+}
+.lx-navLC li.lx-navLCLi {
+    border-bottom: none;
+} 
+.lx-navLC li.lx-navLCLi p a{
+    font-size: 12px;
+}
+.lx-navLC li.lx-navLCLi a span{
+    color:#ffc01a;
+}
+.lx-navLC li.lx-navLCLi a.lx-navLCS1{
+    margin-left: 3px;
+}
+/*************************banner********************************/
+.g_wrap3{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index:1;
+    min-width:1140px;
+}
+.ban-hd {
+    position: absolute;
+    left:50%;
+    bottom: 30px;
+    height: 8px;
+    text-align: center;
+    font-size: 0;
+    z-index: 12;
+	overflow:hidden;
+}
+.ban-hd li {
+    float:left;
+    width: 32px;
+    height: 8px;
+    margin: 0 8px;
+    background: #fff;
+    cursor: pointer;
+}
+.ban-hd .on {
+    background: #fa7601;
+}
+.ban-bd ul {
+    width: 100%!important;
+}
+
+.ban-bd li {
+    width: 100%!important;
+    height: 480px;
+    text-align: center;
+    overflow: hidden;
+	z-index:0;
+}
+.ban-item-01 {
+    background:url(../images/yingxiao_canada/banner1.jpg) center top no-repeat;
+}
+.ban-item-02 {
+    background:url(../images/yingxiao_canada/banner2.jpg) center top no-repeat;
+}.ban-item-03 {
+    background:url(../images/yingxiao_canada/banner3.jpg) center top no-repeat;
+}
+.ban-bd ul {
+    width: 100%!important;
+}
+
+.ban-bd li {
+    width: 100%!important;
+    text-align: center;
+    overflow: hidden;
+    z-index:0;
+}
+.g_lxzx{
+    width:224px;
+    position:absolute;
+    left:50%;
+    margin-left:344px;
+    top:90px;
+    background:#fff;
+    z-index:99999;
+}
+.g_lxzx h5{
+    font:16px/48px "微软雅黑";
+    text-align:center;
+    line-height:48px;
+    border-bottom:5px solid #eeeeee;
+    color:#d93c32;
+}
+.g_lxzx ul{
+    margin-top:10px;
+    margin-left:10px;
+}
+.g_lxzx ul li{
+    font:14px/24px "微软雅黑";
+}
+.g_lxzx ul li a{
+    color:#333333;
+}
+.g_lxzx ul li a:hover{
+    color:#d6000f;
+}
+.lxpx-menu {
+    height: 63px;
+    text-align: center;
+    background: #eee;
+    font-size: 0;
+    margin-top:15px;
+    padding-top:12px;
+}
+.lxpx-menu a {
+    display: block;
+    width: 33%;
+    color: #333;
+    float:left;
+}
+.lxpx-menu .menu-04 i {
+    background-position: 0px -90px;
+}
+.lxpx-menu .menu-05 i{
+    background-position: -71px -90px;
+}
+.lxpx-menu .menu-06 i{
+    background-position: -141px -89px;
+}
+.lxpx-menu i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background:url(../images/yingxiao_canada/yingxiao_sk_tj_03.png) no-repeat;
+    margin:0 auto;
+}
+.lxpx-menu a p{
+    font:12px/24px "微软雅黑";
+    color:#333333;
+}
+
+/*--------------------------------------底部------------------------------------*/
+.footer{
+    width:100%;
+    background:#fff;
+    padding-bottom:18px;
+    min-width:1140px;
+}
+.footer .address{
+    width:100%;
+    margin:0 auto;
+}
+.footer .til_address{
+    height:40px;
+    width:100%;
+    background:#d93c32;
+}
+.footer .til_address .con{
+    width:1140px;
+    margin:0 auto;
+}
+.footer .til_address .con ul{
+    float:left;
+    /*width:376px;*/
+}
+.footer .til_address .con ul li{
+    float:left;
+    width:94px;
+    height:40px;
+    font:18px/40px "微软雅黑";
+    color:#fff;
+    text-align: center;
+    cursor:pointer;
+}
+.footer .til_address .con ul li.hover{
+    color:#333;
+    background:#fff;
+}
+.footer .til_address .con .tel_addres{
+    float:right;
+    width:170px;
+    height:40px;
+    font: bold 18px/40px "微软雅黑";
+    color:#fff;
+    text-align: right;
+    background:url(../images/yingxiao_canada/telphone.png) no-repeat center left;
+}
+.footer .body_address{
+    width:100%;
+    background:#fff;
+    overflow:hidden;
+}
+.footer .body_address .pro{
+    width:1120px;
+    margin:0 auto;
+    padding:0 10px;
+    display:none;
+} 
+#lg_DV1{
+    display:block;
+}
+.footer .body_address .pro span img{
+    margin-bottom:-6px;
+    margin-right:8px;
+}
+
+.footer .address_left span{
+    font:14px/26px "微软雅黑";
+    color:#333333;
+    display:block;
+}
+#lg_DV7 span,#lg_DV8 span,#lg_DV9 span{
+    line-height:77px;
+}
+.footer .address_left p{
+    font:700 16px/30px "微软雅黑";
+    color:#333333;
+}
+.address_left{
+    width:565px;
+    float:left;
+    margin-top:20px;
+}
+.footer .body_address .pro ul{
+    width:543px;
+    float:right;
+    margin-top:20px;
+}
+.footer .body_address .pro ul li{
+    float:left;
+    margin-left:13px;
+}
+/************************************第一部分*****************************/
+.g_wrap4{
+    width:100%;
+    min-width: 1140px;
+    margin:15px auto 0;
+    overflow:hidden;
+}
+.g_wrap4 ul{
+    width:1140px;
+    margin:0 auto;
+}
+.g_wrap4 ul li{
+    width:210px;
+    float:left;
+    height:70px;
+    border-right: 1px solid #d3d3d3;
+    margin-left:20px;
+}
+.g_wrap4 ul li img{
+    display:block;
+    float:left;
+    margin-top:15px;
+}
+.g_wrap4 ul li p{
+    float:left;
+    font:12px/22px "微软雅黑";
+    color:#666666;
+    margin-left:10px;
+    margin-top:12px;
+}
+.g_wrap4 ul li p strong{
+    color:#333333;
+}
+/*****************************加拿大成第四大留学目的国*******************/
+.g_wrap5{
+    width:100%;
+    min-width: 1140px;
+    height:898px;
+    margin:15px auto 0;
+    background:url(../images/yingxiao_canada/yingxiao_canada_02.jpg) center top no-repeat;
+}
+.liuxue_md{
+    width:1140px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.liuxue_md h5 {
+    text-align: center;
+    margin:50px auto 0;
+}
+.liuxue_md_one{
+    overflow:hidden;
+    margin:60px auto 0;
+}
+.liuxue_one_left{
+    width:630px;
+    float:left;
+}
+.liuxue_one_right{
+    width:483px;
+    float:right;
+}
+.liuxue_one_left h6,.liuxue_one_right h6{
+    font:bold 24px/36px "微软雅黑";
+    color:#585568;
+    text-align: center;
+}
+.liuxue_one_right img{
+    display:block;
+    margin-top: 30px;
+}
+.liuxue_one_right p{
+    font:18px/30px "微软雅黑";
+    text-align: center;
+    color:#333333;
+    margin-top:7px;
+}
+.liuxue_one_right a{
+    display:block;
+    width:430px;
+    height:30px;
+    font:14px/30px "微软雅黑";
+    text-align: center;
+    color:#fff;
+    background:#ff4d33;
+    margin:7px auto 0;
+}
+.liuxue_md_two{
+    width:1140px;
+    height:225px;
+    background:#fff;
+    margin:30px auto 0;
+    overflow:hidden;
+}
+.liuxue_md_two p{
+    font:18px/36px '微软雅黑';
+    color:#333333;
+}
+.liuxue_md_two p img{
+    margin-right: 10px;
+    margin-bottom: -2px;
+}
+.liuxue_md_two ul li a{
+    color:#666666;
+}
+
+.zixun_info{
+    width:292px;
+    height:185px;
+    border-right: 1px dashed #aaaaaa;
+    overflow:hidden;
+    margin-top:6px;
+    padding-top:15px;
+    padding-left:45px;
+    float:left;
+}
+.zixun_info ul li{
+    float:left;
+    width:67px;
+    font:16px/28px '微软雅黑';
+    color:#666666;
+    margin-right: 30px;
+}
+.zhibo_share{
+    width:410px;
+    height:185px;
+    border-right: 1px dashed #aaaaaa;
+    float:left;
+    padding-left:50px;
+    margin-top:6px;
+    padding-top:15px;
+}
+.zhibo_share{
+    font:16px/28px '微软雅黑';
+    color:#666666;
+}
+.jingcai_share{
+    float:left;
+    width:291px;
+    margin-top:6px;
+    padding-top:15px;
+    padding-left:50px;
+}
+.jingcai_share ul{
+    overflow:hidden;
+}
+.jingcai_share ul li{
+    float:left;
+    width:115px;
+    font:16px/28px '微软雅黑';
+    color:#666666;
+    margin-right: 30px;
+}
+.jingcai_share a.btn{
+    display:block;
+    width:257px;
+    height:28px;
+    text-align: center;
+    color:#fff;
+    font:14px/28px '微软雅黑';
+    background:#ff4d33;
+    margin-top:10px;
+}
+
+.slideBox{ height:392px;margin-top:30px;overflow:hidden; position:relative;}
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{display:block;  }
+.slideBox .prev,.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:40px; height:70px; background:url(../images/yingxiao_canada/slider_left.png) no-repeat;}
+.slideBox .next{ left:auto;right:3%;background:url(../images/yingxiao_canada/slider_right.png) no-repeat;}
+
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
+/**********************************************定制加拿大名校申请方案********************************/
+.g_wrap6{
+    width:100%;
+    min-width: 1140px;
+    margin:0 auto;
+}
+.canada_case{
+    width:1140px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.canada_case h5,.mingxiao h5{
+    text-align: center;
+    margin:65px auto 0;
+}
+.g_apply_tj {
+    width: 1140px;
+    margin: 60px auto 0;
+    overflow: hidden;
+}
+.g_tj_cont {
+    width: 176px;
+    height: 125px;
+    background:url(../images/yingxiao_canada/yuan.png) no-repeat;
+    float: left;
+    text-align: center;
+    padding-top: 35px;
+}
+.g_tj_cont b {
+    display: block;
+    color: #fdff4b;
+    font: 700 20px 微软雅黑;
+}
+.g_tj_cont span {
+    display: block;
+    margin-top: 8px;
+    font: 12px/22px 微软雅黑;
+}
+.g_tj_cont span a{
+    color:#fff;
+}
+.g_tj_cont span em {
+    margin-left: 15px;
+}
+.g_apply_tj img {
+    display: block;
+    float: left;
+    margin: 55px 6px 0 7px;
+}
+.g_apply_tj img.denghao{
+    margin-top: 63px;
+}
+.g_tj_cont.g_tj_lh{
+    height:110px;
+    padding-top: 50px;
+}
+.g_tj_cont.g_tj_ms{
+    height:98px;
+    padding-top: 63px;
+
+}
+.canada_case h6{
+    text-align: center;
+    margin:98px auto 0;
+}
+.apply_tj{
+    overflow:hidden;
+    margin:60px auto 0;
+}
+.tj_left{
+    width:354px;
+    height:391px;
+    float:left;
+    border:2px solid #be6a3b;
+    border-radius: 5px;
+}
+.tj_title{
+    width:354px;
+    font:bold 22px/80px '微软雅黑';
+    color:#fff;
+    text-align: center;
+    background:url(../images/yingxiao_canada/yzbz_tit_03.jpg) no-repeat;
+}
+.tj_left ul {
+    height:140px;
+    margin-top:25px;
+    padding-left: 15px;
+    border-bottom: 2px dashed #bd6b33 ;
+    background:url(../images/yingxiao_canada/zd.png) right top no-repeat;
+}
+.tj_left ul li{
+    font:bold 22px/40px '微软雅黑';
+    color:#30290c;
+}
+.tj_bottom p{
+    width:325px;
+    font:16px '微软雅黑';
+    color:#30290c;
+    margin:20px auto 0;
+    overflow:hidden;
+}
+.tj_bottom p span{
+    display:block;
+    float:left;
+}
+.tj_bottom p a{
+    display:block;
+    width:90px;
+    height:26px;
+    font:14px/26px '微软雅黑';
+    color:#fff;
+    text-align: center;
+    background:#be6a3b;
+    border-radius: 20px;
+    float:right;
+    margin-top:3px;
+}
+.tj_bottom p strong{
+    font-size: 22px;
+}
+.tj_middle{
+    width:354px;
+    height:391px;
+    float:left;
+    border:2px solid #55a7cc;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+.tj_middle.tj_middle1{
+    background:url(../images/yingxiao_canada/yingxiao_canada.png)  center bottom no-repeat;
+}
+.tj_middle .tj_title{
+    background:url(../images/yingxiao_canada/yzbz_tit_02.jpg) no-repeat;
+}
+.tj_middle dl{
+    width:275px;
+    margin:0 auto;
+}
+.tj_middle dl dd{
+    font:16px/30px '微软雅黑';
+    color:#30290c;
+    margin-top:20px;
+}
+.tj_middle dl dd em{
+    margin-left: 20px;
+}
+.tj_middle dl dd strong{
+    font:bold 22px "微软雅黑";
+}
+.tj_middle  ul {
+    width:300px;
+    margin:10px auto 0;
+}
+.tj_middle  ul li{
+    width:140px;
+    height:26px;
+    font:14px/26px '微软雅黑';
+    text-align: center;
+    background:#4ea2c6;
+    border-radius: 20px;
+    float:left;
+    margin-top:15px;
+    margin-right: 10px;
+}
+.tj_middle  ul li.last{
+    width:220px;
+    margin: 15px auto 0 42px;
+}
+.tj_middle  ul li a{
+     color:#fff;
+}
+.tj_right{
+    width:354px;
+    height:391px;
+    float:left;
+    border:2px solid #95b34f;
+    border-radius: 5px;
+    margin-left: 33px;
+}
+.tj_right .tj_title{
+    background:url(../images/yingxiao_canada/yzbz_tit_01.jpg) no-repeat;
+}
+.tj_right ul{
+    width:322px;
+    margin:20px auto 0;
+    overflow:hidden;
+}
+.tj_right.tj_right2 ul{
+    margin-top:8px;
+}
+.tj_right ul li{
+    width:152px;
+    height:48px;
+    float:left;
+    font:14px/50px '微软雅黑';
+    color:#30290c;
+    text-align: center;
+    border:2px solid #95b34f;
+    margin:10px 10px 0 auto;
+}
+.tj_right.tj_right2 ul li{
+    width:91px;
+    margin-right: 18px;
+    margin-top:20px;
+}
+.tj_right.tj_right2 ul li.last{
+    width:318px;
+    margin-right: 0;
+}
+.tj_right.tj_right3 ul li{
+    height:38px;
+    line-height: 38px;
+}
+.tj_right.tj_right3 ul li.last{
+    width:318px;
+    border:2px solid #95b34f;
+}
+.tj_right.tj_right3 ul li.last span{
+    display:block;
+    float:left;
+    width:205px;
+}
+.tj_right.tj_right3 ul li.last a{
+    display: block;
+    width: 113px;
+    float: left;
+    background: #95b34f;
+    color: #fff;
+}
+.tj_right a.btn{
+    display:block;
+    width:220px;
+    height:26px;
+    font:14px/26px '微软雅黑';
+    color:#fff;
+    text-align: center;
+    background:#95b34f;
+    border-radius: 20px;
+    margin:30px auto 0;
+}
+.tj_right.tj_right2 a.btn{
+    margin-top:20px;
+}
+.big_data{
+    overflow:hidden;
+    margin-top:40px;
+}
+.data_left{
+    width:354px;
+    height:338px;
+    float:left;
+}
+.data_left p{
+    font:bold 22px/80px '微软雅黑';
+    text-align: center;
+    color:#fff;
+    background:#ed2b58;
+    border-radius: 5px;
+}
+.data_left  ul li{
+    width:174px;
+    float:left;
+    font:20px/48px '微软雅黑';
+    text-align: center;
+    color:#30290c;
+    border:2px solid #ed2b58;
+    margin-top:-2px;
+    margin-right:-2px;
+}
+.data_right{
+    width:742px;
+    float:right;
+}
+.data_right_title{
+    overflow:hidden;
+}
+.data_right_title p{
+    font:bold 22px/27px '微软雅黑';
+    color:#333333;
+    border-left: 3px solid #ed2b58;
+    float:left;
+    padding-left:15px;
+}
+.data_right_title a{
+    display:block;
+    float:right;
+    font:18px/27px '微软雅黑';
+    color:#5e5e5e;
+}
+.data_right ul{
+    overflow:hidden;
+    margin-top:20px;
+}
+.data_right ul li{
+    width:147px;
+    height:77px;
+    float:left;
+    background:url(../images/yingxiao_canada/yzbz_tit.png) no-repeat;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.data_right ul li span{
+    font:16px/51px '微软雅黑';
+    color:#fff;
+}
+.data_right ul li a{
+    color:#333333;
+}
+.feiyong{
+    overflow:hidden;
+    margin-top:35px;
+}
+.feiyong_left{
+    width:578px;
+    border:1px dashed #dcddde;
+    float:left;
+    padding:12px 10px 10px 20px;
+}
+.feiyong_left.feiyong_left1{
+    width:499px;
+}
+.feiyong_title{
+    overflow:hidden;
+    margin-bottom: 10px;
+}
+.feiyong_title span{
+    font:bold 20px/30px '微软雅黑';
+    color:#ed2b58;
+    display:block;
+    float:left;
+}
+.feiyong_title a{
+    display:block;
+    width:160px;
+    height:26px;
+    font:14px/26px "微软雅黑";
+    color:#fff;
+    text-align: center;
+    background:#ed2b58;
+    border-radius: 20px;
+    float:right;
+}
+.feiyong_left ul li,.feiyong_mid ul li,.feiyong_right ul li,.feiyong_left p{
+    font:14px/26px '微软雅黑';
+    color:#333333;
+}
+.feiyong_left p{
+    margin-bottom: 6px;
+}
+.feiyong_left p em{
+    margin-left:12px;
+}
+.feiyong_mid{
+    width:204px;
+    border:1px dashed #dcddde;
+    float:left;
+    padding-top:20px;
+    padding-left:44px;
+    margin-left: 13px;
+    padding-bottom: 16px;
+}
+.feiyong_mid.feiyong_mid1{
+    width:290px;
+    padding-left: 36px;
+}
+.feiyong_mid ul li a,.feiyong_right ul li a{
+    color:#333333;
+}
+.feiyong_mid ul li.last a,.feiyong_right ul li.last a{
+    color:#ed2b58;
+}
+.canada_case h6.apply{
+    margin-top:65px;
+}
+.feiyong_right{
+    width:208px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-left:40px;
+    border:1px dashed #dcddde;
+    float:right;
+}
+/**********************百利天下学子去了这些名校*********************/
+.g_wrap7{
+    width:100%;
+    margin:0 auto;
+    padding-bottom: 80px;
+}
+.mingxiao{
+    width:1140px;
+    margin:0 auto;
+}
+.mingxiao_cont{
+    margin:80px auto 0;
+    overflow:hidden;
+}
+.mingxiao_left{
+    width:402px;
+    text-align: center;
+    float:left;
+    padding-top:15px;
+}
+.mx_left_cont {
+    margin-top:30px;
+    overflow:hidden;
+}
+.mx_left_cont p{
+    width:128px;
+    height:95px;
+    background:#379bff;
+    font:24px '微软雅黑';
+    float:left;
+    color:#fff;
+    padding-top:30px;
+    margin-right: 9px;
+}
+.mx_left_cont p.canada_bk{
+    background:#efae08;
+}
+.mx_left_cont p.canada_gz{
+    background:#ed2b58;
+}
+.mx_left_cont p strong{
+    font-size: 30px;
+}
+.mx_left_cont p span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.mingxiao_cont ul{
+    width:690px;
+    float:right;
+}
+.mingxiao_cont ul li{
+    width:131px;
+    height:131px;
+    background:url(../images/yingxiao_canada/quan98.png) no-repeat;
+    text-align: center;
+    float:left;
+    color:#333333;
+    margin-right: 8px;
+}
+.mingxiao_cont ul li.other{
+    color:#1f295d;
+    background:url(../images/yingxiao_canada/quan99.png) no-repeat;
+}
+.mingxiao_cont ul li.other p{
+     color:#1f295d;
+}
+.mingxiao_cont ul li b{
+    font-size: 12px;
+    line-height: 22px;
+    display:block;
+    margin-top:14px;
+}
+.mingxiao_cont ul li p{
+    font-size: 20px;
+    line-height: 29px;
+}
+.mingxiao_cont ul li a{
+    color:#fff;
+    font-size: 12px;
+    display:block;
+}
+/*****************************选择百利天下一大机构，值得信赖*******************/
+.g_wrap8{
+    width:100%;
+    height:702px;
+    margin:0 auto;
+    background:url(../images/yingxiao_canada/yzbz_tit_03_02.jpg) center top no-repeat;
+}
+.main_t {
+    width: 1140px;
+    height:100%;
+    margin: 0 auto;
+    overflow:hidden;
+}
+.main_t h5{
+    text-align: center;
+    border-bottom: 2px solid #1f295d;
+    padding-bottom: 25px;
+    margin-top:30px;
+}
+.samll_title{
+    width:462px;
+    height:44px;
+    border:1px solid #2b3465;
+    border-radius: 5px;
+    color:#2b3465;
+    font:22px/46px '微软雅黑';
+    text-align: center;
+    margin:30px auto 0;
+}
+.samll_titles{
+    width:349px;
+    height:44px;
+    border:1px solid #2b3465;
+    border-radius: 5px;
+    color:#2b3465;
+    font:22px/46px '微软雅黑';
+    text-align: center;
+    margin:40px auto 0;
+}
+ .t5_con1 {
+    margin: 40px auto 40px;
+}
+ .t5_con1 ul {
+    margin: 0 auto;
+    width: 100%;
+    height: 317px;
+    background: url(../images/yingxiao_canada/index_canada_033.png) center center no-repeat;
+    display: block;
+    overflow: visible;
+    position: relative;
+}
+ .t5_con1 ul li {
+    position: absolute;
+}
+ .t5_con1 ul li span {
+    display:block;
+    width:126px;
+    height: 30px;
+    text-align: center;
+    font: 18px/30px "微软雅黑";
+    color: #fff;
+    background: #ffb103;
+}
+ .t5_con1 ul li p {
+    font: 16px/32px "微软雅黑";
+    margin: 0 10px 0 0;
+    color: #333;
+    clear: both;
+}
+.ys1_t span, .ys2_t span, .ys3_t span, .ys4_t span {
+    float: right;
+}
+.ys1_t {
+    top: -9px;
+    right: 835px;
+}
+.ys2_t {
+    top: 82px;
+    right: 841px;
+}
+.ys3_t {
+    top: 172px;
+    right: 841px;
+}
+.ys4_t {
+    top: 266px;
+    right: 816px;
+}
+.ys5_t {
+    top: -9px;
+    left: 842px;
+}
+.ys6_t {
+    top: 82px;
+    left: 846px;
+}
+.ys7_t {
+    top: 172px;
+    left: 846px;
+}
+.ys8_t {
+    top: 266px;
+    left: 825px;
+}
+ .t5_con1 ul li.ys_t {
+    font: 38px/38px "微软雅黑";
+    color: #fff;
+    bottom: 112px;
+    left: 490px;
+}
+/***********************************牵手世界名校*************************/
+.g_wrap9{
+    width:100%;
+    min-width: 1140px;
+    height:584px;
+    background:url(../images/yingxiao_canada/yzbz_tit_01_02.jpg) center top no-repeat;
+    margin:0 auto;
+}
+.world_mx{
+    width:1140px;
+    height:100%;
+    margin:0 auto;
+    position: relative;
+}
+.world_mx a {
+    display: block;
+    width: 743px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: url(../images/yingxiao_canada/btn.png) no-repeat;
+    color: #fff;
+    font-size: 22px;
+    text-indent: -60px;
+    position: absolute;
+    bottom: 90px;
+    left: 190px;

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />    
+    <link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="{CSS_PATH}edus/product.css" />
+    <script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+    <script type="text/javascript" src="{JS_PATH}edus/pro-tab.js"></script>
+  </head>
+  <body>  
+    {template "content","head"} 
+		<div class="we-banner">
+			<div class="we-banner-center">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="we-btn btn1">点击咨询</div></a>
+			</div>
+		</div>
+		<div class="we-block1">
+			<div class="m-content">
+				<div class="we-b1-tit"></div>
+				<div class="we-b1-con">
+					<div class="item each1">
+						<p>微信账号授权登录、自<br>动获取用户信息</p>
+					</div>
+					<div class="item each2">
+						<p>可以在线选课报班、购<br>买课程</p>
+					</div>
+					<div class="item each3">
+						<p>支持微信支付、支付宝<br>支付，安全可靠</p>
+					</div>
+					<div class="item each4">
+						<p>远程视频直播、录播课<br>程，支持在线试听</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="we-block2">
+			<div class="we-b2-tit"></div>
+			<div class="section1">
+				<div class="section1-center">
+					<div class="left">
+						<p class="tit">丰富的产品展现</p>
+						<p class="con">支持课程属性、类型、班次、价格等设定，支持多种图文展现形式</p>
+					</div>
+				</div>
+			</div>
+			<div class="section2">
+				<div class="section2-center">
+					<div class="right">
+						<p class="tit">在线选课报班</p>
+						<p class="con">学员在线选报班级、购买课程，可对接线下业务管控系统</p>
+					</div>
+				</div>
+			</div>
+			<div class="section3">
+				<div class="section3-center">
+					<div class="left">
+						<p class="tit">安全支付保障</p>
+						<p class="con">支持线上与线下支付，线上支付包含微信、支付宝，安全可靠</p>
+					</div>
+				</div>
+			</div>
+			<div class="section4">
+				<div class="section4-center">
+					<div class="right">
+						<p class="tit">精准广告投放</p>
+						<p class="con">充分利用微信强大的传播能力，发挥会员闭环效应，有效分享并深入推广</p>
+					</div>
+				</div>
+			</div>
+			<div class="section5">
+				<div class="section5-center">
+					<div class="left">
+						<p class="tit">自定义页面设置</p>
+						<p class="con">可根据喜好自主设定页面展示风格，全力打造企业专属微信商城</p>
+					</div>
+				</div>
+			</div>
+			<div class="section6">
+				<div class="section6-center">
+					<div class="right">
+						<p class="tit">强大会员管理功能</p>
+						<p class="con">会员个人信息、资金账户、课时消耗、课表查询等管理，会员积分制，支持会员积分兑换</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		{template "content","footer"}
+		<script type="text/javascript" src="{JS_PATH}edus/scrol.js"></script>	
+	</body>		
+</html>

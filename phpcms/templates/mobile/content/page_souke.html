@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/pro2017.css" rel="stylesheet"/>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<!---->     
+      <script type="text/javascript">
+        $(function(){
+          var _x = $(window).width();
+          var _y = (_x * 264) / 640;
+          $('.auto-banner').css({
+            width : _x,
+            height : _y,
+            margin : '10px auto 0',
+            textAlign : 'center',
+            position : 'relative',
+          }).find('img').attr({
+            width : _x,
+            height : _y,
+          });
+        })
+      </script>
+	</head>
+
+<body>
+   <div id="page-body">
+      <div class="content">
+      {template "content","head_top"}
+      {template "content","head_sub"}
+		<div class="souke-banner auto-banner"><img src="{IMG_PATH}m/souke-banner.jpg" alt="选课报名系统" title="选课报名系统" width="360" /></div>
+		<p class="souke-tit">系统简介</p>	
+		<div class="souke-top-pic"></div>						
+		<p class="souke-top-con">随着培训机构业务的发展，为了给客户提供更优质的服务，企业需要打造一个在线选课报名系统。可为专为教育培训机构设计的在线选课报名系统，学员可综合考虑课程分类、适合人群、上课地点、上课时间、课程价格等多种因素，选报最合适的班级（课程）。系统全面实现与教务系统的无缝对接，轻松导入线上学员信息，同时也支持线上产品一键转化教务产品。帮助机构全面打通前后端的业务链，提升机构整体运作效率。</p>
+		<div class="souke-pro-head" style="background:none;">系统提升</div>
+		<div class="souke-sub-pic"></div>
+		<div class="souke-pro-head">系统概述</div>
+		<div class="souke-pro-con">
+			<div class="souke-pic1"></div>
+			<p class="souke-con-tit">在线产品管理</p>
+			<p class="souke-con-word">可为选课报名系统可灵活设置线上课程（产品）类型，支持班型产品、班级产品和一对一产品的设置。系统后台可详细设置课程描述、价格、课时、学习周期等内容。系统支持强大的标签管理功能，可自定义产品相关标签，学员可根据标签组合筛选出最适合自己的课程或班级。同时系统支持关联产品的设置，促进机构套餐产品的打包销售。支持教务产品与在线产品的一键转化功能，避免多次录入的麻烦。</p>
+		</div>
+		<div class="souke-pro-con">
+			<div class="souke-pic2"></div>
+			<p class="souke-con-tit">选课报名</p>
+			<p class="souke-con-word">可为选课报名系统为学员提供了简单快速的报名流程，学员可以在线选择适合自己的课程进行选班报名，选定后可在订单页面查看购买课程价格，若有套餐产品则会有相应的优惠价格显示。学员也可以在快速报班入口直接输入班号进行报班。单个账号可为多个学员进行选课报班。学员报名后可在系统后台查看状态，同时可以与教务系统进行学员关联，若是新学员则自动转化为系统学员。</p>
+		</div>	
+		<div class="souke-pro-con">
+			<div class="souke-pic3"></div>
+			<p class="souke-con-tit">教师中心</p>
+			<p class="souke-con-word">为给学员更好的提供课程服务和资源信息，可为搜课报班系统集成教师中心模块，学员可以通过系统查看老师的基础信息、擅长课程等内容，可以试播选定教师的课程，也可以在擅长课程列直接选课报班。系统后台支持教师信息的详细录入，也可以将教务系统的老师导入搜课报班教师中心，避免重复录入的繁琐。可在后台设置名师推荐，在首页、产品页等做教师宣传。教师中心能为学员在线提供可靠的教师信息，同时也能很好的凸显机构师资力量。</p>
+		</div>
+		<div class="souke-pro-con">
+			<div class="souke-pic4"></div>
+			<p class="souke-con-tit">校区地图</p>
+			<p class="souke-con-word">可为搜课报班系统为学员提供校区地图的查看和检索功能，可在线查看所选范围内的有哪些校区，基于地图提供常见的路线查询、周边服务、全景视图等功能。点击地图上的校区标记可以查看具体校区的概况，包括校区的基本信息、联系方式、交通、校区环境等。学员可查看该校区下的所有课程，或进行选班报名。</p>
+		</div>
+		<div class="souke-pro-con">
+			<div class="souke-pic5"></div>
+			<p class="souke-con-tit">个人中心</p>
+			<p class="souke-con-word">学员注册、登录系统后，可在个人中心进行账户相关操作，包括余额查询、常用学员信息设置、转班/退班操作、消费记录查看等；学员报班成功后还可在线查看自己的课程表、课时消耗等信息，还可对特定的课程进行授课质量评估；同时系统支持会员积分制，学员可通过个人中心查看自己的积分，学员可消费积分来抵消部分课程消费或进行礼品换购等。</p>
+		</div>		
+		<div class="souke-pro-con">
+			<div class="souke-pic6"></div>
+			<p class="souke-con-tit">选课小助手</p>
+			<p class="souke-con-word">可为搜课报班系统独具特色的选课小助手功可以帮助学员轻松找到最适合自己的课程或班级。针对不明确选什么课程的学员，可为搜课报班系统可在学员登录后，通过简单的问卷调查，智能匹配出最适合该学员的课程组合。机构人员可在后台设置选课助手问题库，系统通过多维度意向分析与学员聚类分析，为学员推荐最适合的课程。</p>
+		</div>
+		<div class="souke-pro-con">
+			<div class="souke-pic7"></div>
+			<p class="souke-con-tit">机构、板块设置</p>
+			<p class="souke-con-word">系统支持多机构站点，可为不同的机构校区设置不同的产品类型和页面风格。系统后台提供了灵活多变的板块设置功能，针对不同校区的首页，可根据需求进行个性化的调整，通过拖拽的方式即可轻松实现页面布局，用户可自定义设置板块内容或跳转链接，快速、高效的搭建专属机构自己的搜课报班系统。</p>
+		</div>												
+	{template "content","bottom"}
+</body>
+</html>

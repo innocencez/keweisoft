@@ -1,0 +1,46 @@
+/*咨询*/
+.footer_top{
+	width:100%;
+	height:159px;
+	background: url(../../images/kwcrm/footer_top_bg.jpg) repeat-x;
+	margin-top:25px;
+}
+.content_box{
+	width:1000px;
+	margin:0 auto;
+}
+.footer_top_img{
+	margin-top:20px;
+	float:left;
+}
+.footer_top_word{
+	width:504px;
+	height:100px;
+	float:left;
+	font-size:24px;
+	font-family: '黑体';
+	font-weight:bold;
+	color:#353535;
+	margin-top:53px;
+	line-height:30px;
+	letter-spacing:1px;
+}
+.footer_top_need{
+	width:118px;
+	height:94px;
+	text-align:center;
+	padding-top:65px;
+	float:right;
+}
+.footer_top_need a{
+	color:#4483b0;
+	font-size:18px;
+}
+.footer_top_show{
+	width:155px;
+	height:94px;
+	text-align:center;
+	padding-top: 65px;
+	float:right;
+	margin-right:20px;
+}

@@ -1,0 +1,104 @@
+/*初始化*/
+html ,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+
+/*成功案例*/
+.pro7{
+	width:100%;
+	height:630px;
+}
+.pro7_mid{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+	z-index:1;
+}
+.pro7_tit{
+	width:100%;
+	height:218px;
+	text-align:center;
+	position:relative;
+	display: inline-block;
+}
+.pro7_titxt{
+	width:378px;
+	height:80px;
+	display:inline-block;
+	position:absolute;
+	top:80px;
+	left:310px;
+}
+.pro7_titxt_c{
+	width:388px;
+	height:218px;
+	display:inline-block;
+	float:left;
+}
+.pro7_titxt1{
+	width:310px;
+	display:inline-block;
+	height:40px;
+	margin:0 auto;
+	text-indent:55px;
+	font-size:18px;
+	color:#45547f;
+	padding-top: 10px;
+	text-align:left;
+	font-weight:bold;
+	background:url(../../images/kwcrm/pro6_sign1.png) no-repeat scroll 0 0;
+}
+.pro7_titxt2{
+	width:310px;
+	display:inline-block;
+	height:40px;
+	margin:0 auto;
+	text-indent:140px;
+	font-size:18px;
+	color:#45547f;
+	text-align:left;
+	font-weight:bold;
+	background:url(../../images/kwcrm/pro6_sign2.png) no-repeat scroll 100% 0;
+}
+.pro7_link1{
+	display: inline-block;
+    float: left;
+    height: 218px;
+    margin-left: 118px;
+    margin-top: 10px;
+    width: 188px;
+}
+.pro7_link2{
+	display:inline-block;
+	width:188px;
+	height:218px;
+	margin-top:10px;
+	float:left;
+}
+.pro7_linkLine{
+	width:100%;
+	text-align:center;
+	height:218px;
+	margin-top: -43px;
+}
+.pro7_linkLine1{
+	width:100%;
+	text-align:center;
+	height:218px;
+	margin-top: -53px;
+}
+.pro7_mid a{
+	position:relative;
+	overflow:hidden;
+	display:inline-block;
+}
+.pro7_link{
+	position:absolute;
+	top:0px;
+	left:-500px;
+}

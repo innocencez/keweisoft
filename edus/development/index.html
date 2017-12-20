@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>个性化定制开发 - 教育机构中心管理系统|培训学校管理软件 — 可为edus，专门针对培训机构的管理系统</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+        <meta name="keywords" content="培训中心管理软件,教育机构管理系统,教育机构管理软件,培训学校管理系统,培训学校管理软件,培训机构管理系统,培训机构管理软件,培训中心管理系统" />
+        <meta name="description" content="可为edus教务系统是教育培训行业内领先的管理软件，为广大教育培训机构客户提供先进的管理思想和管理工具，为培训机构提供专业的信息化解决方案。" />		
+		<link type="text/css" href="http://www.keweisoft.com/statics/css/edus/head.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="http://www.keweisoft.com/statics/css/edus/service.css" />
+		<script type="text/javascript" src="http://www.keweisoft.com/statics/js/edus/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="http://www.keweisoft.com/statics/js/edus/common.js"></script>
+	</head>
+	<body>	
+				<div style="display:none;" id="rocket-to-top">
+			<div style="opacity:1;display:block;" class="level-2"></div>
+			<div class="level-3"></div>
+		</div>			
+		<div class="header">
+			<div class="inner">
+				<div class="m-content">
+					<div class="header-left">
+						<img src="http://www.keweisoft.com/statics/images/edus/logo.png" alt="可为edus培训机构管理软件" title="可为edus培训机构管理软件">
+					</div>
+					<ul class="header-nav">
+						<li><a href="http://edus.keweisoft.com" target="_blank">首页</a></li>
+						<li><a href="http://edus.keweisoft.com/advantage/" target="_blank">产品中心</a>
+							<ul class="s-nav" id="product">
+								<li class="item" id="pro-edus" style="margin-top:10px;"><a href="http://edus.keweisoft.com/advantage/" target="_blank">培训机构管理系统</a>
+									<div class="right">
+										<div class="each">
+											<div class="item"><a href="http://edus.keweisoft.com/multi-campus/" target="_blank">多校区管理</a>
+												<span>集团化业务管控</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/marketing/" target="_blank">市场营销</a>
+												<span>市场招生、学员跟进</span>
+											</div>	
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/education/" target="_blank">教务管理</a>
+												<span>学员分班排课、教师管理</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/student/" target="_blank">学员管理</a>
+												<span>学员课程、成绩、考勤</span>
+											</div>				
+										</div>
+										<div class="each" style="margin-top:30px;">
+											<div class="item"><a href="http://edus.keweisoft.com/attendance/" target="_blank">考勤管理</a>
+												<span>学员请假考勤、教师考勤</span>
+											</div>	
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/one-on-one/" target="_blank">一对一</a>
+												<span>全面管理一对一辅导业务</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/class/" target="_blank">一对多</a>
+												<span>一对多业务全面涵盖</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/financial/" target="_blank">财务管理</a>
+												<span>学员合同、收费退费</span>
+											</div>					
+										</div>
+										<div class="each" style="margin-top:30px;">
+											<div class="item"><a href="http://edus.keweisoft.com/analysis/" target="_blank">决策分析</a>
+												<span>多维度报表分析</span>
+											</div>	
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/Integrate/" target="_blank">集成拓展</a>
+												<span>外部系统无缝对接</span>
+											</div>								
+										</div>				
+									</div>
+								</li>
+								<li class="item"><a href="http://edus.keweisoft.com/abroad-erp/" target="_blank">可为留学ERP系统</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/we-xk/" target="_blank">微信选课系统</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/mapp/" target="_blank">EDUS:移动APP</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/app/" target="_blank">EDUS:家校通</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/souke/" target="_blank">可为在线选课系统</a></li>
+							</ul>
+						</li>
+						<li><a href="http://edus.keweisoft.com/solution/" target="_blank">解决方案</a>
+							<ul class="s-nav" id="solution">
+								<a href="http://edus.keweisoft.com/solu-primary/" target="_blank" style="margin-top:10px;">中小学辅导</a>
+								<a href="http://edus.keweisoft.com/solu-foreign/" target="_blank">外语辅导</a>
+								<a href="http://edus.keweisoft.com/solu-children/" target="_blank">少儿培训</a>
+								<a href="http://edus.keweisoft.com/solu-qualification/" target="_blank">职业资格培训</a>
+								<a href="http://edus.keweisoft.com/solu-overseas/" target="_blank">留学培训</a>
+								<a href="http://edus.keweisoft.com/solu-art/" target="_blank">艺术培训</a>
+							</ul>
+						</li>
+						<li><a href="http://edus.keweisoft.com/case/" target="_blank">成功案例</a></li>
+						<li><a href="http://edus.keweisoft.com/fuwutixi/" target="_blank">服务体系</a>
+							<ul class="s-nav" id="service">
+								<a href="http://edus.keweisoft.com/consult/" target="_blank" style="margin-top:10px;">咨询服务</a>
+								<a href="http://edus.keweisoft.com/implement/" target="_blank">实施服务</a>
+								<a href="http://edus.keweisoft.com/after-sale/" target="_blank">售后服务</a>
+								<a href="http://edus.keweisoft.com/development/" target="_blank">个性化定制开发</a>
+							</ul>
+						</li>
+						<li><a href="http://edus.keweisoft.com/chanpinzixun/" target="_blank">产品资讯</a></li>
+						<li><a href="http://edus.keweisoft.com/aboutus/" target="_blank">关于我们</a>
+							<ul class="s-nav" id="about">
+								<a href="http://edus.keweisoft.com/aboutus/" target="_blank" style="margin-top:10px;">企业简介</a>
+								<a href="http://edus.keweisoft.com/process/" target="_blank">企业历程</a>
+								<a href="http://edus.keweisoft.com/team/" target="_blank">精英团队</a>
+								<a href="http://edus.keweisoft.com/activity/" target="_blank">企业活动</a>
+								<a href="http://edus.keweisoft.com/contact/" target="_blank">联系我们</a>
+							</ul>
+						</li>
+					</ul>
+					<a href="javascript:void(0)" class="header-right">申请试用</a>
+				</div>
+			</div>	
+		</div>		
+				<div class="banner">
+			<div class="banner1"></div>
+			<div class="banner2">
+				<div class="m-content">
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="banner-btn1">点击在线咨询</div></a>
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="banner-btn2">点击预约演示</div></a>
+				</div>				
+			</div>
+		</div>
+		<div class="sub-nav">
+			<div class="m-content">
+				<div class="sub-nav-item1">
+					<a href="http://edus.keweisoft.com/fuwutixi/"><div class="sub-nav-item1-pic"></div></a>
+					<div class="sub-nav-item1-motto"><a href="http://edus.keweisoft.com/fuwutixi/" target="_blank">服务概述</a></div>
+				</div>
+				<div class="sub-nav-item2">
+					<a href="http://edus.keweisoft.com/consult/"><div class="sub-nav-item2-pic"></div></a>
+					<div class="sub-nav-item1-motto"><a href="http://edus.keweisoft.com/consult/" target="_blank">咨询服务</a></div>
+				</div>
+				<div class="sub-nav-item2">
+					<a href="http://edus.keweisoft.com/implement/"><div class="sub-nav-item3-pic"></div></a>
+					<div class="sub-nav-item1-motto"><a href="http://edus.keweisoft.com/implement/" target="_blank">实施服务</a></div>
+				</div>
+				<div class="sub-nav-item2">
+					<a href="http://edus.keweisoft.com/after-sale/"><div class="sub-nav-item4-pic"></div></a>
+					<div class="sub-nav-item1-motto"><a href="http://edus.keweisoft.com/after-sale/" target="_blank">售后服务</a></div>
+				</div>
+				<div class="sub-nav-item2">
+					<a href="http://edus.keweisoft.com/development/"><div class="sub-nav-item5-pic"></div></a>
+					<div class="sub-nav-item1-motto"><a href="http://edus.keweisoft.com/development/" target="_blank">个性化定制开发</a></div>
+				</div>
+			</div>
+		</div>	
+		<div class="m-content">
+			<div class="db1-tit">
+				<span class="db1-tit-item">选择可为个性化定制开发服务</span>
+				<span class="db1-tit-item1">拥有企业专属的管理软件</span>
+			</div>
+			<div class="db1-con">
+				<div class="db1-item1"></div>
+				<div class="db1-item2">
+					<div class="db1-ico1">市场上的软件功能千篇一律，无法满足企业更个性化的管理需求？</div>
+					<div class="db1-ico2">想要的功能没有，多余的功能太多，软件的价值无法很好的体现？</div>
+					<div class="db1-ico3">公司业务结构调整，旧的管理系统需要做相应改变，软件服务商又不提供开发服务？</div>
+					<div class="db1-ico4">需要更精细化的业务流程管控？</div>
+					<div class="db1-ico5">需要更全面的数据分析反馈？</div>
+					<div class="db1-btns">
+						<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="db1-btn1">咨询可为开发团队</div></a>
+						<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="db1-btn2">在线预约产品演示</div></a>
+					</div>
+				</div>
+			</div>
+			<div class="db1-motto">
+						可为是唯一提供原厂标准支持服务的软件厂商<br />可为拥有100余人的专业开发团队，负责用户的个性化定制开发<br />提供的服务包括<span style="color:#f36c12;">应用软件开发服务、应用软件测试服务</span>和<span style="color:#f36c12;">产品维护服务</span><br />企业通过获取以上服务，满足自己的个性化定制需求
+			</div>
+		</div>
+		<div class="imple-ads1" style="margin-top:30px;">
+			<div class="imple-ads-center">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="imple-ads-tel" style="top:19px;">服务咨询</div></a>
+			</div>
+		</div>
+
+		<div class="m-content">
+			<div class="db2-tit">
+				<span class="db2-tit1">软件开发服务</span>
+				<span class="db2-tit2">software&nbsp;development</span>
+			</div>
+			<div class="db2-con">
+				<div class="db2-item1"></div>
+				<div class="db2-item2">可为研发团队采用先进的技术架构，协助客户加速新产品开发或升级产品的推出，并保证质量，有效管理开发成本，从而助力客户实现业务目标。我们的工程师与客户方通过双方工作流程的有效整合来确保每一个项目都能实现最佳的交付成果。专业的质量保证工程师对项目提供精心的管理，通过常规报告和日常沟通，客户可以全面了解项目进展和项目状态。 </div>
+			</div>
+		</div>
+		<div class="db2-sub">
+			<div class="m-content">
+				<div class="deve-btit1">开发团队优势</div>
+				<p class="db2-tits">我们拥有专业素质过硬的<br />开发团队，为客户的软件开发负责到底</p>
+				<div class="db2-co">
+					<div class="db2-it1">
+						<div class="db2-it1-pic"></div>
+						<div class="db2-it1-con">
+							<span style="color:#3598db">全面的技术能力：</span>包括应用软件的设计、开发、测试、实施、管理和维护
+						</div>
+					</div>
+					<div class="db2-it2">
+						<div class="db2-it2-pic"></div>
+						<div class="db2-it2-con">
+							<span style="color:#0cad99">严格开发流程：</span>需求分析、设计、编码、测试、部署以及实施后的支持
+						</div>
+					</div>
+				</div>
+				
+				<div class="db2-co">
+					<div class="db2-it1">
+						<div class="db2-it3-pic"></div>
+						<div class="db2-it1-con">
+							<span style="color:#d13f4a">开发解决方案：</span>帮助客户简化业务流程，开发专门的解决方案
+						</div>
+					</div>
+					<div class="db2-it2">
+						<div class="db2-it4-pic"></div>
+						<div class="db2-it2-con">
+							<span style="color:#e3a711">架构灵活：</span>通过面向服务的架构(SOA)在目标平台上实现旧有系统的移植和现代化
+						</div>
+					</div>
+				</div>
+
+				<div class="db2-co">
+					<div class="db2-it1">
+						<div class="db2-it5-pic"></div>
+						<div class="db2-it1-con">
+							<span style="color:#1caa58">经验丰富：</span>多年对大型机以及开源系统的开发和维护经验
+						</div>
+					</div>
+					<div class="db2-it2">
+						<div class="db2-it6-pic"></div>
+						<div class="db2-it2-con">
+							<span style="color:#e84b3a">现代化软件平台：</span>实现基于Web的现代化应用软件
+						</div>
+					</div>
+				</div>
+			<div class="db3">
+				<div class="deve-btit2">定制开发流程</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="m-content">
+			<div class="db2-tit">
+				<span class="db2-tit1">软件测试服务</span>
+				<span class="db2-tit2">software&nbsp;testing</span>
+			</div>
+			<div class="db4-con">
+				<div class="db4-item1"></div>
+				<div class="db4-item2">
+					<p class="db4-item2-con">可为一直不遗余力的专注于质量优化服务，擅长专业的测试咨询和管理，高效的测试执行，权威的自动化测试，能够为客户提供灵活的、定制化的测试服务，确保客户产品高质量的交付。可为以严格的质量与安全标准为基础，为客户提供全方位的测试服务</p>
+					<div style="height:42px;margin-top:25px;padding-left: 70px;">
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="db4-item2-btn">咨询可为开发团队</div></a>
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="db4-item2-btn" style="margin-left:20px;">在线预约产品演示</div></a>
+					</div>
+				</div>
+			</div>
+			<div class="db4-sub">
+				<div class="db4-sub-con">
+					可为开发团队测试组在规定的条件下对软件源程序进行操作，以发现程序错误，衡量软件质量，并对其是否能满足设计要求进行评估的过程
+				</div>
+				<div class="db4-sub-item1">测试咨询</div>
+				<div class="db4-sub-item2">测试生命<br />周期管理</div>
+				<div class="db4-sub-item3">测试战略和<br />架构设计</div>
+				<div class="db4-sub-item4">功能测试</div>
+				<div class="db4-sub-item5">非功能测试</div>
+				<div class="db4-sub-item6">可能性测试</div>
+				<div class="db4-sub-item7">性能测试</div>
+				<div class="db4-sub-item8">负载/压力测试</div>
+				<div class="db4-sub-item9">兼容性测试</div>
+				<div class="db4-sub-item10">自动化测试</div>
+			</div>
+			<div class="db2-tit">
+				<span class="db2-tit1">软件维护服务</span>
+				<span class="db2-tit2">software&nbsp;testing</span>
+			</div>
+			<div class="db4-con">
+				<div class="db5-item1"></div>
+				<div class="db4-item2">
+					<p class="db4-item2-con">可为团队对企业软件的整个生命周期负责。根据需求的变化或硬件环境的变化对软件程序进行整体或部分的修改，使产品完全适用于企业，依靠源程序，而不改变源程序。可为提供多种服务，为您量身定做解决方案，免除您的后顾之忧。</p>
+					<div style="padding-left:70px;height:42px;margin-top:25px;">
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="db5-item2-btn">咨询实施顾问</div></a>
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="db5-item2-btn" style="margin-left:20px;">提交需求表单</div></a>
+					</div>
+				</div>
+			</div>
+			<div class="db5-sub">
+				<div class="db5-sub-items">
+					<div class="db5-sub-item1" onmouseover="document.getElementById('mtd1').style.color='#ff9b38'" onmouseout="document.getElementById('mtd1').style.color='#488af6'"></div>
+					<div class="db5-sub-con1">
+						<p style="width:100%;font-size:18px;color:#75a3d6;text-align:center;" id="mtd1">校正性维护</p>
+						<p style="font-size:14px;line-height:24px;padding:0px 15px;margin-top:5px;">改正在系统开发阶段已发生而系统测试阶段尚未发现的错误</p>
+					</div>
+				</div>
+				<div class="db5-sub-items">
+					<div class="db5-sub-item1" onmouseover="document.getElementById('mtd2').style.color='#ff9b38'" onmouseout="document.getElementById('mtd2').style.color='#488af6'"></div>
+					<div class="db5-sub-con1">
+						<p style="width:100%;font-size:18px;color:#75a3d6;text-align:center;" id="mtd2">适应性维护</p>
+						<p style="font-size:14px;line-height:24px;padding:0px 15px;margin-top:5px;">使用软件适应信息技术变化和管理需求变化而进行修改</p>
+					</div>
+				</div>
+				<div class="db5-sub-items">
+					<div class="db5-sub-item1" onmouseover="document.getElementById('mtd3').style.color='#ff9b38'" onmouseout="document.getElementById('mtd3').style.color='#488af6'"></div>
+					<div class="db5-sub-con1">
+						<p style="width:100%;font-size:18px;color:#75a3d6;text-align:center;" id="mtd3">完善性维护</p>
+						<p style="font-size:14px;line-height:24px;padding:0px 15px;margin-top:5px;">对已有的软件系统增加一些在系统分析和设计阶段中没有规定的功能与性能特征</p>
+					</div>
+				</div>
+				<div class="db5-sub-items">
+					<div class="db5-sub-item1" onmouseover="document.getElementById('mtd4').style.color='#ff9b38'" onmouseout="document.getElementById('mtd4').style.color='#488af6'"></div>
+					<div class="db5-sub-con1">
+						<p style="width:100%;font-size:18px;color:#75a3d6;text-align:center;" id="mtd4">预防性护</p>
+						<p style="font-size:14px;line-height:24px;padding:0px 15px;margin-top:5px;">为了适应未来的软硬件环境的变化，应主动增加预防性的新的功能，以使应用系统适应各类变化而不被淘汰</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="imple-ads2" style="margin-top:25px;">
+			<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="consult-ads-tel" style="margin-left:1190px;">服务咨询</div></a>
+		</div>
+				<p class="cb3-tit" style="margin-top:35px;">他们携手可为一起，获得了巨大的成功...</p>
+			<div style="clear:both"></div>
+			<div class="consult-case">
+				<div class="m-content">
+												<div class="case1" >
+					<p class="case1-tit">回归教育本质，...</p>
+					<p class="case1-thumb"><img src="http://www.keweisoft.com/uploadfile/2017/0830/20170830113708287.jpg" height="121" style="margin-left:40px;" /></p>
+					<p class="case1-industry"><strong style="color:#333;">所属行业：</strong>外语辅导</p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">公司规模：</strong></p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">上线时间：</strong>2017-06-08</p>
+					<p class="case1-con">　　1. 市场营销
+　　基于优加英语市场营销的管理需求，可为教育培训erp系统提供最优...</p>
+					<p style="text-align:right;padding-right:10px;margin-top:15px;"><a href="http://edus.keweisoft.com/case/show_30_1.html" style="color:#13558f;font-size:14px;">详情>></a></p>
+				</div>
+								<div class="case1" style="margin-left:10px;">
+					<p class="case1-tit">跨考教育</p>
+					<p class="case1-thumb"><img src="http://www.keweisoft.com/uploadfile/2017/0804/20170804092150869.jpg" height="121" style="margin-left:40px;" /></p>
+					<p class="case1-industry"><strong style="color:#333;">所属行业：</strong>职业资格培训</p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">公司规模：</strong></p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">上线时间：</strong>2017-06-08</p>
+					<p class="case1-con">
+建立集成统一的信息共享平台，提高工作效率和信息沟通
+
+　　帮助机构建立包括市场、...</p>
+					<p style="text-align:right;padding-right:10px;margin-top:15px;"><a href="http://edus.keweisoft.com/case/show_29_1.html" style="color:#13558f;font-size:14px;">详情>></a></p>
+				</div>
+								<div class="case1" style="margin-left:10px;">
+					<p class="case1-tit">【快讯】这一次...</p>
+					<p class="case1-thumb"><img src="http://www.keweisoft.com/uploadfile/2017/0427/20170427033527488.jpg" height="121" style="margin-left:40px;" /></p>
+					<p class="case1-industry"><strong style="color:#333;">所属行业：</strong>外语辅导</p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">公司规模：</strong></p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">上线时间：</strong>2017-02-08</p>
+					<p class="case1-con">　　这是通往留学信息化管理未来的一次旅行。
+　　对于中小型留学机构来说，信息化意...</p>
+					<p style="text-align:right;padding-right:10px;margin-top:15px;"><a href="http://edus.keweisoft.com/case/show_27_1.html" style="color:#13558f;font-size:14px;">详情>></a></p>
+				</div>
+								<div class="case1" style="margin-left:10px;">
+					<p class="case1-tit">【麦儿思特】专...</p>
+					<p class="case1-thumb"><img src="http://www.keweisoft.com/uploadfile/2017/0427/20170427034809664.png" height="121" style="margin-left:40px;" /></p>
+					<p class="case1-industry"><strong style="color:#333;">所属行业：</strong>艺术培训</p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">公司规模：</strong></p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">上线时间：</strong>2017-01-28</p>
+					<p class="case1-con">　　首先，让我们用家人的姿态来欢迎麦儿思特牵手北京可为
+　　第一次见麦儿思特熊总...</p>
+					<p style="text-align:right;padding-right:10px;margin-top:15px;"><a href="http://edus.keweisoft.com/case/show_28_1.html" style="color:#13558f;font-size:14px;">详情>></a></p>
+				</div>
+								<div class="case1" >
+					<p class="case1-tit">上元教育与可为...</p>
+					<p class="case1-thumb"><img src="http://www.keweisoft.com/uploadfile/2017/0426/20170426023206291.jpg" height="121" style="margin-left:40px;" /></p>
+					<p class="case1-industry"><strong style="color:#333;">所属行业：</strong>职业资格培训</p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">公司规模：</strong></p>
+					<p class="case1-industry" style="margin-top:5px;"><strong style="color:#333;">上线时间：</strong>2017-04-12</p>
+					<p class="case1-con">　　话说：夜华断臂，为了完成浅浅的心愿，断臂轮回都在所不惜~
+　　这条一心只为所爱...</p>
+					<p style="text-align:right;padding-right:10px;margin-top:15px;"><a href="http://edus.keweisoft.com/case/show_26_1.html" style="color:#13558f;font-size:14px;">详情>></a></p>
+				</div>
+											</div>
+		</div>
+		<div style="clear:both;height:20px;"></div>
+		<div class="s-ads">
+			<div class="m-content">
+				<div class="s-ads-tit">更多了解可为？<br />请联系我们</div>
+				<img src="http://www.keweisoft.com/statics/images/edus/process_bottom_arrow.png" alt="" title="" style="margin-top:55px;float:left;" />
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">告诉我们您的需求</a></div>
+				<div class="s-ads-btn2"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">预约演示</a></div>
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">在线咨询可为</a></div>
+				<div class="s-ads-tel"></div>
+			</div>
+		</div>	<div class="bottom">
+	<div class="m-content">
+		<dl class="bottom-items">
+			<dt><a href="http://edus.keweisoft.com/aboutus/">关于可为</a></dt>
+			<dd><a href="http://edus.keweisoft.com/aboutus/">可为简介</a></dd>
+			<dd><a href="http://edus.keweisoft.com/process/">企业历程</a></dd>
+			<dd><a href="http://edus.keweisoft.com/activity/">企业活动</a></dd>
+			<dd><a href="http://edus.keweisoft.com/contact/">联系我们</a></dd>
+			<dd><a>资质荣誉</a></dd>
+		</dl>
+		<dl class="bottom-items items2">
+			<dt><a href="http://edus.keweisoft.com/solution/">解决方案</a></dt>
+			<dd><a href="http://edus.keweisoft.com/solu-qualification/">职业资格</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-primary/">中小学辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-foreign/">英语辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-children/">少儿培训</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-art/">艺术培训</a></dd>
+		</dl>
+		<dl class="bottom-items items3">
+			<dt><a>产品中心</a></dt>
+			<dd><a href="http://edus.keweisoft.com/marketing/">营销管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/education/">教务管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/student/">学员端管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/attendance/">考勤管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/financial/">财务管理</a></dd>
+		</dl>
+		<dl class="bottom-items items4">
+			<dt><a href="http://edus.keweisoft.com/case/">客户案例</a></dt>
+			<dd><a href="http://edus.keweisoft.com/case/">中小学辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">少儿培训</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">出国留学</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">英语辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">艺术培训</a></dd>
+		</dl>
+		<dl class="bottom-items items5">
+			<dt><a href="http://edus.keweisoft.com/fuwutixi/">可为服务</a></dt>
+			<dd><a href="http://edus.keweisoft.com/consult/">咨询服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/implement/">实施服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/after-sale/">售后服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/development/">个性化开发服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/team/">服务团队</a></dd>
+		</dl>
+		<div class="bottom-line"></div>
+		<p style="text-align:center;color:#fff; margin-top:20px;">
+			友情链接：
+									<a href="http://www.12580.tv/SiteInfo/edus.keweisoft.com/" target="_blank">可为培训机构管理系统</a>&nbsp;&nbsp;
+						<a href="http://crm.keweisoft.com" target="_blank">可为CRM</a>&nbsp;&nbsp;
+						<a href="http://www.keweisoft.com" target="_blank">可为官网</a>&nbsp;&nbsp;
+								</p>
+		<p style="text-align:center;color:#fff; margin-top:20px;">
+			京ICP备08006041号-3北京市公安局海淀分局网监中心备案编号：11010802015396
+		</p>
+	</div>
+<div style="width:100%; margin:10px auto 0px;text-align:center;background:#394350">	
+<!--53聊天软件代码-->
+<script>
+	(function() {
+		  var _53code = document.createElement("script");
+		  _53code.src = "//tb.53kf.com/code/code/10140145/5";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(_53code, s);
+	})();
+</script>	
+<!--百度统计代码-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff04c7f91750adccf43be0882905bb320' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--免费电话代码-->
+<script>
+var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?f04c7f91750adccf43be0882905bb320"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
+<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=2355584"></script>
+</div>	
+</div>
+<!--侧边栏-->
+<div id="moquu_wxin" class="moquu_wxin"><a href="javascript:void(0)">可为时代<div class="moquu_wxinh"></div></a></div>
+<div id="moquu_wshare" class="moquu_wshare"><a href="javascript:void(0)">可为时代<div class="moquu_wshareh"></div></a></div>
+<div id="moquu_wmaps"><a href="javascript:void(0)" class='moquu_wmaps'>可为时代</a></div>
+<a id="moquu_top" href="javascript:void(0)"></a>
+<script type="text/javascript" src="http://www.keweisoft.com/statics/js/edus/sideNav.js"></script>	</body>	
+</html>

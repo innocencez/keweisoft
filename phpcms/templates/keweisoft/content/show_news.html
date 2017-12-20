@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="keweisoft.com" />
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />
+    <link type="text/css" rel="stylesheet" href="{CSS_PATH}official/common.css">
+    <link type="text/css" rel="stylesheet" href="{CSS_PATH}official/news.css">
+    <link type="text/css" rel="stylesheet" href="{CSS_PATH}official/bootstrap.min.css">
+    <script type="text/javascript" src="{JS_PATH}official/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}official/nav.js"></script>
+  <!--百度统计-->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?862c8265e86587e91bada5e06c1e576c";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>    
+  </head>
+  <body>
+    {template "content","header"}
+    <div class="news-banner">
+      <div class="news-banner-top"></div>
+      <div class="news-banner-bottom">
+        <div class="news-banner-center">
+          <a href="http://kf2.immivip.com/new/client.php?unique_id=&unique_name=&arg=admin&style=7" target="_blank"><div class="nbc-btn">点击在线咨询</div></a>
+        </div>
+      </div>
+    </div>
+  <div class="m-content">
+  <div class="title"><a href="{siteurl($siteid)}">首页</a> <span id="dt">&nbsp;>&nbsp;</span> <a href="{$CATEGORYS[$catid][url]}">{$CATEGORYS[$catid][catname]}</a>&nbsp;>&nbsp;{$title}<div class="Eng">NEWS</div></div>
+  <div class="left">
+    <div class="left_Con">
+    <h1 class="Font_Title">{$title}</h1>
+    <div class="Data">{date('Y-m-d',strtotime($inputtime))}</div>
+    <div class="Eyes"><span id="hits"><script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script></span></div>
+    <div style="clear:both;"></div>
+    <div class="Text_Con">
+      <div class="Text_desc"><span style="font-weight:bold;">摘要：</span>{$description}...</div>
+      <div class="Text_desc Text_keyword"><span style="font-weight:bold;">关键词：</span>{loop $keywords $keyword}{if $n<=3}{$keyword}&nbsp;&nbsp;{/if}{/loop}</div>     
+    <p>{$content}</p>
+    <div class="bdsharebuttonbox" style="margin-top:15px;"><a href="#" class="bds_more" data-cmd="more"></a><a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a><a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a><a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a><a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a><a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <span id='favorite'>
+  <a href="javascript:;" onclick="add_favorite('{addslashes($title)}');" class="t6">收藏</a>
+  </span>
+<p class="f14">
+    <strong style="color:#ff6600;">上一篇：</strong><a href="{$previous_page[url]}">{$previous_page[title]}</a><br />
+    <strong style="color:#ff6600;">下一篇：</strong><a href="{$next_page[url]}">{$next_page[title]}</a>
+</p>  
+   </div>  
+      </div>
+</div>
+                 <div class="right_2">
+                 <div class="Bar_2">最近更新:</div>
+                 {pc:content action="lists" catid="249" order="inputtime DESC" num="5"} 
+                 {loop $data $r}
+                 <div class="img_1"><a href="#"><img src="{$r[thumb]}" width="286" height="150" alt="{$r[title]}" title="{$r[title]}"/></a></div>
+                 <p class="LittleTit_1"><a href="{$r[url]}" style="font-size:14px;color:#333; font-weight:bold;">{str_cut($r[title],30,'...')}</a></p>
+                 <div class="ConY_1"><p class="Con_1"><a href="{$r[url]}" style="font-size:12px;color:#666; line-height:20px;">{str_cut($r[description],85,'...')}</p></a></div>
+                 {/loop}
+                 {/pc}
+               
+                 </div>
+          </div> 
+           <div style="clear:both"></div> 
+<script type="text/javascript">
+  function add_favorite(title) {
+    $.getJSON('{APP_PATH}api.php?op=add_favorite&title='+encodeURIComponent(title)+'&url='+encodeURIComponent(location.href)+'&'+Math.random()+'&callback=?', function(data){
+      if(data.status==1)  {
+        $("#favorite").html('收藏成功');
+      } else {
+        alert('请登录');
+      }
+    });
+  }  
+</script>      
+<script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script>     
+		{template "content","footer"}	

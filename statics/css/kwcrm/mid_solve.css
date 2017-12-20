@@ -1,0 +1,122 @@
+/*初始化*/
+html ,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+
+/*解决方案*/
+.pro5{
+	width:100%;
+	height:405px;
+	background:#0b9be1;
+	margin-top:2px;
+}
+.pro5_mid{
+	width:1000px;
+	margin:0 auto;
+	padding-top:40px;
+}
+.pro5_tit1{
+	width:100%;
+	height:31px;
+	text-align:center;
+	background:url(../../images/kwcrm/pro4_titbg.png) repeat-x;
+}
+.pro5_tit2{
+	width:100%;
+	text-align:center;
+	color:#fff;
+	font-size:24px;
+	margin-top:15px;
+}
+.pro5_cons{
+	width:100%;
+	height:224px;
+	position:relative;
+	margin-top:40px;
+	z-index:1;
+}
+.pro5_conall{
+	width: 100%;
+	overflow: hidden;
+	position:relative;
+	height:100%;
+}
+.pro5_conallmid{
+	width:10000px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.pro5_arrl{
+	position:absolute;
+	top:40%;
+	left:-22px;
+	cursor:pointer;
+}
+.pro5_arrl:hover{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.pro5_arrr{
+	position:absolute;
+	top:40%;
+	right:-22px;
+	cursor:pointer;
+}
+.pro5_arrr:hover{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.pro5_con{
+	float:left;
+	width:184px;
+	height:224px;
+	background:#fff;
+	margin:0 8px;
+}
+.pro5_con li{
+	width:100%;
+	text-align:center;
+}
+.pro5_conImg{
+	margin-top:15px;
+	height:91px;
+}
+.pro5_conTit{
+	margin-top:15px;	
+}
+.pro5_conTit a{
+	color:#9a9a9a;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+.pro5_conTit a:hover{
+	color:#e99c6e;
+}
+.pro5_conLinks{
+	margin-top:10px;
+}
+.pro5_conLink{
+	display:inline-block;
+	font-size:12px;
+	color:#5c5c5c;
+	margin-right:5px;
+}
+.pro5_conLink:hover{
+	color:#0b9be1;
+}
+.pro5_conLine{
+	margin-top:5px;
+}
+.pro5_conbotLine{
+	width:80%;
+	display:inline-block;
+	height:2px;
+	border-top:#e99c6e 1px solid;
+	border-bottom:#e99c6e 1px solid;
+}

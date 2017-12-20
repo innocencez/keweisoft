@@ -1,0 +1,427 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  解决方案
+*******************************************************************************/
+.solution-banner{
+	width:100%;
+	height: 560px;
+	overflow: hidden;
+}
+.solution-banner1{
+	width: 100%;
+	height: 280px;
+	background: url(../../images/edus/solution-banner-bg.jpg) center center no-repeat;
+}
+.solution-banner2{
+	width: 100%;
+	height: 280px;
+	background: url(../../images/edus/solution-banner-bg1.jpg) center center no-repeat;
+}
+.solution-tit{
+	width:100%;
+	height: 138px;
+	background: url(../../images/edus/solution-tit.jpg) left center no-repeat;
+	margin-top:25px;
+}
+.solution-item1{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_One.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+.clearfix{
+	clear:both;
+}
+.solution-item1:hover{
+	background: url(../../images/edus/solution_One_hov.png) center center no-repeat;
+}
+
+.solution-item2{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_Two.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	margin-left:128px;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+.solution-item3{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_three.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	margin-left:128px;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+
+.solution-item4{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_Four.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+
+.solution-item5{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_Five.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	margin-left:128px;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+
+.solution-item6{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_Six.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	margin-left:128px;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+.solution-item7{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_Seven.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+
+.solution-item8{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_Eight.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	margin-left:128px;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+
+.solution-item9{
+	width: 308px;
+	height: 302px;
+	background: url(../../images/edus/solution_Ten.png) center center no-repeat;
+	float: left;
+	margin-top:35px;
+	text-align: center;
+	margin-left:128px;
+	color:#fff;
+	font-size:16px;
+	line-height: 500px;
+}
+
+.solution-item2:hover{
+	background: url(../../images/edus/solution_Two_hov.png) center center no-repeat;
+}
+.solution-item3:hover{
+	background: url(../../images/edus/solution_three_hov.png) center center no-repeat;
+}
+.solution-item4:hover{
+	background: url(../../images/edus/solution_Four_hov.png) center center no-repeat;
+}
+.solution-item5:hover{
+	background: url(../../images/edus/solution_Five_hov.png) center center no-repeat;
+}
+.solution-item6:hover{
+	background: url(../../images/edus/solution_Six_hov.png) center center no-repeat;
+}
+.solution-item7:hover{
+	background: url(../../images/edus/solution_Seven_hov.png) center center no-repeat;
+}
+.solution-item8:hover{
+	background: url(../../images/edus/solution_Eight_hov.png) center center no-repeat;
+}
+.solution-item9:hover{
+	background: url(../../images/edus/solution_Ten_hov.png) center center no-repeat;
+}
+.solution-ads{
+	width:100%;
+	height: 100px;
+	background: url(../../images/edus/solution-ads.jpg) center center no-repeat #0b3b7b;
+	margin-top: 25px;
+}
+.solution-ads-center{
+	width: 1180px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.solution-ads-btn{
+	width:160px;
+	height: 56px;
+	background: url(../../images/edus/solution_btn.png) center center no-repeat;
+	position: absolute;
+	text-align: center;
+	line-height: 56px;
+	font-size: 24px;
+	color:#fff;
+	top:23px;
+	right: 0;
+}
+
+.solution-ads-btn:hover{
+	background: url(../../images/edus/solution-btn_hov.png) center center no-repeat; 
+}
+.solution-subTit{
+	width: 100%;
+	height: 78px;
+	text-align: center;
+	background: url(../../images/edus/solution_BlueFrame.jpg) center center no-repeat;
+	margin-top:25px;
+	font-size:36px;
+	line-height: 78px;
+	color:#3d75da;
+	text-align: center;
+}
+.case_show{
+	width:100%;
+	height: 121px;
+	margin-top:35px;
+	overflow: hidden;
+}
+.l-btn{
+	width:38px;
+	height: 58px;
+	background: url(../../images/edus/solution_Arrow_1.png) center center no-repeat;
+	margin-top:28px;
+	float: left;
+}
+.case-show-con{
+	width:1074px;
+	height: 121px;
+	float: left;
+	margin-left: 15px;
+	margin-top:0px;
+	position: relative;
+	overflow: hidden;
+}
+.case-show-con ul{
+	height: 121px;
+	position: absolute;
+	left:0px;
+	top: 0px;
+}
+.case-show-con ul li{
+	float: left;
+	height: 121px;
+	margin-right:50px; 
+	overflow: hidden;
+}
+.r-btn{
+	width:38px;
+	height: 58px;
+	background: url(../../images/edus/solution_Arrow_2.png) center center no-repeat;
+	margin-top:28px;
+	float: right;
+}
+.case-logo{
+	float: left;
+}
+.case-con{
+	height: 101px;
+	float: left;
+	margin-left: 15px;
+	padding-top:20px;
+}
+.case-conTit{
+	
+	text-align: center;
+}
+.case-conTit a{
+	font-size:18px;
+	color: #333;
+}
+.case-conCon{
+	font-size:14px;
+	margin-top:5px;
+}
+.s-ads{
+	width:100%;
+	height:120px;
+	background: url(../../images/edus/process_bottom_bg.jpg) repeat-x;
+}
+.s-ads-tit{
+	width:180px;
+	margin-top:35px;
+	font-size:24px;
+	color:#46464a;
+	float: left;
+}
+.s-ads-btn1{
+	width:180px;
+	height:51px;
+	text-align:center;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads a{
+	color:#fff;
+}
+.s-ads-btn1:hover{
+	background: url(../../images/edus/process_bottom_btn_hover.png) no-repeat;
+}
+.s-ads-btn2{
+	width:143px;
+	padding-left:37px;
+	height:51px;
+	text-align:left;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn2.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads-btn2:hover{
+	background: url(../../images/edus/process_bottom_btn2_hover.png) no-repeat;
+}
+.s-ads-tel{
+	width:183px;
+	height:54px;
+	float: right;
+	margin:40px 0px 0px;
+	background: url(../../images/edus/process_bottom_btn_tel.png) no-repeat;
+}
+/**页低服务************************/
+.conb3-con{
+	width:100%;
+	height: 409px;
+	margin-top: 25px;
+}
+.conb3-left{
+	width:373px;
+	height: 409px;
+	background: url(../../images/edus/pro-service-pic.png) left center no-repeat;
+	float: left;
+	margin-left:116px;
+}
+.conb3-right{
+	width:582px;
+	float: right;
+}
+.conb3-right1{
+	width:582px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+}
+.conb3-right1-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico1.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right1-pic:hover{
+	background: url(../../images/edus/pro-service-ico1-hover.png) 50% 50% no-repeat;
+}
+.conb3-right1-con{
+	height: 100%;
+	width:306px;
+	float: left;
+	margin-left: 15px;
+}
+.conb3-right1-con p a{
+	font-size: 18px;
+	color:#fb6b0b;
+	font-weight:bold;
+}
+.conb3-right1-con p a:hover{
+	color: #0a448c;
+}
+.inner-item{
+	font-size:14px;
+	line-height: 26px;
+	color:#666;
+	letter-spacing: 1px;
+}
+.conb3-right2{
+	width:495px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+	margin-top:15px;
+}
+.conb3-right2-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico2.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right3{
+	width:495px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+	margin-top:15px;
+}
+.conb3-right3-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico3.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right4{
+	width:495px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+	margin-top:15px;
+}
+.conb3-right4-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico4.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right2-pic:hover{
+	background: url(../../images/edus/pro-service-ico2-hover.png) 50% 50% no-repeat;
+}
+.conb3-right3-pic:hover{
+	background: url(../../images/edus/pro-service-ico3-hover.png) 50% 50% no-repeat;
+}
+.conb3-right4-pic:hover{
+	background: url(../../images/edus/pro-service-ico4-hover.png) 50% 50% no-repeat;
+}

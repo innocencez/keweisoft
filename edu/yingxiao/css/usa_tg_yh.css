@@ -1,0 +1,657 @@
+a, a:active, a:hover, a:link, a:visited {
+	text-decoration: none
+}
+.bot_txt .p1, .bot_txt p, .main1 .list1, .main1 .tab1, .tab_box li {
+	float: left
+}
+a, body, button, caption, dd, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, hr, img, input, label, li, ol, p, select, span, strong, table, tbody, td, tfoot, theader, tr, ul {
+	margin: 0;
+	padding: 0
+}
+html[xmlns] .clearfix {
+	display: block
+}
+* html .clearfix {
+	height: 1%
+}
+body {
+	background: #fff;
+	font: 400 12px/24px "微软雅黑";
+	overflow-x: hidden
+}
+input:focus {
+	outline: 0
+}
+button, input, select, textarea {
+	outline: 0;
+	font-size: 100%;
+	font-family: inherit
+}
+a {
+	outline: 0;
+	cursor: hand;
+	cursor: pointer;
+blr:expression(this.onFocus=this.blur());
+	color: #333
+}
+.clean {
+	overflow: hidden
+}
+li, ol, ul {
+	list-style: none
+}
+input::-ms-clear, textarea::-ms-clear {
+display:none
+}
+fieldset, img {
+	border: none
+}
+a, img {
+	display: block
+}
+.top_banner {
+	width: 100%;
+	height: 600px;
+	background: url(../images/usa_tg_yh/top_banner.jpg) center top no-repeat
+}
+.bg, .bg_box, .bg_box2, .bg_box3, .bg_box4, .main_box, .wrap {
+	width: 100%;
+	height: auto;
+	overflow: hidden
+}
+.bg_box img, .bg_box2 img, .bg_box3 img, .bg_box4 img {
+	margin: 0 auto
+}
+.bg1 {
+	background: #686c8e
+}
+.bg5, .bg8, .bg_box4, .bg_top {
+	background: #fff
+}
+.bg2 {
+	background: #55a7cc
+}
+.bg6, .bg_box, .bg_box3 {
+	background: #ebebeb
+}
+.bg4 {
+	background: #d65156
+}
+.bg7 {
+	background: #8fb145
+}
+.bg9 {
+	background: #282938;
+	margin-top: 30px
+}
+.bg_box2 {
+	background: #ffcf3b
+}
+.btn_title, .tab_title {
+	padding-bottom: 40px;
+	display: block
+}
+.btn_title {
+	padding-top: 40px
+}
+.main1, .main2, .main3, .main4, .main5, .main6, .main7, .main8 {
+	width: 1140px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto
+}
+.main1 {
+	padding-top: 70px
+}
+.wrap .content .main1 .main_box {
+	width: 100%;
+	height: auto;
+	overflow: hidden
+}
+.main1 .tab1 {
+	width: 260px;
+	height: 260px;
+	background: #ff4000;
+	position: absolute;
+	left: 0;
+	top: 260px;
+	transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease
+}
+.main1 .tab1 .btn, .tab_box li {
+	background: #f4f1e9;
+	color: #333;
+	text-align: center
+}
+.tab_box {
+	width: 94%;
+	margin: 0 auto;
+	padding-top: 35px;
+	padding-left: 10px;
+	height: auto;
+	overflow: hidden;
+*margin-bottom:20px
+}
+.tab_box li {
+	width: 112px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin: 0 10px 20px 0
+}
+.main1 .tab1 .btn {
+	width: 220px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease
+}
+.main1 .tab1 .btn:hover {
+	background: #44bfc0;
+	color: #fff
+}
+.main1 .list1 .item {
+	width: 260px;
+	height: 260px;
+	background: #fff;
+	float: left;
+	margin-left: 17px;
+	overflow: hidden;
+	position: relative
+}
+.main1 .list1 .item:hover .tab1 {
+	top: 0
+}
+.main1 .list1 .item h3 {
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 36px;
+	color: #fff;
+	border-bottom: 1px solid #fff
+}
+.bg_top .list_show, .bg_top .list_show div, .bot_txt {
+	height: auto;
+	overflow: hidden
+}
+.main1 .list1 .item p {
+	width: 100%;
+	color: #333;
+	text-align: center;
+	margin-top: 35px;
+	font-size: 18px;
+	line-height: 30px
+}
+.bot_txt {
+	width: 865px;
+	margin: 20px auto 60px
+}
+.main1 .list1 .item1, .main1 .list1 .item1 h3 {
+	background: #12cced
+}
+.main1 .list1 .item2, .main1 .list1 .item2 h3 {
+	background: #12b0ed
+}
+.main1 .list1 .item3, .main1 .list1 .item3 h3 {
+	background: #8b88f7
+}
+.main1 .list1 .item4, .main1 .list1 .item4 h3 {
+	background: #ff4d33
+}
+.bot_txt p {
+	font-size: 20px;
+	color: #fff;
+	width: 50%;
+	text-align: center;
+	font-weight: 700
+}
+.bot_txt .p2 {
+	float: right;
+*margin-top:-22px
+}
+.bg_top {
+*padding-bottom:10px
+}
+.bg_top .list_show {
+	width: 1100px;
+	margin: 0 auto;
+	background: #fff
+}
+.bg_top .list_show div {
+	width: 385px;
+	border-right: 1px dashed #333;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	float: left
+}
+.bg_top .list_show div h3 {
+	color: #333;
+	margin-bottom: 10px;
+	font-size: 18px
+}
+.bg_top .list_show .icon_img {
+	width: 23px;
+	height: 19px;
+	background: url(../images/usa_tg_yh/dui.png) no-repeat;
+	display: block;
+	float: left;
+	margin-right: 10px
+}
+.bg_top .list_show div p>strong {
+	font-size: 18px;
+	float: left
+}
+.bg_top .list_show div p {
+	width: 373px;
+	padding-bottom: 60px;
+*margin-bottom:20px;
+*padding-bottom:0
+}
+.bg_top .list_show div p>span {
+	font-size: 16px;
+	float: right;
+	display: block;
+	width: 300px;
+	line-height: 26px
+}
+.bg_top .list_show .div2 {
+	padding-left: 42px;
+	width: 326px;
+	padding-bottom: 47px;
+*padding-bottom:0
+}
+.bg_top .list_show .div2 .icon_img, .bg_top .list_show .div3 .icon_img {
+	margin-left: 10px
+}
+.bg_top .list_show .div2 ul {
+	width: 319px;
+*width:280px;
+*padding-bottom:60px
+}
+.bg_top .list_show .div2 ul li {
+	float: left;
+	margin: 5px 10px;
+	font-size: 16px
+}
+.bg_top .list_show .div3 {
+	width: 313px;
+	font-size: 16px;
+	border-right: none
+}
+.bg_top .list_show .div3 ul {
+	height: auto;
+	overflow: hidden;
+*margin-bottom:20px;
+*width:290px
+}
+.bg_top .list_show .div3 ul li {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px
+}
+.btn2 {
+	display: block;
+	width: 252px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #ff4d33;
+	color: #fff;
+	margin: 0 auto 0 9px
+}
+.top_title {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 45px
+}
+.top_title img {
+	margin: 0 auto
+}
+.main2 .main2_box, .main3 .main3_box, .main4 .main4_box, .main5 .main5_box, .main7 .main7_box {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 40px
+}
+.main2 .main2_box li {
+	width: 356px;
+	height: 390px;
+	float: left;
+	margin-left: 15px;
+	background: #fff;
+	overflow: hidden
+}
+.main2 .main2_box li p {
+	width: 336px;
+	font-size: 14px;
+	margin: 25px 10px;
+	height: 85px
+}
+.main2 .main2_box li a, .main3 .main3_box li a {
+	line-height: 45px;
+	color: #fff;
+	font-size: 18px;
+	transition: all .4s ease;
+	display: block;
+	text-align: center
+}
+.main2 .main2_box li a {
+	width: 220px;
+	height: 45px;
+	background: #ff4d33;
+	margin: 0 auto;
+	border-radius: 25px;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease
+}
+.main2 .main2_box li a:hover {
+	color: #333;
+	background: #fccf42
+}
+.main3 .main3_box li, .main4 .main4_box li, .main5 .main5_box li {
+	width: 362px;
+	height: 468px;
+	float: left;
+	margin-left: 14px;
+	position: relative
+}
+.main3 .main3_box .li1 {
+	background: url(../images/usa_tg_yh/pic4_1.png) no-repeat
+}
+.main3 .main3_box .li2 {
+	background: url(../images/usa_tg_yh/pic4_2.png) no-repeat
+}
+.main3 .main3_box .li3 {
+	background: url(../images/usa_tg_yh/pic4_3.png) no-repeat
+}
+.main4 .main4_box .li1 {
+	background: url(../images/usa_tg_yh/pic6_1.png) no-repeat
+}
+.main4 .main4_box .li2 {
+	background: url(../images/usa_tg_yh/pic6_2.png) no-repeat
+}
+.main4 .main4_box .li3 {
+	background: url(../images/usa_tg_yh/pic6_3.png) no-repeat
+}
+.main5 .main5_box .li1 {
+	background: url(../images/usa_tg_yh/pic8_1.png) no-repeat
+}
+.main5 .main5_box .li2 {
+	background: url(../images/usa_tg_yh/pic8_2.png) no-repeat
+}
+.main5 .main5_box .li3 {
+	background: url(../images/usa_tg_yh/pic8_3.png) no-repeat
+}
+.main3 .main3_box li a {
+	height: 45px;
+	background: #ff4d33;
+	border-radius: 20px;
+	position: absolute;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease
+}
+.bottom_title, .btn_box a, .main3 .main3_box li a:hover {
+	background: #f3124c;
+	color: #fff
+}
+.main3 .main3_box .li1 a {
+	width: 220px;
+	bottom: 50px;
+	left: 70px
+}
+.main3 .main3_box .li2 a {
+	width: 300px;
+	bottom: 50px;
+	left: 30px
+}
+.main3 .main3_box .li3 .a1 {
+	width: 220px;
+	bottom: 83px;
+	left: 70px
+}
+.main3 .main3_box .li3 .a2 {
+	width: 220px;
+	bottom: 20px;
+	left: 70px
+}
+.bottom_title {
+	width: 320px;
+	height: 50px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 auto 40px;
+	border-radius: 5px
+}
+.btn_box {
+	width: 1096px;
+	height: auto;
+	overflow: hidden;
+	margin: 20px auto 50px
+}
+.btn_box a {
+	width: 300px;
+	height: 45px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 45px;
+	float: left;
+	border-radius: 25px;
+	transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease
+}
+.main4 .main4_box .li1 .a1, .main4 .main4_box .li1 .a2, .main4 .main4_box .li1 .a3, .main4 .main4_box .li1 .a4 {
+	width: 160px;
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px
+}
+.btn_box a:hover {
+	color: #fff;
+	background: #f60
+}
+.mr_ml {
+	margin: auto 98px
+}
+.main4 .main4_box li a, .main5 .main5_box li a {
+	display: block;
+	text-align: center;
+	color: #333;
+	background: #fccf42;
+	border-radius: 20px;
+	position: absolute;
+	transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease
+}
+.main4 .main4_box li a:hover, .main5 .main5_box li a:hover {
+	background: #f3124c;
+	color: #fff
+}
+.main4 .main4_box .li1 .a1 {
+	top: 215px;
+	left: 12px
+}
+.main4 .main4_box .li1 .a2 {
+	top: 215px;
+	right: 12px
+}
+.main4 .main4_box .li1 .a3 {
+	bottom: 40px;
+	left: 12px
+}
+.main4 .main4_box .li1 .a4 {
+	bottom: 40px;
+	right: 12px
+}
+.main4 .main4_box .li2 a, .main5 .main5_box .li2 a {
+	width: 300px;
+	height: 45px;
+	bottom: 50px;
+	left: 30px;
+	font-size: 18px;
+	line-height: 45px
+}
+.main4 .main4_box .li3 .a1, .main5 .main5_box .li3 .a1 {
+	width: 220px;
+	height: 45px;
+	bottom: 83px;
+	left: 70px;
+	font-size: 18px;
+	line-height: 45px
+}
+.main4 .main4_box .li3 .a2, .main5 .main5_box .li3 .a2 {
+	width: 220px;
+	height: 45px;
+	bottom: 20px;
+	left: 70px;
+	font-size: 18px;
+	line-height: 45px
+}
+.main5 .main5_box .li1 .a1, .main5 .main5_box .li1 .a2 {
+	width: 160px;
+	height: 25px;
+	bottom: 30px;
+	font-size: 12px;
+	line-height: 25px
+}
+.main5 .main5_box .li1 .a1 {
+	left: 10px
+}
+.main5 .main5_box .li1 .a2 {
+	right: 14px
+}
+.main6 .btn_box {
+	width: 780px
+}
+.main6 .btn_box a {
+	margin-right: 30px;
+	width: 360px
+}
+.main7 .main7_box li {
+	float: left;
+	margin-left: 17px;
+	width: 264px
+}
+.bg_title {
+	width: 360px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: #f3124c;
+	border-radius: 25px;
+	border: 2px solid #f3124c;
+	margin: 0 auto 40px;
+	font-size: 18px;
+	transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease
+}
+.bg_show {
+	background: #60b7df;
+	border: 2px solid #60b7df
+}
+.bg_show a {
+	color: #fff
+}
+.bg_box3 .show_list {
+	width: 1140px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto
+}
+.bg_box3 .show_list img {
+	float: left;
+	margin-left: 40px
+}
+.text_title {
+	width: 1000px;
+	text-align: center;
+	color: #333;
+	font-size: 24px;
+	margin: 20px auto
+}
+.main8 .liuyou {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 40px
+}
+.main8 .liuyou li {
+	width: 369px;
+	height: 224px;
+	margin: 5px;
+	float: left
+}
+.main8 .liuyou li h3 {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 36px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 60px;
+	margin-bottom: 10px
+}
+.main8 .liuyou li p {
+	width: 100%;
+	font-size: 20px;
+	color: #30290c;
+	text-align: center
+}
+.color1 {
+	background: #ff4d33
+}
+.color2 {
+	background: #f8c31d
+}
+.color3 {
+	background: #55a7cc
+}
+.color4 {
+	background: #4dc2a7
+}
+.color5 {
+	background: #b5622e
+}
+.color6 {
+	background: #8b88f7
+}
+.main9 {
+	background: url(../images/usa_tg_yh/footer_03.jpg) no-repeat;
+	width: 1140px;
+	height: 532px;
+	position: relative;
+	margin: 0 auto
+}
+.main9 a {
+	display: block;
+	width: 743px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background: url(../images/usa_tg_yh/btn.png) no-repeat;
+	color: #fff;
+	font-size: 22px;
+	text-indent: -60px;
+	position: absolute;
+	bottom: 50px;
+	left: 190px
+}

@@ -1,0 +1,2576 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  服务
+*******************************************************************************/
+.serv-tit{
+	width:963px;
+	height:58px;
+	background: url(../../images/keweisoft/serv-tit.jpg) top center no-repeat;
+	margin-top:35px;
+	padding-left:77px;
+	font-size:30px;
+	color:#222e3a;
+	line-height:58px;
+}
+.block1{
+	width:100%;
+	height:430px;
+	margin-top:30px;
+}
+.b1-normal1{
+	width:249px;
+	height:200px;
+	background: url(../../images/keweisoft/serv-bg5.png) top center no-repeat;
+	float:left;
+}
+.b1-ico{
+	width:231px;
+	height:57px;
+	background: url(../../images/keweisoft/serv-ico6.png) center top no-repeat;
+	margin-top: 46px;
+}
+.b1-con{
+	display: block;
+	width:140px;
+	color:#fff;
+	font-size:14px;
+	text-align: center;
+	margin:36px auto;
+}
+.b1-normal2{
+	width:251px;
+	height:200px;
+	background: url(../../images/keweisoft/serv-bg4.png) top center no-repeat;
+	float:left;
+	margin-left:15px;
+}
+.b1-normal3{
+	width:231px;
+	height:219px;
+	background: url(../../images/keweisoft/serv-bg3.png) top center no-repeat;
+	float:left;
+	margin-left:15px;
+}
+.b1-normal4{
+	width:249px;
+	height:200px;
+	background: url(../../images/keweisoft/serv-bg2.png) top center no-repeat;
+	float:right;
+	margin-left:15px;
+	margin-right:13px;
+}
+.b1-normal5{
+	width:234px;
+	height:200px;
+	background: url(../../images/keweisoft/serv-bg1h.png) top center no-repeat;
+	float:right;
+	margin-left:10px;
+}
+.b1-normal6{
+	width:518px;
+	height:200px;
+	background: url(../../images/keweisoft/serv-con1-fn.jpg) top center no-repeat;
+	float:right;
+}
+.b2-ico{
+	width:231px;
+	height:57px;
+	background: url(../../images/keweisoft/serv-ico5.png) center top no-repeat;
+	margin-top: 46px;
+}
+.b3-ico{
+	width:231px;
+	height:57px;
+	background: url(../../images/keweisoft/serv-ico4.png) center top no-repeat;
+	margin-top: 46px;
+}
+.b4-ico{
+	width:231px;
+	height:57px;
+	background: url(../../images/keweisoft/serv-ico3.png) center top no-repeat;
+	margin-top: 46px;
+}
+
+.b5-ico{
+	width:231px;
+	height:57px;
+	background: url(../../images/keweisoft/serv-ico2.png) 120px top no-repeat;
+	margin-top: 46px;
+}
+.b6-ico{
+	width:212px;
+	height:57px;
+	background: url(../../images/keweisoft/serv-ico1.png) 90px top no-repeat;
+	margin-top: 46px;
+}
+
+.block2{
+	width:100%;
+	height:196px;
+	margin-top:40px;
+}
+.b2-item1{
+	width:160px;
+	height:100%;
+	float:left;
+}
+.b2-item1-con{
+	width:160px;
+	height: 146px;
+	background: url(../../images/keweisoft/serv-value-bg.png) top center no-repeat;
+	position: absolute;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.b2-item1-con:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+.b2-item1-con:hover{
+
+	background: url(../../images/keweisoft/serv-value-bg-h.png) top center no-repeat;
+
+}
+.b2-item1-ico{
+	background: url(../../images/keweisoft/serv-value-ico1.png) top center no-repeat;
+	display: block;
+	width:58px;
+	height:53px;
+	top:50px;
+	left:50px;
+	position: relative;
+}
+.b2-item2-ico{
+	background: url(../../images/keweisoft/serv-value-ico2.png) top center no-repeat;
+	display: block;
+	width:51px;
+	height:54px;
+	top:50px;
+	left:50px;
+	position: relative;
+}
+.b2-item3-ico{
+	background: url(../../images/keweisoft/serv-value-ico3.png) top center no-repeat;
+	display: block;
+	width:57px;
+	height:48px;
+	top:50px;
+	left:60px;
+	position: relative;
+}
+.b2-item4-ico{
+	background: url(../../images/keweisoft/serv-value-ico4.png) top center no-repeat;
+	display: block;
+	width:66px;
+	height:44px;
+	top:50px;
+	left:47px;
+	position: relative;
+}
+
+.b2-item5-ico{
+	background: url(../../images/keweisoft/serv-value-ico5.png) top center no-repeat;
+	display: block;
+	width:66px;
+	height:44px;
+	top:50px;
+	left:50px;
+	position: relative;
+}
+
+.b2-item1-motto{
+	width:100%;
+	font-size:20px;
+	margin-top:160px;
+	text-align: center;
+	color:#666;
+}
+
+.servin-ads1{
+	width:100%;
+	height:130px;
+	background: url(../../images/keweisoft/serv-in-ads1.jpg) top center no-repeat;
+	margin-top:50px;
+}
+.serv-ads-tel{
+	width:157px;
+	height:49px;
+	background: #fff;
+	border-radius: 6px;
+	margin-left:1040px;
+	margin-top: 45px;
+	position: absolute;
+	cursor: pointer;
+	color:#233b53;
+	font-size:24px;
+	text-align: center;
+	line-height: 49px;
+}
+.serv-ads-tel:hover{
+	background: #ff6600;
+}
+
+.block3{
+	margin-top:50px;
+}
+.b3-item1{
+	width:100%;
+	height:245px;
+	margin-top:30px;
+}
+.b3-item1-left{
+	width:445px;
+	height: 100%;
+	float: left;
+}
+.b3-item2-left{
+	width:445px;
+	height: 100%;
+	float: left;
+	margin-left:78px;
+}
+.b3-item3-left{
+	width:445px;
+	height: 100%;
+	float: left;
+	margin-left:78px;
+}
+.b3-item4-left{
+	width:445px;
+	height: 100%;
+	float: left;
+	margin-left:78px;
+}
+.b3-item1-tit{
+	text-align: left;
+	font-size:30px;
+	color:#222e3a;
+}
+.b3-item1-con{
+	font-size:14px;
+	color:#666;
+	margin-top:36px;
+	line-height:20px;
+	letter-spacing: 1px;
+}
+.b3-item1-link{
+	color:#4b67a6;
+	font-size:16px;
+	display: block;
+	margin-left:350px;
+	margin-top:20px;
+}
+.servin-ads2{
+	width:100%;
+	height: 130px;
+	background: url(../../images/keweisoft/serv-in-ads2.jpg) center center no-repeat;
+	margin-top:40px;
+}
+
+.block4{
+	margin-top:30px;
+}
+.b4-con{
+	width:100%;
+	height:562px;
+	margin-top:40px;
+	background: url(../../images/keweisoft/serv-process.jpg) top center no-repeat;
+}
+.b4-item1{
+	font-size:14px;
+	color:#333;
+	margin-top:295px;
+	margin-left:25px;
+	position: absolute;
+}
+.b4-item2{
+	font-size:14px;
+	color:#333;
+	margin-top:270px;
+	margin-left:150px;
+	position: absolute;
+}
+.b4-item3{
+	font-size:14px;
+	color:#333;
+	margin-top:250px;
+	margin-left:277px;
+	position: absolute;
+}
+.b4-item4{
+	font-size:14px;
+	color:#333;
+	margin-top:360px;
+	margin-left:277px;
+	position: absolute;
+}
+.b4-item5{
+	font-size:14px;
+	color:#333;
+	margin-top:170px;
+	margin-left:410px;
+	position: absolute;
+}
+.b4-item6{
+	font-size:14px;
+	color:#333;
+	margin-top:330px;
+	margin-left:400px;
+	position: absolute;
+}
+.b4-item7{
+	font-size:14px;
+	color:#333;
+	margin-top:480px;
+	margin-left:425px;
+	position: absolute;
+}
+.b4-item8{
+	font-size:14px;
+	color:#333;
+	margin-top:215px;
+	margin-left:663px;
+	position: absolute;
+}
+.b4-item9{
+	font-size:14px;
+	color:#333;
+	margin-top:335px;
+	margin-left:663px;
+	position: absolute;
+}
+.b4-item10{
+	font-size:14px;
+	color:#333;
+	margin-top:444px;
+	margin-left:663px;
+	position: absolute;
+}
+.b4-item11{
+	font-size:14px;
+	color:#333;
+	margin-top:180px;
+	margin-left:800px;
+	position: absolute;
+}
+.b4-item12{
+	font-size:14px;
+	color:#333;
+	margin-top:330px;
+	margin-left:800px;
+	position: absolute;
+}
+
+.b4-item13{
+	font-size:14px;
+	color:#333;
+	margin-top:240px;
+	margin-left:975px;
+	position: absolute;
+}
+
+.b4-item14{
+	font-size:14px;
+	color:#333;
+	margin-top:425px;
+	margin-left:975px;
+	position: absolute;
+}
+.block5-tit{
+	margin-top:30px;
+	font-size:20px;
+	color:#666;
+	text-align: center;
+}
+.b5-con{
+	width:241px;
+	height:466px;
+	background: url(../../images/keweisoft/serv-con-bg.png) top center no-repeat;
+	margin-top:40px;
+	float: left;
+}
+.b5-con:hover{
+	background: url(../../images/keweisoft/serv-con-bg-h.png) top center no-repeat;
+}
+.fclear{
+	clear: both;
+}
+.b5-con-ico1{
+	height:55px;
+	background: url(../../images/keweisoft/serv-con-ico1.png) 50% 10px no-repeat;
+}
+.b5-con-ico2{
+	height:55px;
+	background: url(../../images/keweisoft/serv-con-ico2.png) 50% 10px no-repeat;
+}
+.b5-con-ico3{
+	height:55px;
+	background: url(../../images/keweisoft/serv-con-ico3.png) 50% 10px no-repeat;
+}
+.b5-con-ico4{
+	height:55px;
+	background: url(../../images/keweisoft/serv-con-ico4.png) 50% 10px no-repeat;
+}
+.b5-con-tit1{
+	text-align: center;
+	margin-top:10px;
+	font-size:24px;
+	color:#fff;
+}
+.b5-con-fn{
+	font-size:14px;
+	color:#666;
+	padding:10px;
+	line-height: 22px;
+	margin-top: 20px;
+
+}
+
+.block6{
+	height: 276px;
+	margin-top:58px;
+	background: url(../../images/keweisoft/serv-back.png) top center no-repeat;
+}
+.b6-item1{
+	font-size:24px;
+	color:#fff;
+	position: absolute;
+	margin-top:110px;
+	margin-left:20px;
+}
+.b6-item2{
+	font-size:20px;
+	color:#fff;
+	position: absolute;
+	margin-top:17px;
+	margin-left:350px;
+}
+.b6-item3{
+	font-size:20px;
+	color:#fff;
+	position: absolute;
+	margin-top:210px;
+	margin-left:340px;
+}
+.b6-item4{
+	font-size:16px;
+	color:#fff;
+	position: absolute;
+	margin-top:7px;
+	margin-left:570px;
+}
+.b6-item5{
+	font-size:16px;
+	color:#fff;
+	position: absolute;
+	margin-top:52px;
+	margin-left:570px;
+}
+.b6-item6{
+	font-size:14px;
+	color:#333;
+	position: absolute;
+	margin-top:90px;
+	margin-left:590px;
+}
+.b6-item7{
+	font-size:14px;
+	color:#333;
+	position: absolute;
+	margin-top:115px;
+	margin-left:590px;
+}
+.b6-item8{
+	font-size:14px;
+	color:#333;
+	position: absolute;
+	margin-top:140px;
+	margin-left:590px;
+}
+.b6-item9{
+	font-size:16px;
+	color:#fff;
+	position: absolute;
+	margin-top:200px;
+	margin-left:570px;
+}
+
+.b6-item10{
+	font-size:16px;
+	color:#fff;
+	position: absolute;
+	margin-top:245px;
+	margin-left:570px;
+}
+.block7{
+	width:100%;
+	height:456px;
+	background: url(../../images/keweisoft/serv-supervision.png) top center no-repeat;
+	margin-top:35px;
+}
+.b7-con{
+	width:253px;
+	height:169px;
+	color:#666;
+	font-size:14px;
+	line-height: 20px;
+	position: absolute;
+	margin-top:110px;
+	margin-left:60px;
+}
+
+/*案例样式*/
+#shoufengqin {
+    width: 1040px;
+    height: 221px;
+    margin: 20px auto 0px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #CECECE;
+    margin-bottom:50px;
+}
+#box1 {
+    width: 528px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.hd1 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd1.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.verticalLine {
+    width: 20px;
+    margin: 0px auto;
+}
+.hd1 a, .hd2 a, .hd3 a, .hd4 a, .hd5 a, .hd6 a, .hd7 a, .hd8 a ,.hd9 a{
+    font-size: 16px;
+    color: #FFF;
+    line-height: 18px;
+}
+.bd {
+    float: left;
+    width: 450px;
+    height: 225px;
+    background: none repeat scroll 0% 0% #FFF;
+}
+.bd .left {
+    float: left;
+    width: 177px;
+    height: 183px;
+    padding-left: 32px;
+    padding-top: 42px;
+    overflow: hidden;
+}
+.bd .right {
+    float: right;
+    width: 220px;
+    height: 184px;
+    padding-top: 40px;
+}
+.bd .right a {
+    color: #3E3E3E;
+}
+.bd .right a h4 {
+    color: #515151;
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.bd .right a p {
+    font-family: "微软雅黑";
+    font-size: 13px;
+    line-height: 21px;
+    color: #666;
+}
+#box2 {
+    width: 528px;
+    position: absolute;
+    top: 0px;
+    left: 520px;
+}
+#box3 {
+    width: 520px;
+    position: absolute;
+    top: 0px;
+    left: 587px;
+}
+#box4 {
+    width: 520px;
+    position: absolute;
+    top: 0px;
+    left: 654px;
+}
+#box5 {
+    width: 520px;
+    position: absolute;
+    top: 0px;
+    left: 721px;
+}
+#box6 {
+    width: 520px;
+    position: absolute;
+    top: 0px;
+    left: 788px;
+}
+#box7 {
+    width: 520px;
+    position: absolute;
+    top: 0px;
+    left: 855px;
+}
+#box8 {
+    width: 520px;
+    position: absolute;
+    top: 0px;
+    left: 922px;
+}
+#box9 {
+    width: 520px;
+    position: absolute;
+    top: 0px;
+    left: 989px;
+}
+.hd2 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd2.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.hd3 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd3.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.hd4 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd4.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.hd5 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd5.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.hd6 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd6.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.hd7 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd7.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.hd8 {
+    width: 68px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd8.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+.hd9 {
+    width: 53px;
+    height: 196px;
+    float: left;
+    text-align: center;
+    background: url('../../images/keweisoft/hd5.jpg') no-repeat scroll 0% 0% transparent;
+    line-height: 18px;
+    padding-top: 28px;
+}
+
+/******************************************/
+
+
+
+
+
+
+
+
+
+.s-ads{
+	width:100%;
+	height:120px;
+	background: url(../../images/keweisoft/process_bottom_bg.jpg) repeat-x;
+}
+.s-ads-tit{
+	width:180px;
+	margin-top:35px;
+	font-size:24px;
+	color:#46464a;
+	float: left;
+}
+.s-ads-btn1{
+	width:180px;
+	height:51px;
+	text-align:center;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/keweisoft/process_bottom_btn.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads a{
+	color:#fff;
+}
+.s-ads-btn1:hover{
+	background: url(../../images/keweisoft/process_bottom_btn_hover.png) no-repeat;
+}
+.s-ads-btn2{
+	width:143px;
+	padding-left:37px;
+	height:51px;
+	text-align:left;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/keweisoft/process_bottom_btn2.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads-btn2:hover{
+	background: url(../../images/keweisoft/process_bottom_btn2_hover.png) no-repeat;
+}
+.s-ads-tel{
+	width:183px;
+	height:54px;
+	float: right;
+	margin:40px 0px 0px;
+	background: url(../../images/keweisoft/process_bottom_btn_tel.png) no-repeat;
+}
+
+/****咨询服务***********************************************************************************************/
+.cblock1{
+	width:100%;
+	height:520px;
+	background: url(../../images/keweisoft/deve-line.jpg) center bottom no-repeat;
+}
+.cb1-tit{
+	width:100%;
+	padding-top:20px;
+	color:#0c528d;
+	font-size:30px;
+	text-align: center;
+}
+.cb1-item1{
+	width:607px;
+	height:28px;
+	background: url(../../images/keweisoft/consult-b1-ico.png) left center no-repeat;
+	line-height: 28px;
+	margin-top:70px;
+	font-size:18px;
+	color:#666;
+	text-align: left;
+	padding-left:40px;
+	letter-spacing: 1.5px;
+}
+.cb1-item2{
+	width:607px;
+	height:28px;
+	background: url(../../images/keweisoft/consult-b1-ico.png) left center no-repeat;
+	line-height: 28px;
+	margin-top:15px;
+	font-size:18px;
+	color:#666;
+	text-align: left;
+	padding-left:40px;
+	letter-spacing: 1.5px;
+}
+.cb1-pic{
+	width: 474px;
+	height: 290px;
+	background: url(../../images/keweisoft/servcon-pic1.jpg) center center no-repeat;
+	position: absolute;
+	right: 0px;
+	top:100px;
+}
+.cb1-tel{
+	font-size:36px;
+	color:#0e6cce;
+	display: block;
+	height:67px;
+	padding-left:120px;
+	line-height: 67px;
+	margin:30px 0px 0px 50px;
+	background:url(../../images/keweisoft/consult-b1-tel.png) left center no-repeat;
+}
+.cb1-btn{
+	width:243px;
+	height:53px;
+	line-height: 53px;
+	color:#fff;
+	text-align: center;
+	font-size:24px;
+	position: absolute;
+	background: url(../../images/keweisoft/consult-b1-btn.png) left center no-repeat;
+	cursor: pointer;
+	margin-top:-55px;
+	margin-left:680px;
+}
+.cb1-btn:hover{
+	background: url(../../images/keweisoft/consult-b1-btn-hover.png) left center no-repeat;
+}
+
+.cb2-tit{
+	width:100%;
+	font-size:30px;
+	color:#13558f;
+	text-align: center;
+	margin-top:35px;
+}
+.cb2-conleft{
+	width:596px;
+	height:406px;
+	background: url(../../images/keweisoft/consult-b2-bg.jpg) left center no-repeat;
+	float: right;
+}
+.cb2-conright{
+	width:440px;
+	height:406px;
+	float: left;
+}
+.cb2-bottom{
+	width:100%;
+	height: 153px;
+	overflow: hidden;
+	margin-top:30px;
+}
+.cb2-bottom-item1{
+	width:253px;
+	height: 153px;
+	background: #eee url(../../images/keweisoft/servcon-item1.png) center 25px no-repeat;
+	float: left;
+	border-radius: 6px;
+	text-align:center;
+	cursor: pointer;
+}
+.cb2-bottom-item2{
+	width:253px;
+	height: 153px;
+	background: #eee url(../../images/keweisoft/servcon-item2.png) center 25px no-repeat;
+	float: left;
+	border-radius: 6px;
+	text-align:center;
+	cursor: pointer;
+}
+.cb2-bottom-item3{
+	width:253px;
+	height: 153px;
+	background: #eee url(../../images/keweisoft/servcon-item3.png) center 25px no-repeat;
+	float: left;
+	border-radius: 6px;
+	text-align:center;
+	cursor: pointer;
+}
+.cb2-bottom-item4{
+	width:253px;
+	height: 153px;
+	background: #eee url(../../images/keweisoft/servcon-item4.png) center 25px no-repeat;
+	float: left;
+	border-radius: 6px;
+	text-align:center;
+	cursor: pointer;
+}
+.cbi-tit{
+	font-size: 20px;
+	display: inline-block;
+	margin-top:100px;
+}
+.cb2-bottom-item1:hover,.cb2-bottom-item2:hover,.cb2-bottom-item3:hover,.cb2-bottom-item4:hover{
+	background-color: #e2dfdf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cb2-item1{
+	font-size:20px;
+	background: url(../../images/keweisoft/consult-ico4.png) left center no-repeat;
+	display: block;
+	height:55px;
+	padding-left:80px;
+	line-height:55px;
+	letter-spacing: 1px;
+	margin-top:26px;
+}
+.cb2-item2{
+	font-size:20px;
+	background: url(../../images/keweisoft/consult-ico3.png) left center no-repeat;
+	display: block;
+	height:55px;
+	padding-left:80px;
+	line-height:55px;
+	letter-spacing: 1px;
+	margin-top:26px;
+}
+.cb2-item3{
+	font-size:20px;
+	background: url(../../images/keweisoft/consult-ico2.png) left center no-repeat;
+	display: block;
+	height:55px;
+	padding-left:80px;
+	line-height:55px;
+	letter-spacing: 1px;
+	margin-top:26px;
+}
+.cb2-item4{
+	font-size:20px;
+	background: url(../../images/keweisoft/consult-ico1.png) left center no-repeat;
+	display: block;
+	height:55px;
+	padding-left:80px;
+	line-height:55px;
+	letter-spacing: 1px;
+	margin-top:26px;
+}
+.cb3-tit{
+	width:100%;
+	text-align: center;
+	font-size:30px;
+	color:#13558f;
+	line-height:60px;
+	margin-bottom:30px;
+}
+.cb3-con1{
+	width:293px;
+	height:170px;
+	background: url(../../images/keweisoft/consult-point4.png) left center no-repeat;
+	float: left;
+	cursor:pointer;
+	margin-left:125px;
+	margin-bottom:10px;
+}
+.cb3-con1:hover{
+	background: url(../../images/keweisoft/consult-point4-hover.png) left center no-repeat;
+}
+.cb3-con2{
+	width:293px;
+	height:170px;
+	background: url(../../images/keweisoft/consult-point2.png) left center no-repeat;
+	float: left;
+	cursor: pointer;
+	margin-left:125px;
+	margin-bottom:10px;
+}
+.cb3-con2:hover{
+	background: url(../../images/keweisoft/consult-point2-hover.png) left center no-repeat;
+}
+.cb3-clear{
+	width:100%;
+	height:98px;
+	clear: both;
+	background: url(../../images/keweisoft/consult-point-line.png) center center no-repeat;
+}
+.cb3-con3{
+	width:293px;
+	height:170px;
+	background: url(../../images/keweisoft/consult-point3.png) left center no-repeat;
+	float: left;
+	cursor: pointer;
+	margin-top:10px;
+	margin-left:190px;
+}
+.cb3-con3:hover{
+	background: url(../../images/keweisoft/consult-point3-hover.png) left center no-repeat;
+}
+.cb3-con4{
+	width:293px;
+	height:170px;
+	background: url(../../images/keweisoft/consult-point1.png) left center no-repeat;
+	float: left;
+	cursor: pointer;
+	margin-top:10px;
+	margin-left:125px;
+}
+.cb3-con4:hover{
+	background: url(../../images/keweisoft/consult-point1-hover.png) left center no-repeat;
+}
+.cb3-motto{
+	font-size:20px;
+	font-weight: bold;
+	width:100%;
+	text-align: center;
+	margin-top:110px;
+}
+.servcon-ads{
+	width: 100%;
+	height: 130px;
+	background:url(../../images/keweisoft/servcon-pic2.jpg) center center no-repeat;
+	margin-top: 30px;
+}
+.consult-ads-tel{
+	width:155px;
+	height:50px;
+	margin-top:20px;
+	margin-left:1040px;
+	background: #fff;
+	border-radius: 6px;
+	color:#233b53;
+	font-size:24px;
+	line-height:50px;
+	text-align: center;
+	cursor:pointer;
+	position: absolute;
+}
+.consult-ads-tel:hover{
+	background:#ff6600;
+
+}
+.cb4-con1{
+	width:100%;
+	height:1125px;
+	background: url(../../images/keweisoft/servcon-bg.jpg) center top no-repeat;
+	margin-top:50px;
+}
+
+.cb4-item{
+	width:800px;
+	height:227px;
+	margin-left:116px;
+}
+.cb4-item-op{
+	width:800px;
+	height:316px;
+	margin-left: 153px;
+	margin-top:30px;
+	position: absolute;
+}
+.cb4-item-op1{
+	width:316px;
+	height:100%;
+	background: url(../../images/keweisoft/consult-b2-pic2.png) center center no-repeat;
+	float: left;
+}
+.cb4-item1{
+	height:227px;
+	width:426px;
+	float: left;
+}
+.cb4-item2{
+	width:316px;
+	height:100%;
+	background: url(../../images/keweisoft/servcon-b2-pic1.jpg) center center no-repeat;
+	float: right;
+}
+.cb4-item3{
+	width:316px;
+	height:100%;
+	background: url(../../images/keweisoft/servcon-b2-pic2.jpg) center center no-repeat;
+	float: right;
+}
+.cb4-item4{
+	width:316px;
+	height:100%;
+	background: url(../../images/keweisoft/servcon-b2-pic3.jpg) center center no-repeat;
+	float: right;
+}
+.cb4-item5{
+	width:316px;
+	height:100%;
+	background: url(../../images/keweisoft/servcon-b2-pic4.jpg) center center no-repeat;
+	float: right;
+}
+.cb4-item-op3{
+	width:340px;
+	height:100%;
+	background: url(../../images/keweisoft/consult-b2-pic3.png) center center no-repeat;
+	float: right;
+}
+.cb4-item-op4{
+	width:340px;
+	height:100%;
+	background: url(../../images/keweisoft/consult-b2-pic4.png) center center no-repeat;
+	float: left;
+}
+.cb4-item1-pro{
+	line-height:70px;
+	color:#13558f;
+	font-size:36px;
+	text-align: left;
+}
+.cb4-item1-tit{
+	font-size:30px;
+	color:#333;
+	margin-left: 54px;
+}
+.cb4-item1-con{
+	width:343px;
+	font-size:18px;
+	color:#666;
+	line-height: 33px;
+	margin-left:54px;
+	margin-top:10px;
+	letter-spacing: 1px;
+}
+.cb4-item-op2{
+	width:426px;
+	height:100%;
+	float: right;
+}
+.serv-conline{
+	width: 100%;
+	height: 24px;
+	background:url(../../images/keweisoft/ab-con-subline.jpg) center center no-repeat;
+	margin-top:15px;
+}
+.cline{
+	width:100%;
+	height:29px;
+	background: url(../../images/keweisoft/process_bottom_sline.jpg) top center no-repeat;
+	margin-top:35px;
+}
+.consult-case{
+	width:100%;
+	height:492px;
+	background: url(../../images/keweisoft/consult-case-bg.jpg) top center no-repeat;
+	margin-bottom:35px;
+}
+.case1{
+	width:202px;
+	height:100%;
+	float: left;
+}
+.case1-tit{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	color:#fff;
+	font-size:16px;
+	text-align: center;
+}
+.case1-thumb{
+	width:100%;
+	height:121px;
+	margin-top:20px;
+}
+.case1-industry{
+	width:100%;
+	font-size:14px;
+	margin-top:25px;
+	padding-left:7px;
+}
+.case1-con{
+	padding:7px;
+	font-size:14px;
+	line-height:22px;
+	text-align: left;
+	margin-top:20px;
+}
+
+/**实施服务*******************************************************************************************/
+.imple-bigtit{
+	font-size:36px;
+	color:#0c528d;
+	text-align: center;
+}
+.ib1-con{
+	width:100%;
+	height:350px;
+	margin-top:35px;
+}
+.ib1-con1{
+	width:470px;
+	height:100%;
+	float: left;
+}
+.ib1-con2{
+	width:561px;
+	height:399px;
+	float: right;
+	margin-top:-63px;
+	background: url(../../images/keweisoft/serv-imple-pic1.jpg) top center no-repeat;
+}
+.ib1-con1-item{
+	width:410px;
+	height: 32px;
+	padding-left:50px;
+	font-size:20px;
+	margin-bottom:20px;
+	line-height:32px;
+	letter-spacing: 0.5px;
+	background: url(../../images/keweisoft/serv-imple-ico.jpg) left center no-repeat;
+}
+.ib1-con1-btn{
+	width:410px;
+	height:45px;
+	padding-left:60px;
+	margin-top:30px;
+}
+.ib1-btn{
+	width:154px;
+	height:45px;
+	background: url(../../images/keweisoft/imple-btn1.png) left center no-repeat;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	line-height:45px;
+	font-size:20px;
+	color:#fff;
+}
+.ib1-btn:hover{
+	background: url(../../images/keweisoft/imple-btn1-hover.png) left center no-repeat;
+}
+.ib1-dialog{
+	width:100%;
+	height:112px;
+	background: url(../../images/keweisoft/imple-dialog.png) top center no-repeat;
+	text-align: center;
+	line-height: 152px;
+	color:#fff;
+	font-size:24px;
+}
+.imple-ib2{
+	width:100%;
+	height:971px;
+	background: #eee;
+	margin-top:35px;
+}
+.imple-ads{
+	width:100%;
+	height:130px;
+	background: url(../../images/keweisoft/imple-ads.jpg) top center no-repeat;
+	position: relative;
+}
+.imple-ads-btn{
+	width: 144px;
+	height: 58px;
+	background:url(../../images/keweisoft/imple-btn.png) center center no-repeat;
+	text-align:center;
+	font-size: 28px;
+	color:#fff;
+	position: absolute;
+	right: 30px;
+	bottom:30px;
+	line-height: 50px;
+}
+.ib2-tit{
+	width:100%;
+	text-align: center;
+	line-height: 40px;
+	font-size:24px;
+	color:#333;
+	margin-top:20px;
+}
+.ib2-items{
+	width:100%;
+	height: 215px;
+	margin-top: 33px;
+}
+.ib2-items-left{
+	width:501px;
+	height:100%;
+	float: left;
+	background: url(../../images/keweisoft/imple-b2-itembg.png) left center no-repeat;
+}
+.ib2-items-right{
+	width:501px;
+	height:100%;
+	float: right;
+	background: url(../../images/keweisoft/imple-b2-itembg.png) left center no-repeat;
+}
+.ib2-item1-ico{
+	width:376px;
+	height: 65px;
+	margin-top:12px;
+	background: url(../../images/keweisoft/im-b2-ico1.png) 35px center no-repeat;
+	line-height: 65px;
+	padding-left:125px;
+	color:#5786de;
+	font-size:24px;
+}
+.ib2-item2-ico{
+	width:376px;
+	height: 65px;
+	margin-top:12px;
+	background: url(../../images/keweisoft/im-b2-ico2.png) 35px center no-repeat;
+	line-height: 65px;
+	padding-left:125px;
+	color:#5786de;
+	font-size:24px;
+}
+.ib2-item3-ico{
+	width:376px;
+	height: 65px;
+	margin-top:12px;
+	background: url(../../images/keweisoft/im-b2-ico3.png) 35px center no-repeat;
+	line-height: 65px;
+	padding-left:125px;
+	color:#5786de;
+	font-size:24px;
+}
+.ib2-item4-ico{
+	width:376px;
+	height: 65px;
+	margin-top:12px;
+	background: url(../../images/keweisoft/im-b2-ico4.png) 35px center no-repeat;
+	line-height: 65px;
+	padding-left:125px;
+	color:#5786de;
+	font-size:24px;
+}
+.ib2-item5-ico{
+	width:376px;
+	height: 65px;
+	margin-top:12px;
+	background: url(../../images/keweisoft/im-b2-ico5.png) 35px center no-repeat;
+	line-height: 65px;
+	padding-left:125px;
+	color:#5786de;
+	font-size:24px;
+}
+.ib2-item6-ico{
+	width:376px;
+	height: 65px;
+	margin-top:12px;
+	background: url(../../images/keweisoft/im-b2-ico6.png) 35px center no-repeat;
+	line-height: 35px;
+	padding-left:125px;
+	color:#5786de;
+	font-size:24px;
+}
+.ib2-item4-ico{
+	width:376px;
+	height: 65px;
+	margin-top:12px;
+	background: url(../../images/keweisoft/im-b2-ico4.png) 35px center no-repeat;
+	line-height: 65px;
+	padding-left:125px;
+	color:#5786de;
+	font-size:24px;
+}
+.ib2-item1-con{
+	width:421px;
+	margin-top: 25px;
+	color:#666;
+	font-size:14px;
+	line-height: 24px;
+	letter-spacing:1px;
+	padding-left:60px;
+	padding-right:20px;
+}
+.ib3{
+	width:100%;
+	height:1090px;
+	background: #fff;
+}
+.ib3-bg{
+	width:100%;
+	height:968px;
+	background: url(../../images/keweisoft/imple-b3-bg.jpg) top center no-repeat;
+}
+.ib3-logo{
+	width:152px;
+	height:139px;
+	background: url(../../images/keweisoft/imple-b3-logo.png) top center no-repeat;
+	position: absolute;
+	margin-top:100px;
+}
+.ib3-item1{
+	width:64px;
+	font-size:30px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:90px;
+	margin-left:220px;
+}
+.ib3-item2{
+	width:64px;
+	font-size:30px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:90px;
+	margin-left:450px;
+}
+.ib3-item3{
+	width:64px;
+	font-size:30px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:90px;
+	margin-left:680px;
+}
+.ib3-item4{
+	width:64px;
+	font-size:30px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:90px;
+	margin-left:910px;
+}
+.ib3-item5{
+	width:64px;
+	font-size:30px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:390px;
+	margin-left:220px;
+}
+.ib3-item6{
+	width:100px;
+	text-align: center;
+	font-size:30px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:390px;
+	margin-left:450px;
+}
+.ib3-item7{
+	width:64px;
+	text-align: center;
+	font-size:30px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:390px;
+	margin-left:680px;
+}
+.ib3-item8{
+	width:400px;
+	text-align: center;
+	font-size:38px;
+	color:#428aae;
+	display: block;
+	position: absolute;
+	margin-top:790px;
+	margin-left:510px;
+	line-height: 60px;
+}
+/**售后服务**********************************************************************************************************/
+.afb1{
+	width:100%;
+	height:959px;
+	background: #fff;
+	overflow: hidden;
+}
+.afb1-tit{
+	width:100%;
+	height:89px;
+	background: url(../../images/keweisoft/afb1-tit-bg.jpg) top center no-repeat;
+	margin-top:35px;
+	text-align: center;
+	color:#fff;
+	font-size:36px;
+	line-height: 89px;
+}
+.afb1-subtit{
+	width:100%;
+	height:48px;
+	line-height: 48px;
+	text-align: center;
+	font-size:18px;
+	letter-spacing: 1px;
+}
+.afb1-con{
+	width:980px;
+	height:348px;
+	margin-left:30px;
+	margin-top:35px;
+}
+.afb1-item1{
+	height:100%;
+	width:268px;
+	float: left;
+}
+.afb1-item1-pic{
+	height:188px;
+	width:100%;
+	background: url(../../images/keweisoft/afb1-item2-bg.png) top center no-repeat;
+	cursor: pointer;
+}
+.afb1-item2-pic{
+	height:188px;
+	width:100%;
+	background: url(../../images/keweisoft/afb1-item3-bg.png) top center no-repeat;
+	cursor: pointer;
+}
+.afb1-item3-pic{
+	height:188px;
+	width:100%;
+	background: url(../../images/keweisoft/afb1-item4-bg.png) top center no-repeat;
+	cursor: pointer;
+}
+.afb1-item4-pic{
+	height:188px;
+	width:100%;
+	background: url(../../images/keweisoft/afb1-item5-bg.png) top center no-repeat;
+	cursor: pointer;
+}
+.afb1-item5-pic{
+	height:188px;
+	width:100%;
+	background: url(../../images/keweisoft/afb1-item6-bg.png) top center no-repeat;
+	cursor: pointer;
+}
+.afb1-item6-pic{
+	height:188px;
+	width:100%;
+	background: url(../../images/keweisoft/afb1-item7-bg.png) top center no-repeat;
+	cursor: pointer;
+}
+.afb1-item1-tit{
+	width:100%;
+	height:24px;
+	line-height:24px;
+	color:#1a3043;
+	text-align: center;
+	margin-top:15px;
+	font-weight:bold;
+}
+.afb1-item1-line{
+	width:100%;
+	height:8px;
+	background: url(../../images/keweisoft/afb1-line.png) top center no-repeat;
+}
+.afb1-item1-con{
+	width:100%;
+	font-size:14px;
+	line-height:20px;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-top:10px;
+}
+.afb1-in{
+	width:100%;
+	height:142px;
+}
+.af-ads{
+	width:1040px;
+	height:130px;
+	background: url(../../images/keweisoft/aftersale-ads.jpg) top center no-repeat;
+	position: relative;
+}
+.af-ads-btn{
+	width: 136px;
+	height: 46px;
+	background:url(../../images/keweisoft/aftersale-btn.png) center center no-repeat;
+	line-height: 46px;
+	color:#fff;
+	font-size: 28px;
+	position: absolute;
+	right:5px;
+	bottom: 35px;
+	text-align: center;
+}
+.afb2-tit{
+	width:976px;
+	height:60px;
+	margin-top:35px;
+	border-bottom:1px solid #999;
+	background: url(../../images/keweisoft/afb2-ico.png) left center no-repeat;
+	padding-left:64px;
+	line-height:50px;
+	font-size:36px;
+	color:#0c528d;
+}
+.afb2-con{
+	width:100%;
+	height:283px;
+	margin-top:5px;
+}
+.afb2-item1{
+	width:473px;
+	height:283px;
+	background: url(../../images/keweisoft/afb2-pic.png) left center no-repeat;
+	float: right;
+}
+.afb2-item2{
+	height:283px;
+	width:500px;
+	float: left;
+}
+.afb2-item2-con1{
+	width:405px;
+	height:37px;
+	background: url(../../images/keweisoft/afb2-tit1.png) 50px center no-repeat; 
+	padding-left:95px;
+	font-size:18px;
+	line-height: 37px;
+	margin-top:30px;
+}
+.afb2-item2-con2{
+	width:405px;
+	height:67px;
+	background: url(../../images/keweisoft/afb2-tit2.png) 50px top no-repeat; 
+	padding-left:95px;
+	font-size:18px;
+	line-height: 37px;
+	margin-top:15px;
+}
+.afb2-item2-con3{
+	width:405px;
+	height:37px;
+	background: url(../../images/keweisoft/afb2-tit3.png) 50px center no-repeat; 
+	padding-left:95px;
+	font-size:18px;
+	line-height: 37px;
+	margin-top:15px;
+}
+.afb2-item2-con4{
+	width:405px;
+	height:37px;
+	background: url(../../images/keweisoft/afb2-tit4.png) 50px center no-repeat; 
+	padding-left:95px;
+	font-size:18px;
+	line-height: 37px;
+	margin-top:15px;
+}
+.abf3-con1{
+	width:100%;
+	height:31px;
+	background: url(../../images/keweisoft/afb3-line.jpg) left center no-repeat;
+	margin-top:35px;
+}
+.abf3-con1-items{
+	width:100%;
+	height:108px;
+}
+.abf3-con1-item{
+	width:161px;
+	height:72px;
+	background: url(../../images/keweisoft/afb3-blue.png) left center no-repeat;
+	float: left;
+	margin-left: 10px;
+	text-align:center;
+	line-height: 26px;
+	color:#fff;
+	font-size:20px;
+	padding:34px 20px 0px;
+}
+.abf3-sub-con{
+	width:100%;
+	height:423px;
+	background: url(../../images/keweisoft/afb3-bg.jpg) top center no-repeat;
+	margin-top:40px;
+}
+.afb3-ico{
+	width:149px;
+	height:74px;
+	position: absolute;
+	background: url(../../images/keweisoft/afb3-arrow.png) right center no-repeat;
+	font-size:30px;
+	color:#e36f23;
+	padding-right:24px;
+	text-align: center;
+	margin-top:25px;
+	margin-left:95px;
+}
+.afb3-item1{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:420px;
+	margin-top:7px;
+	font-weight: bold;
+}
+.afb3-item2{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:448px;
+	margin-top:125px;
+	font-weight: bold;
+}
+.afb3-item3{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:660px;
+	margin-top:125px;
+	font-weight: bold;
+}
+.afb3-item4{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:237px;
+	margin-top:265px;
+	font-weight: bold;
+}
+.afb3-item5{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:437px;
+	margin-top:265px;
+	font-weight: bold;
+}
+.afb3-item6{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:660px;
+	margin-top:265px;
+	font-weight: bold;
+}
+.afb3-item7{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:450px;
+	margin-top:383px;
+	font-weight: bold;
+}
+.afb3-item8{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:635px;
+	margin-top:383px;
+	font-weight: bold;
+}
+.afb3-item9{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-left:875px;
+	margin-top:383px;
+	font-weight: bold;
+}
+.afb4{
+	width:100%;
+	height:443px;
+	margin-top:35px;
+}
+.afb4-con1{
+	width:610px;
+	height:443px;
+	background: url(../../images/keweisoft/afb4-pic.jpg) top center no-repeat;
+	float: right;
+}
+.afb4-con2{
+	height:443px;
+	width:430px;
+	float: left;
+	margin-left:0px;
+}
+.abf4-tit{
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	color: #0c528d;
+	font-size:26px;
+	text-align: center;
+}
+.afb4-dialog{
+	width:390px;
+	height:124px;
+	background: url(../../images/keweisoft/afb4-dialog.png) top center no-repeat;
+	margin-top:20px;
+	font-size:14px;
+	padding: 60px 20px 0px;
+}
+.afb4-items{
+	width:420px;
+	margin-top:20px;
+	padding-left:10px;
+}
+.afb4-item{
+	width:100%;
+	list-style: url(../../images/keweisoft/list-dot.png);
+	font-size:14px;
+}
+.afb5{
+	width:100%;
+	height:263px;
+	margin-top: 20px;
+}
+.afb5-con1{
+	width:474px;
+	height:263px;
+	background: url(../../images/keweisoft/afb5-pic.jpg) top center no-repeat;
+	float: left;
+}
+.afb5-con2{
+	width:430px;
+	height: 248px;
+	float: left;
+	background: url(../../images/keweisoft/afb5-ico.png) left 10px no-repeat;
+	margin-left:40px;
+	padding:15px 0px 0px 70px;
+}
+.afb5-item{
+	display: block;
+	background: url(../../images/keweisoft/afb5-ico2.png) left 3px no-repeat;
+	padding-left:20px;
+	margin-top:20px;
+	font-size:14px;
+	letter-spacing: 1px;
+}
+.afb6{
+	width:100%;
+	height:374px;
+	margin-top: 25px;
+}
+.afb6-con1{
+	width:377px;
+	height: 374px;
+	float: right;
+	background: url(../../images/keweisoft/afb6-pic.png) top center no-repeat;
+}
+.afb6-con2{
+	width:480px;
+	height: 374px;
+	float: left;
+	background: url(../../images/keweisoft/afb5-ico.png) left 10px no-repeat;
+	padding:15px 0px 0px 70px;
+}
+.afb6-item{
+	display: block;
+	background: url(../../images/keweisoft/afb6-ico.png) left 3px no-repeat;
+	padding-left:20px;
+	margin-top:20px;
+	font-size:14px;
+	letter-spacing: 1px;
+}
+.afb7{
+	width:100%;
+	height: 383px;
+	margin-top:25px;
+}
+.afb7-tit{
+	width:1000px;
+	font-size:18px;
+	text-align: center;
+	line-height: 28px;
+	padding:0px 20px;
+}
+.afb7-con{
+	width: 100%;
+	height:300px;
+	background: url(../../images/keweisoft/afb7-bg.png) top center no-repeat;
+	margin-top:20px;
+}
+.afb7-item1{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:27px;
+	margin-left:250px;
+	font-weight:bold;
+}
+.afb7-item2{
+	width:134px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	font-size:14px;
+	line-height: 20px;
+	color: #fff;
+	font-weight:bold;
+	margin-top:20px;
+	margin-left:425px;
+}
+.afb7-item3{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:25px;
+	margin-left:680px;
+	font-weight:bold;
+}
+.afb7-item4{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:105px;
+	margin-left:680px;
+	font-weight:bold;
+}
+.afb7-item5{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:176px;
+	margin-left:670px;
+	font-weight:bold;
+}
+.afb7-item6{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:254px;
+	margin-left:676px;
+	font-weight:bold;
+}
+.afb7-item7{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:254px;
+	margin-left:480px;
+	font-weight:bold;
+}
+.afb7-item8{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:254px;
+	margin-left:220px;
+	font-weight:bold;
+}
+.afb7-item9{
+	font-size:14px;
+	color:#fff;
+	position: absolute;
+	margin-top:178px;
+	margin-left:250px;
+	font-weight:bold;
+}
+.af-subline{
+	width: 100%;
+	height: 24px;
+	background:url(../../images/keweisoft/ab-con-subline.jpg) center center no-repeat;
+}
+/**个性化定制开发***************************************************************************************************************/
+
+.db1-tit{
+	width:100%;
+	height:137px;
+	background: url(../../images/keweisoft/db1-tit.jpg) top center no-repeat;
+	margin-top:35px;
+	overflow: hidden;
+	position: relative;
+}
+.db1-tit-item{
+	font-size:24px;
+	color:#fff;
+	display: block;
+	margin-top:10px;
+	margin-left:20px;
+}
+.db1-tit-item1{
+	font-size:24px;
+	color:#fff;
+	display: block;
+	margin-top:15px;
+	margin-left:70px;
+}
+.db1-tit-btn{
+	width: 110px;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+	background: url(../../images/keweisoft/deve-btn.png) center center no-repeat;
+	position: absolute;
+	bottom:69px;
+	right:0px;
+}
+.db1-tit-btn:hover{
+	background: url(../../images/keweisoft/deve-btn-hov.png) center center no-repeat;
+}
+.db1-tit-tel{
+	width:148px;
+	height: 36px;
+	position: absolute;
+	background: url(../../images/keweisoft/serv-tel.png) center center no-repeat;
+	bottom:69px;
+	right:150px;
+}
+
+.db1-con{
+	width:100%;
+	height: 305px;
+	margin-top:30px;
+}
+.db1-item1{
+	width:461px;
+	height:305px;
+	background: url(../../images/keweisoft/db1-pic.jpg) top center no-repeat;
+	float: left;
+}
+.db1-item2{
+	width:515px;
+	height:305px;
+	float: right;
+}
+.db1-ico1{
+	width:485px;
+	height:24px;
+	background: url(../../images/keweisoft/db1-pic1.png) left top no-repeat;
+	font-size:14px;
+	padding-left:35px;
+	line-height: 24px;
+}
+.db1-ico2{
+	width:485px;
+	height:24px;
+	background: url(../../images/keweisoft/db1-pic2.png) left top no-repeat;
+	font-size:14px;
+	padding-left:35px;
+	line-height: 24px;
+	margin-top:15px;
+}
+.db1-ico3{
+	width:485px;
+	height:42px;
+	background: url(../../images/keweisoft/db1-pic3.png) left top no-repeat;
+	font-size:14px;
+	padding-left:35px;
+	line-height: 24px;
+	margin-top:15px;
+}
+.db1-ico4{
+	width:485px;
+	height:24px;
+	background: url(../../images/keweisoft/db1-pic4.png) left top no-repeat;
+	font-size:14px;
+	padding-left:35px;
+	line-height: 24px;
+	margin-top:15px;
+}
+.db1-ico5{
+	width:485px;
+	height:24px;
+	background: url(../../images/keweisoft/db1-ico5.png) left top no-repeat;
+	font-size:14px;
+	padding-left:35px;
+	line-height: 24px;
+	margin-top:15px;
+}
+.db1-btns{
+	width:100%;
+	height: 42px;
+	margin-top:30px;
+}
+.db1-btn1{
+	width:180px;
+	height: 42px;
+	background: url(../../images/keweisoft/db1-btn-hover.png) top center no-repeat;
+	float: left;
+	margin-left:30px;
+	cursor: pointer;
+	line-height:42px;
+	font-size:18px;
+	color:#fff;
+	text-align: center;
+}
+.db1-btn2{
+	width:180px;
+	height: 42px;
+	background: url(../../images/keweisoft/db1-btn-hover.png) top center no-repeat;
+	float: left;
+	margin-left:20px;
+	cursor: pointer;
+	line-height:42px;
+	font-size:18px;
+	color:#fff;
+	text-align: center;
+}
+.db1-btn1:hover,.db1-btn2:hover{
+	background: url(../../images/keweisoft/db1-btn.png) top center no-repeat;
+}
+.db1-motto{
+	width:1024px; 
+	height: 52px;
+	margin-top: 20px;
+	padding:20px 8px;
+	background: #efefef;
+	border-radius: 10px;
+	font-size:18px;
+	color:#8e8e8e;
+	text-indent: 36px;
+}
+
+.deve-ads{
+	width: 100%;
+	height: 130px;
+	background: url(../../images/keweisoft/deve-ads1.png) center center no-repeat;
+}
+
+.db2-tit{
+	width:100%;
+	height:53px;
+	background: url(../../images/keweisoft/deve-headBg.png) top center no-repeat;
+	margin-top:49px;
+	line-height: 53px;
+}
+.db2-tit-left{
+	font-size: 30px;
+	color:#fff;
+	display: inline-block;
+	float: left;
+	margin-left:7px;    
+}
+.db2-tit-btn{
+	width:110px;
+	height: 33px;
+	background: url(../../images/keweisoft/deve-btn.png) center center no-repeat;
+	float: right;
+	text-align: center;
+	line-height: 33px;
+	font-size:20px;
+	color:#fff;
+	margin-top: 5px;
+}
+.db2-tit-btn:hover{
+	background: url(../../images/keweisoft/deve-btn-hov.png) center center no-repeat;
+}
+.db2-tit-tel{
+	width: 148px;
+	height: 36px;
+	background: url(../../images/keweisoft/serv-tel.png) center center no-repeat;
+	float: right;
+	margin-right:15px;
+	/*margin-top: 5px;*/
+}
+.db2-con{
+	width:100%;
+	height:168px;
+	margin-top:25px;
+}
+.db2-item1{
+	width:494px;
+	height:96px;
+	background: url(../../images/keweisoft/deve-pic1.jpg) top center no-repeat;
+	float: right;
+	margin-right:40px;
+	margin-top:30px;
+}
+.db2-item2{
+	height: 168px;
+	width:400px;
+	float: left;
+	font-size:14px;
+	line-height: 24px;
+	text-indent:28px;
+	padding-top:5px;
+}
+.db2-sub{
+	width:100%;
+	height:900px;
+	margin-top:20px;
+	overflow: hidden;
+}
+.db2-tits{
+	font-size: 18px;
+	color:#666;
+	padding-left:56px;
+}
+.db2-sub1{
+	height: 384px;
+	background:url(../../images/keweisoft/deve-line.jpg) center bottom no-repeat;
+}
+.deve-btit1{
+	font-size: 24px;
+	color:#c73c43;
+	background: url(../../images/keweisoft/deve-num1.png) left center no-repeat;
+	padding-left:50px;
+	height: 44px;
+	line-height: 44px;
+}
+.db2-co{
+	width:100%;
+	height:102px;
+	margin-top:25px;
+}
+.db2-it1{
+	height:102px;
+	width:315px;
+	float: left;
+}
+
+.db2-it1-pic{
+	width:102px;
+	height:102px;
+	background: url(../../images/keweisoft/db3-con1-ico6.png) top center no-repeat;
+	float: left;
+	cursor:pointer;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.db2-it2-pic{
+	width:102px;
+	height:102px;
+	background: url(../../images/keweisoft/db3-con1-ico5.png) top center no-repeat;
+	float: left;
+	cursor:pointer;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.db2-it3-pic{
+	width:102px;
+	height:102px;
+	background: url(../../images/keweisoft/db3-con1-ico4.png) top center no-repeat;
+	float: left;
+	cursor:pointer;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.db2-it4-pic{
+	width:102px;
+	height:102px;
+	background: url(../../images/keweisoft/db3-con1-ico3.png) top center no-repeat;
+	float: left;
+	cursor:pointer;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.db2-it5-pic{
+	width:102px;
+	height:102px;
+	background: url(../../images/keweisoft/db3-con1-ico2.png) top center no-repeat;
+	float: left;
+	cursor:pointer;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.db2-it6-pic{
+	width:102px;
+	height:102px;
+	background: url(../../images/keweisoft/db3-con1-ico1.png) top center no-repeat;
+	float: left;
+	cursor:pointer;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.db2-it1-pic:hover,.db2-it2-pic:hover,.db2-it3-pic:hover,.db2-it4-pic:hover,.db2-it5-pic:hover,.db2-it6-pic:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+.db2-it1-con{
+	width:198px;
+	height:87px;
+	float: left;
+	font-size:16px;
+	line-height:26px;
+	margin-left:15px;
+	margin-top:10px;
+
+}
+.db2-it2-con{
+	width:250px;
+	height:87px;
+	float: left;
+	font-size:16px;
+	line-height:24px;
+	padding-top:15px;
+	padding-left:15px;
+
+}
+.deve-ads1{
+	height: 130px;
+	width: 100%;
+	background: url(../../images/keweisoft/deve-ads2.jpg) center center no-repeat;
+}
+.db2-sub2{
+	height:500px;
+	background: url(../../images/keweisoft/db4-bg.jpg) top center no-repeat;
+	margin-top:20px;
+}
+.deve-btit2{
+	font-size: 24px;
+	color:#c73c43;
+	background: url(../../images/keweisoft/deve-num2.png) left center no-repeat;
+	padding-left:50px;
+	height: 44px;
+	line-height: 44px;
+}
+.db4-con{
+	width:100%;
+	height:245px;
+	margin-top:30px;
+}
+.db4-item1{
+	width:431px;
+	height: 245px;
+	background: url(../../images/keweisoft/db5-pic.jpg) top center no-repeat;
+	float: right;
+}
+.db5-item1{
+	width:431px;
+	height: 244px;
+	background: url(../../images/keweisoft/db6-pic.jpg) top center no-repeat;
+	float: right;
+}
+.db4-item2{
+	width:482px;
+	height: 245px;
+	float: right;
+	margin-right:68px;
+}
+.db4-item2-con{
+	font-size:14px;
+	padding:15px;
+	margin-top:25px;
+	line-height: 24px;
+}
+.db4-item2-btn{
+	width:180px;
+	height:42px;
+	background: url(../../images/keweisoft/db1-btn.png) top center no-repeat;
+	text-align: center;
+	line-height:42px;
+	font-size:18px;
+	cursor:pointer;
+	color:#fff;
+	float: left;
+}
+.db5-item2-btn{
+	width:180px;
+	height:42px;
+	background: url(../../images/keweisoft/db6-btn-hover.png) top center no-repeat;
+	text-align: center;
+	line-height:42px;
+	font-size:18px;
+	cursor:pointer;
+	color:#fff;
+	float: left;
+}
+.db4-item2-btn:hover{
+	background: url(../../images/keweisoft/db1-btn-hover.png) top center no-repeat;
+}
+.db4-sub{
+	width:100%;
+	height:216px;
+	background: url(../../images/keweisoft/db5-subbg.jpg) top center no-repeat;
+	margin-top:120px;
+	margin-bottom:120px;
+}
+.db4-sub-con{
+	width:328px;
+	height: 115px;
+	font-size: 18px;
+	line-height: 30px;
+	position: absolute;
+	margin-top:55px;
+	margin-left:515px;
+}
+.db4-sub-item1{
+	width:123px;
+	height: 66px;
+	background: url(../../images/keweisoft/db5-itembg2.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:20px;
+	margin-top:-73px;
+	margin-left:140px;
+	cursor: pointer;
+}
+.db4-sub-item1:hover,.db4-sub-item2:hover,.db4-sub-item3:hover,.db4-sub-item4:hover,.db4-sub-item5:hover{
+	background: url(../../images/keweisoft/db5-itembg2-hover.png) top center no-repeat;
+}
+.db4-sub-item6:hover,.db4-sub-item7:hover,.db4-sub-item8:hover,.db4-sub-item9:hover,.db4-sub-item10:hover{
+	background: url(../../images/keweisoft/db5-itembg1-hover.png) top center no-repeat;
+}
+.db4-sub-item2{
+	width:123px;
+	height: 81px;
+	background: url(../../images/keweisoft/db5-itembg2.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:5px;
+	margin-top:-73px;
+	margin-left:300px;
+	cursor: pointer;
+}
+.db4-sub-item3{
+	width:123px;
+	height: 81px;
+	background: url(../../images/keweisoft/db5-itembg2.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:5px;
+	margin-top:-73px;
+	margin-left:460px;
+	cursor: pointer;
+}
+.db4-sub-item4{
+	width:123px;
+	height: 66px;
+	background: url(../../images/keweisoft/db5-itembg2.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:20px;
+	margin-top:-73px;
+	margin-left:620px;
+	cursor: pointer;
+}
+.db4-sub-item5{
+	width:123px;
+	height: 66px;
+	background: url(../../images/keweisoft/db5-itembg2.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:20px;
+	margin-top:-73px;
+	margin-left:780px;
+	cursor: pointer;
+}
+.db4-sub-item6{
+	width:123px;
+	height: 36px;
+	background: url(../../images/keweisoft/db5-itembg1.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:50px;
+	margin-top:202px;
+	margin-left:780px;
+	cursor: pointer;
+}
+.db4-sub-item7{
+	width:123px;
+	height: 36px;
+	background: url(../../images/keweisoft/db5-itembg1.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:50px;
+	margin-top:202px;
+	margin-left:620px;
+	cursor: pointer;
+}
+.db4-sub-item8{
+	width:123px;
+	height: 36px;
+	background: url(../../images/keweisoft/db5-itembg1.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:50px;
+	margin-top:202px;
+	margin-left:460px;
+	cursor: pointer;
+}
+.db4-sub-item9{
+	width:123px;
+	height: 36px;
+	background: url(../../images/keweisoft/db5-itembg1.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:50px;
+	margin-top:202px;
+	margin-left:300px;
+	cursor: pointer;
+}
+.db4-sub-item10{
+	width:123px;
+	height: 36px;
+	background: url(../../images/keweisoft/db5-itembg1.png) top center no-repeat;
+	position: absolute;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	padding-top:50px;
+	margin-top:202px;
+	margin-left:140px;
+	cursor: pointer;
+}
+.db5-sub{
+	width:100%;
+	height: 230px;
+	margin-top:35px;
+	margin-bottom: 40px;
+}
+.db5-sub-items{
+	width:260px;
+	height:100%;
+	float: left;
+}
+.db5-sub-item1{
+	width:101px;
+	height: 100px;
+	background: url(../../images/keweisoft/db6-ico.png) top center no-repeat;
+	cursor: pointer;
+	margin-left:80px;
+}
+.db5-sub-item1:hover{
+
+	background: url(../../images/keweisoft/db6-ico-hover.png) top center no-repeat;
+}
+.db5-sub-con1{
+	width:100%;
+	margin-top: 27px;
+}

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/case.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				var _x = $(window).width();
+				var _y = (_x * 264) / 640;
+				$('.auto-banner').css({
+					width : _x,
+					height : _y,
+					margin : '10px auto 0',
+					textAlign : 'center',
+					position : 'relative',
+				}).find('img').attr({
+					width : _x,
+					height : _y,
+				});
+			})
+		</script>		
+<!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		{template "content","head_sub"}
+		<div class="case-banner auto-banner">
+			{if $catid == 228}
+			<img src="{IMG_PATH}m/case-banner.png" title="" alt="" />
+			{elseif $catid == 227}
+			<img src="{IMG_PATH}m/case-banner1.png" title="" alt="" />
+			{/if}
+		</div>
+<!--案例列表-->
+		<div class="edu-case-con">
+			{pc:content action="lists" catid="$catid" num="4" order="listorder DESC" page="$page" moreinfo="1"}
+			{loop $data $r}
+			{php $db = pc_base::load_model('hits_model'); $hr = $db->get_one(array('hitsid'=>'c-'.$modelid.'-'.$r[id])); $views = $hr[views]; }
+			<div class="ecc-item" {if $n!=1}style="margin-top:3px;"{/if}>
+				<div class="ecc-con">
+					<a href="{$r[url]}" target="_blank"><div class="ecc-logo">
+						<img {if $catid == 227}src="{$r[thumb]}"{elseif $catid == 228}src="{$r[logo]}"{/if} height="50" width="50" alt="" title="" />
+						{if $r[posids] == 1}<span class="ecc-t">推荐</span>{/if}
+					</div></a>
+					<div class="ecc-right">
+						<a href="{$r[url]}" target="_blank"><p class="eccr-tit">{str_cut($r[title],35,'...')}</p></a>
+						<a href="{$r[url]}" target="_blank"><p class="eccr-con">{str_cut($r[description],38,'...')} </p></a>
+						<p class="eccr-date">浏览量：{$views}</p>
+					</div>
+				</div>
+			</div>
+			{/loop}
+			{/pc}								
+		</div>
+<!---->				
+		<div class="news-pages">{$m_pages}</div>
+		<div class="news-yanshi">
+			<a href="" target="_blank"><div class="ny-btn">立即预约演示</div></a>
+		</div>
+		{template "content","bottom_top"}
+		{template "content","bottom"}
+	</body>
+</html>

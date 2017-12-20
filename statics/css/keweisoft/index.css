@@ -1,0 +1,1039 @@
+
+/*二级导航*/
+.banner{
+	width:100%;
+	height: 460px;
+	min-width:1400px;
+	background: url(../../images/keweisoft/in-banner1.jpg) center center no-repeat;
+}
+.banner-mid{
+	height: 100%;
+	width:100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner-sub{
+	height: 100%;
+	width:50%;
+	float: left;
+}
+.banner-sub-roll{
+	width:100%;
+	height: 36px;
+	min-width: 1400px;
+	background: url(../../images/keweisoft/in-banner-subBg.jpg) left center repeat-x;
+}
+.in-b1{
+	overflow: hidden;
+	margin-top:21px;
+}
+.b1-brief{
+	width:708px;
+	height: 300px;
+	border: solid 1px #e9e9e9;
+	float: left;
+}
+.b1-brief-tit{
+	height: 46px;
+	background: url(../../images/keweisoft/in-b1-line1.jpg) center bottom no-repeat;
+	line-height:46px;
+}
+.bbt-left{
+	display: inline-block;
+	background: url(../../images/keweisoft/index-b1Img1.png) left center no-repeat;
+	padding-left:32px;
+	font-size:18px;
+	margin-left: 5px;
+}
+.bbt-right{
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	font-size:14px;
+	color:#f77e2f;
+}
+/*20150415新增*/
+.b1-conleft{
+	width: 161px;
+	height: 260px;
+	background: url(../../images/keweisoft/last-news.jpg) right center no-repeat;
+	float: left;
+}
+.b1-conright{
+	width: 540px;
+	height: 245px;
+	padding-top:15px;
+	float: left;
+}
+.b1-conright-item{
+	height: 36px;
+	line-height: 36px;
+}
+.b1-conright-item a:hover{
+	color:#F77E2F;
+}
+.b1-conright-a1{
+	font-size:14px;
+	line-height: 36px;
+	padding-left:28px;
+	background: url(../../images/keweisoft/in-b1N.png) left center no-repeat;
+	display: inline-block;
+	float: left;
+}
+.b1-conright-a2{
+	font-size:14px;
+	line-height: 36px;
+	padding-left:28px;
+	background: url(../../images/keweisoft/in-b1W.png) left center no-repeat;
+	display: inline-block;
+	float: left;
+}
+.b1-conright-a3{
+	font-size:14px;
+	line-height: 36px;
+	padding-left:28px;
+	background: url(../../images/keweisoft/in-b1T.png) left center no-repeat;
+	display: inline-block;
+	float: left;
+}
+.b1-conright-a4{
+	font-size:14px;
+	line-height: 36px;
+	padding-left:28px;
+	background: url(../../images/keweisoft/in-b1O.png) left center no-repeat;
+	display: inline-block;
+	float: left;
+}
+.b1-conright-a5{
+	font-size:14px;
+	line-height: 36px;
+	padding-left:28px;
+	background: url(../../images/keweisoft/in-b1F.png) left center no-repeat;
+	display: inline-block;
+	float: left;
+}
+.b1-conright-a6{
+	font-size:14px;
+	line-height: 36px;
+	padding-left:28px;
+	background: url(../../images/keweisoft/in-b1S.png) left center no-repeat;
+	display: inline-block;
+	float: left;
+}
+.b1-conright-date{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	line-height: 36px;
+	/*padding-left:25px;
+	background: url(../../images/keweisoft/index-ico1.png) left center no-repeat;*/
+	margin-right: 20px;
+}
+.b1-conright-view{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	line-height: 36px;
+	/*padding-left:25px;
+	background: url(../../images/keweisoft/index-ico2.png) left center no-repeat;*/
+	margin-right: 10px;
+}
+.bat-top{
+	text-align:center;
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	margin-top: 20px;
+}
+.bat-con{
+	font-size: 12px;
+	line-height: 22px;
+	text-indent: 24px;
+	padding: 0px 10px;
+	margin-top: 10px;
+}
+/*20150415新增*/
+.b1-brief-conPic{
+	float: left;
+	margin: 11px 11px 0px;
+}
+.b1-brief-con1{
+	width:357px;
+	float: left;
+	margin-top:11px;
+}
+.bbc-tit{
+	font-size:18px;
+	color:#333;
+	text-align: center;
+	font-weight: normal;
+}
+.bbc-con1{
+	font-size:14px;
+	line-height: 26px;
+	margin-top: 30px;
+}
+.bbc-con2{
+	font-size:14px;
+	line-height: 26px;
+	margin: 0px 22px 0px 11px;
+}
+.b1-act{
+	width:313px;
+	height: 300px;
+	border: solid 1px #e9e9e9;
+	float: right;
+	position: relative;
+}
+.b1-act-tit{
+	height: 46px;
+	background: url(../../images/keweisoft/in-b1-line2.jpg) center bottom no-repeat;
+	line-height:46px;	
+}
+.bat-tit{
+	display: inline-block;
+	background: url(../../images/keweisoft/index-b1Img2.png) left center no-repeat;
+	padding-left:30px;
+	margin-left:5px;
+	font-size:18px;
+}
+ 
+.b1-consult{
+	width:310px;
+	height:112px;
+	background: url(../../images/keweisoft/in-b1-img2.jpg) center center no-repeat;
+	bottom:0px;
+	overflow: hidden;
+	position: absolute;
+}
+.bc-word{
+	font-size: 18px;
+	color: #333;
+	width:238px;
+	border-bottom: 1px solid #d2d2d2;
+	text-align: center;
+	line-height:32px;
+	margin: 22px 0px 0px 30px; 
+}
+.b1-btn{
+	width:93px;
+	height: 24px;
+	background-color: #64bdf5;
+	text-align: center;
+	line-height: 24px;
+	color:#fff;
+	font-size:14px;
+	margin:10px 0px 0px 90px;
+}
+.b1-bottom-left{
+	width:707px;
+	height: 98px;
+	background: url(../../images/keweisoft/in-b1-img3.jpg) center center no-repeat;
+	float: left;
+	margin-top:22px;
+}
+.b1-bottom-right{
+	width:311px;
+	height: 98px;
+	background: url(../../images/keweisoft/in-b1-img4.jpg) center center no-repeat;
+	float: right;
+	margin-top: 22px;
+}
+.in-b2{
+	overflow: hidden;
+}
+.b2-tit{
+	width:100%;
+	height: 52px;
+	margin-top: 20px;
+	background: url(../../images/keweisoft/in-b2-line1.jpg) left bottom no-repeat;
+}
+.b2t-word{
+	font-size:24px;
+	height: 40px;
+	padding-top:5px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2Img1.png) left center no-repeat;
+	padding-left:40px;
+	margin-top: 0px;
+	float: left;
+}
+.tab-list,.tab-list2{
+	width:800px;
+	height: 50px;
+	display: inline-block;
+	float: right;
+}
+.tab-list ul li,.tab-list2 ul li{
+	width:110px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.cur{
+	color:#f97615;
+}
+.tab-con{
+	width:100%;
+	height: 226px;
+	overflow: hidden;
+	margin-top:20px;
+}
+.tab-con1-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img1.png) center center no-repeat;
+	float: left;
+}
+.tab-con2-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img2.png) center center no-repeat;
+	float: left;
+}
+.tab-con3-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img3.png) center center no-repeat;
+	float: left;
+}
+.tab-con4-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img4.png) center center no-repeat;
+	float: left;
+}
+.tab-con5-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img5.png) center center no-repeat;
+	float: left;
+}
+.tab-con6-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img6.png) center center no-repeat;
+	float: left;
+}
+.tab-con7-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img7.png) center center no-repeat;
+	float: left;
+}
+.tab-con8-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img8.jpg) center center no-repeat;
+	float: left;
+}
+.tab-con9-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img9.png) center center no-repeat;
+	float: left;
+}
+.tab-con10-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img10.png) center center no-repeat;
+	float: left;
+}
+.tab-con11-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img11.png) center center no-repeat;
+	float: left;
+}
+.tab-con12-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img12.png) center center no-repeat;
+	float: left;
+}
+.tab-con13-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img13.png) center center no-repeat;
+	float: left;
+}
+.tab-con14-left{
+	width: 344px;
+	height: 226px;
+	background: url(../../images/keweisoft/in-b2-img14.png) center center no-repeat;
+	float: left;
+}
+
+.tab-con1-right{
+	height: 226px;
+	width: 680px;
+	float: right;
+}
+.tcr-con{
+	font-size:14px;
+	line-height: 22px;
+}
+.tcr-btn{
+	width: 77px;
+	height: 21px;
+	background-color:#f6680c;
+	font-size: 12px;
+	color:#fff;
+	text-align: center;
+	line-height: 21px;
+	margin-left:600px;
+	border-radius: 3px;
+}
+.tcr-item{
+	width:100%;
+	height: 135px;
+	overflow: hidden;
+	margin-top: 7px;
+}
+.tcr-item-left{
+	width:319px;
+	float: left;
+
+}
+.tcr-item-left ul li{
+	line-height: 26px;
+}
+.tcr-item-left ul li a{
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2ItemBg.jpg) left center no-repeat;
+	float: left;
+	padding-left:12px;
+	font-size:14px;
+}
+.tcr-item-left ul li span{
+	font-size:14px;
+}
+.tcr-item-left ul li a:hover{
+	color:#f6680c;
+}
+.tcr-item-left ul li span{
+	display: inline-block;
+	float: right;
+}
+.tcr-item-mid{
+	width:40px;
+	height: 100%;
+	float: left;
+	background: url(../../images/keweisoft/in-b2MidBg.jpg) center center no-repeat;
+}
+.b3t-word{
+	font-size:24px;
+	height: 40px;
+	padding-top:5px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2Img2.png) left center no-repeat;
+	padding-left:40px;
+	margin-top: 0px;
+	float: left;
+}
+.in-b3-bottomLeft{
+	width:707px;
+	height: 100px;
+	float: left;
+	background: url(../../images/keweisoft/in-b2-img3.jpg) left center no-repeat;
+	margin-top:17px;
+}
+.in-b3-bottomRight{
+	width:314px;
+	height: 98px;
+	float: right;
+	background: url(../../images/keweisoft/in-b2-img4.jpg) left center no-repeat;
+	margin-top:17px;
+}
+.in-b4{
+	overflow:hidden;
+	margin-top:13px;
+}
+.in-b4-left{
+	width:707px;
+	float: left;
+}
+.in-b4-left-case{
+	height: 360px;
+}
+.iblc-tit{
+	height: 40px;
+	background: url(../../images/keweisoft/in-b4tit.jpg) left bottom no-repeat;
+}
+.iblc-titLeft{
+	display: inline-block;
+	font-size:24px;
+}
+.iblc-titRight{
+	display: inline-block;
+	font-size:18px;
+	color:#f6680c;
+	float: right;
+	margin-top:12px;
+}
+.iblc-con{
+	width:100%;
+	height: 185px;
+	overflow: hidden;
+	border-bottom:1px dashed #8a8a8a;
+}
+.iblc-conImg{
+	float: left;
+	margin-top:15px;
+	box-shadow: 1px 1px 5px #cdcdcd;
+}
+.iblc-conDe{
+	width:447px;
+	height: 100%;
+	float: right;
+	margin-top:10px;
+}
+.iblc-conDeTit{
+	font-size:18px;
+	font-weight:normal;
+	color:#333;
+	text-align: center;
+}
+.iblc-conDeCon{
+	font-size:14px;
+	color:#666;
+	line-height: 24px;
+	margin-top:5px;
+}
+.iblc-conDeT{
+	display: inline-block;
+	background: url(../../images/keweisoft/index-b3Img3.png) left center no-repeat;
+	font-size:12px;
+	color:#333;
+	padding-left:30px;
+	line-height: 25px;
+	margin:10px 0px 0px 15px;
+}
+.iblc-conDeI{
+	display: inline-block;
+	background: url(../../images/keweisoft/index-b3Img2.png) left center no-repeat;
+	font-size:12px;
+	color:#333;
+	padding-left:25px;
+	line-height: 24px;
+	margin:10px 0px 0px 35px;
+}
+.iblc-conDeL{
+	font-size:14px;
+	color:#c70212;
+	display:block;
+	margin:3px 0px 0px 350px;
+}
+.iblc-item{
+	width:325px;
+	float: left;
+	margin-top:15px;
+	line-height: 26px;
+}
+.iblc-item li a{
+	font-size:14px;
+	color:#666;
+}
+.iblc-item li a:hover{
+	color:#f6680c;
+}
+.in-b4-right{
+	width:313px;
+	float: right;
+}
+.in-b4-right-b1{
+	height: 230px;
+}
+.ibrb-tit{
+	height: 42px;
+	background: url(../../images/keweisoft/in-b1-line2.jpg) left bottom no-repeat;
+}
+.ibrb-titL{
+	font-size:18px;
+	background: url(../../images/keweisoft/index-b3Img1.png) left center no-repeat;
+	padding-left:46px;
+	line-height: 28px;
+	display: inline-block;
+	margin-top: 7px;
+}
+.ibrb-con{
+	height: 168px;
+	width:100%;
+	margin-top: 15px;
+}
+.ibrb-item1{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2-num1.jpg) left center no-repeat;
+	padding-left:15px;
+	float: left;
+}
+.ibrb-item{
+	width:100%;
+	height: 26px;
+	line-height: 26px;
+}
+.ibrb-t1{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	float: right;
+}
+.ibrb-item2{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2-num2.jpg) left center no-repeat;
+	padding-left:15px;
+	float: left;
+}
+.ibrb-item3{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2-num3.jpg) left center no-repeat;
+	padding-left:15px;
+	float: left;
+}
+.ibrb-item4{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2-num4.jpg) left center no-repeat;
+	padding-left:15px;
+	float: left;
+}
+.ibrb-item5{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2-num5.jpg) left center no-repeat;
+	padding-left:15px;
+	float: left;
+}
+.ibrb-item6{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b2-num6.jpg) left center no-repeat;
+	padding-left:15px;
+	float: left;
+}
+.ibrb-con a:hover{
+	color:#f6680c;
+}
+.in-b4-right-b2{
+	width:310px;
+	height: 112px;
+	background: url(../../images/keweisoft/in-b3-img2.jpg) center center no-repeat;
+}
+.in-b4-right-b3{
+	width: 310px;
+	height: 352px;
+	border: 1px solid #eeeef0;
+	margin-top:20px;
+}
+.ibr3-head{
+	height: 42px;
+	background: url(../../images/keweisoft/in-b1-line2.jpg) left bottom no-repeat;
+}
+.ibr3-tit{
+	font-size:18px;
+	color:#666;
+	display: inline-block;
+	background: url(../../images/keweisoft/index-b3Img4.png) left center no-repeat;
+	padding-left:32px;
+	line-height: 29px;
+	margin:5px 0px 0px 5px;
+}
+.ibr3-con{
+	font-size:14px;
+	color:#666;
+	line-height: 22px;
+	padding:15px 15px 0px;
+}
+.ibr3-code{
+	margin: 7px 0px 0px 90px;
+	cursor:pointer;
+}
+.ibr3-ctit{
+	font-size:18px;
+	color:#333;
+	text-align: center;
+}
+.ibr3-b1{
+	font-size:14px;
+	display: inline-block;
+	color:#333;
+	width: 50px;
+	text-align: center;
+	background: url(../../images/keweisoft/index-b3Img5.png) center top no-repeat;
+	padding-top: 60px;
+	margin:10px 0px 0px 40px;
+}
+.ibr3-b2{
+	font-size:14px;
+	display: inline-block;
+	color:#333;
+	width: 50px;
+	text-align: center;
+	background: url(../../images/keweisoft/index-b3Img6.png) center top no-repeat;
+	padding-top: 60px;
+	margin:5px 0px 0px 40px;
+}
+.ibr3-b3{
+	font-size:14px;
+	display: inline-block;
+	color:#333;
+	width: 50px;
+	text-align: center;
+	background: url(../../images/keweisoft/index-b3Img7.png) center top no-repeat;
+	padding-top: 60px;
+	margin:5px 0px 0px 40px;
+}
+.in-b5{
+	overflow: hidden;
+	margin-top:15px;
+}
+.in-b5-head{
+	width:100%;
+	height: 36px;
+	background: url(../../images/keweisoft/in-b4Titbg.jpg) left center no-repeat;
+}
+.ibh-left{
+	display: inline-block;
+	color:#c70212;
+	font-size:24px;
+	margin-left:25px;
+}
+.ibh-right{
+	font-size:18px;
+	color:#c70212;
+	display: inline-block;
+	float: right;
+	margin-top:5px;
+}
+.in-b5-item1{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic4.png) center center no-repeat;
+	margin-top:20px;
+	position: relative;
+}
+.in-b5-word{
+	width: 242px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	color:#fff;
+	font-size: 18px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	bottom:70px;
+}
+.in-b5-item2{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic3.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item3{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic2.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item4{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic1.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item5{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic8.png) center center no-repeat;
+	margin-top:20px;
+	position: relative;
+}
+.in-b5-item6{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic7.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item7{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic6.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item8{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic5.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item9{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic12.png) center center no-repeat;
+	margin-top:20px;
+	position: relative;
+}
+.in-b5-item10{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic11.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item11{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic10.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item12{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic9.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item13{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic16.png) center center no-repeat;
+	margin-top:20px;
+	position: relative;
+}
+.in-b5-item14{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic15.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item15{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic14.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b5-item16{
+	width:242px;
+	height: 280px;
+	float: left;
+	background: url(../../images/keweisoft/in-b4-pic13.png) center center no-repeat;
+	margin-top:20px;
+	margin-left: 24px;
+	position: relative;
+}
+.in-b6{
+	overflow: hidden;
+	margin-top:20px;
+}
+.in-b6-head{
+	height: 38px;
+	background: url(../../images/keweisoft/in-b6-line.jpg) left bottom no-repeat;
+}
+.in-b6-tit{
+	font-size:24px;
+	color:#333;
+	display: inline-block;
+	background: url(../../images/keweisoft/in-b6-tit.jpg) left center no-repeat;
+	padding-left:45px;
+}
+.in-b6-more{
+	font-size:18px;
+	color:#c70212;
+	display: inline-block;
+	float: right;
+	margin-top:7px;
+}
+.in-b6-box{
+	width:100%;
+	height: 253px;
+	position: relative;
+	overflow: hidden;
+	margin-top:21px;
+}
+#box1{
+	width:736px;
+	position: absolute;
+	background: #f7f5f5;
+	top:0px;
+	left:0px;
+}
+.hd1{
+	width: 150px;
+	height: 253px;
+	float: left;
+	background: #7ecef4;
+	cursor: pointer;
+}
+.hd2{
+	width: 150px;
+	height: 253px;
+	float: left;
+	background: #d6d6d6;
+	cursor: pointer;
+}
+.hd3{
+	width: 150px;
+	height: 253px;
+	float: left;
+	background: #d6d6d6;
+	cursor: pointer;
+}
+.hd1-img{
+	width:100%;
+	height: 59px;
+	background: url(../../images/keweisoft/in-b5-pic1.png) center center no-repeat;
+	margin-top:60px;
+}
+.hd1-tit{
+	text-align: center;
+	font-size:18px;
+	color:#fff;
+	line-height: 26px;
+	margin-top:15px;
+}
+.hd1-link{
+	font-size:18px;
+	color:#fff;
+	display: inline-block;
+	margin:15px 0px 0px 27px;
+}
+.bd{
+	width: 586px;
+	height: 253px;
+	float: left;
+}
+.bd-top{
+	width: 518px;
+	height: 47px;
+	margin-left:23px;
+	margin-top: 22px;
+	background: url(../../images/keweisoft/in-b5-pic4.png) left top no-repeat;
+	padding-left:27px;
+	padding-top:23px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.bd-center{
+	width:481px;
+	height: 21px;
+	margin: 10px auto;
+	border-bottom:1px solid #b5b5b5;
+}
+.bd-bottom-tit{
+	font-size: 14px;
+	color:#666;
+	text-align: left;
+	margin-top:15px;
+	padding-left:52px;
+}
+.bd-bottom-con{
+	height: 50px;
+	width: 500px;
+	margin:26px auto 0px;
+	background: url(../../images/keweisoft/in-b5-line.png) center bottom no-repeat;
+}
+.bbc-item1{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	margin-left:10px;
+}
+.bbc-item2{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	margin-left:48px;
+}
+.bbc-item3{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	margin-left:48px;
+}
+.bbc-item4{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	margin-left:45px;
+}
+.bbc-item5{
+	font-size:14px;
+	color:#666;
+	display: inline-block;
+	margin-left:45px;
+}
+#box2{
+	width:736px;
+	position: absolute;
+	background: #f7f5f5;
+	top:0px;
+	left:0px;
+}
+#box3{
+	width:736px;
+	position: absolute;
+	background: #f7f5f5;
+	top:0px;
+	left:0px;
+}
+.hd2-img{
+	width:100%;
+	height: 49px;
+	background: url(../../images/keweisoft/in-b5-pic2.png) center center no-repeat;
+	margin-top:70px;
+}
+.hd3-img{
+	width:100%;
+	height: 70px;
+	background: url(../../images/keweisoft/in-b5-pic3.png) center center no-repeat;
+	margin-top:50px;
+}

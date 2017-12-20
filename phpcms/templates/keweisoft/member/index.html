@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8" />
+		<meta name="author" content="keweisoft.com" />
+		<meta name="keywords" content="{$SEO['keyword']}" />
+		<meta name="description" content="{$SEO['description']}" />
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/common.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/user-center.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/hover.css">
+		<link type="text/css" rel="stylesheet" href="{CSS_PATH}official/bootstrap.min.css">
+		<script type="text/javascript" src="{JS_PATH}official/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}official/index.js"></script>
+	</head>
+	<body>
+	{template "content","header"}
+		<div class="m-content uc-block">
+			{template "member","left"}
+			<div class="uc-b1-right">
+				<div class="ubr-tit">
+					<div class="ubr-tit-avator">
+						{if $memberinfo['vip']}<img src="{IMG_PATH}icon/vip.gif">{elseif $memberinfo['overduedate']}<img src="{IMG_PATH}icon/vip-expired.gif" title="{L('overdue')}，{L('overduedate')}：{format::date($memberinfo['overduedate'],1)}">{/if}
+						<img src="{$avatar[90]}" width="60" height="60" onerror="this.src='{$phpsso_api_url}/statics/images/member/nophoto.gif'">		
+					</div>
+					<div class="ubr-tit-detail">
+						<p class="utd-top">
+							<span class="utd-top-name">{if $memberinfo['nickname']} {$memberinfo['nickname']} {else} {$memberinfo['username']}{/if}</span><span class="utd-top-group">{$memberinfo['groupname']}</span>
+						</p>
+						<p class="utd-bottom">
+							<span class="utd-sub">积分：<b><font color="#f93">{$memberinfo[point]}</font></b></span><span class="utd-sub" style="margin-left:20px;">金币：<b><font color="#f93">{$memberinfo[amount]}</font></b></span><span class="utd-sub" style="margin-left:20px;">收藏：<b><font color="#f93">
+							{pc:member action="count" userid="$memberinfo[userid]"}
+							{$data}
+							{/pc}
+						</font></b></span>
+						</p>						
+					</div>
+				</div>
+				<div class="ubr-center">
+					<p class="ubr-center-tit">常用功能</p>
+					<p class="ubr-center-con">
+						<a href="index.php?m=member&c=content&a=publish&siteid=1" target="_blank" class="ucc-sec1">发文章</a>
+						<a href="index.php?m=guestbook&c=index&a=register" target="_blank" class="ucc-sec2">发留言</a>
+						<a href="index.php?m=member&c=index&a=account_manage_info&t=1" target="_blank" class="ucc-sec3">修改个人信息</a>
+						<a href="index.php?m=member&c=index&a=account_manage_avatar&t=1" target="_blank" class="ucc-sec4">修改头像</a>
+						<a href="index.php?m=member&c=index&a=account_manage_password&t=1" target="_blank" class="ucc-sec5">修改密码</a>
+					</p>	
+				</div>
+				<div class="ubr-bottom">
+					<p class="ubr-center-tit">我收藏的文章</p>
+					{pc:member  action="favoritelist" userid="$memberinfo[userid]" num="7"}
+					{loop $data $k $d}
+					<p class="ubr-bottom-item"><a href="{$d['url']}">{$d['title']}</a></p>
+					{/loop}
+					{$pages}
+					{/pc}
+				</div>				
+			</div>
+		</div>
+{template "content","footer"}

@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/service.css" rel="stylesheet"/>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->		
+	    <script type="text/javascript">
+	      $(function(){
+	        var _x = $(window).width();
+	        var _y = (_x * 264) / 640;
+	        $('.auto-banner').css({
+	          width : _x,
+	          height : _y,
+	          margin : '10px auto 0',
+	          textAlign : 'center',
+	          position : 'relative',
+	        }).find('img').attr({
+	          width : _x,
+	          height : _y,
+	        });
+	      })
+	    </script>	
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+			{template "content","head_top"}
+			{template "content","head_sub"}
+			<div class="service-banner auto-banner">
+				<img src="{IMG_PATH}m/service-chbanner.jpg" alt="个性化定制开发" title="个性化定制开发">
+			</div>
+			<div class="development-b1-tit"> 选择可为个性化定制开发服务,拥有企业专属的管理软件 </div>
+			<div class="development-b1-pic"></div>
+			<ul class="development-b1-con">
+				<li>市场上的软件功能千篇一律，无法满足企业更个性化的管理需求？</li>
+				<li>想要的功能没有，多余的功能太多，软件的价值无法很好的体现？</li>
+				<li>公司业务结构调整，旧的管理系统需要做相应改变，软件服务商又不提供开发服务？</li>
+				<li>需要更精细化的业务流程管控？</li>
+				<li>需要更全面的数据分析反馈？</li>
+			</ul>
+			<a href="http://www8.53kf.com/m.php?cid=72140145&style=5">
+				<div class="development-b1-btn">预约产品演示</div>
+			</a>
+			<div class="service-each-tit">软件开发服务</div>
+			<div class="development-b2-pic"></div>
+			<div class="development-b2-con">可为研发团队采用先进的技术架构，协助客户加速新产品开发或升级产品的推出，并保证质量，有效管理开发成本，从而助力客户实现业务目标。我们的工程师与客户方通过双方工作流程的有效整合来确保每一个项目都能实现最佳的交付成果。专业的质量保证工程师对项目提供精心的管理，通过常规报告和日常沟通，客户可以全面了解项目进展和项目状态。</div>
+			<div class="service-each-tit">开发团队优势</div>
+			<p class="development-b3-each1"><b>全面的技术能力：</b>包括应用软件的设计、开发、测试、实施、管理和维护</p>
+			<p class="development-b3-each2"><b>严格开发流程：</b>需求分析、设计、编码、测试、部署以及实施后的支持</p>
+			<p class="development-b3-each3"><b>开发解决方案：</b>帮助客户简化业务流程，开发专门的解决方案 </p>
+			<p class="development-b3-each4"><b>架构灵活：</b>通过面向服务的架构在目标平台上实现系统的移植和现代化</p>
+			<p class="development-b3-each5"><b>经验丰富：</b>多年对大型机以及开源系统的开发和维护经验 </p>
+			<p class="development-b3-each6"><b>现代化软件平台：</b>实现基于Web的现代化应用软件 </p>
+			<div class="service-each-tit">软件测试服务</div>
+			<div class="development-b4-pic"></div>
+			<div class="development-b4-con">可为一直不遗余力的专注于质量优化服务，擅长专业的测试咨询和管理，高效的测试执行，权威的自动化测试，能够为客户提供灵活的、定制化的测试服务，确保客户产品高质量的交付。可为以严格的质量与安全标准为基础，为客户提供全方位的测试服务。</div>
+			<div class="development-b4-sub"></div>
+			<div class="service-each-tit">软件维护服务</div>
+			<div class="development-b5-pic"></div>
+			<div class="development-b4-con">可为团队对企业软件的整个生命周期负责。根据需求的变化或硬件环境的变化对软件程序进行整体或部分的修改，使产品完全适用于企业，依靠源程序，而不改变源程序。可为提供多种服务，为您量身定做解决方案，免除您的后顾之忧。</div>
+			<div class="development-b5-line"></div>
+			<div class="development-b4-con">
+				<b>校正性维护：</b>改正在系统开发阶段已发生而系统测试阶段尚未发现的错误。<br>
+				<b>适应性维护：</b>使用软件适应信息技术变化和管理需求变化而进行修改。<br>
+				<b>完善性维护：</b>对已有的软件系统增加一些在系统分析和设计阶段中没有规定的功能与性能特征。<br>
+				<b>预防性护：</b>为了适应未来的软硬件环境的变化，应主动增加预防性的新的功能，以使应用系统适应各类变化而不被淘汰。
+			</div>
+			<div class="p-btn">立即预约演示</div>
+			{template "content","bottom"}
+		</div>
+	</body>
+</html>

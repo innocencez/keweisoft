@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/pro-edus.css" rel="stylesheet"/>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+    <script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+<!---->     
+      <script type="text/javascript">
+        $(function(){
+          var _x = $(window).width();
+          var _y = (_x * 264) / 640;
+          $('.auto-banner').css({
+            width : _x,
+            height : _y,
+            margin : '10px auto 0',
+            textAlign : 'center',
+            position : 'relative',
+          }).find('img').attr({
+            width : _x,
+            height : _y,
+          });
+        })
+      </script>
+	</head>
+
+<body>
+   <div id="page-body">
+      <div class="content">
+      {template "content","head_top"}
+      {template "content","head_sub"}
+      <div class="e_marketbanner auto-banner"><img src="{IMG_PATH}m/e_marketbanner.png" alt="市场营销" title="市场营销"/></div>
+      <div class="p_marketContent">
+           <p class="emarket_tit">系统精细化的销售过程管理降低企业推<br>广成本，使潜在学员量大幅提升</p>
+           <div class="e_marketPic"><img src="{IMG_PATH}m/e_marketPic.png" width="278" height="" alt=""></div>
+           <div class="title_bar">核心管控点</div>
+           <div class="m-content1">
+               <p class="e_marketPic1"></p>
+                <h2 class="marketPic1_tit">营销计划管理</h2>
+                <div class="pc-con1">• 系统能根据业务运营不同阶段制定不同的市场活动计划；
+								     <br>• 市场部经理按照计划进行市场活动预算的规划以及人员调配、物料调配，满足管理者对市场活动的把控；
+									<br>• 支持对计划维度的自定义设计，满足管理者在营销计划制定方面的全方位需求。</div>
+               
+           </div>
+           <div class="m-content1">
+               <p class="e_marketPic2"></p>
+                <h2 class="marketPic1_tit">市场活动管理</h2>
+                <div class="pc-con1">• 通过区分不同的营销学员对象来规划网络推广营销和地推营销的层次； 
+								<br>• 通过学员线索和商机的获取数量及质量来定义营销活动的成功指标，并评估营销效率；
+									<br>• 系统跟踪所有客户与营销活动相关的需求； </div>
+            
+           </div>
+            <div class="m-content1">
+               <p class="e_marketPic3"></p>
+                <h2 class="marketPic1_tit">潜在学员开发管理</h2>
+                <div class="pc-con1">• 通过区分不同的营销学员对象来规划网络推广营销和地推营销的层次； 
+								<br>• 通过学员线索和商机的获取数量及质量来定义营销活动的成功指标，并评估营销效率；
+									<br>• 系统跟踪所有客户与营销活动相关的需求； </div>
+            
+           </div>
+           <div class="m-content1">
+               <p class="e_marketPic4"></p>
+                <h2 class="marketPic1_tit">线索学员管理</h2>
+                <div class="pc-con1">• 对不同渠道的带来的线索学员进行分类，分析市场渠道营销效果； 
+										<br>• 系统满足在同一个系统中跟踪所有学员及家长联系人及相关商机，销售活动等信息； 
+										<br>	• 系统实现从外部资源及其他业务系统中导入学员及家长联系人。 </div>
+            
+           </div>
+            <div class="m-content1">
+               <p class="e_marketPic5"></p>
+                <h2 class="marketPic1_tit">线索分配管理</h2>
+                <div class="pc-con1">• 加速线索管理流程，线索管理自动化（线索生成—审查—转换—商机）；
+										<br>• 支持使用Web表单，直接从网站访客中获取线索；
+										<br>• 支持从外部资源导入线索信息，比如在线下载、渠道学员，研讨会，直接邮件以及其他活动形式；
+										<br>• 设定线索分配规则，自动分配线索给相应销售人员；
+										<br>• 对线索进行甄别，一旦线索满足预期条件，单击鼠标可转换成商机、客户、联系人；
+										<br>• 根据不同的学员所学课程业务环境定制不同的销售流程。</div>
+            
+           </div>
+            <div class="m-content1">
+               <p class="e_marketPic6"></p>
+                <h2 class="marketPic1_tit">跟踪回访、销售机会管理</h2>
+                <div class="pc-con1">• 明确线索学员在什么状态的阶段进行设定相应的跟进回访要求，促使线索成为有商机的销售机会；
+									<br>	• 系统记录所有重要跟踪回访记录，以便及时查询；
+									<br>    • 运用营销模块，在日历中方便直观地记录所有学员及家长的电话预约、上门沟通等活动时间安排；
+									<br>	• 可管理用户的日常任务以简化销售流程；
+									<br>	• 在营销管理系统中可设置定期重复活动，如每日、每周、每月、每年要进行的活动。
+									<br>	• 系统对整个销售机会的过程进行记录，提供的方案，需要的资料以及申请的优惠都可以进行记录保留；</div>
+            
+           </div>
+           <div class="m-content1">
+               <p class="e_marketPic7"></p>
+                <h2 class="marketPic1_tit">销售预测</h2>
+                <div class="pc-con1">• 根据正式学员的业务情况预测企业每财年预期收入；
+									<br>• 员工季度/财年销售目标管理； 
+									<br>• 预测未来季度收入； 
+									<br>• 可管理用户的日常任务以简化销售流程；
+									<br>• 创建完全定制化的预期报表和统计图表；</div>
+            
+           </div>
+           <div class="m-content1">
+               <p class="e_marketPic8"></p>
+                <h2 class="marketPic1_tit">动态、全面的竞争分析管理</h2>
+                <div class="pc-con1">• 系统能在销售过程中收集分析竞争对手的动态信息，如价格变化、撞单次数、丢单原因、竞争份额、销售潜力等，帮助决策层制定有效的竞争策略。</div>
+            
+           </div>
+           <div class="m-content2">
+               <p class="e_marketPic9"></p>
+                <h2 class="marketPic1_tit">营销效率评估管理</h2>
+                <div class="pc-con1">• 系统标准报表，如营销活动投资回报，联系人邮件列表，关键客户，按行业划分客户等，以便跟踪营销活动的效果
+									<br>• 将报表保存到公开或私有的不同类型文件夹里，并设定用户对其的访问权限； 
+										<br>• 系统交互统计图表，布局美观，一键式制作报表。</div>
+            
+           </div>
+      </div>
+     <div class="p-btn">立即预约演示</div>
+	{template "content","bottom"}
+</body>
+</html>

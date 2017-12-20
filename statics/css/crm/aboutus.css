@@ -1,0 +1,892 @@
+/*
+* version:2.0
+* author:keweisoft.com
+* date:2015-09-15
+/*公共样式*/
+html,body,div,p,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input{margin:0;padding:0;}
+img{border:0 none; vertical-align: top;}
+ul,li{list-style-type: none;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+body,div,form,input,select,button,textarea{font-family:微软雅黑;}
+button{cursor:pointer;}
+body,div,a{color:#333;}
+a{text-decoration: none;}
+.m-content{
+	width: 1040px;
+	margin: 0 auto;
+}
+.head{
+	width:1040px;
+	height: 83px;
+	margin:0 auto;
+}
+.head-logo{
+	width: 175px;
+	height: 54px;
+	float: left;
+	margin-top: 20px;
+}
+.head-nav{
+	width:760px;
+	height: 52px;
+	line-height: 52px;
+	margin-top: 18px;
+	float: left;
+	margin-left: 20px;
+}
+.head-right{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	color: #fff;
+	background: #fc7c4a;
+	border-radius: 3px;
+	padding: 2px 5px;
+	margin-top: 32px;
+}
+.head-nav li{
+	width: 108px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.head-nav li a{
+	font-size: 16px;
+	color:#666;
+}
+.head-nav li a:hover{
+	color:#fa8032;
+}
+.head-nav li .s-nav{
+	position:absolute;
+	top:50px;
+	left:-1px;
+	list-style:none;
+	display:none;
+	background: #f5f5fc;
+	border: 1px #cdcdcd solid;
+	box-shadow: 3px 3px 3px #777;
+}
+.head-nav li .s-nav li{
+	text-align:center;
+	clear:left;
+	width:120px;
+	height:35px;
+	line-height:35px;
+	position:relative;	
+}
+.head-nav li .s-nav li a{
+	height:34px;
+	line-height:34px;
+	width:120px;
+	padding:0;
+	display:inline-block;
+	font-size: 14px;	
+}
+.sub-nav{
+	width:100%;
+	height: 59px;
+	background: url(../../images/crm/pro-sub-navBg.png) left center repeat-x;
+}
+.sub-nav-list,.sub-nav-down-list{
+	height: 56px;
+	width: 100%;
+	overflow: hidden;
+}
+.sub-nav-list li,.sub-nav-down-list li{
+	width: 130px;
+	height: 56px;
+	float: left;
+	line-height: 56px;
+	text-align: center;
+}
+.sub-nav-list li a{
+	font-size: 16px;
+	color:#333;
+}
+.sub-nav-down{
+	width:100%;
+	height: 59px;
+	background: url(../../images/crm/pro-sub-navDownBg.png) left center repeat-x;
+}
+.sub-nav-down-list li a{
+	font-size:16px;
+	color:#fff;
+}
+.sub-nav-item{
+	width: 162px !important;
+}
+.sub-nav-btn{
+	width: 121px;
+	height: 40px;
+	background: #fa8032;
+	font-size: 16px;
+	color:#fffefe;
+	text-align: center;
+	line-height: 40px;
+	float: right;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+.sub-nav-btn:hover{
+	background:#EB8928;
+}
+.bottom{
+	width:100%;
+	height: 278px;
+	background: #3e4758;
+	overflow: hidden;
+	margin-bottom:-34px;
+}
+.bottom-mid{
+	width: 890px;
+	height: 172px;
+	margin: 28px auto 0px;
+	border-bottom: 1px solid #fcfcfd;
+}
+.bottom-mid dt a{
+	font-size: 18px;
+	color:#fcfcfd;
+}
+.bottom-mid dd a{
+	font-size: 14px;
+	color:#fcfcfd;
+	line-height: 24px;
+}
+.bottom-mid dl{
+	width: 72px;
+	float: left;
+}
+.bottom-mid dt,.bottom-mid dd{
+	text-align: center;
+}
+.bottom-mid dt{
+	margin-bottom: 15px;
+}
+.QRcode{
+	width:150px;
+	float: right;
+	text-align: center;
+	margin-right: 15px;
+}
+.QRcode span{
+	display: inline-block;
+	color:#fcfcfd;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top:15px;
+}
+.f-link{
+	margin-top: 15px;
+	text-align: center;
+}
+.f-link span,.f-link a{
+	color:#fcfcfd;
+	font-size: 14px;
+	line-height: 24px;
+}
+.f-link a{
+	display: inline-block;
+	margin-right: 26px;
+}
+.c-right{
+	font-size: 14px;
+	color:#fcfcfd;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 10px;
+}
+/***************************/
+.aboutus-banner{
+	width: 100%;
+	height: 560px;
+	overflow: hidden;
+}
+.aboutus-banner1{
+	width: 100%;
+	height: 280px;
+	background: url(../../images/crm/about-top.jpg) center center no-repeat;
+}
+.aboutus-banner2{
+	width: 100%;
+	height: 280px;
+	background: url(../../images/crm/about-bottom.jpg) center center no-repeat;
+}
+
+
+.top-link{
+	height:55px;
+	line-height:55px;
+}
+.top-link a{
+	color:#666;
+	font-size:16px;
+}
+.content{
+	width:100%;
+	height:5805px;
+	background: #fff;
+	position: absolute;
+}
+.ab-tit{
+	height:124px;
+	background: url(../../images/edus/ab-con-pic.jpg) no-repeat;
+}
+.ab-brief{
+	height:512px;
+}
+.ab-brief-tit{
+	background: url(../../images/edus/ab-tit-bg.png) left center no-repeat;
+	padding-left:40px;
+	font-size:24px;
+
+}
+.ab-brief-con{
+	font-size:14px;
+	color:#7d7d7d;
+	margin-top:20px;
+	line-height: 30px;
+}
+.ab-con-mission{
+	width: 100%;
+	height:198px;
+	line-height:198px;
+	margin-top:40px;
+}
+.ab-con-mission span{
+	color:#333;
+	font-size:26px;
+	font-size:bold;
+	margin-left:10px;
+}
+.ab-con-mission a{
+	float:right;
+	background: url(../../images/edus/ab-con-tel.png) left center no-repeat;
+	padding-left:30px;
+	font-size:24px;
+	color:#333;
+}
+
+.ab-vision{
+	width:100%;
+	height:561px;
+	background: url(../../images/edus/ab-con-bg1.png) center 0px no-repeat;
+	margin-top: 180px;
+}
+
+.vision1{
+	width:100%;
+	height:56px;
+	padding-top:25px;
+	background: url(../../images/edus/ab-con-index1.png) left 95% no-repeat;
+}
+.vision2{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index2.png) left 95% no-repeat;
+}
+.vision3{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index3.png) left 95% no-repeat;
+}
+.vision4{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index4.png) left 95% no-repeat;
+}
+.vision5{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index5.png) left 95% no-repeat;
+}
+.vision-motto{
+	width:261px;
+	height:56px;
+	float: left;
+	background: #ff6600;
+	margin-left:87px;
+	color:#fff;
+	font-size:24px;
+	text-align: center;
+	line-height:56px;
+}
+.vision-line{
+	width:102px;
+	height:28px;
+	float: left;
+	border-bottom: 1px solid #333;
+}
+.vision1-con{
+	width:464px;
+	height:56px;
+	float: left;
+	margin-left:24px;
+	font-size:18px;
+	text-align: left;
+	line-height:56px;
+	color: #333;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+.vision2-con{
+	width:464px;
+	height:72px;
+	float: left;
+	margin-left:24px;
+	font-size:18px;
+	text-align: left;
+	line-height:36px;
+	color: #333;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+
+.ab-ads{
+	width:100%;
+	height:73px;
+	background: url(../../images/edus/ab-adv1.jpg) center 0px no-repeat;
+}
+.ab1-ads{
+	width:100%;
+	height:70px;
+	background: url(../../images/edus/ab-adv1-2.jpg) center 0px no-repeat;
+}
+.ab2-ads{
+	width:100%;
+	height:80px;
+	background: url(../../images/edus/ab-adv1-3.jpg) center 0px no-repeat;
+}
+.ab-sub{
+	width:100%;
+	height:280px;
+	margin-top:30px;
+}
+.ab-sub1{
+	width:100%;
+	height:280px;
+	margin-top:30px;
+}
+
+.ab-sub-con{
+	width:454px;
+	height:198px;
+	float: left;
+	margin-left:133px; 
+	margin-top:40px;
+}
+.ab-sub-con1{
+	width:454px;
+	height:198px;
+	float: left;
+	margin-top:75px;
+}
+
+.ab-sub-con h1{
+	color:#28282e;
+	font-size:24px;
+	letter-spacing:1px;
+	font-weight: normal;
+}
+
+.sub-con-line{
+	width:100%;
+	height:18px;
+	background: url(../../images/edus/ab-con-line.jpg) repeat-x;
+	margin-top:30px;
+}
+
+.ab-sub1-case{
+	width:100%;
+	height:39px;
+	margin-top:60px;
+}
+.ab-sub1-case-tit{
+	width:350px;
+	height:39px;
+	float: left;
+	line-height:39px;
+	color:#ff6600;
+	font-size:26px;
+}
+.ab-sub1-case-line{
+	width:690px;
+	height:39px;
+	float: left;
+	background: url(../../images/edus/ab-con-line.jpg) left center repeat-x ;
+}
+.ab-sub1-case-item1{
+	height: 112px;
+	width:100%;
+	margin-top:20px;
+}
+.ab-sub1-case-item2{
+	height: 122px;
+	width:100%;
+	margin-top:10px;
+}
+.ab-sub1-case-item1-items{
+	height: 112px;
+	width:309px;
+	float: left;
+}
+
+.ab-sub1-case-item2-items{
+	height: 122px;
+	width:309px;
+	float: left;
+}
+.ab-case-line{
+	width:100%;
+	height:29px;
+	background: url(../../images/edus/process_bottom_sline.jpg) no-repeat;
+	margin-top:34px;
+	margin-bottom:20px;
+}
+
+.ab-ads1{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	margin-top:30px;
+	background: url(../../images/edus/ab-adv2.jpg) no-repeat;
+}
+.ab-ads1 span{
+	float: left;
+	margin-left:61px; 
+	color:#fff;
+	font-size:24px;
+	letter-spacing: 1px;
+}
+.ab-ads1 a{
+	float: right;
+	font-size:24px;
+	color:#fff;
+	letter-spacing: 1px;
+	margin-right:90px;
+}
+.ab-consult{
+	height:135px;
+	width:100%;
+	margin-top:30px;
+}
+.ab-consult-con{
+	height:135px;
+	width:810px;
+	float: left;
+	margin-left:63px;
+	font-size:14px;
+	color:#666;
+	line-height:25px;
+	margin-top:20px;
+	text-indent:28px;
+}
+
+.ab-consult-process{
+	width:100%;
+	height:274px;
+	margin-top:20px;
+	color:#6b8de1;
+	font-size:24px;
+}
+
+.ab-consult-process-con{
+	width:100%;
+	height:219px;
+	margin-top:20px;
+}
+.ab-process-con1{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult1.jpg) no-repeat;
+	/*-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;*/
+}
+
+.ab-process-con2{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:5px;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult2.jpg) no-repeat;
+}
+.ab-process-con3{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:5px;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult3.jpg) no-repeat;
+}
+.ab-process-con4{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:5px;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult4.jpg) no-repeat;
+}
+/*.ab-process-con1:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}*/
+
+.ab-process-arrow{
+	width:44px;
+	height:50px;
+	background: url(../../images/edus/ab-process-arrow.jpg) no-repeat;
+	float: left;
+	margin:80px 0px 0px 5px;
+}
+
+.ab-implement{
+	width:100%;
+	height:114px;
+	margin-top:24px;
+}
+.ab-implement-item1{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico1.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item2{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico2.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item3{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico3.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item4{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico4.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item5{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico5.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item6{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico6.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item7{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico7.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item8{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico8.jpg) no-repeat;
+	float: left;
+}
+
+.ab-aftersale-process{
+	width:100%;
+	height:117px;
+	margin-top:34px;
+	color:#6b8de1;
+	font-size:24px;
+}
+.ab-aftersale-process-type{
+	width:906px;
+	height:71px;
+	margin-left:65px;
+	margin-top:25px;
+}
+.ab-afersale-process-item1{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico7.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item1:hover,.ab-afersale-process-item2:hover,.ab-afersale-process-item3:hover,.ab-afersale-process-item4:hover,.ab-afersale-process-item5:hover,.ab-afersale-process-item6:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+.ab-afersale-process-item2{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico6.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item3{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico5.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item4{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico4.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item5{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico3.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+
+.ab-afersale-process-item6{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico2.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+
+
+.blank{
+	width:100%;
+	height:280px;
+	background: #fff;
+	margin-top:5805px;
+}
+.sline{
+	width:100%;
+	height:30px;
+	padding-top:35px;
+	background: url(../../images/edus/process_bottom_sline.jpg) 0 bottom no-repeat;
+}
+.scon{
+	width: 100%;
+	height:177px;
+	text-align: center;
+	padding-top:15px;
+}
+/*企业历程*/
+.content-process{
+    width: 100%;
+    height: 2900px;
+    background: #EEF3F9;
+    position: absolute;
+}
+.content-top{
+	height:61px;
+	width:100%;
+	background: url(../../images/edus/nav_pic.png);
+}
+.content-top-tit{
+	width:161px;
+	height:61px;
+	line-height:61px;
+	color:#fff;
+	font-size:28px;
+	/*font-weight:bold;*/
+	text-align:center;
+}
+.con-center{
+	width:897px;
+	height:2797px;
+	background: url(../../images/edus/process_bg.jpg) no-repeat;
+	margin:44px auto 0px;
+	display: block;
+	padding-left:143px;
+}
+.con-93{
+	width:883px;
+	height:130px;
+	padding-top:40px;
+}
+.con-96{
+	width:897px;
+	height:410px;
+}
+.con-96-pic{
+	width:831px;
+	height:315px;
+	background: url(../../images/edus/96pic.jpg) no-repeat;
+}
+.con-99{
+	width:897px;
+	height:360px;
+}
+.con-99-pic{
+	width:831px;
+	height: 253px;
+	background:url(../../images/edus/99pic.jpg) no-repeat;
+}
+.con-20{
+	height:460px;
+}
+.con-20-pic{
+	width:831px;
+	height:347px;
+	background:url(../../images/edus/20pic.jpg) no-repeat;
+}
+.con-21{
+	height:92px;
+	padding-top:33px;
+}
+.con-03{
+	height:455px;
+}
+.con-03-pic{
+	width:546px;
+	height:291px;
+	margin-left:123px;
+	background:url(../../images/edus/03pic.jpg) no-repeat;
+}
+.con-05{
+	height:506px;
+	padding-top:30px;
+}
+.con-05-pic1{
+	width:369px;
+	height: 390px;
+	float: left;
+	background: url(../../images/edus/05pic1.jpg) no-repeat;
+}
+.con-05-pic2{
+	width:369px;
+	height:390px;
+	margin-left:74px;
+	float: left;
+	background: url(../../images/edus/05pic2.jpg) no-repeat;
+}
+.con-07{
+	height:108px;
+	padding-top:30px; 
+}
+.con-08{
+	height: 100px;
+	padding-top:30px;
+}
+.con-11{
+	padding-top:25px;
+	height: 404px;
+}
+.con-11-pic{
+	width:844px;
+	height:291px;
+	margin-top:30px;
+	background: url(../../images/edus/11pic.jpg) no-repeat;
+}
+.con-12{
+	height:528px;
+	padding-top:25px;
+}
+.con-12-pic{
+	height:414px;
+	margin-top:50px;
+	background:url(../../images/edus/12pic.jpg) no-repeat;
+}
+.con-13{
+	height:108px;
+	padding-top:30px;
+}
+.con-14{
+	height:229px;
+	padding-top:30px;
+}
+.con-14-pic1{
+	width: 642px;
+	height:88px;
+	margin-top:77px;
+	line-height: 88px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	background: url(../../images/edus/process_bottom.png) no-repeat;
+	float: left;
+}

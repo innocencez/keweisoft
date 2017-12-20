@@ -1,0 +1,353 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  关于我们
+*******************************************************************************/
+/*公共样式*/
+.top-link{
+	height:55px;
+	line-height:55px;
+}
+.top-link a{
+	color:#666;
+	font-size:16px;
+}
+
+.sales-team-tit{
+	width:100%;
+	height:560px;
+	background: url(../../images/keweisoft/sales-team-titbg.jpg) no-repeat;
+}
+
+.sales-team-con{
+	width:100%;
+	height: 1008px;
+	background: url(../../images/keweisoft/sales-team-conbg.jpg) center 0px no-repeat; 
+}
+
+.implement-team-tit{
+	width:100%;
+	height: 513px;
+	background: url(../../images/keweisoft/implement-team-titbg.jpg) center 0px no-repeat;
+}
+.implement-team-con{
+	width:100%;
+	height:1354px;
+	background: url(../../images/keweisoft/implement-team-conbg.jpg) center 0px no-repeat;
+	margin-bottom:62px;
+}
+
+.sales-team-con-items{
+	width:100%;
+	height: 760px;
+	padding-top:35px;
+}
+.sales-team-con-item1{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-cy.png) no-repeat;
+	float: left;
+}
+
+.sales-team-con-item2{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-qg.png) no-repeat;
+	float: left;
+	margin-left:37px;
+}
+.sales-team-con-item3{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-zmj.png) no-repeat;
+	float: left;
+	margin-left:37px;
+}
+.sales-team-con-item4{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-yfz.png) no-repeat;
+	float: left;
+	margin-left:37px;
+}
+.sales-team-con-item5{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-xmc.png) no-repeat;
+	float: left;
+	margin-top:29px;
+}
+.sales-team-con-item6{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-zdj.png) no-repeat;
+	float: left;
+	margin-top:29px;
+	margin-left:37px;
+}
+.sales-team-con-item7{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-lsj.png) no-repeat;
+	float: left;
+	margin-top:29px;
+	margin-left:37px;
+}
+.sales-team-con-item8{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-gqh.png) no-repeat;
+	float: left;
+	margin-top:29px;
+	margin-left:37px;
+}
+
+.sales-team-con-item9{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-gy.png) no-repeat;
+	float: left;
+	margin-top:29px;
+}
+
+.sales-team-con-item10{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-wxd.png) no-repeat;
+	float: left;
+	margin-top:29px;
+	margin-left:37px;
+}
+
+.sales-team-con-item11{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-ljj.png) no-repeat;
+	float: left;
+	margin-top:29px;
+	margin-left:37px;
+}
+
+.sales-team-con-item12{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/xs-dgt.png) no-repeat;
+	float: left;
+	margin-top:29px;
+	margin-left:37px;
+}
+.sales-team-con-tel{
+	width:480px;
+	height:68px;
+	background: url(../../images/keweisoft/sales-team-tel.png) left center no-repeat;
+	margin-top:110px;
+	padding-left:138px;
+	font-size:46px;
+	line-height: 68px;
+	color:#333;
+}
+
+.implement-team-con-items{
+	width:100%;
+	height: 1290px;
+	padding-top:35px;
+}
+
+.implement-team-con-item1{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-sw.png) no-repeat;
+	float: left;
+}
+
+.implement-team-con-item2{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-chj.png) no-repeat;
+	float: left;
+	margin-left:37px;
+}
+.implement-team-con-item3{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-jt.png) no-repeat;
+	float: left;
+	margin-left:37px;
+}
+.implement-team-con-item4{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-yhj.png) no-repeat;
+	float: left;
+	margin-left:37px;
+}
+
+.implement-team-con-item5{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-bl.png) no-repeat;
+	float: left;
+	margin-top:29px;
+}
+
+.implement-team-con-item6{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-lzh.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item7{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-nh.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item8{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-wyg.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item9{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-zsq.png) no-repeat;
+	float: left;
+	margin-top:29px;
+}
+
+.implement-team-con-item10{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-zlq.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item11{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-dn.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item12{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-wjj.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item13{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-gxq.png) no-repeat;
+	float: left;
+	margin-top:29px;
+}
+
+.implement-team-con-item14{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-zyx.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item15{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-zjh.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item16{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-wxc.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item17{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-zyz.png) no-repeat;
+	float: left;
+	margin-top:29px;
+}
+
+.implement-team-con-item18{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-fy.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item19{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-gpj.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.implement-team-con-item20{
+	width:232px;
+	height: 232px;
+	background: url(../../images/keweisoft/js-cj.png) no-repeat;
+	float: left;
+	margin-left:37px;
+	margin-top:29px;
+}
+
+.team-item-h{
+	width:232px;
+	height:232px;
+	position: absolute;
+	background: url(../../images/keweisoft/team-item-bg.png) no-repeat;
+	z-index: 1000;
+	display: none;
+}
+.team-item-name{
+	position: absolute;
+	top: 130px;
+	left: 70px;
+	font-size: 26px;
+	color: #FFF;
+}
+.team-item-job{
+	position: absolute;
+	top: 185px;
+	left: 55px;
+	font-size: 16px;
+	color: #FFF;
+	display: inline-block;
+	width: 128px;
+	height: 22px;
+	text-align: center;
+}

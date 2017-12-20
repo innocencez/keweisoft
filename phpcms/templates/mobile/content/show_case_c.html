@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/news.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+<!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		{template "content","head_sub"}
+		<p class="news-t-link">
+			{catpos($catid)}{$title}
+		</p>
+		<h1 class="news-tit">{$title}</h1>
+		<p class="news-tit-sub"><span>浏览量 <span id="hits"><script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script></span></span><span style="margin-left:40px;">更新时间 {date('Y-m-d',strtotime($inputtime))}</span></p>
+		<div class="news-content">
+			{php echo trim(strip_tags($content,"<p><a><strong><br>"))}
+		</div>
+		{pc:content action="relation" relation="$relation" id="$id" catid="$catid" num="4"}
+		{if $data}
+		<div class="news-relations">
+			<p class="rela-tit">相关阅读</p>
+			{loop $data $r}
+			<div class="rela-item"><a href="{$r[url]}" target="_blank">【{$CATEGORYS[$r[catid]][catname]}】{str_cut($r[title],46,'...')}</a></div>
+			{/loop}
+		</div>
+		{/if}
+		{/pc}
+		<div class="news-yanshi">
+			<a href="" target="_blank"><div class="ny-btn">立即预约演示</div></a>
+		</div>
+		{template "content","bottom_top"}
+		{template "content","bottom"}
+	</body>
+</html>

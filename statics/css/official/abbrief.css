@@ -1,0 +1,524 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  关于我们
+*******************************************************************************/
+
+.content{
+	width:100%;
+	height:5885px;
+	background: #fff;
+}
+.ab-tit{
+	height:124px;
+	background: url(../../images/keweisoft/ab-con-pic.jpg) no-repeat;
+	margin-top: 20px;
+}
+.ab-brief{
+	height:512px;
+}
+.ab-brief-tit{
+	background: url(../../images/keweisoft/ab-tit-bg.png) left center no-repeat;
+	padding-left:40px;
+	font-size:24px;
+
+}
+.ab-brief-con{
+	font-size:14px;
+	color:#7d7d7d;
+	margin-top:20px;
+	line-height: 30px;
+}
+.ab-con-mission{
+	width: 100%;
+	height:198px;
+	line-height:198px;
+	margin-top:40px;
+}
+.ab-con-mission span{
+	color:#333;
+	font-size:26px;
+	font-size:bold;
+	margin-left:10px;
+}
+.ab-con-mission a{
+	float:right;
+	background: url(../../images/keweisoft/ab-con-tel.png) left center no-repeat;
+	padding-left:30px;
+	font-size:24px;
+	color:#333;
+}
+
+.ab-vision{
+	width:1040px;
+	height:561px;
+	margin: 180px auto 0px;
+	background: #f4f4f4;
+}
+
+.vision1{
+	width:100%;
+	height:56px;
+	padding-top:25px;
+	background: url(../../images/keweisoft/ab-con-index1.png) left 95% no-repeat;
+}
+.vision2{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/keweisoft/ab-con-index2.png) left 95% no-repeat;
+}
+.vision3{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/keweisoft/ab-con-index3.png) left 95% no-repeat;
+}
+.vision4{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/keweisoft/ab-con-index4.png) left 95% no-repeat;
+}
+.vision5{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/keweisoft/ab-con-index5.png) left 95% no-repeat;
+}
+.vision-motto{
+	width:261px;
+	height:56px;
+	float: left;
+	background: #ff6600;
+	margin-left:87px;
+	color:#fff;
+	font-size:24px;
+	text-align: center;
+	line-height:56px;
+}
+.vision-line{
+	width:102px;
+	height:28px;
+	float: left;
+	border-bottom: 1px solid #333;
+}
+.vision1-con{
+	width:464px;
+	height:56px;
+	float: left;
+	margin-left:24px;
+	font-size:18px;
+	text-align: left;
+	line-height:56px;
+	color: #333;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+.vision2-con{
+	width:464px;
+	height:72px;
+	float: left;
+	margin-left:24px;
+	font-size:18px;
+	text-align: left;
+	line-height:36px;
+	color: #333;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+
+.ab-ads{
+	width:1040px;
+	height:100px;
+	margin: 0 auto;
+	background: url(../../images/keweisoft/ab-ads1.jpg) center 0px no-repeat;
+}
+.ab-ads2{
+	width:1040px;
+	height:100px;
+	margin: 0 auto;
+	background: url(../../images/keweisoft/ab-ads2.jpg) center 0px no-repeat;
+}
+.ab-ads3{
+	width:1040px;
+	height:100px;
+	margin: 0 auto;
+	background: url(../../images/keweisoft/ab-ads3.jpg) center 0px no-repeat;
+}
+.ab-sub{
+	width:100%;
+	height:280px;
+	margin-top:30px;
+}
+.ab-sub1{
+	width:100%;
+	height:280px;
+	margin-top:30px;
+}
+
+.ab-sub-con{
+	width:454px;
+	height:198px;
+	float: left;
+	margin-left:133px; 
+	margin-top:40px;
+}
+.ab-sub-con1{
+	width:454px;
+	height:198px;
+	float: left;
+	margin-top:75px;
+}
+
+.ab-sub-con h1{
+	color:#28282e;
+	font-size:24px;
+	letter-spacing:1px;
+	font-weight: normal;
+}
+
+.sub-con-line{
+	width:100%;
+	height:18px;
+	background: url(../../images/keweisoft/ab-con-line.jpg) repeat-x;
+	margin-top:30px;
+}
+
+.ab-sub1-case{
+	width:100%;
+	height:39px;
+	margin-top:60px;
+}
+.ab-sub1-case-tit{
+	width:350px;
+	height:39px;
+	float: left;
+	line-height:39px;
+	color:#ff6600;
+	font-size:26px;
+}
+.ab-sub1-case-line{
+	width:690px;
+	height:39px;
+	float: left;
+	background: url(../../images/keweisoft/ab-con-line.jpg) left center repeat-x ;
+}
+.ab-sub1-case-item1{
+	height: 112px;
+	width:100%;
+	margin-top:20px;
+}
+.ab-sub1-case-item2{
+	height: 122px;
+	width:100%;
+	margin-top:10px;
+}
+.ab-sub1-case-item1-items{
+	height: 112px;
+	width:309px;
+	float: left;
+}
+
+.ab-sub1-case-item2-items{
+	height: 122px;
+	width:309px;
+	float: left;
+}
+.ab-case-line{
+	width:100%;
+	height:29px;
+	background: url(../../images/keweisoft/process_bottom_sline.jpg) no-repeat;
+	margin-top:34px;
+	margin-bottom:20px;
+}
+
+.ab-ads1{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	margin-top:30px;
+	background: url(../../images/keweisoft/ab-adv2.jpg) no-repeat;
+}
+.ab-ads1 span{
+	float: left;
+	margin-left:61px; 
+	color:#fff;
+	font-size:24px;
+	letter-spacing: 1px;
+}
+.ab-ads1 a{
+	float: right;
+	font-size:24px;
+	color:#fff;
+	letter-spacing: 1px;
+	margin-right:90px;
+}
+.ab-consult{
+	height:135px;
+	width:100%;
+	margin-top:30px;
+}
+.ab-consult-con{
+	height:135px;
+	width:810px;
+	float: left;
+	margin-left:63px;
+	font-size:14px;
+	color:#666;
+	line-height:25px;
+	margin-top:20px;
+	text-indent:28px;
+}
+
+.ab-consult-process{
+	width:100%;
+	height:274px;
+	margin-top:20px;
+	color:#6b8de1;
+	font-size:24px;
+}
+
+.ab-consult-process-con{
+	width:100%;
+	height:219px;
+	margin-top:20px;
+}
+.ab-process-con1{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	letter-spacing: 1px;
+	background: url(../../images/keweisoft/ab-consult1.jpg) no-repeat;
+	/*-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;*/
+}
+
+.ab-process-con2{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:5px;
+	letter-spacing: 1px;
+	background: url(../../images/keweisoft/ab-consult2.jpg) no-repeat;
+}
+.ab-process-con3{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:5px;
+	letter-spacing: 1px;
+	background: url(../../images/keweisoft/ab-consult3.jpg) no-repeat;
+}
+.ab-process-con4{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:5px;
+	letter-spacing: 1px;
+	background: url(../../images/keweisoft/ab-consult4.jpg) no-repeat;
+}
+/*.ab-process-con1:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}*/
+
+.ab-process-arrow{
+	width:44px;
+	height:50px;
+	background: url(../../images/keweisoft/ab-process-arrow.jpg) no-repeat;
+	float: left;
+	margin:80px 0px 0px 5px;
+}
+
+.ab-implement{
+	width:100%;
+	height:114px;
+	margin-top:24px;
+}
+.ab-implement-item1{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico1.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item2{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico2.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item3{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico3.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item4{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico4.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item5{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico5.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item6{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico6.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item7{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico7.jpg) no-repeat;
+	float: left;
+}
+.ab-implement-item8{
+	width:120px;
+	height:114px;
+	background: url(../../images/keweisoft/ab-con-ico8.jpg) no-repeat;
+	float: left;
+}
+
+.ab-aftersale-process{
+	width:100%;
+	height:117px;
+	margin-top:34px;
+	color:#6b8de1;
+	font-size:24px;
+}
+.ab-aftersale-process-type{
+	width:906px;
+	height:71px;
+	margin-left:65px;
+	margin-top:25px;
+}
+.ab-afersale-process-item1{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/keweisoft/ab-aftersale-ico7.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item1:hover,.ab-afersale-process-item2:hover,.ab-afersale-process-item3:hover,.ab-afersale-process-item4:hover,.ab-afersale-process-item5:hover,.ab-afersale-process-item6:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+.ab-afersale-process-item2{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/keweisoft/ab-aftersale-ico6.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item3{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/keweisoft/ab-aftersale-ico5.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item4{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/keweisoft/ab-aftersale-ico4.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item5{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/keweisoft/ab-aftersale-ico3.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+
+.ab-afersale-process-item6{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:35px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/keweisoft/ab-aftersale-ico2.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+<html>
+	<head>
+		<title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="{$SEO['keyword']}" />
+		<meta name="description" content="{$SEO['description']}" />  
+		<link rel="stylesheet" type="text/css" href="{CSS_PATH}edus/common.css" />
+		<link href="{CSS_PATH}edus/lrtk.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="{JS_PATH}edus/jquery-1.4.2.min.js"></script>
+		{if $catid == 110}<script type="text/javascript" src="{JS_PATH}edus/act.js"></script>{/if}
+		<script type="text/javascript" src="{JS_PATH}edus/common.js"></script>		
+		<script type="text/javascript" src="{JS_PATH}edus/lrtk.js"></script>				
+	</head>
+	<body>
+	<div style="display:none;" id="rocket-to-top">
+		<div style="opacity:1;display:block;" class="level-2"></div>
+		<div class="level-3"></div>
+	</div>	
+<!--		<div class="top">
+			<div class="m-content">
+				<a href="#" class="top-left">集团官网</a>			
+				<a href="" class="top-right">电话：010-51651266</a>
+				<a href="javascript::" class="top-weixin" onmouseover="showWeixinMenu(this,true)" onmouseout="showWeixinMenu(this)">官方微信</a>
+			</div>
+		</div>
+		<div class="m-content m-weixin">
+			<div class="weixin" id="weixin">
+				<img src="{IMG_PATH}edus/weixin.jpg" alt="可为时代官方微信" title="可为时代官方微信" class="wx-img" />	
+				<p class="wx-word">扫一扫，关注<span style="color:red;">可为时代</span>，了解可为最新发布产品和市场动态</p>
+			</div>
+		</div>
+		<!--主导航-->
+		<div class="nav m-content">
+			<a href="{siteurl($siteid)}" target="_blank"><img src="{IMG_PATH}edus/logo.png" class="logo" alt="可为edus培训机构管理软件" title="可为edus培训学校管理软件" /></a>
+			<ul class="nav-con" id="nav_ul">
+				<li style="width:35px;"><a href="{siteurl($siteid)}" id="nav1" _t_nav="home" target="_blank">首页</a></li>
+				<li style="width:35px;"><a href="{$CATEGORYS[124][url]}" id="nav2" _t_nav="advantage" target="_blank">优势</a></li>
+				<li><a id="nav3" _t_nav="product">产品中心</a></li>
+				<li><a href="{$CATEGORYS[125][url]}" id="nav4" _t_nav="solution" target="_blank">解决方案</a></li>
+				<li><a href="{$CATEGORYS[140][url]}" id="nav5" _t_nav="case" target="_blank">成功案例</a></li>
+				<li><a href="{$CATEGORYS[134][url]}" id="nav6" _t_nav="service" target="_blank">服务体系</a></li>
+				<li><a href="{$CATEGORYS[139][url]}" id="nav7" _t_nav="news" target="_blank">产品资讯</a></li>
+				<li><a href="{$CATEGORYS[107][url]}" id="nav8" _t_nav="aboutus" target="_blank">关于我们</a></li>
+			</ul>
+		</div>
+		<!--主导航-->
+<!--二级导航-->
+		<div class="navigation-down">
+		<div id="product" class="nav-down-menu menu-1" style="display: none;" _t_nav="product">
+			<div class="navigation-down-inner">
+				<dl style="margin-left:530px;">
+					<dd>
+						<a href="{$CATEGORYS[114][url]}" target="_blank">多校区集团管理</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[115][url]}" target="_blank">市场营销管理</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[119][url]}" target="_blank">教务管理</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[121][url]}" target="_blank">财务管理</a>
+					</dd>					
+				</dl>
+				<dl>
+					<dd>
+						<a href="{$CATEGORYS[116][url]}" target="_blank">学员管理</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[117][url]}" target="_blank">一对一</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[118][url]}" target="_blank">一对多</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a href="{$CATEGORYS[120][url]}" target="_blank">考勤管理</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[122][url]}" target="_blank">决策分析</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[123][url]}" target="_blank">集成扩展</a>
+					</dd>
+
+				</dl>
+				
+			</div>
+		</div>
+		<div id="solution" class="nav-down-menu menu-1" style="display: none;" _t_nav="solution">
+			<div class="navigation-down-inner">
+				<dl style="margin-left:700px;">
+					<dd>
+						<a href="{$CATEGORYS[126][url]}" target="_blank">中小学辅导</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[127][url]}" target="_blank">外语辅导</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[128][url]}" target="_blank">少儿培训</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[129][url]}" target="_blank">职业资格培训</a>
+					</dd>					
+				</dl>
+				<dl>
+					<dd>
+						<a href="#" target="_blank">留学培训</a>
+					</dd>
+					<dd>
+						<a href="#" target="_blank">企业管理</a>
+					</dd>
+					<dd>
+						<a href="#" target="_blank">体育培训</a>
+					</dd>
+					<dd>
+						<a href="{$CATEGORYS[133][url]}" target="_blank">艺术培训</a>
+					</dd>					
+				</dl>
+			</div>
+		</div>
+		<div id="service" class="nav-down-menu menu-1" style="display:none" _t_nav="service">
+			<div class="navigation-down-inner">
+				<dl style="margin-left: 800px;">
+					<dd>
+						<a class="link" href="{$CATEGORYS[134][url]}" target="_blank">服务概述</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a class="link" href="{$CATEGORYS[135][url]}" target="_blank">咨询服务</a>
+					</dd>
+				</dl>				
+				<dl>
+					<dd>
+						<a class="link" href="{$CATEGORYS[136][url]}" target="_blank">实施服务</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a class="link" href="{$CATEGORYS[137][url]}" target="_blank">售后服务</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a class="link" href="{$CATEGORYS[138][url]}" target="_blank">个性化定制开发</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		
+		<div id="aboutus" class="nav-down-menu menu-1" style="display: none;" _t_nav="aboutus">
+			<div class="navigation-down-inner">
+				<dl style="margin-left: 880px;">
+					<dd>
+						<a href="{$CATEGORYS[107][url]}" target="_blank">企业简介</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a href="{$CATEGORYS[109][url]}" target="_blank">企业历程</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a href="{$CATEGORYS[111][url]}" target="_blank">精英团队</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a href="{$CATEGORYS[110][url]}" target="_blank">企业活动</a>
+					</dd>
+				</dl>
+				<dl>
+					<dd>
+						<a href="{$CATEGORYS[108][url]}" target="_blank">联系我们</a>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+		<!--二级导航-->

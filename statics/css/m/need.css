@@ -1,0 +1,134 @@
+.news-yanshi{
+	width: 100%;
+	background: #fff;
+}
+.ny-btn{
+	height: 30px;
+	width: 85%;
+	background: #ff0000;
+	font-size: 14px;
+	color:#fffcfc;
+	margin: 20px auto 0px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.edu-all-link{
+	width: 100%;
+	height: 143px;
+	margin-top:10px;
+}
+.eal-item{
+	width: 24%;
+	height: 70px;
+	background:#f6f7fc;
+	float: left;
+	text-align: center;
+	margin-left:1%;
+}
+.eal-item a{
+	font-size: 14px;
+	color:#666;
+}
+.eali1{
+	background:url(../../images/m/in-bo1.png) center center no-repeat;
+	background-size: 25px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali2{
+	background:url(../../images/m/in-bo2.png) center center no-repeat;
+	background-size: 26px 18px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali3{
+	background:url(../../images/m/in-bo3.png) center center no-repeat;
+	background-size: 22px 23px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali4{
+	background:url(../../images/m/in-bo4.png) center center no-repeat;
+	background-size: 27px 21px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali5{
+	background:url(../../images/m/in-bo5.png) center center no-repeat;
+	background-size: 22px 26px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali6{
+	background:url(../../images/m/in-bo6.png) center center no-repeat;
+	background-size: 21px 20px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali7{
+	background:url(../../images/m/in-bo7.png) center center no-repeat;
+	background-size: 23px 22px;
+	padding-top:45px;
+	display: inline-block;
+}
+.eali8{
+	background:url(../../images/m/in-bo8.png) center center no-repeat;
+	background-size: 22px 19px;
+	padding-top:45px;
+	display: inline-block;
+}
+
+.need-con{
+	width:100%;
+	height: 500px;
+	background: #f4f8ff;
+	margin-top:6px;
+	overflow: hidden;
+}
+.need-con-center{
+	width:93%;
+	margin:10px auto;
+}
+.need-tit{
+	font-size:14px;
+	color:#666;
+	font-weight: bold;
+	text-align: left;
+}
+#name,#tel,#Company,#mail{
+	width: 96%;
+	height: 20px;
+	border: 1px solid #e0e0e0;
+	margin-top:10px;
+	border-radius: 7px;
+	padding:5px 2%;
+}
+#need{
+	width:96%;
+	height: 50px;
+	border: 1px solid #e0e0e0;
+	margin-top:10px;
+	border-radius: 7px;
+	padding:5px 2%;	
+}
+.ncc-tip{
+	font-size: 12px;
+	color:#9b9b9b;
+	display: block;
+	margin-top: 8px;
+}
+.ncc-btn{
+	width: 29%;
+	height: 30px;
+	margin: 10px auto;
+	display: block;
+	color:#fff;
+	font-size: 14px;
+	background: #ff0000;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+}

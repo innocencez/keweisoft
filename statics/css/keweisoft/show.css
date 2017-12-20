@@ -1,0 +1,335 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  1.0
+*Level:  global
+*Explain:  列表页
+*******************************************************************************/
+.edu-subnav{
+	height: 56px;
+	background: #eee;
+	overflow: hidden;
+	margin-top:20px;
+}
+.edu-subnav-tit{
+	width:173px;
+	height: 56px;
+	background: url(../../images/keweisoft/crm-navBg.png) left center no-repeat;
+	color:#fff;
+	line-height: 56px;
+	font-size:24px;
+	float: left;
+	padding-left:5px;
+}
+.es-item1{
+	width: 120px;
+	height: 51px;
+	float: left;
+	text-align: center;
+	padding-top:5px;
+}
+.es-item1 li{
+	margin-top:12px;
+}
+.es-item1 li a{
+	font-size:16px;
+	color:#666;
+	line-height: 24px;
+}
+.top-nav{
+	height: 27px;
+	overflow: hidden;
+	line-height: 27px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size: 14px;
+}
+.top-nav a{
+	font-size:14px;
+}
+.show-b1{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.show-b1-left{
+	width:714px;
+	float: left;
+}
+.sbl-content{
+	height: auto;
+}
+.sbl-tit{
+	font-size:18px;
+	color:#333;
+	text-align: center;
+	font-weight: normal;
+}
+.sbl-sub{
+	width: 100%;
+	text-align: center;
+	margin-top:20px;
+}
+.sbl-date{
+	font-size:14px;
+	color:#0f67de;
+}
+.sbl-hit{
+	font-size:14px;
+	color:#0f67de;
+	margin-left:50px; 	
+}
+#hits{
+	font-size:14px;
+	color:#0F67DE;
+}
+.sbl-desc{
+	height: 47px;
+	width:694px;
+	background: #f2f2f4;
+	padding:5px 10px;
+	margin-top:17px;
+	font-size:14px;
+	line-height: 24px;
+}
+.sbl-keyword{
+	width:694px;
+	height: 32px;
+	background: #f2f2f4;
+	margin-top: 17px;
+	line-height: 32px;
+	font-size: 14px;
+	padding:0 10px;
+}
+
+.sbl-keyword span{
+	font-size:14px;
+	margin-right:15px;
+}
+.sbl-content{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 25px;
+}
+.sbl-pre{
+	width:100%;
+	margin-top: 240px;
+}
+.sbl-link{
+	font-size:14px;
+}
+.sbl-link:hover{
+	color:#eb6100;
+}
+
+.sbl-next{
+	width:100%;
+	margin-top: 5px;
+}
+.share{
+	margin:25px 0px 0px 480px;
+}
+.sbl-relation{
+	width: 100%;
+	height: 206px;
+	border: 1px solid #e3e1e1;
+	margin-top: 17px;
+}
+.sblr-head{
+	height: 36px;
+	width:100%;
+	background:#f2f2f4;
+	line-height: 36px; 
+}
+.sblr-left{
+	font-size:14px;
+	color:#666;
+	background: url(../../images/keweisoft/show-headBg.jpg) left center no-repeat;
+	padding-left:15px;
+	margin-left: 7px;
+	display: inline-block;
+	float: left;
+}
+.sblr-right{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	margin-right: 5px;
+}
+.sblr-item{
+	overflow: hidden;
+	margin-top: 10px;
+	margin-left:10px;
+}
+.sblr-item li a{
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+}
+.sblr-item li span{
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+	margin-right:10px;
+}
+.sblr-item li{
+	width:100%;
+	height: 28px;
+	line-height: 28px;
+}
+.sblr-item li a:hover{
+	color:#eb6100;
+}
+.show-b1-right{
+	width:306px;
+	float: right;
+}
+.sbr-b1{
+	width:304px;
+	height: 394px;
+	border:1px solid #ddddde;
+}
+.sbr-b1-head{
+	width: 100%;
+	height: 45px;
+	background: url(../../images/keweisoft/list-right-line.jpg) left bottom no-repeat;
+}
+.sbh-left{
+	font-size:18px;
+	margin-top: 10px;
+	display: inline-block;
+	margin-left:5px;
+}
+.sbh-right{
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+	color:#eb6100;
+	margin-top:15px;
+	margin-right:5px;
+}
+.sbr-b1-con{
+	overflow: hidden;
+	line-height: 26px;
+	padding:0px 8px;
+}
+.sbr-b1-con li{
+	width:100%;
+	float: left;
+}
+.sbr-b1-con li a{
+	display: inline-block;
+	font-size:14px;
+	float: left;
+}
+.sbr-b1-con li a:hover{
+	color:#EB6100;
+}
+.sbc-item1{
+	background: url(../../images/keweisoft/show-num1.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item2{
+	background: url(../../images/keweisoft/show-num2.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item3{
+	background: url(../../images/keweisoft/show-num3.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item4{
+	background: url(../../images/keweisoft/show-num4.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item5{
+	background: url(../../images/keweisoft/show-num5.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item6{
+	background: url(../../images/keweisoft/show-num6.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item7{
+	background: url(../../images/keweisoft/show-num7.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item8{
+	background: url(../../images/keweisoft/show-num8.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item9{
+	background: url(../../images/keweisoft/show-num9.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item10{
+	background: url(../../images/keweisoft/show-num10.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item11{
+	background: url(../../images/keweisoft/show-num11.jpg) left center no-repeat;
+	padding-left:20px;
+}
+.sbc-item12{
+	background: url(../../images/keweisoft/show-num12.jpg) left center no-repeat;
+	padding-left:20px;
+}
+
+.sbr-b3{
+	width:306px;
+	height: 112px;
+	background: url(../../images/keweisoft/show-ads.jpg) left center no-repeat;
+	margin-top:20px;
+}
+.sbc-case{
+	background: url(../../images/keweisoft/show-caseItemBg.png) left center no-repeat;
+	padding-left:12px;
+}
+.sbc-hot{
+	width:14px;
+	height: 13px;
+	background: url(../../images/keweisoft/b1-hot.png) center center no-repeat;
+	display: inline-block;
+	float: left;
+}
+.lbr-wechat{
+	width:304px;
+	height: 320px;
+	overflow: hidden;
+	margin-top:20px;
+	border: 1px solid #e9e9e9;
+}
+.lbr-wechat-head{
+	width:100%;
+	height: 49px;
+	background: url(../../images/keweisoft/list-right-line.jpg) left bottom no-repeat;
+}
+.lwh-left{
+	font-size:18px;
+	background: url(../../images/keweisoft/lwh-bg.jpg) left center no-repeat;
+	padding-left:25px;
+	display: inline-block;
+	float: left;
+	margin-top:15px;
+	margin-left:5px;
+
+}
+.lwh-con{
+	font-size:14px;
+	line-height: 24px;
+	padding:11px 10px 0px 17px;
+}
+.lwh-img{
+	margin-left:85px;
+	cursor: pointer;
+}
+.lwh-word{
+	font-size:18px;
+	color:#333;
+	text-align: center;
+}
+
+.sbc-date{
+	font-size:14px;
+	display: inline-block;
+	float: right;
+}

@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/pro-crm.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+	    <script type="text/javascript">
+	      $(function(){
+	        var _x = $(window).width();
+	        var _y = (_x * 264) / 640;
+	        $('.auto-banner').css({
+	          width : _x,
+	          height : _y,
+	          margin : '10px auto 0',
+	          textAlign : 'center',
+	          position : 'relative',
+	        }).find('img').attr({
+	          width : _x,
+	          height : _y,
+	        });
+	      })
+	    </script> <!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		{template "content","head_sub"}
+		<div class="order-banner auto-banner">
+			<img src="{IMG_PATH}m/financial-banner.jpg" alt="财务管理" title="财务管理" />
+		</div>		
+		<div class="sales-pro-head" style="margin-top:0px;">核心管控点</div>
+		<div class="sales-pro-content">
+			<p class="op-pic1"></p>
+			<p class="sp-tit">订金管理</p>
+			<p class="sp-con">1. 可为CRM支持订金支付业务，当收取订金时，会与学员签订一个初期合同；当学员正式报名后，系统会自动将订金转化为学费。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="op-pic2"></p>
+			<p class="sp-tit">收款管理</p>
+			<p class="sp-con">1. 财务人员可以根据培训机构内部收费标准和优惠标准收取相关费用并打印收据。</p>
+			<p class="sp-con">2. 可为CRM收款提醒功能，日、周有哪些应收款，逾期未收的应收款等日常财务提醒，大大的提高了财务人员工作效率。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="op-pic3"></p>
+			<p class="sp-tit">退费管理</p>
+			<p class="sp-con">1. 可为CRM系统可根据学员的课时消耗情况，结合学生考勤考核，自动结算学院退费金额。大大减少了退费带来的财务纠纷。</p>
+			<p class="sp-con">2. 可关联相关人员进行退费审核，确保退费操作的透明性。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="op-pic4"></p>
+			<p class="sp-tit">合同管理</p>
+			<p class="sp-con">1. 系统支持学员合同的基本信息，以及相关的付款、收款、账户、关联费用等内容的查看，同时能够将合同对应的定金信息、资金账户、资金流动记录、销售明细、学员跟进信息等记录下来，方便财务人员进行对账，打开合同，即能看到与合同相关的各类信息。同时学员合同也作为销售利润提成的参考，是衡量销售人员业务能力的重要指标。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="op-pic5"></p>
+			<p class="sp-tit">费用申请管理</p>
+			<p class="sp-con">1. 费用申请支持审批流，可灵活设置费用申请单项，申请单可以根据销售机会、签约行动、学员合同生成，也可以手工创建。</p>
+			<p class="sp-con">2. 支持对申请单的修改、删除、提交、审核、弃审等操作，销售人员可通过网报进行费用报销，申请单与支出单总额不能超申请金额。</p>
+			<p class="sp-con">3. 费用管理模块可以帮助企业有效地控制项目成本，让每笔花费都透明化。</p>
+		</div>
+		<div class="sales-pro-content">
+			<p class="op-pic6"></p>
+			<p class="sp-tit">费用审批管理</p>
+			<p class="sp-con">1. 培训机构上级管理人员通过审批销售人员的费用申请，了解近期费用使用情况，评估销售人员费用是否合理，并提出审批意见，指导销售人员更好地开展销售工作。</p>
+			<p class="sp-con">2. 审批历史记录销售提交某个费用申请所经历的过程，通过提交审批，获得审批结果，明确费用记录规范标准，方便下一次的费用申请。</p>
+		</div>
+		<div class="sales-pro-content" style="border-bottom:none;">
+			<p class="op-pic7"></p>
+			<p class="sp-tit">统计报表</p>
+			<p class="sp-con">1. 可为CRM实现对学员跟进过程中申请费用的明细化管理，通过自定义的财务分析表来多维度、清晰的管理各部门、各跟进过程、各销售人员的费用情况。</p>
+			<p class="sp-con">2. 能够更好地控制培训机构内部的费用支出，以便于让销售主管掌握线索跟进情况和进行销售人员的考核。</p>
+			<p class="sp-con">3. 系统会自动记录学员的每笔资金变动记录，包括扣费、缴费、退费、续费等，每笔流水记录会传递到财务汇总报表中，便于财务人员的统计分析，实现财务工作的精准分析和精细化管理。</p>
+		</div>												
+
+		<div class="p-btn">立即预约演示</div>
+		{template "content","bottom"}
+	</body>
+</html>

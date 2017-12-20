@@ -1,0 +1,68 @@
+{template "content","header"}
+<script type="text/javascript" src="{JS_PATH}formvalidator.js" charset="UTF-8"></script> 
+<script type="text/javascript" src="{JS_PATH}formvalidatorregex.js" charset="UTF-8"></script>
+<link href="{CSS_PATH}guestbook.css" rel="stylesheet" type="text/css" />
+<link href="{CSS_PATH}table_form.css" rel="stylesheet" type="text/css" /> 
+<!--main-->
+<div class="main">
+<!--left_bar-->
+<div class="col-liuyanban">
+<div class="crumbs"><a href="{siteurl($siteid)}">网站首页</a><span> &gt; </span><a href="{APP_PATH}index.php?m={ROUTE_M}&siteid={$siteid}">留言板</a><span> &gt; </span>{$type_arr[name]}</div>
+<div>
+<form action="{APP_PATH}index.php?m=guestbook&c=index&a=register&siteid={$siteid}" method="post" name="myform" id="myform">
+<table cellspacing="1" cellpadding="0" class="table_form" width="960px">
+<tbody>
+<tr> 
+<th>姓　　名：</th>
+<td><span>{$username}</span></td>
+</tr>
+<tr>
+  <th>填写留言：</th>
+  <td><textarea name="introduce" cols="40" rows="5" class="input-text" id="introduce" style='width:500px;height:70px;'></textarea></td>
+</tr>
+{if $setting[1]['enablecheckcode']=='1'}
+<tr>
+       <th>验证码：</th>
+       <td><input name="code" type="text" id="code" size="10"  class="input-text"/> {form::checkcode('code_img','4','14',110,30)}</td>
+</tr>
+{/if}
+<tr> 
+<th></th>
+<td><input type="submit" value=" 提 交 " name="dosubmit" class="button"></td>
+</tr> 
+</tbody></table>
+</form>
+        </div>
+
+    </div>
+<!--right_bar--></div>
+<script type="text/javascript">
+<!--
+	$(function(){
+	$.formValidator.initConfig({autotip:true,formid:"myform",onerror:function(msg){}});
+
+	$("#introduce").formValidator({onshow:"请输入留言内容",onfocus:"请输入留言内容"}).inputValidator({min:10,max:200,onerror:"10-100个字之间"});
+ 	$("#code").formValidator({onshow:"请输入验证码",onfocus:"验证码不能为空"}).inputValidator({min:1,max:999,onerror:"验证码不能为空"}).ajaxValidator({
+	    type : "get",
+		url : "",
+		data :"m=pay&c=deposit&a=public_checkcode",
+		datatype : "html",
+		async:'false',
+		success : function(data){	
+            if(data == 1)
+			{
+                return true;
+			}
+            else
+			{
+                return false;
+			}
+		},
+		buttons: $("#dosubmit"),
+		onerror : "验证码错误",
+		onwait : "验证中"
+	});
+ 	})
+//-->
+</script>
+{template "content","footer"}

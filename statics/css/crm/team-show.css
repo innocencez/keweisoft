@@ -1,0 +1,265 @@
+/*
+* version:2.0
+* author:keweisoft.com
+* date:2015-09-15
+/*公共样式*/
+html,body,div,p,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input{margin:0;padding:0;}
+img{border:0 none; vertical-align: top;}
+ul,li{list-style-type: none;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+body,div,form,input,select,button,textarea{font-family:微软雅黑;}
+button{cursor:pointer;}
+body,div,a{color:#333;}
+a{text-decoration: none;}
+.m-content{
+	width: 1040px;
+	margin: 0 auto;
+}
+.head{
+	width:1040px;
+	height: 83px;
+	margin:0 auto;
+}
+.head-logo{
+	width: 175px;
+	height: 54px;
+	float: left;
+	margin-top: 20px;
+}
+.head-nav{
+	width:760px;
+	height: 52px;
+	line-height: 52px;
+	margin-top: 18px;
+	float: left;
+	margin-left: 20px;
+}
+.head-right{
+	display: inline-block;
+	float: right;
+	font-size: 14px;
+	color: #fff;
+	background: #fc7c4a;
+	border-radius: 3px;
+	padding: 2px 5px;
+	margin-top: 32px;
+}
+.head-nav li{
+	width: 108px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.head-nav li a{
+	font-size: 16px;
+	color:#666;
+}
+.head-nav li a:hover{
+	color:#fa8032;
+}
+.head-nav li .s-nav{
+	position:absolute;
+	top:50px;
+	left:-1px;
+	list-style:none;
+	display:none;
+	background: #f5f5fc;
+	border: 1px #cdcdcd solid;
+	box-shadow: 3px 3px 3px #777;
+}
+.head-nav li .s-nav li{
+	text-align:center;
+	clear:left;
+	width:120px;
+	height:35px;
+	line-height:35px;
+	position:relative;	
+}
+.head-nav li .s-nav li a{
+	height:34px;
+	line-height:34px;
+	width:120px;
+	padding:0;
+	display:inline-block;
+	font-size: 14px;	
+}
+.sub-nav{
+	width:100%;
+	height: 59px;
+	background: url(../../images/crm/pro-sub-navBg.png) left center repeat-x;
+}
+.sub-nav-list,.sub-nav-down-list{
+	height: 56px;
+	width: 100%;
+	overflow: hidden;
+}
+.sub-nav-list li,.sub-nav-down-list li{
+	width: 130px;
+	height: 56px;
+	float: left;
+	line-height: 56px;
+	text-align: center;
+}
+.sub-nav-list li a{
+	font-size: 16px;
+	color:#333;
+}
+.sub-nav-down{
+	width:100%;
+	height: 59px;
+	background: url(../../images/crm/pro-sub-navDownBg.png) left center repeat-x;
+}
+.sub-nav-down-list li a{
+	font-size:16px;
+	color:#fff;
+}
+.sub-nav-item{
+	width: 162px !important;
+}
+.sub-nav-btn{
+	width: 121px;
+	height: 40px;
+	background: #fa8032;
+	font-size: 16px;
+	color:#fffefe;
+	text-align: center;
+	line-height: 40px;
+	float: right;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+.sub-nav-btn:hover{
+	background:#EB8928;
+}
+.bottom{
+	width:100%;
+	height: 278px;
+	background: #3e4758;
+	overflow: hidden;
+	margin-bottom:-34px;
+}
+.bottom-mid{
+	width: 890px;
+	height: 172px;
+	margin: 28px auto 0px;
+	border-bottom: 1px solid #fcfcfd;
+}
+.bottom-mid dt a{
+	font-size: 18px;
+	color:#fcfcfd;
+}
+.bottom-mid dd a{
+	font-size: 14px;
+	color:#fcfcfd;
+	line-height: 24px;
+}
+.bottom-mid dl{
+	width: 72px;
+	float: left;
+}
+.bottom-mid dt,.bottom-mid dd{
+	text-align: center;
+}
+.bottom-mid dt{
+	margin-bottom: 15px;
+}
+.QRcode{
+	width:150px;
+	float: right;
+	text-align: center;
+	margin-right: 15px;
+}
+.QRcode span{
+	display: inline-block;
+	color:#fcfcfd;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top:15px;
+}
+.f-link{
+	margin-top: 15px;
+	text-align: center;
+}
+.f-link span,.f-link a{
+	color:#fcfcfd;
+	font-size: 14px;
+	line-height: 24px;
+}
+.f-link a{
+	display: inline-block;
+	margin-right: 26px;
+}
+.c-right{
+	font-size: 14px;
+	color:#fcfcfd;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 10px;
+}
+/***************************/
+.aboutus-banner{
+	width: 100%;
+	height: 560px;
+	overflow: hidden;
+}
+.aboutus-banner1{
+	width: 100%;
+	height: 280px;
+	background: url(../../images/crm/about-top.jpg) center center no-repeat;
+}
+.aboutus-banner2{
+	width: 100%;
+	height: 280px;
+	background: url(../../images/crm/about-bottom.jpg) center center no-repeat;
+}
+
+.top-link{
+	height:55px;
+	line-height:55px;
+}
+.top-link a{
+	color:#666;
+	font-size:16px;
+}
+
+.team-show-tit{
+	width:1005px;
+	height:36px;
+	line-height:36px;
+	padding-left:35px;
+	background: url(../../images/edus/team-show-tit1.jpg) left 2px no-repeat;
+	font-size:36px;
+	color:#fc690b;
+}
+.team-show-con{
+	width:772px;
+	float: left;
+	margin-top:57px;
+}
+.team-show-item1{
+	width:100%;
+	height:429px;
+}
+.team-show-c{
+	width:411px;
+	height:429px;
+	float: left;
+}
+.team-show-item2{
+	width:100%;
+	margin-top:37px;
+}
+.team-show-item2-tit{
+	width:98%;
+	height:48px;
+	background: url(../../images/edus/team-show-tit.jpg) left top no-repeat;
+	color:#fff;
+	font-size:24px;
+	line-height: 48px;
+	padding-left:2%;
+}
+.team-show-news{
+	width:227px;
+	height:auto;
+	float:right;
+}

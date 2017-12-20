@@ -1,0 +1,345 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  1.0
+*Level:  global
+*Explain:  列表页
+*******************************************************************************/
+.edu-subnav{
+	height: 56px;
+	background: #eee;
+	overflow: hidden;
+	margin-top:20px;
+}
+.edu-subnav-tit{
+	width:173px;
+	height: 56px;
+	background: url(../../images/keweisoft/crm-navBg.png) left center no-repeat;
+	color:#fff;
+	line-height: 56px;
+	font-size:24px;
+	float: left;
+	padding-left:5px;
+}
+.es-item1{
+	width: 120px;
+	height: 51px;
+	float: left;
+	text-align: center;
+	padding-top:5px;
+}
+.es-item1 li{
+	margin-top:12px;
+}
+.es-item1 li a{
+	font-size:16px;
+	color:#666;
+	line-height: 24px;
+}
+.top-nav{
+	height: 27px;
+	overflow: hidden;
+	line-height: 27px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size: 14px;
+	color:#333;
+}
+.top-nav a{
+	font-size:14px;
+	color:#333;
+}
+.list-b1{
+	overflow: hidden;
+}
+.list-b1-left{
+	width:715px;
+	overflow: hidden;
+	float: left;
+	margin-top:10px;
+}
+.lbl-item{
+	width:715px;
+	height:195px;
+	background: url(../../images/keweisoft/list-itemBg.png) left bottom no-repeat;
+	margin-bottom:14px;
+}
+.lbl-itemImg{
+	float: left;
+}
+.lbl-itemCon{
+	width:422px;
+	height: 165px;
+	float: right;
+	position: relative;
+}
+.lbl-itemConTit{
+	text-align: center;
+	line-height: 20px;
+}
+.lbl-itemConTit a{
+	font-size:18px;
+	color:#333;
+	font-weight:normal;
+}
+.lbl-itemConDesc{
+	font-size:14px;
+	line-height: 24px;
+	overflow: hidden;
+	margin-top:15px;
+}
+.share{
+	position: absolute;
+	bottom:0px;
+}
+.lbl-itemLink{
+	width:100px;
+	height: 20px;
+	position: absolute;
+	bottom:0px;
+	right: 0px;
+}
+.lbl-link{
+	font-size:14px;
+	color:#3487f7;	
+}
+.list-b1-right{
+	width:306px;
+	float: right;
+	margin-top:10px;
+}
+
+.list-b1-banner{
+	height: 187px;
+	width: 306px;
+	position: relative;
+	overflow: hidden;
+}
+.oUlplay { 
+	width:99999px; 
+	position:absolute; 
+	left:0; 
+	top:0;
+}
+.oUlplay li{ 
+	float:left;
+}
+.pre{ 
+	cursor:pointer; 
+	width:45px; 
+	height:45px; 
+	background:url(../../images/keweisoft/l.png) no-repeat; 
+	position:absolute; 
+	top:140px; 
+	left:10px; 
+	z-index:10;
+}
+.next{ 
+	cursor:pointer; 
+	width:45px; 
+	height:45px; 
+	background:url(../../images/keweisoft/r.png) no-repeat; 
+	position:absolute; 
+	top:140px; 
+	right:10px; 
+	z-index:10;
+}
+.smalltitle {
+	width:480px; 
+	height:10px; 
+	position:absolute; 
+	bottom:15px; 
+	z-index:10
+}
+
+.smalltitle ul{ 
+	width:120px; 
+	margin:0 auto;
+}
+.smalltitle ul li{ 
+	width:10px; 
+	height:10px; 
+	margin:0 5px; 
+	border-radius:10px; 
+	background:#ffffff; 
+	float:left; 
+	overflow:hidden;
+	*display:inline;
+	*zoom:1;
+}
+.smalltitle .thistitle{ 
+	background:#69aaec;
+}
+
+.lbr-case{
+	width:304px;
+	height: 306px;
+	overflow: hidden;
+	margin-top:20px;
+	border: 1px solid #eeeef0;
+}
+.lbr-case-head{
+	height: 34px;
+	width:306px;
+	background: url(../../images/keweisoft/list-right-line.jpg) left bottom no-repeat;
+}
+.lch-left{
+	font-size:18px;
+	display: inline-block;
+	float: left;
+	background: url(../../images/keweisoft/list-rightHead.jpg) left center no-repeat;
+	padding-left:20px;
+	margin-left:5px;
+	margin-top:3px;
+}
+.lch-right{
+	font-size:14px;
+	color:#fd890d;
+	display: inline-block;
+	float: right;
+	margin-top:7px;
+	margin-right:3px;
+}
+.lc-item{
+	line-height: 28px;
+	margin-top:10px;
+}
+.lc-link1{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num1.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link2{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num2.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link3{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num3.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link4{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num4.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link5{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num5.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link6{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num6.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link7{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num7.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link8{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num8.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link9{
+	font-size:14px;
+	display: inline-block;
+	background: url(../../images/keweisoft/list-num9.jpg) left center no-repeat;
+	padding-left:20px;
+	float: left;
+	margin-left:5px;
+}
+.lc-link1:hover,.lc-link2:hover,.lc-link3:hover,.lc-link4:hover,.lc-link5:hover,.lc-link6:hover,.lc-link7:hover,.lc-link8:hover,.lc-link9:hover{
+	color:#fd890d;
+}
+.lc-date{
+	display: inline-block;
+	float: right;
+	font-size:14px;
+	margin-right:5px;
+}
+.lbr-ads{
+	width:306px;
+	height: 112px;
+	margin-top:20px;
+}
+.lbr-tags{
+	width:290px;
+	height: 254px;
+	overflow: hidden;
+	margin-top:15px;
+	margin-left:10px;
+}
+.lbr-tag{
+	display: inline-block;
+	font-size:14px;
+	margin-right:7px;
+	line-height: 24px;
+}
+.lbr-tag:hover{
+	color:#fd890d;
+}
+.lbr-wechat{
+	width:304px;
+	height: 320px;
+	overflow: hidden;
+	margin-top:20px;
+	border: 1px solid #e9e9e9;
+}
+.lbr-wechat-head{
+	width:100%;
+	height: 49px;
+	background: url(../../images/keweisoft/list-right-line.jpg) left bottom no-repeat;
+}
+.lwh-left{
+	font-size:18px;
+	background: url(../../images/keweisoft/lwh-bg.jpg) left center no-repeat;
+	padding-left:25px;
+	display: inline-block;
+	float: left;
+	margin-top:15px;
+	margin-left:5px;
+
+}
+.lwh-con{
+	font-size:14px;
+	line-height: 24px;
+	padding:11px 10px 0px 17px;
+}
+.lwh-img{
+	margin-left:85px;
+	cursor: pointer;
+}
+.lwh-word{
+	font-size:18px;
+	color:#333;
+	text-align: center;
+}

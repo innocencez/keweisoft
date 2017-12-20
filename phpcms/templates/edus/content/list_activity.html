@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+        <meta name="keywords" content="{$SEO['keyword']}" />
+        <meta name="description" content="{$SEO['description']}" />		
+		<link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="{CSS_PATH}edus/abact.css" />
+		<script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+		<script src="{JS_PATH}edus/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+		<script src="{JS_PATH}edus/act.js" type="text/javascript"></script>
+	</head>
+	<body>	
+		{template "content","head"}
+		<div class="banner-top"></div>
+		<div class="banner-bottom"></div>
+		<div class="top-link m-content">
+			<a href="{siteurl($siteid)}">首页</a> > <a href="{$CATEGORYS[$catid][url]}">企业活动</a>
+		</div>		
+		<div class="m-content ab-act-con">
+			<div class="ab-act-con1">
+				<div class="ab-act-con1-act">
+					<div class="ab-act-con1-tit">
+						<span style="font-size:24px; color:#900000;" >市场活动</span>
+						<a href="{$CATEGORYS[28][url]}" style="font-size:18px;color:#900000;float:right;">More >></a>
+					</div>
+					{pc:content action="lists" catid="139" order="listorder DESC" num="4"}
+					{loop $data $r}
+					{php $db = pc_base::load_model('hits_model');}
+					{php $_r = $db->get_one(array('hitsid'=>'c-17-'.$r[id]));}
+					{php $views = $_r['views'];}
+					<div class="ab-act-con1-con">
+						<img src="{$r[thumb]}" alt="{$r[title]}" title="{$r[title]}" width="240" height="155" style="float:left;margin-top:5px;" />
+						<div class="ab-act-con1-item">
+							<div style="width:100%;height:24px;"><a href="" style="color:#ff6600;font-size:16px;">{str_cut($r[title],65,'...')}</a><span style="color:#333;font-size:14px;float:right;">点击：{$views}</span></div>
+							<p>{str_cut($r[description],225,'...')}</p>
+							<a href="{$r[url]}" style="color:#ff6600;font-size:14px;float:right;margin-top:15px;">查看详情>></a>
+						</div>
+					</div>
+					{/loop}
+					{/pc}
+				</div>
+				<div class="ab-act-con1-news">
+					<div class="ab-act-con1-news-tit">客户案例</div>
+					{pc:content action="lists" catid="140" order="listorder DESC" num="4"}
+					{loop $data $r}
+					<div class="ab-act-con1-news-item" {if $n!=1}style="margin-top:15px;"{/if}>
+						<img src="{$r[thumb]}" alt="{$r[title]}" title="{$r[title]}" width="260" height="118" />
+						<a href="{$r[url]}" style="width:98%;color:#777;line-height:20px;font-size:12px;padding-left:2%; margin-top:15px; display:block;">{str_cut($r[description],85,'...')}</a>
+					</div>
+					{/loop}
+					{/pc}
+				</div>
+			</div>
+			<div class="ab-act-ads">传递管理知识&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;推动信息化发展</div>
+			<div class="ab-act-pics">
+				<p style="text-align:center;color:#3a4352;font-size:40px;">员工风采</p>
+				<p style="text-align:center;margin-top:20px;"><img src="{IMG_PATH}edus/ab-act-line.png" alt="" title="" /></p>
+				<p style="text-align:center;margin-top:30px;color:#3a4352;font-size:24px;line-height:35px;">在这里，我们共同成长和欢笑，与公司一起，经历过大大小小的挫折，也饱尝过丰收的喜悦。那些伴随光影定格的过去，正见证着可为的崛起与我们的成熟......，记录在这里的，属于可为人的，点点滴滴</p>
+				<p style="text-align:center;margin-top:40px;"><img src="{IMG_PATH}edus/ab-act-dot.png" alt="" title="" /></p>
+			<div id="wrapper">
+				<div id="carousel">
+					<div><img src="{IMG_PATH}edus/1.jpg" alt="图片1" width="687" height="451" /></div>
+					<div><img src="{IMG_PATH}edus/2.jpg" alt="图片2" width="687" height="451" /></div>
+					<div><img src="{IMG_PATH}edus/3.jpg" alt="图片3" width="687" height="451" /></div>
+					<div><img src="{IMG_PATH}edus/4.jpg" alt="图片4" width="687" height="451" /></div>
+					<div><img src="{IMG_PATH}edus/5.jpg" alt="图片5" width="687" height="451" /></div>
+				</div>
+			</div>				
+			</div>
+			
+		</div>
+		<div class="s-ads">
+			<div class="m-content">
+				<div class="s-ads-tit">更多了解可为？<br />请联系我们</div>
+				<img src="{IMG_PATH}edus/process_bottom_arrow.png" alt="" title="" style="margin-top:55px;float:left;" />
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">告诉我们您的需求</a></div>
+				<div class="s-ads-btn2"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">预约演示</a></div>
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">在线咨询可为</a></div>
+				<div class="s-ads-tel"></div>
+			</div>
+		</div>
+{template "content","footer"}
+	</body>		
+</html>

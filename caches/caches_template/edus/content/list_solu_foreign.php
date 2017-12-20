@@ -1,0 +1,306 @@
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?><!DOCTYPE html>
+<html>
+  <head>
+    <title><?php if($catid && !$modelid) { ?><?php echo $catname;?> — <?php } ?><?php if(isset($SEO['title']) && !empty($SEO['title'])) { ?><?php echo $SEO['title'];?><?php } ?><?php echo $SEO['site_title'];?></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+    <meta name="keywords" content="<?php echo $SEO['keyword'];?>" />
+    <meta name="description" content="<?php echo $SEO['description'];?>" />    
+    <link type="text/css" href="<?php echo CSS_PATH;?>edus/head.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH;?>edus/stopic.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo CSS_PATH;?>edus/slick.css" />
+    <script type="text/javascript" src="<?php echo JS_PATH;?>edus/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="<?php echo JS_PATH;?>edus/common.js"></script>
+    <script type="text/javascript" src="<?php echo JS_PATH;?>edus/slick.js"></script>
+  </head>
+  <body>  
+    <?php include template("content","head"); ?> 
+		<div class="fore-banner">
+			<div class="m-content" style="position:relative">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank" target="_blank"><div class="fore-banner-btn">点击详细咨询</div></a>
+			</div>
+		</div>
+		<div class="fore-block1 m-content">
+			<div class="fore-block-tit">外语培训行业概述</div>
+			<div class="fore-block1-con">随着我国对外开放的不断扩大和国际地位的显著提高，英语作为世界上最广泛使用的语言和重要的交际工具，越来越得到人们的重视，由此催生了一个庞大而火爆的产业——英语培训产业。据专家预测，中国教育培训市场未来10年的规模可达3000亿元，培训机构增长率可超过25%，英语培训市场前景则最为广阔，竞争也将是最为激烈的。</div>
+			<div class="fore-block1-sub">
+				<div class="fore-block1-item">
+					<div class="fb1-item1">一、市场准入低</div>
+					<div class="fb1-sub">中等城市的英语培训市场有本土的大学机构，有社会力量办学;有具有一定规模和品牌的外语学校，也有很多作坊式的英语培训机构。这表明，各类培训机构、培训班还没有较规范的市场准入机制，英语培训市场准入的门槛还相当低。甚至还有不正规的甚至是非法的培训机构进入，鱼目混珠，造成教育质量参差不齐。</div>
+				</div>
+				<div class="fore-block1-item" style="margin-left:30px;">
+					<div class="fb1-item2">二、市场监管不力</div>
+					<div class="fb1-sub">目前的培训机构仅仅依靠自身的经营理念来进行培训的教学管理。整个市场缺乏有效的监管。各级教育管理部门只是在机构的成立审批方面发挥作用，而对成立之后的培训管理则是基本处于放任自流的状态。工商行政部门对培训机构的管理也只限于财务和税收方面，这样就形成了英语培训市场的监管盲区。在外部缺乏监管的情况下，很多英语培训机构根本无法做到良好的自律。</div>
+				</div>
+				<div class="fore-block1-item" style="margin-left:30px;">
+					<div class="fb1-item3">三、培训效果不理想</div>
+					<div class="fb1-sub">资金是决定培训效果的主要原因。许多培训学校为节约成本，绝大多数聘请兼职老师和在校大学生。由于兼职老师与学校利益没有直接的关系，很多老师仅仅抱着赚外快的心态在校任课，教学难以全身心的投入。而在校大学生没有经过正规的教学训练，缺乏教学经验，教学效果无法得到有效的保证和评估。学校请的外教也是没有任教资格的外国人凑数，由于对中国学员的需求状况和思考模式不了解，教学效果可想而知。</div>
+				</div>								
+			</div>
+		</div>
+		<div class="fore-ads"></div>
+		<div class="fore-block2 m-content">
+			<div class="fore-block-tit">外语培训行业管理需求</div>
+			<div class="fb2-item-tit">
+				<div class="fb2-item-left">销售管理</div>
+			</div>
+			<div class="fb2-item-con">
+				<div class="fb2-item-list">
+					<div class="fb2-item-list-left">渠道管理&信息管理：</div>
+					<div class="fb2-item-list-right">目前教育机构在渠道比较难，一般是手工记录，财务给渠道结账就很困难。</div>
+				</div>
+				<div class="fb2-item-list" style="margin-top:12px;">
+					<div class="fb2-item-list-left">销售管理：</div>
+					<div class="fb2-item-list-right">销售是企业非常重要的部门，销售管理不好直接影响企业利润，如何管控销售跟单，怎么知道销售当天的回访情况，信息来了有没有及时回访。</div>
+				</div>	
+				<div class="fb2-item-list" style="margin-top:12px;">
+					<div class="fb2-item-list-left">转化率管理：</div>
+					<div class="fb2-item-list-right">怎么管控销售人员跟单管理过程，怎么让新员工快速接待客户，怎么提高信息签单转化率。</div>
+				</div>	
+				<div class="fb2-item-list" style="margin-top:12px;">
+					<div class="fb2-item-list-left">数据分析：</div>
+					<div class="fb2-item-list-right-double">管理人员如何分析员工工作数据，传统肯定没法分析，因为没有记录工作数据，即便是表格记录，很难留存，流失很多优秀销售成功案例。</div>
+				</div>	
+				<div class="fb2-item-list" style="margin-top:12px;">
+					<div class="fb2-item-list-left">信息安全：</div>
+					<div class="fb2-item-list-right-double">如何避免人员离职、导致信息流失，以及客户的流失。如何让客户形成体系化，让客户跟公司走，销售人员和教务老师业务沟通繁琐，不能前端后端一体化数据管理，给公司和客户造成不必要的损失。</div>
+				</div>																		
+			</div>
+			<div class="fb2-item-tit">
+				<div class="fb2-item-left">财务管理</div>
+			</div>	
+			<div class="fb2-item2-con">
+				<div class="fb2-item2-center">财务管理</div>
+				<div class="fb2-item2-list1">
+					<p class="fb2-item2-list-left-tit">合同管理</p>
+					<p class="fb2-item2-list-con">合同一般在很多机构就是收据比较多，即便有合同也就是纸质，归档查找很困难，要是查看老合同就更困难</p>
+				</div>
+				<div class="fb2-item2-list2">
+					<p class="fb2-item2-list-left-tit">收费管理</p>
+					<p class="fb2-item2-list-con">传统就是手工收费、优惠比较复杂，简单收据，收费信息就是表格记录，事后查询比较难，数据难保存，财务难对账等</p>
+				</div>
+				<div class="fb2-item2-list3">
+					<p class="fb2-item2-list-left-tit">优惠管理</p>
+					<p class="fb2-item2-list-con">往往我们销售人员在推销课程，优惠基本没有标准，财务在收费基本按照销售当时对客户承诺优惠来做，这样往往让公司承担风险，事后也很难查，如果客户退费，财务就会很头疼</p>					
+				</div>
+				<div class="fb2-item2-list4">
+					<p class="fb2-item2-list-right-tit">支出管理</p>
+					<p class="fb2-item2-list-con">机构在平时校区活动经费、市场经费、办公费用很难管理，对账很困难</p>					
+				</div>
+				<div class="fb2-item2-list5">
+					<p class="fb2-item2-list-right-tit">退费管理</p>
+					<p class="fb2-item2-list-con">退费再教育机构是比较复杂，往往财务再退费时，需要和教务、销售反复沟通，还容易出现矛盾</p>					
+				</div>
+				<div class="fb2-item2-list6">
+					<p class="fb2-item2-list-right-tit">转课管理</p>
+					<p class="fb2-item2-list-con">转课在培训行业属于很常见，但是在转课的差价换算比较复杂，主要是人工换算费时费力，准确度还差，事后查看数据基本就是纸质，查起来很麻烦</p>		
+				</div>				
+			</div>	
+			<div class="fb2-item-tit" style="margin-top:59px;">
+				<div class="fb2-item-left">教务管理</div>
+			</div>
+			<div class="fb2-item3-con">
+				<div class="fb2-item3-list">
+					<div class="fb2-item3-list-tit">学员管理</div>
+					<div class="fb2-item3-list-con">如何让我们学员信息管理规范化，如何让我们教务管理学员高效化，如何降低我们人工教务成本。</div>
+				</div>
+				<div class="fb2-item3-list" style="margin-left:17.5px;margin-top:25px;">
+					<div class="fb2-item3-list-tit">老师管理</div>
+					<div class="fb2-item3-list-con">在很多机构老师管理也比较复杂， 专职老师和兼职老师两种，老师档案管理，如何管理老师时间是目前机构比较头疼的问题</div>	
+				</div>	
+				<div class="fb2-item3-list" style="margin-left:17.5px;">
+					<div class="fb2-item3-list-tit">排课管理</div>
+					<div class="fb2-item3-list-con">排课是很多机构常见问题，一旦老师少、学员多，如何能清晰知道老师那些时间可以排课，那些时间有课，如何让老师排课高效化，这是很多机构需要解决的问题</div>
+				</div>
+				<div class="fb2-item3-list" style="margin-left:17.5px;margin-top:25px;">
+					<div class="fb2-item3-list-tit">教学管理</div>
+					<div class="fb2-item3-list-con">教学质量管理一直很难管控，如何把控老师教学质量?如何让老师讲的课程、让学员回家落实，这个问题一直很难解决</div>
+				</div>	
+				<div class="fb2-item3-list" style="margin-left:17.5px;">
+					<div class="fb2-item3-list-tit">考勤管理</div>
+					<div class="fb2-item3-list-con">老师考勤，学员考勤是很多机构很难统计，一般是课时条，教务统计很困难，财务统计发工资也很困难</div>
+				</div>										
+			</div>	
+			<div class="fb2-item-tit" style="margin-top:52px;">
+				<div class="fb2-item-left">校长管理</div>
+			</div>	
+			<div class="fb2-item4-con">
+				<div class="fb2-item4-list1"><strong>财务管理：</strong>作为校长如何实时掌握校区财务状况，比如今天、这个月收了多少钱，校区支出费用情况，账面还有多少钱等等，钱是管理第一位，校长如何实时管控财务。</div>
+				<div class="fb2-item4-list2"><strong>服务管理：</strong>服务是培训机构最难管理，如果一个服务很好的企业，肯定受客户欢迎认可，在教育培训行业服务一直很难做好，校长可能是、最想把每一位学员服务好，但是目前没有几家机构能做到，如何解决问题。</div>
+				<div class="fb2-item4-list3"><strong>员工管理：</strong>校长如何知道每位员工工作情况，避免公司人才流失，让校长知人善用，了解每位员工能力，放在最合适岗位。</div>
+			</div>						
+		</div>
+		<div class="fore-block3 m-content">
+			<div class="fore-block-tit" style="margin-top:53px;">可为外语培训行业解决方案</div>
+			<table class="fb3-con">
+				<thead>
+					<tr>
+						<td>序号</td>
+						<td>主要业务功能</td>
+						<td>功能描述</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>一对一</td>
+						<td>主要管理一对一管理模式,根据一对一学生流程精确高效管理，从学生跟进到成交，到后续服务上课，一体化管理；</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>一对多</td>
+						<td>一对多是根据机构业务模式，一个老师可能一对二、一对三高效管理，从学生跟进到成交、到后续服务上课，一体化管理；</td>
+					</tr>	
+					<tr>
+						<td>3</td>
+						<td>混合模式</td>
+						<td>混合模式根据机构学生报了一对一、也报了一对多、班课业务模式管理，从学生跟进到成交、到后续服务上课，一体化管理；</td>
+					</tr>	
+					<tr>
+						<td>4</td>
+						<td>班课管理</td>
+						<td>班课管理相对简单，主要对小班、大班课学生和班课业务模式高效管理，从学生跟进到成交、到后续服务上课，一体化管理；</td>
+					</tr>		
+					<tr>
+						<td>5</td>
+						<td>排课管理</td>
+						<td>排课管理解决一对一排课、一对多排课、混合排课、班级排课，提高排课准确效率；</td>
+					</tr>	
+					<tr>
+						<td>6</td>
+						<td>学生档案管理</td>
+						<td>档案管理主要精细管理学生档案，和学习档案，便于机构及时分析和查询沉淀信息；</td>
+					</tr>	
+					<tr>
+						<td>7</td>
+						<td>老师管理</td>
+						<td>机构高效使用老师资源，系统可精确查看每个老师目前所受课程和学生量，这样便于分析老师工作量；</td>
+					</tr>	
+					<tr>
+						<td>8</td>
+						<td>CRM客户管理</td>
+						<td>CRM主要是我们课程顾问也就是销售，主要跟进我们客户，客户不可能一次电话就能成交，销售每次和客户电话沟通完，可以记录到CRM系统，销售在CRM做下次电话计划，系统会提示销售给客户打电话，这样便于我们领导分析客户跟进情况；</td>
+					</tr>	
+					<tr>
+						<td>9</td>
+						<td>学生考勤和老师考勤</td>
+						<td>学生每次上课刷卡上课，系统会自动核销学生课时，打印小票，学生一张、老师一张，如果不打印小票，系统也会记录学生考勤和老师考勤；</td>
+					</tr>	
+					<tr>
+						<td>10</td>
+						<td>财务管理</td>
+						<td>财务就是我们日常收费、退费，每次财务收费，系统会自动计算费用，不需要财务人员算，也不需要来回和销售沟通，按照系统来处理，退费也是系统自动核算，基本财务流水账、支出凭证等等；</td>
+					</tr>	
+					<tr>
+						<td>11</td>
+						<td>学生计划管理</td>
+						<td>老师或者教务可以给学生制定学习计划，按照学习计划推进学生学习进度，让家长感觉我们机构专业和负责，也帮助学生提升回家学习规划，领导可以随时查看员工有没有给学生做计划；</td>
+					</tr>	
+					<tr>
+						<td>12</td>
+						<td>学生成绩管理</td>
+						<td>系统可以记录每次学生成绩，学生报名时可以测试学生证实水平，按照学生现有水平，给学生规划学习计划，在机构培训一段时间，在测试学生是否成绩提高，或者学生学校测试成绩也能反映在机构培训效果，记录学生每次成绩，在形成报告给家长，这是很有说服力；</td>
+					</tr>	
+					<tr>
+						<td>13</td>
+						<td>员工管理</td>
+						<td>员工管理主要就是对我们内部员工管理，查看每个员工工作情况和任务进度；</td>
+					</tr>	
+					<tr>
+						<td>14</td>
+						<td>员工计划管理</td>
+						<td>员工计划是员工制定自己周计划、月计划，知道自己这周、这月做什么，要达到什么目标，帮助员工规划自己，领导可以查看员工计划完成进度；</td>
+					</tr>	
+					<tr>
+						<td>15</td>
+						<td>机构管理</td>
+						<td> 	机构管理，可以不断梳理企业管理流程和架构，梳理每个流程是否合理，帮助企业高效管理，支持企业集团化发展架构；</td>
+					</tr>	
+					<tr>
+						<td>16</td>
+						<td>消息管理</td>
+						<td>系统所有功能可以做成消息提醒，帮助我们提前预警，提示我们尽快完成工作，如果不执行提示，系统就会不断提示，领导也会查看员工为什么没有执行提醒任务；</td>
+					</tr>	
+					<tr>
+						<td>17</td>
+						<td>报表中心</td>
+						<td>报表对于机构非常重要，很多数据需要报表体现出来，系统报表非常灵活，系统所有字段可以自定义报表，非常强大；</td>
+					</tr>	
+					<tr>
+						<td>18</td>
+						<td>审批中心</td>
+						<td>员工可以发起特殊申请课程优惠，领导可以到审批中心查看自己需要审批事项，系统也会提示，员工发起申请肯定不是他自己权限所能决定，必须需要流程审批，这样便于企业管理风险和监督；</td>
+					</tr>	
+					<tr>
+						<td>19</td>
+						<td>打印中心</td>
+						<td>打印中心可以打印所有系统文件，根据自己岗位权限打印自己需要文件；</td>
+					</tr>	
+					<tr>
+						<td>20</td>
+						<td>视图管理</td>
+						<td>视图管理就是统计数据可以进行图视化报表，便于机构分析数据和领导汇报，直观反映分析；</td>
+					</tr>	
+					<tr>
+						<td>21</td>
+						<td>学生端系统</td>
+						<td>学生端系统是EDUS综合教务管理系统子系统，主要是家长用，家长可以看见自己孩子学习进度和对老师机构进行评价，查看孩子目前课程消耗、老师可在学生端系统布置作业，根据今天培训知识，有针对性布置作业，提高学生回家再次有针对性吸收今天学的知识；</td>
+					</tr>	
+					<tr>
+						<td>22</td>
+						<td>刷卡制卡系统</td>
+						<td>主要就是给学生制卡，信息和系统信息绑定，每次上课刷卡，一旦系统一个学生档案发生修改，学生刷卡信息会自动更新。</td>
+					</tr>																				
+				</tbody>
+			</table>
+			<div class="fore-block-tit" style="margin-top:53px;">外语培训典型客户案例</div>
+			<div class="fb3-item2-con slider autoplay">
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo8"></div>
+					<a href="http://edus.keweisoft.com/special/mamalook/" target="_blank"><p class="tit">玛玛洛可少儿英语</p></a>
+				</div>	
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo9"></div>
+					<a href="http://edus.keweisoft.com/special/youjia/" target="_blank"><p class="tit">优加学科英语</p></a>
+				</div>	
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo7"></div>
+					<a target="_blank"><p class="tit">振亚教育</p></a>
+				</div>
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo1"></div>
+					<a href="http://edus.keweisoft.com/case/show_23_1.html" target="_blank"><p class="tit">湖南洋光</p></a>
+				</div>
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo2"></div>
+					<a href="http://edus.keweisoft.com/case/show_9_1.html" target="_blank"><p class="tit">北京新航道</p></a>
+				</div>
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo3"></div>
+					<a href="http://edus.keweisoft.com/case/show_8_1.html" target="_blank"><p class="tit">北京金汉嘉</p></a>
+				</div>
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo4"></div>
+					<a href="http://edus.keweisoft.com/case/show_2_1.html" target="_blank"><p class="tit">北京厚海教育</p></a>
+				</div>
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo5"></div>
+					<p class="tit">汉普森英语</p>
+				</div>	
+				<div class="fb3-item2-list">
+					<div class="fb3-item2-logo6"></div>
+					<a href="http://edus.keweisoft.com/case/show_13_1.html" target="_blank"><p class="tit">北京知行上德教育</p></a>
+				</div>									
+			</div>
+		</div>				
+<?php include template("content","footer"); ?>	
+	</body>
+	<script type="text/javascript">
+		$('.autoplay').slick({
+		  slidesToShow: 5,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  autoplaySpeed: 2000,
+		});
+	</script>	
+</html>

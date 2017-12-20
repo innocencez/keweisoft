@@ -1,0 +1,353 @@
+/*初始化*/
+html ,body{width:100%;height:100%;background:#ffffff;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+.block1{
+	width:100%;
+	height:1061px;
+	background:url(../../images/kwcrm/consult_bg.jpg) no-repeat scroll 0px 0px;
+	position:absolute;
+}
+.content-box{
+	width:1000px;
+	margin:0 auto;
+}
+.sult_menu{
+	width:100%;
+	height:281px;
+	margin-top:309px;
+
+}
+.sult_menu1{
+	width:146px;
+	height:101px;
+	padding-top:45px;
+	float:left;
+	cursor:pointer;
+	margin:135px 30px;
+	text-align:center;
+	background:url(../../images/kwcrm/sult_menu_bg.png);
+}
+.sult_menu1:hover,.sult_menu2:hover,.sult_menu3:hover,.sult_menu4:hover,.sult_menu5:hover{
+	background:url(../../images/kwcrm/sult_menu_bg_hover.png);
+}
+.sult_menu1 a,.sult_menu2 a,.sult_menu3 a,.sult_menu4 a,.sult_menu5 a{
+	color:#ffffff;
+	font-size:20px;
+}
+.sult_menu2{
+	width:146px;
+	height:101px;
+	padding-top:45px;
+	float:left;
+	cursor:pointer;
+	margin:100px 30px;
+	text-align:center;
+	background:url(../../images/kwcrm/sult_menu_bg.png);
+}
+.sult_menu3{
+	width:146px;
+	height:101px;
+	padding-top:45px;
+	float:left;
+	cursor:pointer;
+	margin:50px 20px;
+	text-align:center;
+	background:url(../../images/kwcrm/sult_menu_bg.png);
+}
+.sult_menu4{
+	width:146px;
+	height:101px;
+	padding-top:45px;
+	float:left;
+	cursor:pointer;
+	margin:20px 30px;
+	text-align:center;
+	background:url(../../images/kwcrm/sult_menu_bg.png);
+}
+.sult_menu5{
+	width:146px;
+	height:101px;
+	padding-top:45px;
+	float:left;
+	cursor:pointer;
+	margin:0px 0px 0px 30px;
+	text-align:center;
+	background:url(../../images/kwcrm/sult_menu_bg.png);
+}
+.sult1{
+	width:875px;
+	height:82px;
+	background:url(../../images/kwcrm/sult1.jpg);
+	margin:450px auto;
+	margin-bottom:25px;
+}
+.block2{
+	margin-top:1140px;
+	width:100%;
+	height:613px;
+	background:#f4f4f4;
+}
+.sult_ans{
+	width:855px;
+	height:590px;
+	background:url(../../images/kwcrm/sult_ans.jpg) no-repeat scroll 0px 10px;
+	margin:0 auto;
+}
+.block3{
+	width:100%;
+	height:102px;
+	background: #2a4181;
+}
+.sult_adv{
+	width:699px;
+	height:78px;
+	padding-top:24px;
+	height:100%;
+	float:left;
+}
+#sp1{
+	width:448px;
+	height:39px;
+	background:url(../../images/kwcrm/sp1.png);
+}
+#sp2{
+	color:#fff;
+	font-size:18px;
+	letter-spacing:1px;
+}
+.sult_tel1{
+	width:254px;
+	height:102px;
+	float: right;
+	background: url(../../images/kwcrm/sult_tel.jpg) no-repeat scroll 0 0;
+}
+.block4{
+	width:1000px;
+	height:650px;
+	margin:0px auto;
+}
+.sult_tit1{
+	width:518px;
+	height:135px;
+	margin:23px auto;
+	margin-bottom:10px;
+	background:url(../../images/kwcrm/sult_tit1.jpg);
+}
+.block4 #p1{
+	width:700px;
+	height:37px;
+	font-size:24px;
+	color: #1d1d1b;
+	margin:0px auto;
+}
+.sult2{
+	width:918px;
+	height:366px;
+	margin:85px auto 0px auto;
+	background:url(../../images/kwcrm/sult2.jpg);
+}
+.sult_all{
+	width:910px;
+	height:178px;
+}
+.sult_con1{
+	width:245px;
+	height:138px;
+	margin:15px 40px;
+	float:left;
+}
+.sult_con1 h3,.sult_con2 h3,.sult_con3 h3,.sult_con4 h3{
+	text-align:center;
+	font-family: normal;
+	font-size:30px;
+	color:#85a3a5;
+}
+.sult_con1 p,.sult_con2 p,.sult_con3 p,.sult_con4 p{
+	margin-top:10px;
+	font-size:16px;
+	color:#1d1d1b;
+	letter-spacing:1px;
+}
+
+.sult_con2{
+	width:245px;
+	height:138px;
+	margin:15px 0px 0px 320px;
+	float:left;
+}
+.block5{
+	width:100%;
+	height:187px;
+	background:url(../../images/kwcrm/sult_center_bg.jpg) repeat-x;
+}
+.sult_tit2{
+	width:302px;
+	height:187px;
+	background:url(../../images/kwcrm/sult_tit2.jpg) no-repeat;
+	float:right;
+}
+.sult_tit3{
+	width:657px;
+	height:111px;
+	float:left;
+	margin:70px 0px 0px;	
+}
+.sult_tit3_con{
+	width:100%;
+	height:50px;
+
+}
+.sult_tit3_con_left{
+	width:253px;
+	height:50px;
+	float:left;
+	background:#87d8ed;
+	text-align: center;
+	line-height: 50px;
+	color:#ffff50;
+	font-size:30px;
+}
+
+.sult_tit3_con_left2{
+	width:316px;
+	height:50px;
+	float:left;
+	background:#87d8ed;
+	text-align: center;
+	line-height: 50px;
+	color:#ffff50;
+	font-size:30px;
+}
+.sult_tit3_con_right{
+	width:392px;
+	height:50px;
+	float:left;
+	padding-left:10px;
+	text-align: left;
+	font-size:18px;
+	color:#727171;
+}
+.sult_tit3_con_right2{
+	width:329px;
+	height:50px;
+	float:left;
+	padding-left:10px;
+	text-align: left;
+	font-size:18px;
+	color:#727171;
+}
+.block6{
+	width:1000px;
+	height:919px;
+	background:url(../../images/kwcrm/sult_case_bg.jpg) no-repeat;
+	margin:0 auto;
+}
+.sult_case1{
+	width:323px;
+	height:566px;
+	float:left;
+	margin:180px 0px 0px;
+}
+.case_thumb{
+	width:146px;
+	height:146px;
+	background: url(../../images/kwcrm/sult_case_thumb.png);
+	margin:12px 88px;
+}
+.case_item{
+	width:323px;
+	height:120px;
+}
+.case_item1{
+	width:303px;
+	height:33px;
+	margin-top:20px;
+	cursor:pointer;
+	text-align:left;
+	padding-left:20px;
+	line-height:29px;
+	color:#ffffff;
+	font-size:14px;
+	background:url(../../images/kwcrm/sult3.jpg) no-repeat scroll 10px bottom;
+}
+.case_item2{
+	padding:0px 10px;
+	width:293px;
+	height:92px;
+	color:#343434;
+	font-size:12px;
+	line-height:24px;
+	overflow: hidden;
+}
+.case_item2 span{
+	font-size:12px;
+	color:#343434;
+	line-height:26px;
+}
+
+.sult_case2{
+	width:323px;
+	height:566px;
+	float:left;
+	margin:156px 0px 0px 17px;
+}
+
+.sult_case3{
+	width:300px;
+	height:566px;
+	float:left;
+	margin:119px 0px 0px 17px;
+}
+.case_item3{
+	width:303px;
+	height:33px;
+	margin-top:5px;
+	cursor:pointer;
+	text-align:left;
+	padding-left:20px;
+	line-height:29px;
+	color:#ffffff;
+	font-size:14px;
+	background:url(../../images/kwcrm/sult3.jpg) no-repeat scroll 10px bottom;
+}
+.block7{
+	width:100%;
+	height:445px;
+	background:#f4f4f4;
+	margin-top:5px;
+	padding-top:25px;
+}
+.sult_team{
+	width:1000px;
+	height:268px;
+	padding-top:160px;
+	background: url(../../images/kwcrm/sult_team_bg.jpg);
+	margin:0 auto;
+}
+#scrollpanel{
+	width:990px;
+	height:252px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#innerpanel{
+	float: left;
+	width: 800%;
+}
+#panel1{
+	float: left;
+}
+#panel2{
+	float:left;
+}
+#panel1 a{
+	margin:15px;
+}
+#panel2 a{
+	margin:15px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="keweisoft.com" />
+    <meta name="keywords" content="{$SEO['keyword']}" />
+    <meta name="description" content="{$SEO['description']}" />
+    <link type="text/css" rel="stylesheet" href="{CSS_PATH}official/common.css">
+    <link type="text/css" rel="stylesheet" href="{CSS_PATH}official/user-center.css">
+    <link type="text/css" rel="stylesheet" href="{CSS_PATH}official/hover.css">
+    <link type="text/css" rel="stylesheet" href="{CSS_PATH}official/bootstrap.min.css">
+    <link href="{CSS_PATH}official/guestbook.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="{JS_PATH}official/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="{JS_PATH}official/index.js"></script>
+  </head>
+  <body>
+  {template "content","header"}
+
+<!--main-->
+<div class="m-content">
+    <div class="crumbs"><a href="{siteurl($siteid)}">网站首页</a><span> &gt; </span><a href="{APP_PATH}index.php?m={ROUTE_M}&siteid={$siteid}">留言板</a></div>
+    <div class="m-content g-center">
+      {template "member","left"}
+      <div class="box boxsbg cboxs">
+        <div class="tag_a">
+          {loop $data $v}
+          <table class="ltable" width="95%" border="0"  align="center">
+            <tr>
+            <td width="25%">用户：{$v[username]}</td>
+            <td>时间：{date('Y-m-d H:i:s',$v[addtime])} </td>
+            </tr>
+            <tr>
+              <td colspan="4"><span><b>留言内容：</b>&nbsp;{$v[introduce]}</span></td>
+             </tr>
+            <tr>
+              <td colspan="4"><span class="huifu"><b>管理员回复：</b>&nbsp;{$v[reply]}</span></td>
+            </tr>
+          </table>
+          {/loop}
+          <div class="g-page">{$pages}</div>
+          </div>
+      </div>
+      {if $setting[$siteid]['is_post']=='1'}
+      <div class="txt_c"> <a href="{APP_PATH}index.php?m=guestbook&c=index&a=register&siteid={$siteid}"  target="_blank">我要留言</a> </div>
+      {/if} 
+    </div>
+</div>
+{template "content","footer"} 

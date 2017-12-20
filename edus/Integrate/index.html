@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>集成拓展 — 教育机构中心管理系统|培训学校管理软件 — 可为edus，专门针对培训机构的管理系统</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+    <meta name="keywords" content="培训中心管理软件,教育机构管理系统,教育机构管理软件,培训学校管理系统,培训学校管理软件,培训机构管理系统,培训机构管理软件,培训中心管理系统" />
+    <meta name="description" content="可为edus教务系统是教育培训行业内领先的管理软件，为广大教育培训机构客户提供先进的管理思想和管理工具，为培训机构提供专业的信息化解决方案。" />    
+    <link type="text/css" href="http://www.keweisoft.com/statics/css/edus/head.css" rel="stylesheet">
+   	<link rel="stylesheet" type="text/css" href="http://www.keweisoft.com/statics/css/edus/product.css" />
+    <script type="text/javascript" src="http://www.keweisoft.com/statics/js/edus/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="http://www.keweisoft.com/statics/js/edus/common.js"></script>
+  </head>
+  <body>  
+    		<div style="display:none;" id="rocket-to-top">
+			<div style="opacity:1;display:block;" class="level-2"></div>
+			<div class="level-3"></div>
+		</div>			
+		<div class="header">
+			<div class="inner">
+				<div class="m-content">
+					<div class="header-left">
+						<img src="http://www.keweisoft.com/statics/images/edus/logo.png" alt="可为edus培训机构管理软件" title="可为edus培训机构管理软件">
+					</div>
+					<ul class="header-nav">
+						<li><a href="http://edus.keweisoft.com" target="_blank">首页</a></li>
+						<li><a href="http://edus.keweisoft.com/advantage/" target="_blank">产品中心</a>
+							<ul class="s-nav" id="product">
+								<li class="item" id="pro-edus" style="margin-top:10px;"><a href="http://edus.keweisoft.com/advantage/" target="_blank">培训机构管理系统</a>
+									<div class="right">
+										<div class="each">
+											<div class="item"><a href="http://edus.keweisoft.com/multi-campus/" target="_blank">多校区管理</a>
+												<span>集团化业务管控</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/marketing/" target="_blank">市场营销</a>
+												<span>市场招生、学员跟进</span>
+											</div>	
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/education/" target="_blank">教务管理</a>
+												<span>学员分班排课、教师管理</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/student/" target="_blank">学员管理</a>
+												<span>学员课程、成绩、考勤</span>
+											</div>				
+										</div>
+										<div class="each" style="margin-top:30px;">
+											<div class="item"><a href="http://edus.keweisoft.com/attendance/" target="_blank">考勤管理</a>
+												<span>学员请假考勤、教师考勤</span>
+											</div>	
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/one-on-one/" target="_blank">一对一</a>
+												<span>全面管理一对一辅导业务</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/class/" target="_blank">一对多</a>
+												<span>一对多业务全面涵盖</span>
+											</div>
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/financial/" target="_blank">财务管理</a>
+												<span>学员合同、收费退费</span>
+											</div>					
+										</div>
+										<div class="each" style="margin-top:30px;">
+											<div class="item"><a href="http://edus.keweisoft.com/analysis/" target="_blank">决策分析</a>
+												<span>多维度报表分析</span>
+											</div>	
+											<div class="item" style="margin-left:50px;"><a href="http://edus.keweisoft.com/Integrate/" target="_blank">集成拓展</a>
+												<span>外部系统无缝对接</span>
+											</div>								
+										</div>				
+									</div>
+								</li>
+								<li class="item"><a href="http://edus.keweisoft.com/abroad-erp/" target="_blank">可为留学ERP系统</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/we-xk/" target="_blank">微信选课系统</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/mapp/" target="_blank">EDUS:移动APP</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/app/" target="_blank">EDUS:家校通</a></li>
+								<li class="item"><a href="http://edus.keweisoft.com/souke/" target="_blank">可为在线选课系统</a></li>
+							</ul>
+						</li>
+						<li><a href="http://edus.keweisoft.com/solution/" target="_blank">解决方案</a>
+							<ul class="s-nav" id="solution">
+								<a href="http://edus.keweisoft.com/solu-primary/" target="_blank" style="margin-top:10px;">中小学辅导</a>
+								<a href="http://edus.keweisoft.com/solu-foreign/" target="_blank">外语辅导</a>
+								<a href="http://edus.keweisoft.com/solu-children/" target="_blank">少儿培训</a>
+								<a href="http://edus.keweisoft.com/solu-qualification/" target="_blank">职业资格培训</a>
+								<a href="http://edus.keweisoft.com/solu-overseas/" target="_blank">留学培训</a>
+								<a href="http://edus.keweisoft.com/solu-art/" target="_blank">艺术培训</a>
+							</ul>
+						</li>
+						<li><a href="http://edus.keweisoft.com/case/" target="_blank">成功案例</a></li>
+						<li><a href="http://edus.keweisoft.com/fuwutixi/" target="_blank">服务体系</a>
+							<ul class="s-nav" id="service">
+								<a href="http://edus.keweisoft.com/consult/" target="_blank" style="margin-top:10px;">咨询服务</a>
+								<a href="http://edus.keweisoft.com/implement/" target="_blank">实施服务</a>
+								<a href="http://edus.keweisoft.com/after-sale/" target="_blank">售后服务</a>
+								<a href="http://edus.keweisoft.com/development/" target="_blank">个性化定制开发</a>
+							</ul>
+						</li>
+						<li><a href="http://edus.keweisoft.com/chanpinzixun/" target="_blank">产品资讯</a></li>
+						<li><a href="http://edus.keweisoft.com/aboutus/" target="_blank">关于我们</a>
+							<ul class="s-nav" id="about">
+								<a href="http://edus.keweisoft.com/aboutus/" target="_blank" style="margin-top:10px;">企业简介</a>
+								<a href="http://edus.keweisoft.com/process/" target="_blank">企业历程</a>
+								<a href="http://edus.keweisoft.com/team/" target="_blank">精英团队</a>
+								<a href="http://edus.keweisoft.com/activity/" target="_blank">企业活动</a>
+								<a href="http://edus.keweisoft.com/contact/" target="_blank">联系我们</a>
+							</ul>
+						</li>
+					</ul>
+					<a href="javascript:void(0)" class="header-right">申请试用</a>
+				</div>
+			</div>	
+		</div>			<div class="pro-banner">
+			<div class="pro-banner1"></div>
+			<div class="pro-banner2">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-btn1">
+					点击预约演示
+				</div></a>
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-btn2">
+					点击在线咨询
+				</div></a>
+			<div class="pro-nav">
+				<div class="pro-nav-item">
+					<p class="pro-navItem1"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/multi-campus/" target="_blank">多校区管理</a>
+					</p>
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem2"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/marketing/" target="_blank">市场营销</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem3"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/education/" target="_blank">教务管理</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem4"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/student/" target="_blank">学员管理</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem5"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/one-on-one/" target="_blank">一对一</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem6"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/class/" target="_blank">一对多</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem7"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/attendance/" target="_blank">考勤管理</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem8"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/financial/" target="_blank">财务管理</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item">
+					<p class="pro-navItem9"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/analysis/" target="_blank">决策分析</a>
+					</p>					
+				</div>
+				<div class="pro-nav-item-cur">
+					<p class="pro-navItem10"></p>
+					<p class="pro-navTit">
+						<a href="http://edus.keweisoft.com/Integrate/" target="_blank">集成拓展</a>
+					</p>					
+				</div>
+			</div>				
+			</div>
+		</div>
+		<div class="pro-topCase">
+			<span class="pro-topCase-tit">最新签约动态：</span>
+<!--滚动案例-->			
+			<div id="intrends">
+			<div id="trends">
+				<div id="trend1">
+															<a href="http://edus.keweisoft.com/case/show_30_1.html" class="adv1_movingLink" target="_blank">  2017-06-08     回归教育本质，让系统助力管理革新</a>
+										<a href="http://edus.keweisoft.com/case/show_29_1.html" class="adv1_movingLink" target="_blank">  2017-06-08     跨考教育</a>
+										<a href="http://edus.keweisoft.com/case/show_27_1.html" class="adv1_movingLink" target="_blank">  2017-02-08     【快讯】这一次，可为与新通教育甜蜜宣布&ldquo;...</a>
+										<a href="http://edus.keweisoft.com/case/show_28_1.html" class="adv1_movingLink" target="_blank">  2017-01-28     【麦儿思特】专业、专注更务实，因此我选择...</a>
+										<a href="http://edus.keweisoft.com/case/show_26_1.html" class="adv1_movingLink" target="_blank">  2017-04-12     上元教育与可为续约三生三世&mdash;&mdash;明白你的痛...</a>
+										<a href="http://edus.keweisoft.com/case/show_25_1.html" class="adv1_movingLink" target="_blank">  2016-08-16     河南万邦教育科技有限公司</a>
+										<a href="http://edus.keweisoft.com/case/show_24_1.html" class="adv1_movingLink" target="_blank">  2016-07-12     九拍音乐教育科技有限公司</a>
+										<a href="http://edus.keweisoft.com/case/show_23_1.html" class="adv1_movingLink" target="_blank">  2016-03-25     湖南洋光在线教育科技有限责任公司</a>
+														</div>
+				<div id="trend2"></div>
+			</div>
+			<script type="text/javascript">
+			function scrollLeftPanel(){
+			var speed = 30;
+			var demo = document.getElementById("trends");
+			var demo1 = document.getElementById("trend1");
+			var demo2 = document.getElementById("trend2");
+			demo2.innerHTML = demo1.innerHTML;
+			function marquee(){
+				if(demo2.offsetWidth-demo.scrollLeft<=0) 
+					demo.scrollLeft-=demo.offsetWidth; 
+				else 
+					demo.scrollLeft++; 
+				}
+			var MyMar=setInterval(marquee,speed); 
+			demo.onmouseover=function() {clearInterval(MyMar);} 
+			demo.onmouseout=function() {MyMar=setInterval(marquee,speed);} 
+			}
+			</script>
+			<script type="text/javascript">scrollLeftPanel();</script> 
+			</div>
+		</div>
+<!---->		
+		</div>		<div class="m-content">
+			<div class="pro-inteTit">
+				<p class="pro-inteTit-top">消除教育信息化中信息孤岛弊端，提高工作效率</p>
+				<p class="pro-inteTit-bottom">可为EDUS教务管理系统不仅拥有完善的功能，从技术层面上来讲也是最先进，采用Brower-Server架构，系统设置多层结构，从软件架构上确保了系统的扩展性和适用性。</p>
+			</div>
+			<div class="pro-inteb1">
+				<div class="pro-inteb1-left">
+					<div class="pro-ilpic"></div>
+					<div class="pro-ilbtn">获得更专业的讲解</div>
+					<div class="pro-iltel"></div>
+				</div>
+				<div class="pro-inteb1-right">
+					<div class="pro-inteb1-ritem">
+						<p class="priR1">多维业务界面整合</p>
+						<p class="priR1-con">对外可以集成其他业务系统，应用系统集成功能使教务系统与其他业务系统各个数据可以相互关联，相互传递，减少了人工干预，从而减少了出错率，提高了工作效率。</p>
+					</div>
+					<div class="pro-inteb1-ritem" style="margin-top:19px;">
+						<p class="priR2">关联系统整合</p>
+						<p class="priR1-con">可以实现单点登录功能，可以避免多次登陆多个系统，教务产品作为一个入口连接到别的系统中去，减少人员操作的时间。</p>	
+					</div>
+					<div class="pro-inteb1-ritem" style="margin-top:19px;">
+						<p class="priR3">整合消息流程</p>
+						<p class="priR1-con">整合消息、流程、文档接口，实现了不同系统里或者外部的与教务有关的文件，集成到教务产品系统中
+去，提高了消息，流程，文档集中度和处理速度和使用价值。</p>						
+					</div>
+					<div class="pro-inteb1-ritem" style="margin-top:19px;">
+						<p class="priR4">标准插件技术</p>
+						<p class="priR1-con">教务系统提供采用标准插件规范，使用更加友好，难度大大降低，提供的标准插件有NC，U8，微信，短信插件等，标准插件轻松实现了系统与外部系统的对接。</p>						
+					</div>
+				</div>
+			</div>
+		</div>	
+		<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="ana-ads"></div></a>
+		<div class="m-content">
+			<div class="pro-icon1">
+				<div class="pro-icon1-left">
+					<div class="proiLeft-pic"></div>
+					<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-ilbtn" style="margin-top:100px;">获得更专业的讲解</div></a>
+					<div class="pro-iltel" style="margin-top: 105px;"></div>					
+				</div>
+				<div class="pro-icon1-right">
+					<p class="proiRight-item1"></p>
+					<p class="proiRight-con">教务产品的集成功能提供了与企业官网对接和其他一些网站的对接，从官网和其他网站关联数据，提供移动端的实现，也提供与业务系统对接，例如与NC，U8，SAP，ORCLE对接，实现了数据的自由流转，结束了以前的业务操作系统与财务系统和人事系统等众多系统对接问题，真正使企业信息化达到了无缝对接。</p>
+					<p class="proiRight-item2"></p>
+					<p class="proiRight-con">对于不同业务的教育培训行业我们提供客户化开发平台，可以进行定制化开发，满足教育培训行业的管理需求，拓展了与微信和微博等社交平台的关联，紧跟社交潮流，以提供多种、多方式入口，系统还预留了与其他平台的接口。</p>
+				</div>
+			</div>
+			<div class="pro-iconLine"></div>
+			<div class="pro-icon2">
+				<div class="pro-icon2-left"></div>
+				<div class="pro-icon2-right">
+					<p class="pro-i2Top">可为教务系统拓展性如图，通过交换平台和接口实现教务核心应用和其他系统的对接。</p>
+					<p class="pro-i2Item">外部接口封装为WebService服务，易于集成</p>
+					<p class="pro-i2Item">接口数据标准采用XML格式描述</p>
+					<p class="pro-i2Item">承载在HTTP/HTTPS协议上</p>
+					<p class="pro-i2Item">内外部接口标准统一</p>
+				</div>
+			</div>
+			<p class="pro-icon3">可为教务系统提供了一整套教育行业信息化解决方案，信息化的无缝对接为教育培训机构的带来数据分析的全面，完整，准确，及时的好处，使教育培训机构信息化管理提高到了一个新的阶段，给教育培训机构带来了管理的优化和提升，使教育培训机构更加顺畅的执行公司的战略，并且通过无缝的信息化平台执行战略，获取数据以检验公司战略执行，进而对公司战略进行调整。</p>
+		</div>
+		<div class="promarket-ads" style="margin-top:0px">
+			<div class="promarket-ads-center">
+				<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="pro-ads-btn">在线咨询</div></a>
+			</div>
+		</div>
+
+		<!--产品页面底部公共部分-->		
+		<div class="m-content">
+			<div class="pro-conb1">
+				<p class="pro-conb1-tit">可为EDUS教务系统的使用下，每一家培训机构都能看到自己的企业
+信息化运营迅速发展。</p>
+				<p class="pro-conb1-subtit">通过系统信息化管控，<span style="font-size:24px;color:#fb6b0b">90%</span>的培训机构盈利提升<span style="font-size:24px;color:#fb6b0b">5%-10%</span>，您要做的就是与他们一同竞争的成长！</p>
+			</div>
+			<div class="pro-conb1-con">
+												<div class="pro-conb1-item" >
+					<a href="http://edus.keweisoft.com/case/show_30_1.html"><img src="http://www.keweisoft.com/uploadfile/2017/0830/20170830120021539.jpg" alt="回归教育本质，让系统助力管理革新" title="http://www.keweisoft.com/uploadfile/2017/0830/20170830120021539.jpg" width="366" height="230">
+            		<figcaption>
+                		<h2>回归教育本质，让系统...</h2>
+                		<p style="margin-top:25px;"><span style="font-weight:bold;">所属领域：</span>外语辅导</p>
+                		<p><span style="font-weight:bold;">上线时间：</span>2017-06-08</p>
+            		</figcaption>
+            		</a>	
+				</div>
+								<div class="pro-conb1-item" style="margin-left:41px;">
+					<a href="http://edus.keweisoft.com/case/show_29_1.html"><img src="http://www.keweisoft.com/uploadfile/2017/0804/20170804093654452.jpg" alt="跨考教育" title="http://www.keweisoft.com/uploadfile/2017/0804/20170804093654452.jpg" width="366" height="230">
+            		<figcaption>
+                		<h2>跨考教育</h2>
+                		<p style="margin-top:25px;"><span style="font-weight:bold;">所属领域：</span>职业资格培训</p>
+                		<p><span style="font-weight:bold;">上线时间：</span>2017-06-08</p>
+            		</figcaption>
+            		</a>	
+				</div>
+								<div class="pro-conb1-item" style="margin-left:41px;">
+					<a href="http://edus.keweisoft.com/case/show_27_1.html"><img src="http://www.keweisoft.com/uploadfile/2017/0427/20170427034002723.jpg" alt="【快讯】这一次，可为与新通教育甜蜜宣布“缘来是你”" title="http://www.keweisoft.com/uploadfile/2017/0427/20170427034002723.jpg" width="366" height="230">
+            		<figcaption>
+                		<h2>【快讯】这一次，可为...</h2>
+                		<p style="margin-top:25px;"><span style="font-weight:bold;">所属领域：</span>外语辅导</p>
+                		<p><span style="font-weight:bold;">上线时间：</span>2017-02-08</p>
+            		</figcaption>
+            		</a>	
+				</div>
+									
+			</div>
+			<a href=""><div class="case-btn">查看更多案例</div></a>
+			<div class="pro-conb2">
+				<p class="pro-conb2-tit">可为edus教务系统行业应用，数十年教育培训行业解决方案积累。</p>
+				<p class="pro-conb2-subtit">解决方案不仅仅是解决问题，为大中型教育机构制定适合未来发展的信息化解决方案，提升您的发展速度！<span style="font-size:24px;color:#fb6b0b">满意度</span>，提高机构<span style="font-size:24px;color:#fb6b0b">竞争力</span>，更多功能等您了解</p>
+			</div>
+			<div class="scrol">
+				<a id="prev" class="prev arrow"></a>
+				<a id="next" class="next arrow"></a>
+				<a id="prevTop" class="prev"></a>
+				<a id="nextTop" class="next"></a>	
+				<div id="listBox" class="listBox">
+					<ul>
+						<li class="list1"></li>
+						<li class="list2"></li>
+						<li class="list-on3"></li>
+						<li class="list4"></li>
+						<li class="list5"></li>
+						<li class="list6"></li>
+						<li class="list7"></li>
+						<li class="list8"></li>
+					</ul>
+				</div>
+				<div id="picBox" class="picBox">
+					<ul>
+						<li>
+							<div class="picBox1-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">少儿辅导机构</p>
+								<p class="pRight-con">从婴幼儿培训机构日常运作管理需求出发，市场营销、招生管理，到教务教学管理、财务管理、行政办公管理全面覆盖。业务流程每一环节均可自动即时生成统计报表。</p>
+								<p class="pRight-link"><a href="http://edus.keweisoft.com/solu-children/" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox2-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">英语辅导机构</p>
+								<p class="pRight-con">实现了语言培训机构的信息化管理，摒弃了低效落后的手工管理模式，全面实现电子化流程；彻底摆脱了种类繁多... ...</p>
+								<p class="pRight-link"><a href="http://edus.keweisoft.com/solu-foreign/" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox3-left"></div>
+							<div class="picBox3-right">
+								<p class="pRight-tit">中小学辅导机构</p>
+								<p class="pRight-con">可为edus教务管理系统运用了现代化云桌面操作系统支持多个分校或教学区，方便总校管理，分校监管。总部... ...</p>
+								<p class="pRight-link"><a href="http://edus.keweisoft.com/solu-primary/" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox4-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">职业技能培训</p>
+								<p class="pRight-con">可为edus教务管理系统运用了现代化云桌面操作系统支持多个分校或教学区，方便总校管理，分校监管。总部... ...</p>
+								<p class="pRight-link"><a href="http://edus.keweisoft.com/solu-qualification/" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox5-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">运动健身机构</p>
+								<p class="pRight-con">可为edus教务管理系统运用了现代化云桌面操作系统支持多个分校或教学区，方便总校管理，分校监管。总部... ...</p>
+								<p class="pRight-link"><a href="" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox6-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">企业培训机构</p>
+								<p class="pRight-con">解决了学员咨询、学员报读方案、学员报名缴费、欠费学员、学员上课、学员续费情况、学员补课情况，信息无法及时共享，造成无法全面进行的数据分析。</p>
+								<p class="pRight-link"><a href="" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox7-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">艺术培训机构</p>
+								<p class="pRight-con">各层级员工只对其负责范围内的数据有操作处理权限，实现了信息的可控共享，实现多校区跨地域联网管理，公司整体运作效率大大提高，对客户及市场响应速度较以前更快速。 </p>
+								<p class="pRight-link"><a href="http://edus.keweisoft.com/solu-art/" id="detail">查看详情>></a></p>
+							</div>
+						</li>
+						<li>
+							<div class="picBox8-left"></div>
+							<div class="picBox1-right">
+								<p class="pRight-tit">留学机构</p>
+								<p class="pRight-con">解决了留学机构每月底要统计计算销售数据、报读数据、上课考勤数据、老师课酬等，计算工作量大，容易出错，数据不及时的问题。</p>
+								<p class="pRight-link"><a href="" id="detail">查看详情>></a></p>
+							</div>
+						</li>																																				
+					</ul>
+				</div>				
+			</div>
+			<a href=""><div class="case-btn">查看更多解决方案</div></a>
+			<div class="pro-conb3">
+				<p class="pro-conb2-tit">高效的实施，高速的响应，没有高效完善的实施服务，再完美的产品等于零！
+</p>
+				<p class="pro-conb2-subtit">历经<span style="font-size:24px;color:#fb6b0b">十年</span>可为咨询服务团队结合 <span style="font-size:24px;color:#fb6b0b">上万个</span>服务案例，总结出最适合中国企业的咨询规划</p>
+			</div>
+			<div class="conb3-con">
+				<div class="conb3-left"></div>
+				<div class="conb3-right">
+					<div class="conb3-right1">
+						<div class="conb3-right1-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="http://edus.keweisoft.com/consult/">咨询服务</a></p>
+							<p class="inner-item">可为edus教务系统的咨询服务，帮助企业梳理流程，规划属于自己的教务管理系统。</p>
+						</div>
+					</div>
+					<div class="conb3-right2">
+						<div class="conb3-right2-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="http://edus.keweisoft.com/implement/">实施服务</a></p>
+							<p class="inner-item">凭借多年的项目成功实施经验，为企业提供标准的管理软件实施服务方案。</p>
+						</div>
+					</div>
+					<div class="conb3-right3">
+						<div class="conb3-right3-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="http://edus.keweisoft.com/after-sale/">售后服务</a></p>
+							<p class="inner-item">可为集团提供的售后服务，以多种信息载体第一时间内向用户传递信息化知识。</p>
+						</div>
+					</div>
+					<div class="conb3-right4">
+						<div class="conb3-right4-pic"></div>
+						<div class="conb3-right1-con">
+							<p><a href="http://edus.keweisoft.com/development/">个性化定制开发</a></p>
+							<p class="inner-item">金牌研发团队可满足企业个性化管理需求进行二次开发。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pro-bottom-bg">
+			<div class="pro-bottom">
+				<p>他们中包括IT、金融、房地产、教育等各类行业，您也将成为他们中的一员，现在开始，成为佼佼者。</p>
+			</div>
+		</div>	
+<!--********************************************************************-->		
+		<div class="bottom">
+	<div class="m-content">
+		<dl class="bottom-items">
+			<dt><a href="http://edus.keweisoft.com/aboutus/">关于可为</a></dt>
+			<dd><a href="http://edus.keweisoft.com/aboutus/">可为简介</a></dd>
+			<dd><a href="http://edus.keweisoft.com/process/">企业历程</a></dd>
+			<dd><a href="http://edus.keweisoft.com/activity/">企业活动</a></dd>
+			<dd><a href="http://edus.keweisoft.com/contact/">联系我们</a></dd>
+			<dd><a>资质荣誉</a></dd>
+		</dl>
+		<dl class="bottom-items items2">
+			<dt><a href="http://edus.keweisoft.com/solution/">解决方案</a></dt>
+			<dd><a href="http://edus.keweisoft.com/solu-qualification/">职业资格</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-primary/">中小学辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-foreign/">英语辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-children/">少儿培训</a></dd>
+			<dd><a href="http://edus.keweisoft.com/solu-art/">艺术培训</a></dd>
+		</dl>
+		<dl class="bottom-items items3">
+			<dt><a>产品中心</a></dt>
+			<dd><a href="http://edus.keweisoft.com/marketing/">营销管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/education/">教务管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/student/">学员端管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/attendance/">考勤管理</a></dd>
+			<dd><a href="http://edus.keweisoft.com/financial/">财务管理</a></dd>
+		</dl>
+		<dl class="bottom-items items4">
+			<dt><a href="http://edus.keweisoft.com/case/">客户案例</a></dt>
+			<dd><a href="http://edus.keweisoft.com/case/">中小学辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">少儿培训</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">出国留学</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">英语辅导</a></dd>
+			<dd><a href="http://edus.keweisoft.com/case/">艺术培训</a></dd>
+		</dl>
+		<dl class="bottom-items items5">
+			<dt><a href="http://edus.keweisoft.com/fuwutixi/">可为服务</a></dt>
+			<dd><a href="http://edus.keweisoft.com/consult/">咨询服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/implement/">实施服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/after-sale/">售后服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/development/">个性化开发服务</a></dd>
+			<dd><a href="http://edus.keweisoft.com/team/">服务团队</a></dd>
+		</dl>
+		<div class="bottom-line"></div>
+		<p style="text-align:center;color:#fff; margin-top:20px;">
+			友情链接：
+									<a href="http://www.12580.tv/SiteInfo/edus.keweisoft.com/" target="_blank">可为培训机构管理系统</a>&nbsp;&nbsp;
+						<a href="http://crm.keweisoft.com" target="_blank">可为CRM</a>&nbsp;&nbsp;
+						<a href="http://www.keweisoft.com" target="_blank">可为官网</a>&nbsp;&nbsp;
+								</p>
+		<p style="text-align:center;color:#fff; margin-top:20px;">
+			京ICP备08006041号-3北京市公安局海淀分局网监中心备案编号：11010802015396
+		</p>
+	</div>
+<div style="width:100%; margin:10px auto 0px;text-align:center;background:#394350">	
+<!--53聊天软件代码-->
+<script>
+	(function() {
+		  var _53code = document.createElement("script");
+		  _53code.src = "//tb.53kf.com/code/code/10140145/5";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(_53code, s);
+	})();
+</script>	
+<!--百度统计代码-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff04c7f91750adccf43be0882905bb320' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!--免费电话代码-->
+<script>
+var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?f04c7f91750adccf43be0882905bb320"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
+<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=2355584"></script>
+</div>	
+</div>
+<!--侧边栏-->
+<div id="moquu_wxin" class="moquu_wxin"><a href="javascript:void(0)">可为时代<div class="moquu_wxinh"></div></a></div>
+<div id="moquu_wshare" class="moquu_wshare"><a href="javascript:void(0)">可为时代<div class="moquu_wshareh"></div></a></div>
+<div id="moquu_wmaps"><a href="javascript:void(0)" class='moquu_wmaps'>可为时代</a></div>
+<a id="moquu_top" href="javascript:void(0)"></a>
+<script type="text/javascript" src="http://www.keweisoft.com/statics/js/edus/sideNav.js"></script><script type="text/javascript" src="http://www.keweisoft.com/statics/js/edus/scrol.js"></script>		
+	</body>		
+</html>

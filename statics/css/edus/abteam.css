@@ -1,0 +1,497 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  关于我们
+*******************************************************************************/
+/*公共样式*/
+
+.banner-top{
+	width:100%;
+	height:280px;
+	background: url(../../images/edus/ab_banner1.jpg) center 0px no-repeat;
+}
+.banner-bottom{
+	width:100%;
+	height:280px;
+	background: url(../../images/edus/ab_banner2.jpg) center 0px no-repeat;
+}
+.top-link{
+	height:55px;
+	line-height:55px;
+}
+.top-link a{
+	color:#666;
+	font-size:16px;
+}
+
+.sales-team-tit{
+	width:100%;
+	height:607px;
+	background: url(../../images/edus/sales-team-titbg.jpg) no-repeat;
+}
+
+.sales-team-con{
+	width:100%;
+	height: 1153px;
+	background: url(../../images/edus/sales-team-conbg.jpg) center 0px no-repeat; 
+}
+
+.implement-team-tit{
+	width:100%;
+	height: 587px;
+	background: url(../../images/edus/implement-team-titbg.jpg) center 0px no-repeat;
+}
+.implement-team-con{
+	width:100%;
+	height:1628px;
+	background: url(../../images/edus/implement-team-conbg.jpg) center 0px no-repeat;
+	margin-bottom:62px;
+}
+
+.sales-team-con-items{
+	width:100%;
+	height: 760px;
+	padding-top:35px;
+}
+.sales-team-con-item1{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-cy.png) no-repeat;
+	float: left;
+}
+
+.sales-team-con-item2{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-qg.png) no-repeat;
+	float: left;
+	margin-left:84px;
+}
+.sales-team-con-item3{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-zmj.png) no-repeat;
+	float: left;
+	margin-left:84px;
+}
+.sales-team-con-item4{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-yfz.png) no-repeat;
+	float: left;
+	margin-left:84px;
+}
+.sales-team-con-item5{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-xmc.png) no-repeat;
+	float: left;
+	margin-top:50px;
+}
+.sales-team-con-item6{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-zdj.png) no-repeat;
+	float: left;
+	margin-top:50px;
+	margin-left:84px;
+}
+.sales-team-con-item7{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-lsj.png) no-repeat;
+	float: left;
+	margin-top:50px;
+	margin-left:84px;
+}
+.sales-team-con-item8{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-gqh.png) no-repeat;
+	float: left;
+	margin-top:50px;
+	margin-left:84px;
+}
+
+.sales-team-con-item9{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-gy.png) no-repeat;
+	float: left;
+	margin-top:50px;
+}
+
+.sales-team-con-item10{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-wxd.png) no-repeat;
+	float: left;
+	margin-top:50px;
+	margin-left:84px;
+}
+
+.sales-team-con-item11{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-ljj.png) no-repeat;
+	float: left;
+	margin-top:50px;
+	margin-left:84px;
+}
+
+.sales-team-con-item12{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/xs-dgt.png) no-repeat;
+	float: left;
+	margin-top:50px;
+	margin-left:84px;
+}
+.sales-team-con-tel{
+	width:480px;
+	height:68px;
+	background: url(../../images/edus/sales-team-tel.png) left center no-repeat;
+	margin-top:280px;
+	padding-left:138px;
+	font-size:46px;
+	line-height: 68px;
+	color:#333;
+}
+
+.implement-team-con-items{
+	width:100%;
+	height: 1290px;
+	padding-top:35px;
+}
+
+.implement-team-con-item1{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-sw.png) no-repeat;
+	float: left;
+}
+
+.implement-team-con-item2{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-chj.png) no-repeat;
+	float: left;
+	margin-left:84px;
+}
+.implement-team-con-item3{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-jt.png) no-repeat;
+	float: left;
+	margin-left:84px;
+}
+.implement-team-con-item4{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-yhj.png) no-repeat;
+	float: left;
+	margin-left:84px;
+}
+
+.implement-team-con-item5{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-bl.png) no-repeat;
+	float: left;
+	margin-top:50px;
+}
+
+.implement-team-con-item6{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-lzh.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item7{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-nh.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item8{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-wyg.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item9{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-zsq.png) no-repeat;
+	float: left;
+	margin-top:50px;
+}
+
+.implement-team-con-item10{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-zlq.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item11{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-dn.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item12{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-wjj.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item13{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-gxq.png) no-repeat;
+	float: left;
+	margin-top:50px;
+}
+
+.implement-team-con-item14{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-zyx.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item15{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-zjh.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item16{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-wxc.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item17{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-zyz.png) no-repeat;
+	float: left;
+	margin-top:50px;
+}
+
+.implement-team-con-item18{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-fy.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item19{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-gpj.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.implement-team-con-item20{
+	width:232px;
+	height: 232px;
+	background: url(../../images/edus/js-cj.png) no-repeat;
+	float: left;
+	margin-left:84px;
+	margin-top:50px;
+}
+
+.team-item-h{
+	width:232px;
+	height:232px;
+	position: absolute;
+	background: url(../../images/edus/team-item-bg.png) no-repeat;
+	z-index: 1000;
+	display: none;
+}
+.team-item-name{
+	position: absolute;
+	top: 130px;
+	left: 70px;
+	font-size: 26px;
+	color: #FFF;
+}
+.team-item-job{
+	position: absolute;
+	top: 185px;
+	left: 55px;
+	font-size: 16px;
+	color: #FFF;
+	display: inline-block;
+	width: 128px;
+	height: 22px;
+	text-align: center;
+}
+
+
+
+
+.s-ads{
+	width:100%;
+	height:120px;
+	background: url(../../images/edus/process_bottom_bg.jpg) repeat-x;
+}
+.s-ads-tit{
+	width:180px;
+	margin-top:35px;
+	font-size:24px;
+	color:#46464a;
+	float: left;
+}
+.s-ads-btn1{
+	width:180px;
+	height:51px;
+	text-align:center;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads a{
+	color:#fff;
+}
+.s-ads-btn1:hover{
+	background: url(../../images/edus/process_bottom_btn_hover.png) no-repeat;
+}
+.s-ads-btn2{
+	width:143px;
+	padding-left:37px;
+	height:51px;
+	text-align:left;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn2.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads-btn2:hover{
+	background: url(../../images/edus/process_bottom_btn2_hover.png) no-repeat;
+}
+.s-ads-tel{
+	width:183px;
+	height:54px;
+	float: right;
+	margin:40px 0px 0px;
+	background: url(../../images/edus/process_bottom_btn_tel.png) no-repeat;
+}
+.bottom{
+	width:100%;
+	height:353px;
+	background:#394350;
+}
+.bottom-items{
+	width:119px;
+	height:172px;
+	float:left;
+	margin-top:30px;
+}
+.bottom-items dt{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	text-align: left;
+}
+.bottom-items dt a{
+	color:#fff;
+	font-size:18px;
+	background: url(../../images/edus/bottom_pic1.png) left 6px no-repeat;
+	padding-left:24px;
+}
+.bottom-items dd{
+	width:100%;
+	height:31px;
+	line-height:31px;
+	text-align: center;
+}
+.bottom-items dd a{
+	color:#fff;
+	font-size:14px;
+}
+.items2{
+	margin-left:110px;
+}
+.items2 dt a{
+	background: url(../../images/edus/bottom_pic2.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items3{
+	margin-left:110px;
+}
+.items3 dt a{
+	background: url(../../images/edus/bottom_pic3.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items4{
+	margin-left:110px;
+}
+.items4 dt a{
+	background: url(../../images/edus/bottom_pic4.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items5{
+	margin-left:110px;
+}
+.items5 dt a{
+	background: url(../../images/edus/bottom_pic5.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.bottom-line{
+	width:100%;
+	height:38px;
+	padding-top:220px;
+	border-bottom: 1px solid #fff;
+}
+.bottom p a{
+	color:#fff;
+	font-size:13px;
+}
+.bottom p{
+	font-size:14px;
+}

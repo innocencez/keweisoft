@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+		<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<link type="text/css" href="{CSS_PATH}m/common.css" rel="stylesheet" />
+		<link type="text/css" href="{CSS_PATH}m/crm.css" rel="stylesheet" />
+		<script type="text/javascript" src="{JS_PATH}m/jquery.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/jquery.simplesidebar.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/index.js"></script>
+		<script type="text/javascript" src="{JS_PATH}m/touchSlide.js"></script>
+<!--百度统计-->
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?8b6e69bf42c57a2f7c60c80875e8a700";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				var _x = $(window).width();
+				var _y = (_x * 264) / 640;
+				$('.auto-banner').css({
+					width : _x,
+					height : _y,
+					margin : '10px auto 0',
+					textAlign : 'center',
+					position : 'relative',
+				}).find('img').attr({
+					width : _x,
+					height : _y,
+				});
+			})
+		</script>		
+<!---->			
+	</head>
+	<body>
+		<div id="page-body">
+		<div class="content">	
+		{template "content","head_top"}
+		<div class="crm-banner auto-banner">
+			<img src="{IMG_PATH}m/crm-banner.jpg" alt="可为CRM" title="可为CRM" />
+		</div>
+		<div class="edu-ftit">
+			核心功能
+		</div>
+		<table class="crm-block">
+		<tr>
+			<td class="crm-block-item"><a href="{$CATEGORYS[146][url]}" target="_blank" class="cbi1">市场管理</a></td>
+			<td class="crm-block-item"><a href="{$CATEGORYS[147][url]}" target="_blank" class="cbi2">销售管理</a></td>
+			<td class="crm-block-item"><a href="{$CATEGORYS[149][url]}" target="_blank" class="cbi3">客户池管理</a></td>
+		</tr>
+		<tr>
+			<td class="crm-block-item"><a href="{$CATEGORYS[148][url]}" target="_blank" class="cbi4">客服管理</a></td>
+			<td class="crm-block-item"><a href="{$CATEGORYS[152][url]}" target="_blank" class="cbi5">财务管理</a></td>
+			<td class="crm-block-item"><a href="{$CATEGORYS[151][url]}" target="_blank" class="cbi6">办公自动化</a></td>
+		</tr>
+		<tr>
+			<td class="crm-block-item"><a href="{$CATEGORYS[150][url]}" target="_blank" class="cbi7">教学管理</a></td>
+			<td class="crm-block-item"><a href="{$CATEGORYS[153][url]}" target="_blank" class="cbi8">决策分析</a></td>
+			<td class="crm-block-item"><a href="http://webim.qiao.baidu.com//im/index?ucid=802225&siteid=6927649&bid=b8eadc8a97eecdfdfb839db1" target="_blank" class="cbi9">点击咨询</a></td>
+		</tr>				
+		</table>
+		<div class="edu-ftit" style="margin-top:10px;">
+			系统优势
+		</div>
+		<div class="slideAdv" id="slideAdv">
+
+			<div class="bd">
+			<a href="javascript::void(0)" class="prev"></a>
+			<a href="javascript::void(0)" class="next"></a>				
+				<ul>
+					<li>
+						<p class="adv-tit">可为CRM：领先的功能</p>
+						<p class="adv-con">先进的技术架构，强大的客户化扩展能力带您轻松实现移动办公；可为客户管理系统凝 聚了市场营销的管理理念，使可为CRM产品更成熟，功能更成熟；</p>
+					</li>
+					<li>
+						<p class="adv-tit">可为CRM：灵活的定制</p>
+						<p class="adv-con">可为CRM拥有一支高水平的软件开发队伍和咨询队伍，依托可为强劲的在线开发平台，为您打造独树一帜的客户关系管理系统；</p>					
+					</li>
+					<li>
+						<p class="adv-tit">可为CRM：快速的部署</p>
+						<p class="adv-con">通过可为CRM领先的技术、出色的性能大大降低了部署环境的难度，十年CRM实施经验可快速结合企业实际业务部署，让企业快速达到良好的应用效果；</p>				
+					</li>
+					<li>
+						<p class="adv-tit">可为CRM：优质的服务</p>
+						<p class="adv-con">通过可为CRM领先的技术、出色的性能大大降低了部署环境的难度，十年CRM实施经验可快速结合企业实际业务部署，让企业快速达到良好的应用效果；</p>				
+					</li>
+				</ul>
+			</div>
+			<div class="hd"><ul></ul></div>
+		</div>
+		<div class="edu-ftit" style="margin-top:10px;">
+			行业方案
+		</div>
+		<div class="s-edu-con">
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec1-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[203][url]}" target="_blank">中小学辅导机构解决方案</a>
+				</div>
+			</div>
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec2-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[204][url]}" target="_blank">外语辅导机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec3-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[205][url]}" target="_blank">少儿辅导机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec4-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[206][url]}" target="_blank">职业资格培训机构解决方案</a>
+				</div>
+			</div>	
+			<div class="sec-item">
+				<div class="m-content">
+					<div class="sec5-left"></div>
+					<a class="sec1-center" href="{$CATEGORYS[210][url]}" target="_blank">艺术训机构解决方案</a>
+				</div>
+			</div>												
+		</div>			
+		<a href="{$CATEGORYS[202][url]}" target="_blank"><div class="edu-pro-btn">更多解决方案</div></a>			
+
+
+		<div class="edu-ftit" style="margin-top:20px;">
+			客户案例
+		</div>
+		<div class="edu-case-con">
+			{pc:content action="lists"  catid="227" num="4" order="listorder DESC"}
+			{loop $data $r}
+			<div class="ecc-item" {if $n!=1}style="margin-top:3px;"{/if}>
+				<div class="ecc-con">
+					<a href="{$r[url]}" target="_blank"><div class="ecc-logo">
+						<img src="{$r[thumb]}" width="50" height="50" alt="{$r[title]}" title="{$r[title]}" />
+						<span class="ecc-t">推荐</span>
+					</div></a>
+					<div class="ecc-right">
+						<a href="{$r[url]}" target="_blank"><p class="eccr-tit">{str_cut($r[title],35,'...')}</p></a>
+						<a href="" target="_blank"><p class="eccr-con">{str_cut($r[description],95,'...')}</p></a>
+					</div>
+				</div>
+			</div>
+			{/loop}
+			{/pc}							
+		</div>
+		<div class="edu-bottom-btn">
+			<a href="{$CATEGORYS[227][url]}" target="_blank"><div class="ebb-item">更多客户案例</div></a>
+			<a href="" target="_blank"><div class="ebb-item" style="margin-left:5%;">点击预约演示</div></a>
+		</div>
+		{template "content","bottom_top"}
+		{template "content","bottom"}
+<script type="text/javascript">
+	slide();
+</script>	 	
+	</body>
+</html>

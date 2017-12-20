@@ -1,0 +1,389 @@
+/*初始化*/
+html ,body{width:100%;height:100%;}
+*{margin:0;padding:0;}
+img{border:0;}
+ul{list-style:none;}
+a,p,span,li,div{font-size:12px;font-family:'微软雅黑';}
+a{text-decoration:none;outline:none;}
+a:hover{text-decoration:none;}
+body{
+	background:#ffffff;
+}
+
+.con_wrap{
+	width:100%;
+	height:38px;
+	background: #f4f4f4;
+	line-height:38px;
+	border-bottom:#dedede solid 1px;
+}
+.content-box{
+	width:1000px;
+	margin:0px auto;
+}
+.con_wrap a{
+	font-size:12px;
+	color:#343434;
+}
+.content-box1{
+	width:1000px;
+	margin:0 auto;
+	background: #f7f7f7;
+	padding-bottom:15px;
+}
+.con_top{
+	width:888px;
+	height:97px;
+	margin:0 auto;
+	padding-top:10px;
+	border-bottom:#d2d2d2 dashed 1px;
+}
+.con_top p{
+	font-size:20px;
+	padding-top:20px;
+	text-align:center;
+}
+.con_top span{
+	font-size:20px;
+	color:#be1010;
+}
+#p2{
+	font-size:14px;
+	color:#7a7a7a;
+}
+.con_center{
+	width:930px;
+	text-align: left;
+	padding:20px;
+	font-size:12px;
+	line-height:2em;
+	color:#343434;
+	margin:15px auto;
+	background: #ffffff;
+	overflow:hidden;
+}
+.con_center span,.con_center p,.con_center a{
+	font-size:12px;
+	color:#343434;
+}
+.con_relation{
+	width:970px;
+	height:83px;
+	margin:15px auto;
+	background:#ffffff;
+}
+.con_relation p{
+	text-align: center;
+	font-size:18px;
+	color:#343434;
+	padding-top:10px;
+}
+.relation_tit{
+	width:918px;
+	margin:10px auto;
+	list-style:square inside;
+	color:#f08c16;
+}
+.relation_tit li{
+	float:left;
+	margin-left:33px;
+	margin-right:20px;
+}
+.relation_tit li a{
+	font-size:14px;
+	color:#f08c16;
+}
+.relation_tit a:hover{
+	text-decoration: underline;
+}
+.con_share{
+	width:970px;
+	height:39px;
+	margin:0 auto;
+	text-align:left;
+	line-height:39px;
+	font-size:14px;
+	color:#343434;
+}
+.bdsharebuttonbox{
+	width: 228px;
+	height:39px;
+
+	float:left;
+}
+.bdsharebuttontit{
+	width:50px;
+	height:20px;
+	margin-top:3px;
+	float:left;
+}
+.con_share_tel{
+	width:215px;
+	height:43px;
+	float:right;
+}
+.con_share_btn{
+	width:163px;
+	height:40px;
+	margin-top:3px;
+	float:right;
+	margin-right: 15px;
+	background: url(../../images/kwcrm/con_btn.jpg) no-repeat scroll 0 0;
+	text-align:center;
+	cursor:pointer;
+}
+.con_share_btn:hover{
+	background:url(../../images/kwcrm/con_btn_hover.jpg) no-repeat scroll 0 0;
+}
+.con_share_btn a{
+	color:#ffffff;
+	font-size:18px;
+}
+
+.content-box2{
+	width:1000px;
+	height:512px;
+	margin:10px auto;
+	background:#f4f4f4;
+}
+.rela_top{
+	width:970px;
+	height:105px;
+	margin:0 auto;
+}
+.rela_tit{
+	width:533px;
+	height:33px;
+	float:left;
+	font-size:24px;
+	margin:54px 0px 0px 20px;
+	color:#be1010;
+}
+.rela_tel{
+	width:153px;
+	height:63px;
+	float:right;
+	margin:18px 32px 0px 0px;
+}
+.rela_btn{
+	width:149px;
+	height:39px;
+	text-align:center;
+	line-height: 39px;
+	cursor:pointer;
+	background:url(../../images/kwcrm/con_btn1.jpg) no-repeat scroll 2px 0;
+}
+.rela_btn a{
+	color:#ffffff;
+	font-size:16px;
+}
+.rela_btn:hover{
+	background: url(../../images/kwcrm/con_btn1_hover.jpg) no-repeat scroll 2px 0px;
+}
+.rela_case{
+	width:970px;
+	height:207px;
+	margin:0 auto;
+	background:#ffffff;
+}
+.rela_case_all{
+	width:920px;
+	height:176px;
+	margin:0px auto;
+}
+.rela_case_all li{
+	width:187px;
+	height:144px;
+	float:left;
+	text-align:center;
+	padding-top:20px;
+	margin-left:30px;
+	margin-top:15px;
+}
+.rela_news_tit{
+	width:100%;
+	height:53px;
+	text-align:center;
+	line-height:53px;
+	color:#afafaf;
+	font-size:24px;
+}
+.rela_news{
+	width:970px;
+	height:124px;
+	background: #ffffff;
+	margin:3px auto;
+}
+.rela_news ul{
+	width:220px;
+	height:96px;
+	text-align:left;
+	float:left;
+	margin-top:20px;
+	list-style:square inside;
+	color:#343434;
+	margin-left:15px;
+}
+.rela_news ul li a{
+	color:#343434;
+	font-size:12px;
+	line-height: 20px;
+	letter-spacing:0.5px;
+}
+.rela_news ul li a:hover{
+	text-decoration: underline;
+}
+/*解决方案内容*/
+.news_tit{
+	height:44px;
+	width:100%;
+	margin-top:15px;
+	color:#3d5b98;
+	font-size: 30px;
+	text-indent:55px;
+	line-height:40px;
+	border-bottom:3px solid #3d5b98;
+	background:url(../../images/kwcrm/tit_bg.jpg) no-repeat scroll 0 0;
+}
+.news_brif{
+	margin-top:10px;
+	padding:15px;
+	background:#f4f4f4;
+	font-size:14px;
+	color:#343434;
+}
+.news_con{
+	width:980px;
+	padding:30px 15px 30px 0px;
+	font-size:12px;
+	line-height:24px;
+	color:#343434;
+}
+.news_con p,.news_con span,.news_con a{
+	color:#343434;
+	font-size:12px;
+}
+#hits{
+	font-size:14px;
+	color:#7a7a7a;
+}
+
+/*咨询*/
+.footer_top{
+	width:100%;
+	height:159px;
+	background: url(../../images/kwcrm/footer_top_bg.jpg) repeat-x;
+	margin-top:25px;
+}
+.footer_top_img{
+	margin-top:20px;
+	float:left;
+}
+.footer_top_need{
+	width:118px;
+	height:94px;
+	text-align:center;
+	padding-top:65px;
+	float:right;
+}
+.footer_top_need a{
+	color:#4483b0;
+	font-size:18px;
+}
+.footer_top_show{
+	width:155px;
+	height:94px;
+	text-align:center;
+	padding-top: 65px;
+	float:right;
+	margin-right:20px;
+}
+/*底部*/
+.foot{
+	width:100%;
+	height:330px;
+	border-top:2px solid #dadada;
+	background:#fafafa;
+}
+.foot_mid{
+	width:915px;
+	margin:0 auto;
+}
+.foot_midTop{
+	width:100%;
+	display:inline-block;
+}
+.foot_midBottom{
+	width:100%;
+	border-top:1px solid #b5b5b5;
+	line-height:2;
+}
+.foot_linkUl{
+	float:left;
+	width:260px;
+	line-height:1.5;
+	margin-top:20px;
+}
+.foot_linkUl li{
+	float:left;
+	width:50%;
+	text-align:left;
+	letter-spacing:1px;
+	margin:2px 0;
+}
+.foot_linkTit{
+	list-style:none;
+	border-bottom:1px solid #b5b5b5;
+}
+.foot_linkTitle{
+	line-height:24px;
+	font-weight:bold;
+}
+.foot_linkUl li a{
+	color:#50585f;
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+.foot_linkUl li a:hover{
+	color:#0b58a0;
+}
+.foot_logo{
+	float:left;
+	width:390px;
+	margin-top:50px;
+}
+.foot_logo li{
+	text-align:center;
+	width:100%;
+	font-size:20px;
+	color:#50585f;
+	margin-bottom:35px;
+}
+.foot_botLinks{
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+}
+.foot_botLink{
+	color:#50585f;
+	margin-right:5px;
+}
+.foot_botLink:hover{
+	color:#0b58a0;
+}
+.foot_linkCut{
+	color:#50585f;
+	margin-right:5px;
+}
+.copyright{
+	width:100%;
+	text-align:center;
+	color:#50585f;
+	margin-right:5px;
+}
+.foot_address{
+	width:100%;
+	text-align:center;
+	color:#50585f;
+	margin-right:5px;
+}

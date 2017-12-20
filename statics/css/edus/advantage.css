@@ -1,0 +1,1314 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  优势
+*******************************************************************************/
+.advt-banner{
+	width:100%;
+	height: 560px;
+	overflow: hidden;
+}
+.advt-banner1{
+	width:100%;
+	height: 280px;
+	background: url(../../images/edus/advt-bg.jpg) center center no-repeat;
+}
+.advt-banner2{
+	width:100%;
+	height: 280px;
+	background: url(../../images/edus/advt-bg1.jpg) center center no-repeat;
+	position: relative;
+}
+.advt-banner-btn{
+	width: 214px;
+	height: 52px;
+	background: url(../../images/edus/advt-bannerbg.png) center center no-repeat;
+	position: absolute;
+	top:105px;
+	left:250px;
+	text-align: center;
+	line-height: 52px;
+	font-size:28px;
+	color:#fff;
+}
+.advt-banner-btn:hover{
+	background:url(../../images/edus/advt-bannerbg-hover.png) center center no-repeat;
+}
+.advt-tit1{
+	height: 126px;
+	background: url(../../images/edus/advt-tit1.png) left center no-repeat;
+	margin-top:25px;
+}
+.advt-tit2{
+	height: 126px;
+	background: url(../../images/edus/advt-tit2.png) left center no-repeat;
+	margin-top:25px;
+}
+.advt-tit3{
+	height: 126px;
+	background: url(../../images/edus/advt-tit3.png) left center no-repeat;
+	margin-top:25px;
+}
+.advt-wl{
+	height: 81px;
+	width:145px;
+	float: left;
+	margin-left: 155px;
+	font-size:24px;
+	color:#3a7eac;
+	padding-top:45px;
+	line-height: 34px;
+}
+.advt-wr{
+	height: 81px;
+	padding-top:45px;
+	float: left;
+	width:880px;
+	font-size:24px;
+	color:#3a7eac;
+	line-height: 34px;
+}
+.advt-titSubline{
+	width:100%;
+	border-top: 2px #333 solid;
+	margin-top:5px;
+}
+.advt1{
+	width:100%;
+	height:241px;
+	margin-top: 20px;
+}
+.advt1-left{
+	height: 181px;
+	width:630px;
+	float: left;
+	font-size:14px;
+	color:#666;
+	line-height: 24px;
+	padding-top:60px;
+}
+.advt1-right{
+	width:320px;
+	float: left;
+	height: 241px;
+}
+.adv1-rpic{
+	width:197px;
+	height: 188px;
+	margin-left:203px;
+}
+.advt1-btn{
+	width:260px;
+	height: 45px;
+	background: url(../../images/edus/school_pro_but_2.png) center center no-repeat;
+	margin-left:142px;
+	margin-top:10px;
+	line-height: 45px;
+	padding-left:60px;
+	color:#fff;
+	font-size:24px;
+}
+.advt1-btn:hover{
+	background: url(../../images/edus/school_pro_but2_hov.png) center center no-repeat;
+}
+.advt2{
+	width:100%;
+	height: 500px;
+	background: url(../../images/edus/advt-bg2.jpg) center top no-repeat;
+	overflow: hidden;
+}
+.tab-list{
+	width:120px;
+	height: 416px;
+	float: left;
+	margin-left: 90px;
+	margin-top:35px;
+}
+.tab-list ul li{
+	width:100%;
+	height: 32px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dotteds.png) center top no-repeat;
+}
+
+.tab-list ul .cur1{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb1.png) center top no-repeat;	
+}
+.tab-list ul .cur2{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb2.png) center top no-repeat;	
+}
+.tab-list ul .cur3{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb3.png) center top no-repeat;	
+}
+.tab-list ul .cur4{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb4.png) center top no-repeat;	
+}
+.tab-list ul .cur5{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb5.png) center top no-repeat;	
+}
+.tab-list ul .cur6{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb6.png) center top no-repeat;	
+}
+.tab-list ul .cur7{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb7.png) center top no-repeat;	
+}
+.tab-list ul .cur8{
+	width:100%;
+	height: 100px;
+	cursor: pointer;
+	margin-bottom:14px;
+	background: url(../../images/edus/advt-dottedb8.png) center top no-repeat;	
+}
+.tab-con{
+	height: 416px;
+	width:850px;
+	float: left;
+	margin-left:20px;
+	margin-top:35px;
+}
+.tab-con1{
+	width:744px;
+	height:348px;
+	padding:68px 53px 0px;
+	background: rgba(255,255,255,0.7);
+}
+.tab-con1-tit{
+	font-size:24px;
+	color:#004e98;
+}
+.tab-con1-con{
+	font-size: 18px;
+	line-height: 28px;
+	color:#333;
+	margin-top:20px;
+}
+.tab-con1-link{
+	display: inline-block;
+	font-size:18px;
+	color:#004e98;
+	margin-top:45px;
+	margin-left:20px;
+}
+
+.advt3{
+	width:100%;
+	height: 2896px;
+	background: url(../../images/edus/advt-bg3.jpg) center 30px no-repeat;
+}
+.advt3-left{
+	width:519px;
+	height:100%;
+	float: left;
+	overflow: hidden;
+}
+.advt3-item1{
+	width:519px;
+	height: 397px;
+	background: url(../../images/edus/advt3-itembg.png) center center no-repeat;
+	margin-top:83px;
+	overflow: hidden;
+	position: relative;
+}
+.advt3-item1-con{
+	padding:12px 28px 0 18px;
+	font-size:14px;
+	color:#666;
+	line-height: 24px;
+}
+.advt3-item1-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic1.jpg) center top no-repeat;
+	bottom:20px;
+	left:20px;
+}
+.advt3-item2-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic3.jpg) center top no-repeat;
+	bottom:20px;
+	left:20px;
+}
+.advt3-item3-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic5.jpg) center top no-repeat;
+	bottom:20px;
+	left:20px;
+}
+.advt3-item4-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic7.jpg) center top no-repeat;
+	bottom:20px;
+	left:20px;
+}
+.advt3-item1-pword{
+	width:435px;
+	height: 56px;
+	position: absolute;
+	bottom:0px;
+	background: #d9eeff;
+	cursor:pointer;
+	font-size:18px;
+	color:#318acd;
+	line-height: 26px;
+	padding: 0px 12px;
+}
+.advt3-item1-pword:hover{
+	background: #a6c5de;
+}
+.advt3-item2{
+	width:519px;
+	height: 397px;
+	background: url(../../images/edus/advt3-itembg.png) center center no-repeat;
+	margin-top:40px;
+	overflow: hidden;
+	position: relative;
+}
+.advt3-item3{
+	width:519px;
+	height: 324px;
+	background: url(../../images/edus/advt3-itembg1.png) center center no-repeat;
+	margin-top:40px;
+	overflow: hidden;
+	position: relative;
+}
+
+.advt3-item5-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic9.jpg) center top no-repeat;
+	bottom:20px;
+	left:20px;
+}
+
+.advt3-item4{
+	width:519px;
+	height: 349px;
+	background: url(../../images/edus/advt3-itembg2.png) center center no-repeat;
+	margin-top:35px;
+	overflow: hidden;
+	position: relative;
+}
+
+.advt3-item6-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic11.jpg) center top no-repeat;
+	bottom:20px;
+	left:20px;
+}
+.advt3-item7-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	left:20px;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic13.jpg) center top no-repeat;
+	bottom:20px;
+}
+
+.advt3-right{
+	width:520px;
+	height:100%;
+	float: right;
+	overflow: hidden;
+}
+.advt3-item5{
+	width:520px;
+	height: 397px;
+	background: url(../../images/edus/advt3-itembg3.png) center center no-repeat;
+	margin-top:35px;
+	overflow: hidden;
+	position: relative;
+}
+
+.advt3-item8-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic2.jpg) center top no-repeat;
+	bottom:20px;
+	left:38px;
+}
+.advt3-item9-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic4.jpg) center top no-repeat;
+	bottom:20px;
+	left:38px;
+}
+.advt3-item6{
+	width:520px;
+	height: 388px;
+	background: url(../../images/edus/advt3-itembg4.png) center center no-repeat;
+	margin-top:35px;
+	overflow: hidden;
+	position: relative;
+}
+.advt3-item10-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	left:38px;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic6.jpg) center top no-repeat;
+	bottom:20px;
+}
+.advt3-item11-pic{
+	width:459px;
+	height: 213px;
+	position: absolute;
+	left:38px;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic8.jpg) center top no-repeat;
+	bottom:20px;
+}
+.advt3-item12-pic{
+	width:459px;
+	height: 215px;
+	position: absolute;
+	left:38px;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic10.jpg) center top no-repeat;
+	bottom:20px;
+}
+.advt3-item7{
+	width:520px;
+	height: 440px;
+	background: url(../../images/edus/advt3-itembg5.png) center center no-repeat;
+	margin-top:35px;
+	overflow: hidden;
+	position: relative;
+}
+.advt3-item13-pic{
+	width:459px;
+	height: 234px;
+	position: absolute;
+	left:38px;
+	overflow: hidden;
+	background: url(../../images/edus/advt3-pic12.jpg) center top no-repeat;
+	bottom:20px;
+}
+.advt4-line{
+	width:100%;
+	height:23px;
+	background: url(../../images/edus/advt4-line.png) center top no-repeat;
+	margin: 20px 0px;
+}
+.advt4-tit{
+	padding: 0px 70px;
+	font-size:18px;
+	color:#666;
+	line-height: 26px;
+}
+.advt4{
+	width:100%;
+	display: inline-block;
+}
+.advt4-left{
+	width:590px;
+	float: left;
+	margin-top:30px;
+}
+.advt4-left-con{
+	width:400px;
+	float: left;
+}
+.advt4-lcon-tit{
+	font-size:18px;
+	color:#333;
+	padding-left:20px;
+	margin-top:5px;
+}
+.advt4-lcon-con{
+	font-size:14px;
+	color:#666;
+	line-height: 22px;
+	margin-top: 15px;
+	padding-left:20px;
+}
+.advt4-right{
+	width:590px;
+	float: left;
+	margin-top:30px;
+}
+
+.advt5{
+	width:100%;
+	height: 598px;
+	background: #f4f7fc;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.advt5-tit{
+	width:100%;
+	height: 72px;
+	background: url(../../images/edus/advt5-tit.png) center center no-repeat;
+	margin-top:33px;
+}
+.advt5-item1{
+	width:120px;
+	height: 118px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../../images/edus/advt5-pic1.png) center center no-repeat;
+	opacity: 0.7;
+	margin: 40px 6px 0px 15px;
+}
+.advt5-item2{
+	width:124px;
+	height: 124px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../../images/edus/advt5-pic3.png) center center no-repeat;
+	opacity: 0.7;
+	margin: 40px 6px 0px 0px;
+}
+.advt5-item3{
+	width:148px;
+	height: 148px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../../images/edus/advt5-pic5.png) center center no-repeat;
+	opacity: 0.7;
+	margin: 40px 6px 0px 0px;
+}
+.advt5-item4{
+	width:160px;
+	height: 160px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../../images/edus/advt5-pic7.png) center center no-repeat;
+	opacity: 0.7;
+	margin: 40px 6px 0px 0px;
+}
+.advt5-item5{
+	width:148px;
+	height: 148px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../../images/edus/advt5-pic6.png) center center no-repeat;
+	opacity: 0.7;
+	margin: 40px 6px 0px 0px;
+}
+.advt5-item6{
+	width:124px;
+	height: 124px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../../images/edus/advt5-pic4.png) center center no-repeat;
+	opacity: 0.7;
+	margin: 40px 6px 0px 0px;
+}
+.advt5-item7{
+	width:120px;
+	height: 118px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../../images/edus/advt5-pic2.png) center center no-repeat;
+	opacity: 0.7;
+	margin: 40px 6px 0px 0px;
+}
+
+.advt5-item1:hover,.advt5-item2:hover,.advt5-item3:hover,.advt5-item4:hover,.advt5-item5:hover,.advt5-item6:hover,.advt5-item7:hover{
+	opacity: 1;
+}
+.at-con4{
+	width:896px;
+	height: 197px;
+	background: url(../../images/edus/advt5-bg1.png) center center no-repeat;
+	margin: 17px auto;
+	padding:20px 35px;
+	overflow: hidden;
+}
+.at-con1{
+	width:896px;
+	height: 197px;
+	background: url(../../images/edus/advt5-bg2.png) center center no-repeat;
+	margin: 17px auto;
+	padding:20px 35px;	
+}
+.at-con2{
+	width:896px;
+	height: 197px;
+	background: url(../../images/edus/advt5-bg3.png) center center no-repeat;
+	margin: 17px auto;
+	padding:20px 35px;	
+}
+.at-con3{
+	width:896px;
+	height: 197px;
+	background: url(../../images/edus/advt5-bg4.png) center center no-repeat;
+	margin: 17px auto;
+	padding:20px 35px;	
+}
+
+.at-con5{
+	width:896px;
+	height: 197px;
+	background: url(../../images/edus/advt5-bg5.png) center center no-repeat;
+	margin: 17px auto;
+	padding:20px 35px;	
+}
+.at-con6{
+	width:896px;
+	height: 197px;
+	background: url(../../images/edus/advt5-bg6.png) center center no-repeat;
+	margin: 17px auto;
+	padding:20px 35px;	
+}
+.at-con7{
+	width:896px;
+	height: 197px;
+	background: url(../../images/edus/advt5-bg7.png) center center no-repeat;
+	margin: 17px auto;
+	padding:20px 35px;	
+}
+
+.at-main{
+	font-size:14px;
+	color:#5683b8;
+	line-height: 22px;
+	margin-top:30px;
+}
+.at-mlist{
+	float: left;
+	width: 430px;
+	padding-top: 10px;
+}
+.at-mlist li{
+	font-size:14px;
+	color:#5683b8;
+	margin-top:10px;
+}
+.promarket-ads{
+	width:100%;
+	height: 90px;
+	background: url(../../images/edus/promarket-ads.png) top center no-repeat;
+	margin-top: 40px;
+}
+.pro-ads-btn{
+	width:175px;
+	height: 63px;
+	background: url(../../images/edus/promarlet-ads-btn-hover.png) top center no-repeat;
+	line-height: 63px;
+	text-align: center;
+	color:#fff;
+	font-size:30px;
+	position: absolute;
+	text-shadow:1px 2px 2px #333;
+	margin-top:15px;
+	margin-left:1040px;
+	cursor: pointer;
+}
+.pro-ads-btn:hover{
+	background: url(../../images/edus/promarlet-ads-btn.png) top center no-repeat;
+}
+
+/**产品公共模块*****************************************************************************************/
+
+.pro-conb1{
+	width:1053px;
+	padding-left:127px;
+	height: 111px;
+	margin-top:30px;
+	background: url(../../images/edus/pro-case.png) left center no-repeat;
+}
+.pro-conb1-tit{
+	font-size: 30px;
+	color:#00479d;
+	line-height: 36px;
+}
+.pro-conb1-subtit{
+	font-size:18px;
+	color:#666;
+}
+.pro-conb1-con{
+	width:100%;
+	height: 230px;
+	margin-top:35px;
+}
+.pro-conb1-item{
+	width:366px;
+	height:230px;
+	float: left;
+	overflow: hidden;
+	border-radius: 15px;
+	position: relative;
+	background: #000;
+}
+.pro-conb1-item img{
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;	
+}
+.pro-conb1-item figcaption{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.pro-conb1-item figcaption::before,.pro-conb1-item figcaption::after{
+	pointer-events: none;
+}
+figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+figcaption::before,
+figcaption::after {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figcaption::before {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+figcaption::after {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	-webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+.pro-conb1-item img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+.pro-conb1-item:hover img {
+	opacity: 0.4;
+}
+
+.pro-conb1-item h2 {
+	opacity: 0;
+	padding-top: 20%;
+	font-size:18px;
+	text-align: center;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,-20px,0);
+	transform: translate3d(0,-20px,0);
+}
+
+.pro-conb1-item p {
+	opacity: 0;
+	padding-left:50px;
+	line-height: 26px;
+	font-size:16px;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,20px,0);
+	transform: translate3d(0,20px,0);
+}
+
+.pro-conb1-item:hover figcaption::before,
+.pro-conb1-item:hover figcaption::after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.pro-conb1-item:hover h2,
+.pro-conb1-item:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.pro-conb2{
+	width:1053px;
+	padding-left:127px;
+	height: 111px;
+	margin-top:35px;
+	background: url(../../images/edus/pro-solution-tit.png) left center no-repeat;
+}
+.pro-conb2-tit{
+	font-size: 30px;
+	color:#00479d;
+	line-height: 36px;
+}
+.pro-conb2-subtit{
+	font-size:18px;
+	color:#666;
+	margin-top:5px;
+}
+.pro-conb3{
+	width:1053px;
+	padding-left:127px;
+	height: 111px;
+	margin-top:35px;
+	background: url(../../images/edus/pro-service-tit.png) left center no-repeat;
+}
+.conb3-con{
+	width:100%;
+	height: 409px;
+	margin-top: 25px;
+}
+.conb3-left{
+	width:373px;
+	height: 409px;
+	background: url(../../images/edus/pro-service-pic.png) left center no-repeat;
+	float: left;
+	margin-left:116px;
+}
+.conb3-right{
+	width:582px;
+	float: right;
+}
+.conb3-right1{
+	width:582px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+}
+.conb3-right1-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico1.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right1-pic:hover{
+	background: url(../../images/edus/pro-service-ico1-hover.png) 50% 50% no-repeat;
+}
+.conb3-right1-con{
+	height: 100%;
+	width:306px;
+	float: left;
+	margin-left: 15px;
+}
+.conb3-right1-con p a{
+	font-size: 18px;
+	color:#fb6b0b;
+	font-weight:bold;
+}
+.conb3-right1-con p a:hover{
+	color: #0a448c;
+}
+.inner-item{
+	font-size:14px;
+	line-height: 26px;
+	color:#666;
+	letter-spacing: 1px;
+}
+.conb3-right2{
+	width:495px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+	margin-top:15px;
+}
+.conb3-right2-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico2.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right3{
+	width:495px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+	margin-top:15px;
+}
+.conb3-right3-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico3.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right4{
+	width:495px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-cir.png) left center no-repeat;
+	margin-top:15px;
+}
+.conb3-right4-pic{
+	width:88px;
+	height: 88px;
+	background: url(../../images/edus/pro-service-ico4.png) 50% 50% no-repeat;
+	cursor: pointer;
+	float: left;
+}
+.conb3-right2-pic:hover{
+	background: url(../../images/edus/pro-service-ico2-hover.png) 50% 50% no-repeat;
+}
+.conb3-right3-pic:hover{
+	background: url(../../images/edus/pro-service-ico3-hover.png) 50% 50% no-repeat;
+}
+.conb3-right4-pic:hover{
+	background: url(../../images/edus/pro-service-ico4-hover.png) 50% 50% no-repeat;
+}
+.pro-bottom-bg{
+	width:100%;
+	height: 206px;
+	background: url(../../images/edus/pro-bottom-allbg.png) top center repeat-x;
+}
+.pro-bottom{
+	width:100%;
+	height: 206px;
+	background: url(../../images/edus/pro-bottom-bg.png) top center no-repeat;
+	margin: 0 auto;
+}
+
+.pro-bottom p{
+	font-size: 18px;
+	width: 653px;
+	color:#b4b4b4;
+	position: absolute;
+	margin-top:120px;
+	margin-left:570px;
+}
+.case-btn{
+	width:272px;
+	height: 53px;
+	margin:30px auto;
+	background: url(../../images/edus/pro-case-btn.png) center center no-repeat;
+	cursor: pointer;
+	line-height: 53px;
+	text-align: center;
+	color:#fff;
+	font-size: 24px;
+	text-shadow:2px 2px 1px #333;
+}
+.case-btn:hover{
+	background: url(../../images/edus/pro-case-btn-hover.png) center center no-repeat;
+}
+
+/**行业应用滚动*********************/
+.scrol{
+	width:1040px;
+	height:404px;
+	position: relative;
+	overflow: hidden;
+	margin: 25px auto 0;
+}
+.scrol .arrow{
+	width: 22px;
+	height: 140px;
+	position: absolute;
+	top: 30px;
+	cursor: pointer;
+	background: url('../../images/edus/cssjl.png') no-repeat scroll -386px -1236px transparent;
+}
+.scrol .prev{
+	left: 0;
+}
+.scrol .next {
+    right: 0px;
+    background-position: -426px -1236px;
+}
+.scrol #prevTop {
+    top: 260px;
+    left: 50px;
+    display: none;
+}
+.scrol #nextTop {
+    top: 260px;
+    left: 910px;
+    display: none;
+}
+.scrol li{
+	float: left;
+}
+.listBox{
+	width:930px;
+	height: 202px;
+	position: relative;
+	overflow: hidden;
+	margin:0 auto 20px;
+}
+.listBox ul{
+	height: 202px;
+	position: absolute;;
+}
+.listBox ul .list1{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small1.png) top center no-repeat;
+	position: relative;
+}
+.listBox ul .list-on1{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big1.png) top center no-repeat;
+}
+.listBox ul .list2{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small2.png) top center no-repeat;
+	position: relative;
+	margin-left: 15px;
+}
+.listBox ul .list-on2{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big2.png) top center no-repeat;
+	margin-left: 15px;
+}
+.listBox ul .list3{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small3.png) top center no-repeat;
+	position: relative;
+	margin-left: 15px;
+}
+.listBox ul .list-on3{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big3.png) top center no-repeat;
+	margin-left: 15px;
+}
+.listBox ul .list4{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small4.png) top center no-repeat;
+	position: relative;
+	margin-left: 15px;
+}
+.listBox ul .list-on4{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big4.png) top center no-repeat;
+	margin-left: 15px;
+}
+.listBox ul .list5{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small5.png) top center no-repeat;
+	position: relative;
+	margin-left: 15px;
+}
+.listBox ul .list-on5{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big5.png) top center no-repeat;
+	margin-left: 15px;
+}
+.listBox ul .list6{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small6.png) top center no-repeat;
+	position: relative;
+	margin-left: 15px;
+}
+.listBox ul .list-on6{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big6.png) top center no-repeat;
+	margin-left: 15px;
+}
+.listBox ul .list7{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small7.png) top center no-repeat;
+	position: relative;
+	margin-left: 15px;
+}
+.listBox ul .list-on7{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big7.png) top center no-repeat;
+	margin-left: 15px;
+}
+.listBox ul .list8{
+	width:128px;
+	height: 128px;
+	cursor: pointer;
+	margin-top:37px;
+	background: url(../../images/edus/pro-solution-small8.png) top center no-repeat;
+	position: relative;
+	margin-left: 15px;
+}
+.listBox ul .list-on8{
+	width:200px;
+	height: 200px;
+	cursor: pointer;
+	background: url(../../images/edus/pro-solution-big8.png) top center no-repeat;
+	margin-left: 15px;
+}
+.picBox{
+	position: relative;
+	overflow: hidden;
+	width:1040px;
+	height: 194px;
+}
+.picBox ul{
+	position:absolute; 
+	left:-2080px;
+	height:194px;  
+}
+.picBox ul li{
+	line-height:28px; 
+	width:992px; 
+	height:178px; 
+	padding:16px 24px 0px; 
+	position:relative;
+	background: #f1f5ff;
+}
+.picBox1-left{
+	width:105px;
+	height: 105px;
+	background: url(../../images/edus/pro-solution-pic1.png) top center no-repeat;
+	float: left;
+	margin-top:20px;
+	margin-left:25px;
+}
+.picBox2-left{
+	width:105px;
+	height: 105px;
+	background: url(../../images/edus/pro-solution-pic2.png) top center no-repeat;
+	float: left;
+	margin-top:20px;
+	margin-left:25px;
+}
+.picBox3-left{
+	width:135px;
+	height: 135px;
+	background: url(../../images/edus/pro-solution-pic3.png) top center no-repeat;
+	float: left;
+	margin-top:8px;
+	margin-left:25px;
+}
+.picBox4-left{
+	width:132px;
+	height: 132px;
+	background: url(../../images/edus/pro-solution-pic4.png) top center no-repeat;
+	float: left;
+	margin-top:8px;
+	margin-left:25px;
+}
+.picBox5-left{
+	width:134px;
+	height: 134px;
+	background: url(../../images/edus/pro-solution-pic5.png) top center no-repeat;
+	float: left;
+	margin-top:8px;
+	margin-left:25px;
+}
+.picBox6-left{
+	width:130px;
+	height: 131px;
+	background: url(../../images/edus/pro-solution-pic6.png) top center no-repeat;
+	float: left;
+	margin-top:8px;
+	margin-left:25px;
+}
+.picBox7-left{
+	width:130px;
+	height: 131px;
+	background: url(../../images/edus/pro-solution-pic7.png) top center no-repeat;
+	float: left;
+	margin-top:8px;
+	margin-left:25px;
+}
+.picBox8-left{
+	width:133px;
+	height: 133px;
+	background: url(../../images/edus/pro-solution-pic8.png) top center no-repeat;
+	float: left;
+	margin-top:8px;
+	margin-left:25px;
+}
+.picBox1-right{
+	width:813px;
+	height: 125px;
+	float: left;
+	margin-left:20px;
+	margin-top:25px;
+}
+.picBox3-right{
+	width:810px;
+	height: 125px;
+	float: left;
+	margin-left:20px;
+	margin-top:25px;
+}
+.pRight-tit{
+	width:100%;
+	text-align: left;
+	font-size:24px;
+}
+.pRight-con{
+	width:100%;
+	font-size:14px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+.pRight-link{
+	width:100%;
+	text-align: right;
+	margin-top: 10px;
+}
+.pRight-link #detail{
+	width: 100%;
+	font-size:18px;
+	color:#2364b3;
+	font-weight:bold;
+}
+
+.bottom{
+	width:100%;
+	height:353px;
+	background:#394350;
+}
+.bottom-items{
+	width:119px;
+	height:172px;
+	float:left;
+	margin-top:30px;
+}
+.bottom-items dt{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	text-align: left;
+}
+.bottom-items dt a{
+	color:#fff;
+	font-size:18px;
+	background: url(../../images/edus/bottom_pic1.png) left 6px no-repeat;
+	padding-left:24px;
+}
+.bottom-items dd{
+	width:100%;
+	height:31px;
+	line-height:31px;
+	text-align: center;
+}
+.bottom-items dd a{
+	color:#fff;
+	font-size:14px;
+}
+.items2{
+	margin-left:110px;
+}
+.items2 dt a{
+	background: url(../../images/edus/bottom_pic2.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items3{
+	margin-left:110px;
+}
+.items3 dt a{
+	background: url(../../images/edus/bottom_pic3.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items4{
+	margin-left:110px;
+}
+.items4 dt a{
+	background: url(../../images/edus/bottom_pic4.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items5{
+	margin-left:110px;
+}
+.items5 dt a{
+	background: url(../../images/edus/bottom_pic5.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.bottom-line{
+	width:100%;
+	height:38px;
+	padding-top:220px;
+	border-bottom: 1px solid #fff;
+}
+.bottom p a{
+	color:#fff;
+	font-size:13px;
+}
+.bottom p{
+	font-size:14px;
+}

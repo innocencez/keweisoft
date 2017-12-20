@@ -1,0 +1,583 @@
+/*仁和专题页面*/
+.renhe-banner{
+    width:100%;
+	height:560px;
+	overflow:hidden;
+}
+.banner-top{
+    width:100%;
+	height:280px;
+	background:url(../../images/edus/special/banner-top.jpg) center center no-repeat;
+}
+.banner-bottom{
+    width:100%;
+    height:280px;
+	background:url(../../images/edus/special/banner-bottom.jpg) center center no-repeat;
+}
+.renhe-content{
+    width:1040px;
+    margin-left:auto;
+	margin-right:auto;
+}
+.renhe-introduction{
+    width:1038px;
+	height:168px;
+	background-color:#f0f1fe;
+    margin-top:10px;
+}
+.renhe-introduction-T{
+    width:390px;
+    height:154px;
+    font-size:18px;
+	color:#333333;
+    line-height:38px;
+    padding-top:10px;
+    margin-left:10px;
+}
+.renhe-company{
+     width:1040px;
+	 height:416px;
+	 margin-top:10px;
+}
+
+.renhe-company-img{
+      width:311px;
+	  height:387px;
+	  margin-top:28px;
+	  float:left;
+}
+.renhe-company-T{
+     width:717px;
+     height:415px;
+    background:url(../../images/edus/special/Img-one-right.png) center center no-repeat;
+	float:right
+}
+.renhe-company-article{
+     font-size:14px;
+	 color:#333333;
+     width:634px;
+     height:140px;
+	 margin-left:42px;
+     padding-top:192px;
+	text-indent:2em;
+	line-height:24px;
+}
+.renhe-Administration-title{
+     width:1040px;
+     height:175px;
+	 background:url(../../images/edus/special/Img-title-one.png) center center no-repeat;
+	 margin-top:10px;
+}
+.renhe-Administration-content{
+     width:1040px;
+     height:794px;
+	 margin-top:10px;
+}
+.Administration-cont1{
+     width:340px;
+     height:258px;
+     background-color:#a2b9db;
+	 float:left;
+}
+.cont1{
+     font-size:24px;
+	 color:#ffffff;
+	 margin-left:20px;
+	 padding-top:20px;
+	 line-height:28px;
+}
+.cont2{
+      font-size:14px;
+	 color:#ffffff;
+	 width:305px;
+	 height:90px;
+     margin-left:18px;
+    padding-top:28px;
+	line-height:24px;
+}
+.Administration-cont2{
+     width:340px;
+     height:258px;
+	 margin-left:10px;
+	 float:left;
+}
+.Administration-cont3{
+     width:340px;
+     height:258px;
+     background-color:#a2b9db;
+	 float:right;
+}
+.cont3{
+    font-size:14px;
+    color:#ffffff;
+    width:305px;
+	margin-left:18px;
+	line-height:24px;
+	padding-top:10px;
+}
+.Administration-cont4{
+    width:340px;
+    height:258px;
+    margin-top:10px;
+	float:left;
+}
+.Administration-cont5{
+    width:340px;
+    height:258px;
+	background-color:#a2b9db;
+    margin-top:10px;
+    margin-left:10px;
+	float:left;
+}
+.cont4{
+    font-size:14px;
+    color:#ffffff;
+     width:305px;
+     margin-left:18px;
+     line-height:28px;
+     padding-top:14px;
+}
+.Administration-cont6{
+     width:340px;
+     height:258px;
+	 float:right;
+	 margin-top:10px;
+}
+.Administration-cont7{
+     width:340px;
+     height:258px;
+	 background-color:#a2b9db;
+	 margin-top:10px;
+	 float:left;
+}
+.Administration-cont8{
+      width:340px;
+       height:258px;
+       float:left;
+      margin-left:10px;
+	  margin-top:10px;
+}
+.Administration-cont9{
+     width:340px;
+     height:258px;
+     margin-top:10px;
+	 float:right;
+	 background-color:#a2b9db;
+}
+.cont5{
+      width:305px;
+     font-size:14px;
+     color:#ffffff;
+     margin-left:18px;
+     line-height:28px;
+     padding-top:14px;
+}
+.renhe-Plan-title{
+     width:1040px;
+     height:175px;
+	 background:url(../../images/edus/special/Img-title-fangan.png) center center no-repeat;
+	 margin-top:10px;
+
+}
+.renhe-fangan-bg{
+     width:100%;
+     height:2955px;
+     background-color:#f5f8fe;
+	overflow:hidden;
+}
+.renhe-fangan-content{
+    width:1040px;
+	margin-left:auto;
+	margin-right:auto;
+   
+}
+.fangan-cont1{
+         font-size:18px;
+		 width:1040px;
+         color:#333333;
+         text-align:center;
+         line-height:32px;
+		 margin-top:26px;
+		 margin-left:20px;
+}
+.fangan-educational-Tit{
+        width:1040px;
+        height:60px;
+        background:url(../../images/edus/special/IMG-Tit-Edu.png) no-repeat;
+		background-position:18px;
+		margin-top:30px;
+}
+.fangan-edu-tit{
+        width:808px;
+        font-size:14px;
+        color:#666666;
+        padding-left:240px;
+		line-height:24px;
+		padding-top:4px;
+}
+.edu-con{
+     width:1040px;
+     height:410px;
+}
+.edu-con-left{
+       width:674px;
+	   height:390px;
+	   margin-top:30px;
+	   float:left;
+}
+.left-con1{
+     width:162px;
+	 height:60px;
+	 background-color:#ffffff;
+    font-size:24px;
+    color:#ee5e3d;
+	text-align:center;
+	line-height:60px;
+	margin-left:18px;
+	float:left;
+}
+.left-con2{
+    width:456px;
+    height:54px;
+	background-color:#ffffff;
+    font-size:14px;
+	color:#55586e;
+	line-height:24px;
+	float:left;
+	margin-left:4px;
+	padding-left:12px;
+	padding-top:6px;
+}
+.left-con3{
+     width:162px;
+	 height:60px;
+	 background-color:#ffffff;
+    font-size:24px;
+    color:#ee5e3d;
+	text-align:center;
+	line-height:60px;
+	margin-left:18px;
+	float:left;
+	margin-top:4px;
+}
+.left-con4{
+    width:456px;
+    height:54px;
+	background-color:#ffffff;
+    font-size:14px;
+	color:#55586e;
+	line-height:24px;
+	float:left;
+	margin-left:4px;
+	padding-left:12px;
+	padding-top:6px;
+	margin-top:4px;
+}
+.edu-con-right{
+    width:366px;
+    height:390px;
+    float:right;
+	margin-top:30px;
+}
+.course-Adminstration-Tit{
+    width:1040px;
+    height:60px;
+    background:url(../../images/edus/special/IMG-Tit-Course.png) no-repeat;
+    background-position:18px;
+	margin-top:30px;
+}
+.course-cont{
+     width:1040px;
+     height:360px;
+     background:url(../../images/edus/special/course-contImgbg.png) center center no-repeat;
+	 margin-top:28px;
+}
+.course-cont1{
+    width:182px;
+    font-size:14px;
+    color:#666666;
+    padding-top:60px;
+	padding-left:48px;
+    line-height:24px;
+	float:left;
+}
+.course-cont2{
+    width:182px;
+     font-size:14px;
+    color:#666666;
+    padding-top:60px;
+	padding-left:74px;
+	float:left;
+	line-height:24px;
+}
+.course-cont3{
+    width:182px;
+     font-size:14px;
+    color:#666666;
+    padding-top:54px;
+	padding-left:76px;
+	float:left;
+	line-height:22px;
+}
+.course-cont4{
+    width:182px;
+    font-size:14px;
+    color:#666666;
+    float:right;
+	padding-top:60px;
+    padding-right:44px;
+	line-height:24px;
+}
+.Area-Administration-Tit{
+    width:1040px;
+    height:60px;
+    background:url(../../images/edus/special/IMG-Tit-Area.png) no-repeat;
+    background-position:18px;
+	margin-top:30px;
+}
+.Area-One{
+    width:1040px;
+    height:80px;
+    background:url(../../images/edus/special/Circle-icon1.png) no-repeat;
+    background-position:74px;
+	margin-top:20px;
+}
+.Area-one-tit{
+    font-size:24px;
+    color:#323b79;
+    margin-left:162px;
+}
+.Area-one-con{
+    font-size:14px;
+    color:#666666;
+    width:894px;
+	margin-left:162px;
+	margin-top:8px;
+}
+.Area-Two{ 
+    width:1040px;
+    height:80px;
+    background:url(../../images/edus/special/Circle-icon2.png) no-repeat;
+    background-position:74px;
+	margin-top:20px;
+	
+}
+.Area-Three{
+     width:1040px;
+    height:80px;
+    background:url(../../images/edus/special/Circle-icon3.png) no-repeat;
+    background-position:74px;
+	margin-top:20px;
+}
+.Area-Four{
+     width:1040px;
+    height:80px;
+    background:url(../../images/edus/special/Circle-icon4.png) no-repeat;
+    background-position:74px;
+	margin-top:20px;
+}
+.Area-Five{
+    width:1040px;
+    height:80px;
+    background:url(../../images/edus/special/Circle-icon5.png) no-repeat;
+    background-position:74px;
+	margin-top:20px;
+}
+.Area-Six{
+    width:1040px;
+    height:80px;
+    background:url(../../images/edus/special/Circle-icon6.png) no-repeat;
+    background-position:74px;
+	margin-top:20px;
+}
+.Area-Seven{
+    width:1040px;
+    height:80px;
+    background:url(../../images/edus/special/Circle-icon7.png) no-repeat;
+    background-position:74px;
+	margin-top:20px;
+}
+.CRM-Administration-Tit{
+    width:1040px;
+    height:60px;
+    background:url(../../images/edus/special/IMG-Tit-CRM.png) no-repeat;
+    background-position:18px;
+	margin-top:30px;
+}
+.CRM-Administration-Con{
+     width:936px;
+     height:486px;
+     margin-left:auto;
+	 margin-right:auto;
+	 background-color:#f5f8fe;
+	 margin-top:20px;
+}
+.left{
+   width:620px;
+   height:486px;
+   float:left;
+
+}
+.right{
+   width:316px;
+   height:486px;
+   background-color:#f5f8fe;
+   float:right;
+}
+.CRM-Con1{
+    width:300px;
+    height:230px;
+	float:left;
+    background-color:#f2a361;
+}
+.CRM-Area-icon1{
+    width:75px;
+    height:72px;
+    margin-top:10px;
+    margin-left:110px;
+}
+.CRM-tit1{
+     font-size:24px;
+     color:#ffffff;
+     text-align:center;
+	 margin-top:4px;
+}
+.Content1{
+   width:282px;
+   font-size:14px;
+   color:#ffffff;
+   margin-left:8px;
+   margin-top:6px;
+   line-height:24px;
+}
+.CRM-Con2{
+    width:300px;
+    height:230px;
+	float:left;
+    background-color:#94d3e2;
+    margin-left:19px;
+}
+.CRM-Con3{
+    width:300px;
+    height:474px;
+    background-color:#afd263;
+	float:right;
+}
+
+.CRM-Area-icon3{
+      width:118px;
+      height:76px;
+      margin-left:90px;
+      margin-top:10px;
+
+}
+.CRM-Con4{
+    width:300px;
+    height:230px;
+    background-color:#78bebd;
+	float:left;
+	margin-top:14px;
+	
+}
+.CRM-Area-icon4{
+     width:62px;
+     height:70px;
+     margin-left:120px;
+     margin-top:10px;
+}
+.CRM-Con5{
+     width:300px;
+     height:230px;
+     background-color:#bb96c2;
+     float:right;
+	 margin-top:14px;
+}
+.Money-Administration-Tit{
+      width:1040px;
+      height:60px;
+      background:url(../../images/edus/special/IMG-Tit-Money.png) no-repeat;
+      background-position:18px;
+	  margin-top:20px; 
+}
+.Money-Administration-Con{
+     width:1040px;
+     height:265px;
+     background:url(../../images/edus/special/IMG-Money-bg.png) center center no-repeat;
+     margin-top:32px;
+}
+
+.Tit-Pink{
+    font-size:18px;
+    color:#ec5264;
+    margin-left:230px;
+	padding-top:100px;
+}
+.Green-one{
+    width:394px;
+    height:124px;
+    float:left;
+    margin-left:30px;
+	padding-top:140px;
+}
+.Tit-green{
+     font-size:18px;
+     color:#40a8c7;
+	 text-align:center;
+}
+.Tit-green-con{
+     font-size:14px;
+     color:#666666;
+     text-align:center;
+	 padding-top:6px;
+	 line-height:22px;
+}
+.Green-two{
+   width:394px;
+   height:124px;
+   float:left;
+   margin-left:-100px;
+   padding-top:-50px;
+}
+.Green-three{
+   width:394px;
+   height:124px;
+   float:right;
+   padding-top:20px;
+   margin-right:24px;
+}
+.renhe-Value{
+  width:1040px;
+  height:694px;
+  margin:0 auto;
+  margin-top:20px;v
+}
+.renhe-Value-title{
+   width:1040px;
+   height:175px;
+   background:url(../../images/edus/special/Img-title-jiazhi.png) center center no-repeat;
+}
+.renhe-Value-Con{
+   width:1040px;
+   height:350px;
+   margin-top:20px;
+}
+.Value-One{
+    width:340px;
+    height:480px;
+	float:left;
+	
+}
+.Value-1{
+   width:340px;
+   height:240px;
+   background-color:#fe9b3c;
+}
+.Value-ConT{
+    width:316px;
+    font-size:14px;
+    color:#333333;
+	line-height:26px;
+	margin-left:12px;
+	padding-top:14px;
+}
+

@@ -1,0 +1,3102 @@
+/*外语培训行业*/
+.fore-banner{
+	width:100%;
+	height: 560px;
+	background: url(../../images/edus/sf-banner.jpg) center center no-repeat;
+}
+.fore-banner-btn{
+	width: 250px;
+	height: 48px;
+	background: #1f81fb;
+	line-height: 48px;
+	color: #fff;
+	font-size: 24px;
+	border-radius: 5px;
+	top:424px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	box-shadow: 0px 2px 3px #666;
+}
+.fore-banner-btn:hover{
+	background: #fb721f;
+}
+.fore-block1{
+	overflow: hidden;
+}
+.fore-block-tit{
+	width: 100%;
+	height: 84px;
+	text-align: center;
+	line-height: 84px;
+	background: url(../../images/edus/sf-block-tit.png) center center no-repeat;
+	margin-top: 38px;
+	font-size: 24px;
+	color:#fff;
+}
+.fore-block1-con{
+	width: 1120px;
+	height: 85px;
+	background: url(../../images/edus/sf-b1-bg.png) center center no-repeat;
+	margin-top: 40px;
+	font-size: 14px;
+	color:#333;
+	line-height: 23px;
+	padding:30px 30px 0;
+}
+.fore-block1-sub{
+	width: 100%;
+	height: 400px;
+	margin-top: 16px;
+	overflow: hidden;
+}
+.fore-block1-item{
+	width: 360px;
+	height:400px;
+	float: left;
+	background: #f3f5fe;
+  margin-left: 20px;
+}
+.fb1-item1{
+	width: 360px;
+	height: 120px;
+	background: url(../../images/edus/sf-block1-pic1.jpg) center center no-repeat;
+	text-align: center;
+	line-height: 120px;
+	color:#fff;
+	font-size: 30px;
+}
+.fb1-item2{
+	width: 360px;
+	height: 120px;
+	background: url(../../images/edus/sf-block1-pic2.jpg) center center no-repeat;
+	text-align: center;
+	line-height: 120px;
+	color:#fff;
+	font-size: 30px;
+}
+.fb1-item3{
+	width: 360px;
+	height: 120px;
+	background: url(../../images/edus/sf-block1-pic3.jpg) center center no-repeat;
+	text-align: center;
+	line-height: 120px;
+	color:#fff;
+	font-size: 30px;
+}
+.fb1-sub{
+	width: 336px;
+	height: 240px;
+	padding:20px 12px;
+	font-size: 14px;
+	line-height: 28px;
+	color:#333;
+}
+.fore-ads{
+	width: 100%;
+	height: 120px;
+	background: url(../../images/edus/sf-ads.jpg) center center no-repeat;
+	margin-top: 60px;
+}
+.fore-block2{
+	overflow: hidden;
+}
+.fb2-item-tit{
+	width: 1180px;
+	height: 60px;
+	background: url(../../images/edus/sf-block-tit1.png) center center no-repeat;
+	margin-top: 46px;
+	overflow: hidden;
+}
+.fb2-item-left{
+	width: 186px;
+	height: 45px;
+	background: #fb721f;
+	text-align: center;
+	line-height: 45px;
+	font-size: 20px;
+	margin-top: 7px;
+	color:#fff;
+}
+.fb2-item-con{
+	width:100%;
+	margin-top:32px;
+}
+.fb2-item-list{
+	height:54px;
+	overflow: hidden;
+	background: #eff5fc;
+}
+.fb2-item-list-left{
+	width: 186px;
+	float: left;
+	background: #d7e5fd;
+	text-align: center;
+	line-height: 54px;
+	height: 54px;
+	font-size: 14px;
+	color:#333;
+	font-weight: bold;
+}
+.fb2-item-list-right{
+	width:900px;
+	height: 54px;
+	line-height: 54px;
+	float: left;
+	font-size: 14px;
+	color:#333;
+	padding-left:14px;
+}
+.fb2-item-list-right-double{
+	width:900px;
+	height: 49px;
+	line-height: 24px;
+	float: left;
+	font-size: 14px;
+	color:#333;
+	padding:5px 10px 0 14px;
+}
+ .fb2-item2-con{
+ 	width: 1040px;
+ 	margin: 70px auto 0;
+ 	height: 337px;
+ 	overflow: hidden;
+ 	position: relative;
+ 	background: url(../../images/edus/sf-block4-bg.png) center top no-repeat;
+ }
+ .fb2-item2-center{
+ 	width: 202px;
+ 	height: 202px;
+ 	position: absolute;
+ 	top:47px;
+ 	left:420px;
+ 	text-align: center;
+ 	line-height: 202px;
+ 	font-size:30px;
+ 	color:#4f5868;
+ }
+ .fb2-item2-list1{
+ 	width:347px;
+ 	height: 70px;
+ 	position: absolute;
+ 	top:0;
+ 	left:50px;
+ }
+ .fb2-item2-list-left-tit{
+ 	text-align: right;
+ 	font-size: 18px;
+ 	color:#4f5868;
+ 	font-weight: bold;
+ }
+ .fb2-item2-list-con{
+ 	font-size:14px;
+ 	color:#4f5868;
+ 	line-height: 24px;
+	margin-top:5px;
+ }
+  .fb2-item2-list2{
+  	width:366px;
+  	height: 73px;
+  	position:absolute;
+  	left:0;
+  	top:133px;
+ }
+  .fb2-item2-list3{
+  	width:398px;
+  	height: 97px;
+  	position:absolute;
+  	bottom:0;
+  	left:0;
+ } 
+   .fb2-item2-list4{
+  	width:398px;
+  	height: 71px;
+  	position:absolute;
+  	top:0;
+  	right:-7px;
+ } 
+  .fb2-item2-list-right-tit{
+ 	text-align: left;
+ 	font-size: 18px;
+ 	color:#4f5868;
+ 	font-weight: bold;
+ }
+  .fb2-item2-list5{
+  	width:364px;
+  	height: 75px;
+  	position:absolute;
+  	top:107px;
+  	right:0;
+ } 
+  .fb2-item2-list6{
+  	width: 413px;
+  	height: 97px;
+  	position: absolute;
+  	bottom:0;
+  	right:-2px;
+  } 
+  .fb2-item3-con{
+  	width:100%;
+  	height: 289px;
+  	overflow: hidden;
+  	margin-top:60px;
+  }
+  .fb2-item3-list{
+  	width:222px;
+  	height: 263px;
+  	background: url(../../images/edus/sf-block5-item.png) center center no-repeat;
+  	float: left;
+  }
+  .fb2-item3-list-tit{
+  	width: 220px;
+  	height: 68px;
+  	line-height: 68px;
+  	text-align: center;
+  	font-size: 24px;
+  	color:#4f5868;
+  }
+  .fb2-item3-list-con{
+  	width:203px;
+  	height:174px;
+  	padding:18px 6px 0 11px;
+  	font-size: 14px;
+  	color:#4f5868;
+  	line-height: 24px;
+  }
+  .fb2-item4-con{
+  	width: 100%;
+  	height: 348px;
+  	background: url(../../images/edus/sf-block6-bg.png) center center no-repeat;
+  	margin-top: 40px;
+  }
+  .fb2-item4-list1{
+  	width: 340px;
+  	height: 90px;
+  	float: left;
+  	font-size: 14px;
+  	color:#333;
+  	line-height: 24px;
+  	margin-top:233px;
+  	margin-left:20px;
+  }
+  .fb2-item4-list2{
+  	width: 350px;
+  	height: 90px;
+  	float: left;
+  	font-size: 14px;
+  	color:#333;
+  	line-height: 24px;
+  	margin-top:160px;
+  	margin-left:55px;
+  }
+  .fb2-item4-list3{
+  	width: 340px;
+  	height: 90px;
+  	float: left;
+  	font-size: 14px;
+  	color:#333;
+  	line-height: 24px;
+  	margin-top:237px;
+  	margin-left:53px;
+  }  
+  .fore-block3{
+  	overflow: hidden;
+  }
+  .fb3-con{
+  	width:100%;
+  	margin-top: 50px;
+  	border-spacing: 0;
+  	border-collapse: collapse;
+  	border:3px solid #fff;
+  }
+  .fb3-con tr,.fb3-con td{
+  	border:3px solid #fff;
+  }
+  .fb3-con thead td{
+  	border:3px solid #fff;
+  	line-height: 58px;
+  	color:#fff;
+  	text-align: center;
+  	font-size: 18px;
+  }
+  .fb3-con thead td:nth-child(1){
+  	width:144px;
+  	background: #fb721f;
+  }
+  .fb3-con thead td:nth-child(2){
+  	width:200px;
+  	background: #ff8942;
+  }
+  .fb3-con thead td:nth-child(3){
+  	width:730px;
+  	background: #fe9c61;
+  }  
+  .fb3-con tbody tr:nth-child(odd){
+  	background: #f8f7f7;
+  }
+  .fb3-con tbody tr:nth-child(even){
+  	background: #e8e7e7;
+  }  
+  .fb3-con tbody td:nth-child(1){
+  	font-size: 18px;
+  	color:#333;
+  	font-weight: bold;
+  	text-align: center;
+  }
+  .fb3-con tbody td:nth-child(2){
+  	font-size: 18px;
+  	color:#333;
+  	text-align: center;
+  }  
+  .fb3-con tbody td:nth-child(3){
+  	font-size: 14px;
+  	color:#333;
+  	text-align: left;
+  	padding:12px;
+  	line-height: 24px;
+  }    
+  .fb3-item2-con{
+    width:100%;
+    height: 183px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom:72px;
+  }
+  .fb3-item2-list{
+    width: 213px;
+    height: 183px !important;
+    float: left;
+    position: relative;
+  }
+  .fb3-item2-logo1{
+    width: 100%;
+    height: 107px;
+    background: url(../../images/edus/sf-logo4.png) center top no-repeat;
+    margin-top:25px;
+  }
+  .fb3-item2-list p.tit{
+    text-align: center;
+    font-size:24px;
+    color:#f56727;
+    bottom:0;
+    position: absolute;
+    width: 100%;
+  }
+  .fb3-item2-logo2{
+    width: 100%;
+    height: 125px;
+    background: url(../../images/edus/sf-logo3.png) center top no-repeat;
+    margin-top:8px;
+  }
+  .fb3-item2-logo3{
+    width: 100%;
+    height: 117px;
+    background: url(../../images/edus/sf-logo2.png) center top no-repeat;
+    margin-top:19px;
+  }  
+  .fb3-item2-logo4{
+    width: 100%;
+    height: 128px;
+    background: url(../../images/edus/sf-logo1.png) center top no-repeat;
+    margin-top:10px;
+  } 
+  .fb3-item2-logo5{
+    width: 100%;
+    height: 128px;
+    background: url(../../images/edus/sf-logo5.jpg) center top no-repeat;
+    margin-top:10px;
+  }  
+  .fb3-item2-logo6{
+    width: 100%;
+    height: 128px;
+    background: url(../../images/edus/sf-logo6.jpg) center 0px no-repeat;
+    margin-top:10px;
+  }   
+  .fb3-item2-logo7{
+    width: 100%;
+    height: 129px;
+    background: url(../../images/edus/sf-logo7.jpg) center top no-repeat;
+    margin-top:15px;
+  }  
+  .fb3-item2-logo8{
+    width: 100%;
+    height: 142px;
+    background: url(../../images/edus/sr-logo5.jpg) center top no-repeat;
+  } 
+  .fb3-item2-logo9{
+    width: 100%;
+    height: 140px;
+    background: url(../../images/edus/sf-logo8.jpg) center top no-repeat;
+  }       
+/*出国留学*/
+  .abr-banner{
+    width: 100%;
+    height: 560px;
+    background: url(../../images/edus/sa-banner.jpg) center center no-repeat;
+  }  
+  .abr-banner-center{
+    position: relative;   
+  }
+  .abr-banner-btn{
+    width: 250px;
+    height: 48px;
+    background: #0b78e2;
+    text-align: center;
+    line-height: 48px;
+    color:#fff;
+    font-size:24px;
+    position:absolute;
+    top:373px;
+    right:0;
+    border-radius:5px;
+    box-shadow: 0px 2px 3px #666;
+  }
+  .abr-banner-btn:hover{
+    background: #fb721f;
+  }
+  .abr-block-tit{
+    width: 100%;
+    margin-top:48px;
+    text-align: center;
+  }
+  .abr-block-tit span.tit-con{
+    display: inline-block;
+    font-size: 38px;
+    color:#fd5d1e;
+    background: url(../../images/edus/sa-tit-bg1.png) left 10px no-repeat;
+    padding-left:49px;
+  }
+  .abr-block1-con{
+    width: 100%;
+    height: 315px;
+    position: relative;
+    background: #f8f9fe;
+    margin-top:60px;
+  }
+  .abc-con{
+    width: 945px;
+    height: 152px;
+    border-bottom:4px solid #b7bdde;
+    position: absolute;
+    top:0;
+    right:19px;
+    z-index:2;
+    padding:38px 0 0 132px;
+  }
+  .abc-pic{
+    width: 171px;
+    height: 171px;
+    background: url(../../images/edus/sa-block1-pci.png) center center no-repeat;
+    position: absolute;
+    left:12px;
+    top:22px;
+    z-index:3;
+  }
+  .abc-con-tit{
+    font-size: 20px;
+    color:#fd5d1e;
+  }
+  .abc-con-sub{
+    font-size: 14px;
+    color:#333;
+    line-height: 24px;
+    margin-top:10px;
+  }
+  .abc-btn{
+    width: 300px;
+    height: 38px;
+    line-height: 38px;
+    background: #2a8ded;
+    text-align: center;
+    color:#fff;
+    font-size: 20px;
+    position: absolute;
+    left:441px;
+    top:233px;
+    border-radius: 5px;
+  }
+  .abc-btn:hover{
+    background: #fb721f;
+  }  
+  .abr-block-tit span.tit1-con{
+    display: inline-block;
+    font-size: 38px;
+    color:#fd5d1e;
+    background: url(../../images/edus/sa-tit-bg2.png) left 10px no-repeat;
+    padding-left:56px;
+  }  
+  .abr-block2-con{
+    display: inline-block;
+    margin-top:58px;
+    width: 100%;
+  }
+  .abr-block2-item{
+    width: 360px;
+    height: 302px;
+    padding-top:7px;
+    float: left;
+  }
+  .abr-block2-num{
+    width: 96px;
+    height: 48px;
+    background: #fd5d1e;
+    border-top-left-radius: 48px;
+    border-top-right-radius: 48px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 38px;
+    color:#fff;
+    line-height: 48px;
+    font-style: oblique;
+  }
+  .abr-block2-tit{
+    width: 360px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    background: #fd5d1e;
+  }
+  .abr-block2-sub{
+    width: 336px;
+    height: 189px;
+    background: #f8f9fe;
+    box-shadow: 0px 3px 2px rgba(11,11,11,.23);
+    padding:23px 12px 0px;
+    font-size: 14px;
+    color:#666;
+    line-height: 24px;
+  }
+  .abr-block2-clear{
+    width: 100%;
+    height: 25px;
+    clear:both;
+  }
+  .abr-ads{
+    width: 100%;
+    height: 120px;
+    background: url(../../images/edus/sa-ads.jpg) center center no-repeat;
+    margin-top:58px;
+  }
+  .abr-ads-btn{
+    width:176px;
+    height:46px;
+    position: absolute;
+    background: #fd5d1e;
+    border-radius: 7px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    color:#fff;
+    right: 20px;
+    top:58px;
+  }
+  .abr-ads-btn:hover{
+    background: #fca886;
+  }
+  .abr-block2{
+    overflow: hidden;
+  }
+  .abr-block-tit span.tit2-con{
+    display: inline-block;
+    font-size: 38px;
+    color:#fd5d1e;
+    background: url(../../images/edus/sa-tit-bg4.png) left 10px no-repeat;
+    padding-left:50px;
+  }   
+  .abr-block2-top{
+    width: 100%;
+    height: 236px;
+    background: url(../../images/edus/sa-block2-pic1.png) 692px center no-repeat;
+    margin-top: 58px;
+  }
+  .abr-block2-top-con{
+    width: 540px;
+    height: 236px;
+    float: left;
+    position: relative;
+  } 
+  .abr-block2-top-con p{
+    color:#333;
+    font-size: 14px;
+    line-height: 26px;
+    text-indent: 28px;
+  }
+  .abr-block2-top-btn1{
+    width: 217px;
+    height: 36px;
+    background: #fd5d1e;
+    position: absolute;
+    left:24px;
+    bottom:6px;
+    border-radius: 5px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 36px;
+  }
+  .abr-block2-top-btn1:hover,.abr-block2-top-btn2:hover{
+    background: #2591ec;
+  }
+  .abr-block2-top-btn2{
+    width: 217px;
+    height: 36px;
+    background: #fd5d1e;
+    position: absolute;
+    left:270px;
+    bottom:6px;
+    border-radius: 5px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 36px;
+  }  
+  .abr-block2-role{
+    width: 100%;
+    height: 289px;
+    overflow: hidden;
+    margin-top:78px;
+  }
+  .abr-block2-role-item{
+    width: 360px;
+    height: 289px;
+    background: url(../../images/edus/sa-block2-item-bg.png) center center no-repeat;
+    float: left;
+  }
+  .abr-block2-role-item p.tit{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    font-size: 30px;
+  }
+  .abr-block2-role-item .con{
+    width: 288px;
+    height: 190px;
+    background: #fff;
+    margin: 10px auto 0;
+    padding:16px 19px 0px;
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+  }
+  .abr-block2-line{
+    width: 100%;
+    height: 23px;
+    background: url(../../images/edus/sa-block2-line.png) center center no-repeat;
+    margin-top:50px;
+  }
+  .abr-block2-con-item1{
+    width:100%;
+    height: 281px;
+    overflow: hidden;
+    margin-top:18px;
+  }
+  .abr-block2-pic1{
+    width: 340px;
+    height: 281px;
+    float: right;
+    margin-right:95px; 
+    background: url(../../images/edus/sa-block2-pic2.png) center center no-repeat;
+  }
+  .abci-con1{
+    width: 540px;
+    height: 227px;
+    float: left;
+    margin-top:39px;
+    position: relative;
+  }
+  .abci-con1 p.tit{
+    font-size: 30px;
+    color:#fb721f;
+  }
+  .abci-con1 p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+    margin-top: 20px;
+  }
+  .abci-con1 p.sub{
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+  }
+  .abci-con1 .btn1{
+    width: 108px;
+    height:26px;
+    background: #fb721f;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color:#fff;
+    position: absolute;
+    left:168px;
+    bottom:0;
+  }
+  .abci-con1 .btn2{
+    width: 108px;
+    height:26px;
+    background: #fb721f;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color:#fff;
+    position: absolute;
+    left:286px;
+    bottom:0;
+  }  
+  .abr-block2-con-item2{
+    width:100%;
+    height: 291px;
+    margin-top: 66px;
+  }
+  .abr-block2-pic2{
+    width: 328px;
+    height: 291px;
+    background: url(../../images/edus/sa-block2-pic3.png) center center no-repeat;
+    float: left;
+    margin-left:91px;
+  }
+  .abci-con2{
+    width:540px;
+    height: 291px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+  }
+  .abci-con2 p.tit{
+    margin-top:32px;
+    font-size: 30px;
+    color:#fb721f;
+  }  
+  .abci-con2 p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+    margin-top: 20px;    
+  }
+  .abci-con2 p.sub{
+    margin-top: 85px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+  }  
+  .abci-con2 .btn1{
+    width: 108px;
+    height:26px;
+    background: #fb721f;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color:#fff;
+    position: absolute;
+    left:169px;
+    bottom:34px;
+  }
+  .abr-block2-con-item3{
+    width: 100%;
+    height: 258px;
+    overflow: hidden;
+    margin-top:66px;
+  }
+  .abr-block2-pic3{
+    width: 371px;
+    height: 239px;
+    background: url(../../images/edus/sa-block2-pic4.png) center center no-repeat;
+    float: right;
+    margin-right:80px;
+    margin-top: 11px;
+  }
+  .abci-con3{
+    width: 540px;
+    height: 258px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+  }
+  .abci-con3 p.tit{
+    font-size: 30px;
+    color:#fb721f;
+  }  
+  .abci-con3 p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+    margin-top: 20px;    
+  }
+  .abci-con3 p.sub{
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+    position: absolute;
+    bottom: 36px;
+    height: 26px;
+  }   
+  .abci-con3 .btn1{
+    width: 108px;
+    height:26px;
+    background: #fb721f;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color:#fff;
+    position: absolute;
+    left:168px;
+    bottom:36px;
+  }  
+  .abr-block2-con-item4{
+    width: 100%;
+    height: 228px;
+    overflow: hidden;
+    margin-top:66px;
+  }  
+  .abr-block2-pic4{
+    width: 404px;
+    height: 191px;
+    background: url(../../images/edus/sa-block2-pic5.png) center center no-repeat;
+    float: left;
+    margin-left:53px;
+    margin-top: 15px;
+  }  
+  .abci-con4{
+    width: 540px;
+    height: 228px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+  } 
+  .abci-con4 p.tit{
+    font-size: 30px;
+    color:#fb721f;
+  }  
+  .abci-con4 p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+    margin-top: 20px;    
+  }
+  .abci-con4 p.sub{
+    margin-top: 59px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+  }   
+  .abci-con4 .btn1{
+    width: 108px;
+    height:26px;
+    background: #fb721f;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color:#fff;
+    position: absolute;
+    left:168px;
+    bottom:6px;
+  }    
+  .abr-block3{
+    overflow: hidden;
+  }
+  .abr-block-tit span.tit3-con{
+    display: inline-block;
+    font-size: 38px;
+    color:#fd5d1e;
+    background: url(../../images/edus/sa-tit-bg3.png) left 10px no-repeat;
+    padding-left:52px;
+  }    
+  .abr-block3-con{
+    height: 200px;
+    margin: 40px auto 58px;
+  }
+  .abr-block3-con .each{
+    float: left;
+  }
+  .abr-block3-logo1{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: url(../../images/edus/sa-logo2.png) center top no-repeat;
+    float: left;
+  }
+  .abr-block3-con p{
+    font-size: 24px;
+    color:#f56727;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }  
+  .abr-block3-logo2{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: url(../../images/edus/sa-logo1.png) center 15px no-repeat;
+    float: left;
+  }
+  .abr-block3-logo3{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: url(../../images/edus/sa-logo3.jpg) center 15px no-repeat;
+    float: left;
+  } 
+  .abr-block3-logo4{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: url(../../images/edus/sa-logo4.jpg) center 30px no-repeat;
+    float: left;
+  }  
+  .abr-block3-logo5{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: url(../../images/edus/shinyway-logo.jpg) center 30px no-repeat;
+    float: left;
+  } 
+  .abr-block3-logo6{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background: url(../../images/edus/sa-logo5.jpg) center 25px no-repeat;
+    float: left;
+  }      
+  /*少儿*/
+  .sc-banner{
+    width: 100%;
+    height: 560px;
+    background: url(../../images/edus/sc-banner.jpg) center center no-repeat;
+  }
+  .sc-banner-center{
+    width:1040px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .sc-banner-btn{
+    width: 250px;
+    height: 48px;
+    background: #fb721f;
+    line-height: 48px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+    bottom: 123px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    box-shadow: 0px 2px 3px #666;
+  }
+  .sc-block1{
+    width: 1130px;
+    height: 469px;
+    background: url(../../images/edus/sc-block1-bg.png) center center no-repeat;
+    margin-top:40px;
+    padding:140px 30px 0px;
+    margin-left:-10px;
+
+  }
+  .sc-block1 p.tit1{
+    font-size: 16px;
+    color:#363d46;
+    font-weight: bold;
+    padding-left:28px;
+    background: url(../../images/edus/sc-block1-ico4.png) left center no-repeat;
+  }
+  .sc-block1 p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+    margin-top: 18px;
+  }
+  .sc-block1 p.tit2{
+    font-size: 16px;
+    color:#363d46;
+    font-weight: bold;
+    padding-left:28px;
+    background: url(../../images/edus/sc-block1-ico3.png) left center no-repeat; 
+    margin-top:18px;  
+  }
+  .sc-block1 p.tit3{
+    font-size: 16px;
+    color:#363d46;
+    font-weight: bold;
+    padding-left:28px;
+    background: url(../../images/edus/sc-block1-ico2.png) left center no-repeat; 
+    margin-top:18px;  
+  }  
+  .sc-block1 p.tit4{
+    font-size: 16px;
+    color:#363d46;
+    font-weight: bold;
+    padding-left:28px;
+    background: url(../../images/edus/sc-block1-ico1.png) left center no-repeat; 
+    margin-top:18px;  
+  }    
+  .sc-block2{
+    overflow: hidden;
+    margin-top:74px;
+  }
+  .sc-block2-tit{
+    width: 100%;
+    height: 63px;
+    background: url(../../images/edus/sc-tit1.png) center center no-repeat;
+  }
+  .sc-block2-top{
+    width: 100%;
+    height: 275px;
+    margin-top: 40px;
+  }
+  .sc-block2-item{
+    width: 362px;
+    height: 275px;
+    background:url(../../images/edus/sc-block2-itembg.png) center center no-repeat;
+    float: left;
+  }
+  .sc-block2-item p.tit{
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+  }
+  .sc-block2-item div.con{
+    width: 324px;
+    height: 195px;
+    padding:28px 18px 0px;
+    font-size: 14px;
+    color:#333;
+    line-height: 26px; 
+  }
+  .sc-block2-bottom{
+    width: 100%;
+    height: 275px;
+    margin-top: 35px;
+  }
+  .sc-ads{
+    width: 100%;
+    height: 120px;
+    background: url(../../images/edus/sc-ads.jpg) center center no-repeat;
+    margin-top: 60px;
+  }
+  .sc-block3{
+    overflow: hidden;
+    margin-top: 58px;
+  }
+  .sc-block3-tit{
+    width: 100%;
+    height: 64px;
+    background: url(../../images/edus/sc-tit2.png) center center no-repeat;
+  }
+  .sc-block3-pic1{
+    width: 100%;
+    height: 334px;
+    background: url(../../images/edus/sc-pic1.png) center center no-repeat;
+    margin-top:65px;
+  }
+  .sc-block3-line{
+    width: 100%;
+    height: 24px;
+    background: url(../../images/edus/sc-line.png) center center no-repeat;
+    margin-top:56px;
+  }
+  .sc-block3-item1{
+    width: 100%;
+    height: 297px;
+    margin-top: 53px;
+    overflow: hidden;
+  }
+  .sc-block3-item1-left{
+    width: 540px;
+    height: 100%;
+    float: left;
+    position: relative;
+  }
+  .sc-block3-item1-left p.tit{
+    font-size: 30px;
+    color:#fb721f;
+    text-align: left;
+  }
+  .sc-block3-item1-left p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+    margin-top: 24px;
+  }
+  .sc-block3-item1-left div.pic{
+    width: 421px;
+    height: 102px;
+    background: url(../../images/edus/sc-pic3.png) center center no-repeat;
+    position: absolute;
+    bottom:0;
+    left:40px;
+  }
+  .sc-block3-item1-right{
+    width: 497px;
+    float: right;
+    height: 100%;
+    background: url(../../images/edus/sc-pic2.png) 30px 37px no-repeat;
+    position: relative;
+  }
+  .sc-block3-item1-right p.tit{
+    font-size: 18px;
+    line-height: 26px;
+    color:#333;
+    position: absolute;
+    bottom:0;
+    font-weight: bold;
+  }  
+  .sc-block3-item1-right div.btn1{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    left:169px;
+  }
+  .sc-block3-item1-right div.btn2{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    left:286px;    
+  }  
+  .sc-block3-item2{
+    width: 100%;
+    height: 281px;
+    margin-top: 90px;
+    overflow: hidden;
+  }  
+  .sc-block3-item2-left{
+    width: 430px;
+    height: 281px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background: url(../../images/edus/sc-pic4.png) 53px 21px no-repeat;
+    margin-left: 45px;
+  }
+  .sc-block3-item2-left p.tit{
+    position: absolute;
+    bottom:18px;
+    font-size: 18px;
+    color:#333;
+    font-weight:bold;
+  }
+  .sc-block3-item2-left div.btn1{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:16px;
+    left:168px;
+  }  
+  .sc-block3-item2-right{
+    width: 540px;
+    height: 281px;
+    float: right;
+  }
+  .sc-block3-item2-right p.tit{
+    font-size: 30px;
+    color:#fb721f;
+  }  
+  .sc-block3-item2-right p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 26px;
+    margin-top: 24px;
+  }  
+  .sc-block3-item3{
+    width: 100%;
+    height: 317px;
+    margin-top: 90px;
+    overflow: hidden;
+  } 
+  .sc-block3-item3-left{
+    width: 540px;
+    height: 317px;
+    float: left;
+    overflow: hidden;
+  } 
+  .sc-block3-item3-left p.tit{
+    font-size: 30px;
+    color:#fb721f;
+    margin-top:23px;
+  }  
+  .sc-block3-item3-left p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 24px;
+    margin-top:24px;
+  }
+  .sc-block3-item3-right{
+    width: 480px;
+    height: 317px;
+    float: right;
+    position: relative;
+    background: url(../../images/edus/sc-pic5.png) 85px top no-repeat;
+  }
+  .sc-block3-item3-right p.tit{
+    font-size: 18px;
+    color:#333;
+    font-weight:bold;
+    position: absolute;
+    bottom:6px;
+    left:0;
+  }  
+  .sc-block3-item3-right div.btn1{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:4px;
+    left:169px;    
+  }  
+  .sc-block3-item3-right div.btn2{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:4px;
+    left:306px;    
+  }    
+  .sc-block3-item4{
+    width: 100%;
+    height: 318px;
+    overflow: hidden;
+    margin-top: 90px;
+  }
+  .sc-block3-item4-left{
+    width:430px;
+    height: 318px;
+    float: left;
+    overflow: hidden;
+    background: url(../../images/edus/sc-pic6.png) center top no-repeat;
+    position: relative;
+    margin-left: 45px;
+  }
+  .sc-block3-item4-left p.tit{
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+    position: absolute;
+    bottom:6px;
+  }  
+  .sc-block3-item4-left div.btn1{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:4px;
+    left:169px;    
+  }  
+  .sc-block3-item4-left div.btn2{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:4px;
+    left:306px;    
+  }   
+  .sc-block3-item4-right{
+    width: 540px;
+    height: 318px;
+    float: right;
+  }  
+  .sc-block3-item4-right p.tit{
+    font-size: 30px;
+    color:#fb721f;
+    margin-top:50px;
+  }  
+  .sc-block3-item4-right p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 24px;
+    margin-top:24px;
+  }  
+  .sc-block3-item4-right p.list{
+    margin-top:22px;
+  }  
+  .sc-block3-item4-right p.list span{
+    font-size: 18px;
+    color:#fb721f;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .sc-block3-item5{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    margin-top: 90px;
+  }  
+  .sc-block3-item5-left{
+    width: 540px;
+    height: 100%;
+    float: left;
+  }
+  .sc-block3-item5-left p.tit{
+    font-size: 30px;
+    color:#fb721f;
+  }  
+  .sc-block3-item5-left p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 24px;
+    margin-top:24px;    
+  }
+  .sc-block3-item5-right{
+    width: 495px;
+    height: 240px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    background: url(../../images/edus/sc-pic7.png) center 2px no-repeat;
+    margin-right: 30px;
+  }
+  .sc-block3-item5-right p.tit{
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+    position: absolute;
+    bottom:6px;
+    left:17px;   
+  }  
+  .sc-block3-item5-right div.btn1{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:4px;
+    left:185px;    
+  }  
+  .sc-block3-item5-right div.btn2{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:4px;
+    left:320px;    
+  } 
+  .sc-block3-item6{
+    width: 100%;
+    height: 243px;
+    overflow: hidden;
+    margin-top: 90px;    
+  } 
+  .sc-block3-item6-left{
+    width:438px;
+    height:243px;
+    float: left;
+    position: relative;
+    background: url(../../images/edus/sc-pic8.png) center top no-repeat;
+    margin-left: 45px;
+  }
+  .sc-block3-item6-left p.tit{
+    font-size: 18px;
+    font-weight: bold;
+    color:#333;
+    position: absolute;
+    bottom:6px;
+    left:17px;   
+  }  
+  .sc-block3-item6-left div.btn1{
+    width: 108px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    background: #fb721f;
+    color:#fff;
+    position: absolute;
+    bottom:4px;
+    left:185px;    
+  }  
+  .sc-block3-item6-right{
+    width: 540px;
+    height: 243px;
+    float: right;
+  }  
+  .sc-block3-item6-right p.tit{
+    font-size: 30px;
+    color:#fb721f;
+    margin-top: 35px;
+  }  
+  .sc-block3-item6-right p.con{
+    font-size: 14px;
+    color:#333;
+    line-height: 24px;
+    margin-top:24px;    
+  }  
+  .sc-block3-line{
+    width: 100%;
+    height: 24px;
+    background: url(../../images/edus/sc-line.png) center center no-repeat;
+    margin-top:65px;
+  }
+  .sc-block4{
+    width: 100%;
+    margin-top:50px;
+  }
+  .sc-block4-tit{
+    background: url(../../images/edus/sc-tit3.png) center center no-repeat;
+    height: 64px;
+  }
+  .sc-block4-con{
+    width: 1104px;
+    margin:30px auto;
+    height: 235px;
+  }
+  .sc-block4-con div.logo1{
+    width: 247px;
+    height: 235px;
+    background: url(../../images/edus/sc-logo1.png) center 28px no-repeat;
+    position: relative;
+    float: left;
+  }  
+  .sc-block4-con p.tit{
+    text-align: center;
+    font-size: 24px;
+    color:#f56727;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }  
+  .sc-block4-con div.line{
+    width: 50px;
+    height: 235px;
+    float: left;
+    background: url(../../images/edus/sf-block-line.png) center 19px no-repeat;
+  }  
+  .sc-block4-con div.logo2{
+    width: 247px;
+    height: 235px;
+    background: url(../../images/edus/sc-logo2.png) center 28px no-repeat;
+    position: relative;
+    float: left;
+  }  
+   .sc-block4-con div.logo3{
+    width: 247px;
+    height: 235px;
+    background: url(../../images/edus/sr-logo3.jpg) center 28px no-repeat;
+    position: relative;
+    float: left;
+  } 
+   .sc-block4-con div.logo4{
+    width: 247px;
+    height: 235px;
+    background: url(../../images/edus/sr-logo4.jpg) center 28px no-repeat;
+    position: relative;
+    float: left;
+  }
+   .sc-block4-con div.logo5{
+    width: 247px;
+    height: 235px;
+    background: url(../../images/edus/sr-logo5.jpg) center 28px no-repeat;
+    position: relative;
+    float: left;
+  }     
+/*职业资格*/
+  .sq-banner{
+    width: 100%;
+    height: 560px;
+    background: url(../../images/edus/sq-banner.jpg) center center no-repeat;
+  }   
+  .sq-banner-center{
+    width: 1040px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+  } 
+  .sq-banner-btn{
+    width: 250px;
+    height: 48px;
+    background: #0b78e2;
+    line-height: 48px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+    bottom: 125px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    box-shadow: 0px 2px 3px #666;    
+  }   
+  .sq-banner-btn:hover{
+    background: #fb721f;
+  }  
+  .sq-block1{
+    width: 100%;
+    overflow: hidden;
+    margin-top:58px;
+  }
+  .sq-block1-tit{
+    width: 100%;
+    height: 62px;
+    background: url(../../images/edus/sq-tit1.png) center center no-repeat;
+  }
+  .sq-block1-con{
+    width: 100%;
+    height: 240px;
+    background: url(../../images/edus/sq-block1-bg.png) repeat-x;
+    position: relative;
+    margin-top:60px;
+  }
+  .sq-block1-pic{
+    width: 540px;
+    height: 240px;
+    background: url(../../images/edus/sq-pic1.png) center center no-repeat;
+    position: absolute;
+    top:-28px;
+    left:23px;
+  }
+  .sq-block1-right{
+    width: 550px;
+    height: 217px;
+    background: url(../../images/edus/sq-block1-bg2.png) center center no-repeat;
+    position: absolute;
+    right:22px;
+    padding:23px 7px 0 20px;
+  }
+  .sq-block1-right p.tit{
+    font-size: 24px;
+    color:#a0a0a3;
+    padding-left:40px;
+  }  
+  .sq-block1-right p.con{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+    color:#333;
+  }  
+  .sq-block1-btn{
+    width: 298px;
+    height: 39px;
+    background: #2a8ded;
+    border-radius: 5px;
+    margin: 40px auto;
+    text-align:center;
+    line-height: 39px;
+    font-size: 20px;
+    color:#fff;
+  }
+  .sq-block2{
+    width: 100%;
+    height: 714px;
+    background: #f8f9fe;
+    overflow: hidden;
+  }
+  .sq-block2-tit{
+    width: 100%;
+    height: 62px;
+    background: url(../../images/edus/sq-tit2.png) center center no-repeat;
+    margin-top:52px;
+  }
+  .sq-block2-con{
+    width:100%;
+    height: 492px;
+    background: url(../../images/edus/sq-block2-bg.png) center center no-repeat;
+    margin-top:53px;
+    overflow: hidden;
+  }
+  .sq-block2-con .item{
+    width: 100%;
+    height: 201px;
+    margin-top:17px;
+    overflow: hidden;
+  }  
+  .sq-block2-con .item .item-left{
+    width: 558px;
+    height: 201px;
+    float: left;
+    background: url(../../images/edus/sq-pic2.png) left center no-repeat;
+    position: relative;
+  }  
+  .sq-block2-con .item-left-con{
+    width:352px;
+    height: 201px;
+    position: absolute;
+    right: 0;
+    bottom:0;
+  }
+  .sq-block2-con .item-left-con p.tit{
+    font-size: 18px;
+    color:#fd5d1e;
+    font-weight:bold;
+  }  
+  .sq-block2-con .item-left-con p.con{
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+    margin-top:9px;
+  }  
+  .sq-block2-con .item .item-right{
+    width: 558px;
+    height: 201px;
+    float: right;
+    background: url(../../images/edus/sq-pic3.png) left center no-repeat;
+    position: relative;
+  }    
+  .sq-block2-con .item .item-left1{
+    width: 558px;
+    height: 201px;
+    float: left;
+    background: url(../../images/edus/sq-pic4.png) left center no-repeat;
+    position: relative;
+  }   
+  .sq-block2-con .item .item-right1{
+    width: 558px;
+    height: 201px;
+    float: right;
+    background: url(../../images/edus/sq-pic5.png) left center no-repeat;
+    position: relative;
+  }   
+  .sq-block3{
+    margin-top: 60px;
+    overflow: hidden;
+  }
+  .sq-block3-tit{
+    width: 100%;
+    height: 59px;
+    background: url(../../images/edus/sq-tit3.png) center center no-repeat;
+  }
+  .sq-block3-con1{
+    width: 1152px;
+    height: 349px;
+    margin-top:116px;
+    background: #f8f9fe;
+    position: relative;
+    padding:39px 12px 0 16px;
+  }
+  .sq-block3-con-tit{
+    width: 286px;
+    height: 57px;
+    background: #fd5d1e;
+    position: absolute;
+    left:0;
+    top:-40px;
+    text-align:center;
+    line-height:57px;
+    color:#fff;
+    font-size: 24px;
+  }
+  .sq-block3-con1 div.each{
+    width: 1142px;
+    height: 60px;
+  }  
+  .sq-block3-con1 div.each-left1{
+    width: 82px;
+    height: 60px;
+    background: #ba9bc9;
+    text-align: center;
+    line-height: 60px;
+    color:#fff;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight:bold;
+    float: left;
+  }  
+  .sq-block3-con1 div.each-right{
+    width: 1018px;
+    height: 54px;
+    float: right;
+    background: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+    padding:6px 15px 0px;
+  }  
+  .sq-block3-con1 div.each-left2{
+    width: 82px;
+    height: 60px;
+    background: #65c8d0;
+    text-align: center;
+    line-height: 60px;
+    color:#fff;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight:bold;
+    float: left;
+  }   
+  .sq-block3-con1 div.each-left3{
+    width: 82px;
+    height: 60px;
+    background: #87a9dc;
+    text-align: center;
+    line-height: 60px;
+    color:#fff;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight:bold;
+    float: left;
+  }  
+  .sq-block3-con1 div.each-left4{
+    width: 82px;
+    height: 60px;
+    background: #f7931e;
+    text-align: center;
+    line-height: 60px;
+    color:#fff;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight:bold;
+    float: left;
+  }     
+  .sq-block3 p.sub-tit{
+    margin-top:28px;
+    text-align: right;
+    line-height: 28px;
+    padding-right: 10px;
+  }  
+  .sq-block3 p.sub-tit span.left{
+    font-size: 18px;
+    color:#333;
+    font-weight: bold;
+    display: inline-block;
+  }  
+  .sq-block3 p.sub-tit span.right{
+    width: 110px;
+    height: 28px;
+    display: inline-block;
+    background: #fb721f;
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    line-height: 28px;
+  }   
+  .sq-block3-con2{
+    width: 1180px;
+    height: 425px;
+    margin-top: 70px;
+    background: #f8f9fe;
+    position: relative;
+    display: inline-block;
+  }  
+  .sq-block3-con2 div.con{
+    width: 100%;
+    height: 285px;
+    margin-top:50px;
+  } 
+  .sq-block3-con2 div.con .item1{
+    width: 232px;
+    height: 213px;
+    float: left;
+    background: url(../../images/edus/sq-block3-bg4.png) center center no-repeat;
+    margin-left:22px;
+    padding:72px 8px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+  }  
+  .sq-block3-con2 div.con .item2{
+    width: 232px;
+    height: 213px;
+    float: left;
+    background: url(../../images/edus/sq-block3-bg3.png) center center no-repeat;
+    margin-left:48px;
+    padding:72px 8px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+  }  
+  .sq-block3-con2 div.con .item3{
+    width: 232px;
+    height: 213px;
+    float: left;
+    background: url(../../images/edus/sq-block3-bg2.png) center center no-repeat;
+    margin-left:48px;
+    padding:72px 8px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+  }      
+  .sq-block3-con2 div.con .item4{
+    width: 232px;
+    height: 213px;
+    float: left;
+    background: url(../../images/edus/sq-block3-bg1.png) center center no-repeat;
+    margin-left:48px;
+    padding:72px 8px 0;
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+  } 
+  .sq-block3-con3{
+    width: 1180px;
+    height: 481px;
+    background: #f8f9fe;
+    margin-top:70px;
+    position: relative;
+    display: inline-block;
+  }
+  .sq-block3-con3 div.con{
+    width: 1140px;
+    height: 338px;
+    margin: 54px auto 0;
+  }  
+  .sq-block3-con3 div.con .each{
+    width: 360px;
+    height: 338px;
+    float: left;
+  }  
+  .sq-block3-con3 div.con .pic1{
+    width: 360px;
+    height: 180px;
+    background: url(../../images/edus/sq-pic6.png) center center no-repeat;
+  }  
+  .sq-block3-con3 div.con .text{
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+    margin-top:17px;
+  }  
+  .sq-block3-con3 div.con .pic2{
+    width: 360px;
+    height: 180px;
+    background: url(../../images/edus/sq-pic7.png) center center no-repeat;
+  }  
+  .sq-block3-con3 div.con .pic3{
+    width: 360px;
+    height: 180px;
+    background: url(../../images/edus/sq-pic8.png) center center no-repeat;
+  }     
+  .sq-block3-con4{
+    width: 1180px;
+    height: 492px;
+    background: #f8f9fe;
+    margin-top:70px;
+    position: relative;
+    display: inline-block;
+  }   
+  .sq-block3-con4 .con{
+    width:1140px;
+    height: 321px;
+    margin: 77px auto 0;
+  }  
+  .sq-block3-con4 .each{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+  }  
+  .sq-block3-con4 .each-item{
+    width: 371px;
+    height: 125px;
+    float: left;
+    background: url(../../images/edus/sq-pic9.png) left center no-repeat #fff;
+    padding:25px 14px 0 161px;
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+  }  
+  .sq-block3-con4 .each-item1{
+    width: 371px;
+    height: 125px;
+    float: right;
+    background: url(../../images/edus/sq-pic10.png) left center no-repeat #fff;
+    padding:25px 14px 0 161px;
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+  }  
+  .sq-block3-con4 .each-item2{
+    width: 371px;
+    height: 125px;
+    float: left;
+    background: url(../../images/edus/sq-pic11.png) left center no-repeat #fff;
+    padding:25px 14px 0 161px;
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+  }   
+  .sq-block3-con4 .each-item3{
+    width: 371px;
+    height: 125px;
+    float: right;
+    background: url(../../images/edus/sq-pic12.png) left center no-repeat #fff;
+    padding:25px 14px 0 161px;
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+  }   
+  .sq-block3-con5{
+    width: 1180px;
+    height: 428px;
+    background: #f8f9fe;
+    margin-top:70px;
+    position: relative;
+    display: inline-block;    
+  }
+  .sq-block3-con5 div.con{
+    width: 1140px;
+    height: 260px;
+    margin:68px auto 0;
+  }
+  .sq-block3-con5 div.con .each1{
+    width: 533px;
+    height: 114px;
+    background: url(../../images/edus/sq-pic13.png) left center no-repeat #fff;
+    padding:16px 22px 0 585px;
+  }  
+  .sq-block3-con5 div.con p.tit{
+    font-size: 20px;
+    color:#fd5d1e;
+  }    
+  .sq-block3-con5 div.con p.con{
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+    margin-top: 10px;
+  } 
+  .sq-block3-con5 div.con .each2{
+    width: 533px;
+    height: 114px;
+    background: url(../../images/edus/sq-pic14.png) right center no-repeat #fff;
+    padding:16px 585px 0 22px;
+  }   
+  .sq-block4{
+    overflow: hidden;
+    margin-top: 60px;
+  }
+  .sq-block4-tit{
+    width: 100%;
+    height: 59px;
+    background: url(../../images/edus/sq-tit4.png) center center no-repeat;
+  }
+  .sq-block4-con{
+    width: 1140px;
+    height: 190px;
+    margin: 24px auto 58px;
+  }
+  .sq-block4-con .logo1{
+    width: 199px;
+    height: 190px;
+    float: left;
+    position: relative;
+    background: url(../../images/edus/sq-logo1.png) center 18px no-repeat;
+  } 
+  .sq-block4-con .tit{
+    font-size: 24px;
+    color:#f56727;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+  }   
+  .sq-block4-con .line{
+    width: 33px;
+    height: 190px;
+    background: url(../../images/edus/sf-block-line.png) center top no-repeat;
+    float: left;
+  }  
+  .sq-block4-con .logo2{
+    width: 204px;
+    height: 190px;
+    float: right;
+    position: relative;
+    background: url(../../images/edus/sq-logo2.png) center top no-repeat;
+  }    
+  .sq-block4-con .logo3{
+    width: 199px;
+    height: 190px;
+    float: left;
+    position: relative;
+    background: url(../../images/edus/sq-logo3.jpg) center 18px no-repeat;
+  } 
+  .sq-block4-con .logo4{
+    width: 199px;
+    height: 190px;
+    float: left;
+    position: relative;
+    background: url(../../images/edus/sq-logo4.jpg) center 18px no-repeat;
+  } 
+  .sq-block4-con .logo5{
+    width: 199px;
+    height: 190px;
+    float: left;
+    position: relative;
+    background: url(../../images/edus/sq-logo5.jpg) center 18px no-repeat;
+  }        
+  /*中小学*/
+  .sp-banner{
+    width: 100%;
+    height: 560px;
+    background: url(../../images/edus/ZXX-banner-img01.jpg) top center no-repeat,url(../../images/edus/ZXX-banner-img02.jpg) bottom center no-repeat;
+  }
+  .sp-banner-center{
+    width: 1040px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .sp-banner-btn{
+    width: 250px;
+    height: 48px;
+    background: #019ae8;
+    line-height: 48px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+    top: 424px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    box-shadow: 0px 2px 3px #666;
+  }
+  .sp-banner-btn:hover{
+    background: #fb721f;
+  }
+  .sp-block1{
+    position: relative;
+    margin-top:92px;
+    width: 100%;
+    height:273px;
+  }
+  .sp-block1-con{
+    width: 1092px;
+    height: 223px;
+    background: #f4f4f4;
+    float: right;
+    position: relative;
+    padding:50px 17px 0 24px;
+  }
+  .sp-block1-tit{
+    width: 287px;
+    height: 137px;
+    background: url(../../images/edus/ZXX-Industry-titleImg.png) center center no-repeat;
+    position: absolute;
+    left:-48px;
+    top:-50px;
+  }
+  .sp-block1-pic{
+    width: 186px;
+    height: 186px;
+    background: url(../../images/edus/ZXX-Industry-img01.png) center center no-repeat;
+    float: left;
+  }
+  .sp-block1-right{
+    width: 887px;
+    height: 186px;
+    float: right;
+    font-size: 16px;
+    line-height: 37px;
+    color:#333;
+  }
+  .sp-block2{
+    overflow: hidden;
+    margin-top: 47px;
+  }
+  .sp-block2-tit{
+    text-align: right;
+    height: 40px;
+    background: url(../../images/edus/ZXX-titBg.png) right center no-repeat;
+    font-size: 24px;
+    line-height: 40px;
+    color:#333;
+    font-weight: bold;
+    padding-right:14px;
+  }
+  .sp-block2-item1{
+    width: 100%;
+    height: 352px;
+    margin-top:56px;
+  }
+  .sp-block2-item1 div.left{
+    width: 540px;
+    height: 314px;
+    float: left;
+    padding-top:38px;
+  }
+  .sp-block2-item1 div.left .each{
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+  }
+  .sp-block2-item1 div.right{
+    width: 321px;
+    height: 352px;
+    float: left;
+    margin-left:260px;
+    position: relative;
+  }    
+  .sp-block2-item1 div.right .top{
+    width: 321px;
+    height: 59px;
+    background: #f56727;
+    position: absolute;
+    top:0;
+    line-height: 59px;
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+  }    
+  .sp-block2-item1 div.right .pic{
+    width: 100%;
+    height: 274px;
+    background: url(../../images/edus/ZXX-demand-img01.png) center center no-repeat;
+    position: absolute;
+    bottom:0;
+  }  
+  .sp-block2-item2{
+    width: 100%;
+    height: 369px;
+    margin-top:78px;
+  }
+  .sp-block2-item2 div.left{
+    width: 320px;
+    height:369px;
+    float: left;
+    margin-left:99px;
+    position: relative;
+  }  
+  .sp-block2-item2 div.left .top{
+    width: 320px;
+    height: 59px;
+    background: #f56727;
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+    line-height: 59px;
+    position: absolute;
+    top:0;
+  }  
+  .sp-block2-item2 div.left .pic{
+    width: 320px;
+    height: 274px;
+    background: url(../../images/edus/ZXX-demand-img02.png) center center no-repeat;
+    position: absolute;
+    bottom:10px;
+  } 
+  .sp-block2-item2 div.right{
+    width: 540px;
+    height:359px;
+    float: right;
+    padding-top:10px;
+  }  
+  .sp-block2-item2 p.each{
+    font-size: 14px;
+    color:#333;
+    margin-top:9px;
+    line-height: 24px;
+  }  
+  .sp-block2-tit1{
+    height: 40px;
+    background: url(../../images/edus/ZXX-titBg.png) left center no-repeat;
+    font-size: 24px;
+    line-height: 40px;
+    color:#333;
+    font-weight: bold;
+    padding-left:18px;
+    margin-top:50px;
+  }
+  .sp-blcok2-subcon{
+    width: 1040px;
+    height: 545px;
+    overflow: hidden;
+    position: relative;
+    background: url(../../images/edus/ZXX-demand-img03.png) 247px 64px no-repeat;
+    margin:60px auto 0;
+  }
+  .sp-blcok2-subcon div.subcon-btn{
+    width: 263px;
+    height: 48px;
+    background: #00a0e9;
+    text-align: center;
+    line-height: 48px;
+    font-size: 24px;
+    color:#fff;
+    margin:0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px #999;
+  }  
+  .sp-blcok2-subcon .item1{
+    width: 273px;
+    height: 101px;
+    position: absolute;
+    left:0;
+    top:64px;
+  }  
+  .sp-blcok2-subcon .item1 p,.sp-blcok2-subcon .item2 p,.sp-blcok2-subcon .item3 p{
+    text-align: right;
+  }  
+  .sp-blcok2-subcon .item1 p span.tit{
+    display: inline-block;
+    padding:5px 10px;
+    font-size: 18px;
+    color:#fff;
+    background: #ff4d46;
+  }  
+  .sp-blcok2-subcon p.con{
+    font-size: 14px;
+    line-height: 21px;
+    color:#333;
+    margin-top:7px;
+  }  
+  .sp-blcok2-subcon .item2{
+    width: 273px;
+    height: 104px;
+    position: absolute;
+    left:0;
+    top:196px;
+  }   
+  .sp-blcok2-subcon .item2 p span.tit{
+    display: inline-block;
+    padding:5px 10px;
+    font-size: 18px;
+    color:#fff;
+    background: #fea12c;
+  }   
+  .sp-blcok2-subcon .item3{
+    width: 273px;
+    height: 104px;
+    position: absolute;
+    left:0;
+    top:331px;
+  }    
+  .sp-blcok2-subcon .item3 p span.tit{
+    display: inline-block;
+    padding:5px 10px;
+    font-size: 18px;
+    color:#fff;
+    background: #58c198;
+  }  
+  .sp-blcok2-subcon .item4{
+    width: 268px;
+    height: 78px;
+    position: absolute;
+    right:0;
+    top:64px;
+  }   
+  .sp-blcok2-subcon .item4 p,.sp-blcok2-subcon .item5 p,.sp-blcok2-subcon .item6 p{
+    text-align: left;
+  }   
+  .sp-blcok2-subcon .item4 p span.tit{
+    display: inline-block;
+    padding:5px 10px;
+    font-size: 18px;
+    color:#fff;
+    background: #ff4d46;
+  }   
+  .sp-blcok2-subcon .item5{
+    width: 268px;
+    height: 104px;
+    position: absolute;
+    right:0;
+    top:196px;
+  }    
+  .sp-blcok2-subcon .item5 p span.tit{
+    display: inline-block;
+    padding:5px 10px;
+    font-size: 18px;
+    color:#fff;
+    background: #fea12c;
+  }   
+  .sp-blcok2-subcon .item6{
+    width: 268px;
+    height: 104px;
+    position: absolute;
+    right:0;
+    top:331px;
+  }  
+  .sp-blcok2-subcon .item6 p span.tit{
+    display: inline-block;
+    padding:5px 10px;
+    font-size: 18px;
+    color:#fff;
+    background: #58c198;
+  }   
+  .sp-block3{
+    width: 100%;
+    height: 611px;
+    background: #f6f6f6;
+    margin-top: 53px;
+    position: relative;
+    display: inline-block;
+  }
+  .sp-block3-center{
+    width: 60px;
+    height: 60px;
+    background: url(../../images/edus/ZXX-b3Bg.png) center center no-repeat;
+    margin: -30px auto 0;
+  }
+  .sp-block3-tit{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color:#f56727;
+  }
+  .sp-block3-bottom{
+    width: 100%;
+    height: 260px;
+    bottom:0;
+    background: url(../../images/edus/ZXX-EDUS-backimg.jpg) center center no-repeat #307ee4;
+    position: absolute;
+  }
+  .sp-block3-bottom div.top{
+    width: 100%;
+    height: 340px;
+    margin-top: -210px;
+    background: none;
+  }  
+  .sp-block3-bottom div.top .item{
+    width:260px;
+    height: 342px;
+    background: #ffc501;
+    float: left;
+  }
+  .sp-block3-bottom div.top .tit{
+    width: 206px;
+    height: 46px;
+    margin:8px auto 0px;
+    border-bottom:1px dashed #fff;
+    text-align: center;
+    line-height: 46px;
+    color:#fff;
+    font-size: 24px;
+    font-style: oblique;
+  }  
+  .sp-block3-bottom div.top .pic{
+    width: 260px;
+    height: 176px;
+    background: url(../../images/edus/ZXX-EDUS-img01.jpg) center center no-repeat;
+    margin-top:10px;
+  }   
+  .sp-block3-bottom div.top .con{
+    width: 260px;
+    height: 102px;
+    text-align: center;
+    font-size: 18px;
+    color:#fff;
+    line-height: 102px;
+  }   
+  .sp-block3-bottom div.top .pic1{
+    width: 260px;
+    height: 176px;
+    background: url(../../images/edus/ZXX-EDUS-img02.jpg) center center no-repeat;
+    margin-top:10px;
+  }  
+  .sp-block3-bottom div.top .con1{
+    width: 260px;
+    height: 79px;
+    text-align: center;
+    font-size: 18px;
+    color:#fff;
+    line-height: 30px;
+    padding-top:23px;
+  }   
+  .sp-block3-bottom div.top .pic2{
+    width: 260px;
+    height: 176px;
+    background: url(../../images/edus/ZXX-EDUS-img03.jpg) center center no-repeat;
+    margin-top:10px;
+  }  
+  .sp-block3-bottom div.top .pic3{
+    width: 260px;
+    height: 176px;
+    background: url(../../images/edus/ZXX-EDUS-img04.jpg) center center no-repeat;
+    margin-top:10px;
+  }  
+  .sp-block3-bottom p.sub{
+    font-size: 18px;
+    color:#fff;
+    line-height: 42px;
+    text-align: center;
+    margin-top:26px;
+  }
+  .sp-block4{
+    overflow: hidden;
+    margin-top:46px;
+  }
+  .sp-block4-tit{
+    background: url(../../images/edus/ZXX-titBg.png) left 7px no-repeat;
+    font-size: 24px;
+    line-height: 37px;
+    color:#333;
+    font-weight: bold;
+    padding-left:18px;
+  }  
+  .sp-block4-con1{
+    width: 1040px;
+    height: 574px;
+    background: url(../../images/edus/ZXX-solution-bg01.png) center center no-repeat;
+    margin:58px auto 0;
+    overflow: hidden;
+  }
+  .sp-block4-con1 p.tit{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top:45px;
+    padding-left:135px;
+    color:#333;
+  }  
+  .sp-block4-con1 div.pic{
+    width: 950px;
+    height: 400px;
+    margin:27px auto 0;
+    background: url(../../images/edus/ZXX-solution-img01.png) center center no-repeat;
+  }  
+  .sp-block4-con1 p.last{
+    margin-top:5px;
+    padding-left:55px;
+  }  
+  .sp-block4-con1 p.last span{
+    font-size: 22px;
+    color:#333;
+  }  
+  .sp-block4-con1 p.last a{
+    font-size: 22px;
+    color:#f56727;
+    margin-left:15px;
+  }
+  .sp-block4-con1 p.last a:hover{
+    text-decoration: underline;
+  }  
+  .sp-block4-con2{
+    width: 1040px;
+    height: 888px;
+    background: url(../../images/edus/ZXX-solution-bg02.png) center center no-repeat;
+    margin:42px auto 0;
+    overflow: hidden;
+  }
+  .sp-block4-con2 p.tit{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top:45px;
+    padding-left:135px;
+    color:#333;
+  }   
+  .sp-block4-con2 .item1{
+    width: 923px;
+    height: 312px;
+    margin:50px auto 0;
+  }
+  .sp-block4-con2 .item1 .each,.sp-block4-con2 .item2 .each{
+    width: 280px;
+    height: 312px;
+    float: left;
+  }  
+  .sp-block4-con2 .item1 .each1-pic{
+    width: 280px;
+    height: 180px;
+    background: url(../../images/edus/ZXX-solution-bg02Img01.png) center center no-repeat;
+  }  
+  .sp-block4-con2 .item1 .title,.sp-block4-con2 .item2 .title{
+    font-size: 18px;
+    color:#f56727;
+    text-align: center;
+    margin-top: 6px;
+  }  
+  .sp-block4-con2 .item1 .content,.sp-block4-con2 .item2 .content{
+    font-size: 14px;
+    line-height: 25px;
+    color:#666;
+    margin-top: 3px;
+  }   
+  .sp-block4-con2 .item1 .each2-pic{
+    width: 280px;
+    height: 180px;
+    background: url(../../images/edus/ZXX-solution-bg02Img02.png) center center no-repeat;
+  }   
+  .sp-block4-con2 .item1 .each3-pic{
+    width: 280px;
+    height: 180px;
+    background: url(../../images/edus/ZXX-solution-bg02Img03.png) center center no-repeat;
+  }     
+  .sp-block4-con2 .item2{
+    width: 923px;
+    height: 312px;
+    margin:17px auto 0;
+  }  
+  .sp-block4-con2 .item2 .each4-pic{
+    width: 280px;
+    height: 180px;
+    background: url(../../images/edus/ZXX-solution-bg02Img04.png) center center no-repeat;
+  }
+  .sp-block4-con2 .item2 .each5-pic{
+    width: 280px;
+    height: 180px;
+    background: url(../../images/edus/ZXX-solution-bg02Img05.png) center center no-repeat;
+  }
+  .sp-block4-con2 .item2 .each6-pic{
+    width: 280px;
+    height: 180px;
+    background: url(../../images/edus/ZXX-solution-bg02Img06.png) center center no-repeat;
+  }      
+  .sp-block4-con2 .item3{
+    width: 923px;
+    height: 26px;
+    margin:0 auto 16px;
+    border-bottom: 1px dashed #555;
+  }  
+  .sp-block4-con2 .last{
+    padding-left:56px;
+  }  
+  .sp-block4-con2 .last span{
+    font-size: 22px;
+    color:#333;
+  }  
+  .sp-block4-con2 .last a{
+    font-size: 22px;
+    color:#f56727;
+    display: inline-block;
+    margin-left:53px;
+  }  
+  .sp-block4-con2 .last a:hover{
+    text-decoration: underline;
+  }  
+  .sp-block4-con3{
+    width: 1040px;
+    height: 888px;
+    background: url(../../images/edus/ZXX-solution-bg03.png) center center no-repeat;
+    margin: 50px auto 0;
+    overflow: hidden;
+  }
+  .sp-block4-con3 p.tit{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top:40px;
+    padding-left:125px;
+    color:#333;
+  }   
+  .sp-block4-con3 div.item1{
+    width: 100%;
+    height: 202px;
+    margin-top: 50px;
+    background: url(../../images/edus/ZXX-solution-bg03Img01.png) 559px top no-repeat;
+  }  
+  .sp-block4-con3 div.item1 .left{
+    width: 442px;
+    height: 158px;
+    float: left;
+    margin-left:36px;
+    padding:10px 0 0 5px;
+  }  
+  .sp-block4-con3 div.item1 .left p.title{
+    font-size: 18px;
+    color:#f56727;
+  }  
+  .sp-block4-con3 div.item1 .left p.content{
+    font-size: 14px;
+    line-height: 24px;
+    color:#666;
+    margin-top: 20px;
+  }   
+  .sp-block4-con3 div.item2{
+    width: 100%;
+    height: 202px;
+    margin-top: 34px;
+    background: url(../../images/edus/ZXX-solution-bg03Img02.png) 87px top no-repeat;
+  }  
+  .sp-block4-con3 div.item2 .right{
+    width: 436px;
+    height: 174px;
+    float: right;
+    padding:28px 35px 0 0px;
+  }  
+  .sp-block4-con3 div.item2 .right p.title{
+    font-size: 18px;
+    color:#f56727;
+  }  
+  .sp-block4-con3 div.item2 .right p.content{
+    font-size: 14px;
+    line-height: 24px;
+    color:#666;
+    margin-top: 20px;    
+  }   
+  .sp-block4-con3 div.item3{
+    width: 100%;
+    height: 174px;
+    margin-top: 40px;
+    background: url(../../images/edus/ZXX-solution-bg03Img03.png) 638px top no-repeat;
+  }  
+  .sp-block4-con3 div.item3 .left{
+    width: 445px;
+    height: 161px;
+    float: left;
+    margin-left:46px;
+    padding-top:13px;
+  }  
+  .sp-block4-con3 div.item3 .left p.title{
+    font-size: 18px;
+    color:#f56727;    
+  }  
+  .sp-block4-con3 div.item3 .left p.content{
+    font-size: 14px;
+    line-height: 24px;
+    color:#666;
+    margin-top: 20px;     
+  }  
+  .sp-block4-con3 div.item4{
+    width: 923px;
+    height: 26px;
+    margin:0 auto 12px;
+    border-bottom: 1px dashed #555;    
+  }
+  .sp-block4-con3 .last{
+    padding-left:56px;
+  }  
+  .sp-block4-con3 .last span{
+    font-size: 22px;
+    color:#333;
+  }  
+  .sp-block4-con3 .last a{
+    font-size: 22px;
+    color:#f56727;
+    display: inline-block;
+    margin-left:53px;
+  }  
+  .sp-block4-con3 .last a:hover{
+    text-decoration: underline;
+  }   
+  .sp-block5{
+    overflow: hidden;
+    margin-top: 65px;
+    margin-bottom: 50px;
+  }
+  .sp-block5-tit{
+    background: url(../../images/edus/ZXX-titBg.png) left center no-repeat;
+    font-size: 24px;
+    line-height: 37px;
+    color:#333;
+    font-weight: bold;
+    padding-left:20px;    
+  }
+  .sp-block5 div.con{
+    width: 100%;
+    height: 207px;
+    overflow: hidden;
+    margin-top:30px;
+  }
+  .sp-block5 div.con .each{
+    float: left;
+  }
+  .sp-block5 div.logo1{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img01.jpg) center top no-repeat;
+  }  
+  .sp-block5 p.tit{
+    margin-top: 165px;
+    text-align:center;
+    font-size: 24px;
+    color:#f56727;
+  }  
+  .sp-block5 div.line{
+    width: 10px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/sf-block-line.png) center 22px no-repeat;
+  }  
+  .sp-block5 div.logo2{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img02.jpg) center top no-repeat;
+  }   
+  .sp-block5 div.logo3{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img03.jpg) center top no-repeat;
+  }  
+  .sp-block5 div.logo4{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img04.jpg) center top no-repeat;
+  }  
+  .sp-block5 div.logo5{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img05.jpg) center top no-repeat;
+  }  
+  .sp-block5 div.logo6{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img06.jpg) center 20px no-repeat;
+  } 
+  .sp-block5 div.logo7{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img07.jpg) center 15px no-repeat;
+  } 
+  .sp-block5 div.logo8{
+    width: 198px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/ZXX-case-img08.jpg) center 35px no-repeat;
+  }     
+  /*艺术*/
+  .sr-banner{
+    width: 100%;
+    height: 560px;
+    background: url(../../images/edus/sr-banner.jpg) center center no-repeat;
+    position: relative;
+  }
+  .sr-banner-center{
+    width: 1040px;
+    height: 560px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .sr-banner-btn{
+    width: 250px;
+    height: 48px;
+    background: #6c3b36;
+    line-height: 48px;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 5px;
+    top: 424px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    box-shadow: 0px 2px 3px #666;    
+  }
+  .sr-banner-btn:hover{
+    background: #fb721f;
+  }  
+  .sr-block1{
+    overflow: hidden;
+    margin-top:60px;
+  }
+  .sr-block1-tit{
+    width: 100%;
+    height: 60px;
+    background: url(../../images/edus/sr-tit1.png) center center no-repeat;
+  }
+  .sr-block1-con{
+    width: 100%;
+    height: 266px;
+    background: url(../../images/edus/sr-block1-bg.png) left center no-repeat;
+    margin-top:27px;
+    position: relative;
+  }
+  .sr-block1-right{
+    width: 857px;
+    height: 164px;
+    background: url(../../images/edus/sr-block1-bgr.png) center center no-repeat;
+    position: absolute;
+    right:0;
+    bottom:0;
+    padding:28px 30px 0 15px;
+    font-size:14px;
+    line-height: 23px;
+    color:#333;
+    text-indent: 56px;
+  }
+  .sr-block1-top{
+    width:270px;
+    height: 20px;
+    position: absolute;
+    left:285px;
+    top:36px;
+    font-size: 20px;
+    color:#5c7ab8;
+  }
+  .sr-block2{
+    width: 100%;
+    height: 1002px;
+    background: #f5f5f5;
+    margin-top:64px;
+    overflow: hidden;
+  }
+  .sr-block2-tit{
+    width: 100%;
+    height: 60px;
+    background: url(../../images/edus/sr-tit2.png) center center no-repeat;
+    margin-top: 28px;
+  }
+  .sr-block2-item{
+    width: 100%;
+    height: 340px;
+  }  
+  .sr-block2-item div.list{
+    width: 360px;
+    height: 340px;
+    float: left;
+  }  
+  .sr-block2-item div.pic{
+    width: 360px;
+    height: 168px;
+    background: url(../../images/edus/sr-block2-pic1.png) center center no-repeat;
+  }  
+  .sr-block2-item div.list div.sub{
+    width: 360px;
+    height: 172px;
+    background: #fff;
+  }  
+  .sr-block2-item div.list .tit{
+    width: 360px;
+    height: 44px;
+    background: #eb7a38;
+    text-align:center;
+    line-height: 44px;
+    font-size: 24px;
+    color: #fff;
+  }  
+  .sr-block2-item div.list p.con{
+    font-size: 14px;
+    line-height: 23px;
+    color:#333;
+    padding:6px 10px 10px;
+  }   
+  .sr-block2-item div.pic1{
+    width: 360px;
+    height: 168px;
+    background: url(../../images/edus/sr-block2-pic2.png) center center no-repeat;
+  }  
+  .sr-block2-item div.pic2{
+    width: 360px;
+    height: 168px;
+    background: url(../../images/edus/sr-block2-pic3.png) center center no-repeat;
+  }
+  .sr-block2-item div.pic3{
+    width: 360px;
+    height: 168px;
+    background: url(../../images/edus/sr-block2-pic4.png) center center no-repeat;
+  }
+  .sr-block2-item div.pic4{
+    width: 360px;
+    height: 168px;
+    background: url(../../images/edus/sr-block2-pic5.png) center center no-repeat;
+  }
+  .sr-block2-item div.pic5{
+    width: 360px;
+    height: 168px;
+    background: url(../../images/edus/sr-block2-pic6.png) center center no-repeat;
+  }          
+  .sr-block2-btn{
+    width: 339px;
+    height:49px;
+    background: #6c3b36;
+    text-align: center;
+    line-height: 49px;
+    font-size: 24px;
+    color:#fff;
+    margin:54px auto 0;
+    border-radius: 5px;
+  }
+  .sr-block3{
+    overflow: hidden;
+    margin-top: 57px;
+  }
+  .sr-block3-tit{
+    width: 100%;
+    height: 60px;
+    background: url(../../images/edus/sr-tit3.png) center center no-repeat;
+  }
+  .sr-block3-top{
+    width: 100%;
+    height: 272px;
+    margin-top:74px;
+    background: url(../../images/edus/sr-block3-pic1.png) 752px top no-repeat;
+    overflow: hidden;
+  }
+  .sr-block3-top div.con{
+    width: 588px;
+    height: 240px;
+    margin-top: 32px;
+    background: #f4f4f5;
+    position: relative;
+    display: inline-block;
+  }
+  .sr-block3-top div.con .tit{
+    width: 222px;
+    height: 36px;
+    background: #c77342;
+    position: absolute;
+    top: -25px;
+    left:0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    color:#fff;
+  }  
+  .sr-block3-top div.con .word{
+    font-size: 14px;
+    line-height: 30px;
+    color:#333;
+    margin-top: 28px;
+    padding:0 15px;
+  }   
+  .sr-block3-top div.con .btn{
+    width: 274px;
+    height: 40px;
+    margin: 20px auto 0;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    color:#c77342;
+    border:2px solid #c77342;
+  }    
+  .sr-block3-item1{
+    width: 100%;
+    height: 227px;
+    background: url(../../images/edus/sr-block3-pic2.jpg) right center no-repeat;
+    margin-top:102px;
+  }
+  .sr-block3-item1 div.item-left,.sr-block3-item5 div.item-left{
+    width: 956px;
+    height: 227px;
+    float: left;
+    margin-left:7px;
+  }
+  .sr-block3-item1 div.item-left .each,.sr-block3-item3 div.item-left .each,.sr-block3-item5 div.item-left .each{
+    width: 916px;
+    height: 60px;
+    background: #f4f4f5;
+    position: relative;
+    padding:10px 20px 0 20px;
+    font-size: 14px;
+    color:#333;
+    line-height: 24px;
+  }  
+  .sr-block3-item1 div.item-left .each .tit,.sr-block3-item3 div.item-left .each .tit,.sr-block3-item5 div.item-left .each .tit{
+    width: 213px;
+    height: 40px;
+    background: url(../../images/edus/sr-block3-titL.png) center center no-repeat;
+    left:-7px;
+    top:-30px;
+    position: absolute;
+    font-size: 18px;
+    color:#fff;
+    padding:7px 0 0 27px;
+  }  
+  .sr-block3-item2{
+    width: 100%;
+    height: 307px;
+    background: url(../../images/edus/sr-block3-pic3.jpg) left center no-repeat;
+    margin-top:60px;
+  }  
+  .sr-block3-item2 div.item-right,.sr-block3-item4 div.item-right{
+    width: 956px;
+    height: 307px;
+    float: right;
+    margin-right:7px;
+  }  
+  .sr-block3-item2 div.item-right .each,.sr-block3-item4 div.item-right .each{
+    width: 931px;
+    height: 60px;
+    background: #f4f4f5;
+    position: relative;
+    padding:10px 10px 0 15px;
+    font-size: 14px;
+    color:#333;
+    line-height: 24px;
+  }   
+  .sr-block3-item2 div.item-right .each .tit,.sr-block3-item4 div.item-right .each .tit{
+    width: 213px;
+    height: 40px;
+    text-align: right;
+    background: url(../../images/edus/sr-block3-titR.png) center center no-repeat;
+    right:-7px;
+    top:-30px;
+    position: absolute;
+    font-size: 18px;
+    color:#fff;
+    padding:7px 27px 0 0;
+  }  
+  .sr-block3-item3{
+    width: 100%;
+    height: 307px;
+    background: url(../../images/edus/sr-block3-pic4.jpg) right center no-repeat;
+    margin-top:60px;
+  }  
+  .sr-block3-item3 div.item-left{
+    width: 819px;
+    height: 307px;
+    float: left;
+    margin-left:7px;
+  }  
+  .sr-block3-item4{
+    width: 100%;
+    height: 307px;
+    background: url(../../images/edus/sr-block3-pic5.jpg) left center no-repeat;
+    margin-top:60px;
+  }   
+  .sr-block3-item5{
+    width: 100%;
+    height: 227px;
+    background: url(../../images/edus/sr-block3-pic6.jpg) right center no-repeat;
+    margin-top:60px;
+  }  
+  .sr-block4{
+    overflow: hidden;
+    margin-top:56px;
+  }
+  .sr-block4-tit{
+    width: 100%;
+    height: 61px;
+    background: url(../../images/edus/sr-tit4.png) center center no-repeat;
+  }
+  .sr-block4-con{
+    width: 591px;
+    height: 207px;
+    margin: 60px auto;
+  }
+  .sr-block4-con .logo1{
+    width: 154px;
+    height:207px;
+    background: url(../../images/edus/sr-logo1.png) center 10px no-repeat;
+    position: relative;
+    float: left;
+  }  
+  .sr-block4-con p{
+    width: 100%;
+    font-size: 24px;
+    color:#f56727;
+    position: absolute;
+    text-align: center;
+    bottom:0;
+  }
+  .sr-block4-con .line{
+    width: 65px;
+    height: 207px;
+    float: left;
+    background: url(../../images/edus/sf-block-line.png) center 22px no-repeat;
+  }  
+  .sr-block4-con .logo2{
+    width: 133px;
+    height:207px;
+    background: url(../../images/edus/sr-logo2.png) center 10px no-repeat;
+    position: relative;
+    float: left;
+  } 
+  .sr-block4-con .logo3{
+    width: 164px;
+    height:207px;
+    background: url(../../images/edus/sr-logo3.jpg) center 18px no-repeat;
+    position: relative;
+    float: left;
+  }     

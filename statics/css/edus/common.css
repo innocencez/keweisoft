@@ -1,0 +1,412 @@
+/*公共样式*/
+html,body,div,p,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input{margin:0;padding:0;}
+img{border:0 none; vertical-align: top;}
+ul,li{list-style-type: none;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+body,div,form,input,select,button,textarea{font-family:微软雅黑;}
+button{cursor:pointer;}
+body{background: #fff;color:#333;}
+a{text-decoration: none;}
+/**/
+.top{
+	height:40px;
+	background: #424c68;
+	line-height:40px;
+}
+.m-content{
+	width:1040px;
+	margin:0 auto;
+}
+.top-left{
+	font-size:13px;
+	color:#fff;
+	background:url(../../images/edus/top_ico.png) left center no-repeat;
+	padding-left:19px;
+	font-weight:bold;
+}
+.top-center{
+	font-size:13px;
+	color:#5d5d5d;
+	margin-left:270px;
+}
+.top-center-s{
+	font-size:13px;
+	color:#5d5d5d;
+}
+.top-right{
+	font-size:13px;
+	color:#fff;
+	float: right;
+	padding-left:19px;
+	background: url(../../images/edus/top_tel.png) left center no-repeat;
+}
+.top-weixin{
+	font-size:13px;
+	color:#fff;
+	float: right;
+	padding-left:22px;
+	background: url(../../images/edus/head-wx.png) left center no-repeat;
+	margin-right:30px;
+}
+.top-weixin:hover{
+	font-weight: bold;
+}
+.weixin{
+	width:200px;
+	height:280px;
+	position: absolute;
+	border: 1px solid #edeef0;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+	top:0px;
+	right:90px;
+	z-index: 999;
+	background: #fff;
+	display: none;
+}
+.m-weixin{
+	position: relative;
+}
+.wx-img{
+	cursor: pointer;
+}
+.wx-word{
+	font-size:14px;
+	line-height: 20px;
+	padding:0px 16px;
+}
+.nav{
+	height:110px;
+	line-height:120px;
+}
+.logo{
+	float: left;
+	margin-top:34px;
+}
+.nav-con{
+	width:835px;
+	height:100%;
+	margin-left:220px;
+}
+.nav-con li{
+	float: left;
+	width:65px;
+	text-align: center;
+	margin-left:46px;
+	line-height: 35px;
+	margin-top:70px;
+}
+.nav-con li a{
+	color:#343434;
+	font-size:14px;
+	padding-top:40px;
+	font-weight:bold;
+}
+#nav1{
+	background: url(../../images/edus/nav_home.png) top center no-repeat;
+}
+#nav1:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_home_hover.png) top center no-repeat;
+}
+#nav2{
+	background: url(../../images/edus/nav_adv.png) top center no-repeat;
+}
+#nav2:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_adv_hover.png) top center no-repeat;
+}
+#nav3{
+	background: url(../../images/edus/nav_pro.png) top center no-repeat;
+}
+#nav3:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_pro_hover.png) top center no-repeat;
+}
+#nav4{
+	background: url(../../images/edus/nav_solu.png) top center no-repeat;
+}
+#nav4:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_solu_hover.png) top center no-repeat;
+}
+#nav5{
+	background: url(../../images/edus/nav_case.png) top center no-repeat;
+}
+#nav5:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_case_hover.png) top center no-repeat;
+}
+#nav6{
+	background: url(../../images/edus/nav_serv.png) top center no-repeat;
+}
+#nav6:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_serv_hover.png) top center no-repeat;
+}
+#nav7{
+	background: url(../../images/edus/nav_news.png) top center no-repeat;
+}
+#nav7:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_news_hover.png) top center no-repeat;
+}
+#nav8{
+	background: url(../../images/edus/nav_about.png) top center no-repeat;
+}
+#nav8:hover{
+	color:#ff6600;
+	background: url(../../images/edus/nav_about_hover.png) top center no-repeat;
+}
+.navigation-down {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+.navigation-down .nav-down-menu {
+    width: 100%;
+    margin: 0px;
+    background: rgba(255,255,255,0.6);
+    border-top: 2px none #ff6600;
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+}
+.navigation-down .nav-down-menu .navigation-down-inner {
+    margin: 0 auto;
+    width: 1040px;
+    position: relative;
+}
+.navigation-down .menu-1 dl {
+    margin: 60px 30px 25px 0px;
+}
+.navigation-down .nav-down-menu dl {
+    float: left;
+    margin: 10px 30px 18px 0px;
+}
+.navigation-down .menu-1 dd {
+    text-align: center;
+    margin: 2px 0px;
+}
+.navigation-down .menu-1 dd a {
+    color: #333;
+    font-size: 14px;
+    font-weight:bold;
+}
+.menu-1 dd a:hover{
+	color:#ff6600;
+}
+
+.pro-tit{
+	width: 278px;
+	height: 30px;
+	margin-left: 200px;
+	text-align: center;
+	line-height: 30px;
+	border-bottom: 2px solid #666;
+	font-weight: bold;
+	margin-top: 10px;	
+}
+.pro-app-tit{
+	position: absolute;
+	left: 450px;
+	width: 278px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	top: 0px;	
+}
+.pro-app-tit a{
+	font-weight: bold;
+	color: #333;
+}
+/*.headWrap{
+	width:100%;
+	z-index: 100;
+	height: 120px;
+	position: relative;
+}
+#itemMun {
+    background: #eee;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    z-index: 100;
+    position: absolute;
+    left: 0px;
+    margin-top: 9px;
+}
+#box {
+    position: relative;
+    width: 710px;
+    margin: 0px auto 0px -248px;
+    left: 50%;
+    overflow: hidden;
+}
+.headnav {
+    width: 10000px;
+}
+#box span {
+    display: inline-block;
+    width: 710px;
+    float: left;
+}
+.area {
+    float: left;
+    background: #666 repeat-y;
+    height: 205px;
+    padding: 15px 0px 0px;
+}
+#box span ul {
+    float: left;
+    padding: 0px 10px;
+}
+#box span ul li {
+    line-height: 24px;
+    width: 150px;
+}
+#box span ul li a {
+    color: #555;
+    padding-left: 15px;
+}*/
+
+
+/*********************************/
+.s-ads{
+	width:100%;
+	height:120px;
+	background: url(../../images/edus/process_bottom_bg.jpg) repeat-x;
+}
+.s-ads-tit{
+	width:180px;
+	margin-top:35px;
+	font-size:24px;
+	color:#46464a;
+	float: left;
+}
+.s-ads-btn1{
+	width:180px;
+	height:51px;
+	text-align:center;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads a{
+	color:#fff;
+}
+.s-ads-btn1:hover{
+	background: url(../../images/edus/process_bottom_btn_hover.png) no-repeat;
+}
+.s-ads-btn2{
+	width:143px;
+	padding-left:37px;
+	height:51px;
+	text-align:left;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn2.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads-btn2:hover{
+	background: url(../../images/edus/process_bottom_btn2_hover.png) no-repeat;
+}
+.s-ads-tel{
+	width:183px;
+	height:54px;
+	float: right;
+	margin:40px 0px 0px;
+	background: url(../../images/edus/process_bottom_btn_tel.png) no-repeat;
+}
+.bottom{
+	width:100%;
+	height:353px;
+	background:#394350;
+}
+.bottom-items{
+	width:119px;
+	height:172px;
+	float:left;
+	margin-top:30px;
+}
+.bottom-items dt{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	text-align: left;
+}
+.bottom-items dt a{
+	color:#fff;
+	font-size:18px;
+	background: url(../../images/edus/bottom_pic1.png) left 6px no-repeat;
+	padding-left:24px;
+}
+.bottom-items dd{
+	width:100%;
+	height:31px;
+	line-height:31px;
+	text-align: center;
+}
+.bottom-items dd a{
+	color:#fff;
+	font-size:14px;
+}
+.items2{
+	margin-left:110px;
+}
+.items2 dt a{
+	background: url(../../images/edus/bottom_pic2.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items3{
+	margin-left:110px;
+}
+.items3 dt a{
+	background: url(../../images/edus/bottom_pic3.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items4{
+	margin-left:110px;
+}
+.items4 dt a{
+	background: url(../../images/edus/bottom_pic4.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items5{
+	margin-left:110px;
+}
+.items5 dt a{
+	background: url(../../images/edus/bottom_pic5.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.bottom-line{
+	width:100%;
+	height:38px;
+	padding-top:220px;
+	border-bottom: 1px solid #fff;
+}
+.bottom p a{
+	color:#fff;
+	font-size:13px;
+}
+.bottom p{
+	font-size:14px;
+}
+/*页码样式*/
+.text-c{
+	text-align: center;
+}
+.text-c a{
+	color:#666;
+}
+.text-c a:hover{
+	color:#ff6600;
+}

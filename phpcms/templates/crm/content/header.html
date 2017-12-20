@@ -1,0 +1,47 @@
+		<div class="head">
+			<div class="head-logo"><a href="{siteurl($siteid)}" target="_blank"><img src="{IMG_PATH}crm/logo.png" width="166" height="46" alt="教育培训CRM" title="可为CRM" /></a></div>
+			<ul class="head-nav">
+				<li><a href="{siteurl($siteid)}" target="_blank">首页</a></li>
+				<li><a href="{$CATEGORYS[40][url]}" target="_blank">产品中心</a>
+					<ul class="s-nav">
+						{pc:content action="category" catid="40" siteid="$siteid" order="listorder ASC"}
+						{loop $data $r}
+						<li><a href="{$r[url]}" target="_blank">{$r[catname]}</a></li>
+						{/loop}
+						{/pc}
+					</ul>
+				</li>
+				<li><a href="{$CATEGORYS[41][url]}" target="_blank">解决方案</a>
+					<ul class="s-nav">
+						<li><a href="{$CATEGORYS[241][url]}" target="_blank">中小学培训</a></li>
+						<li><a href="{$CATEGORYS[242][url]}" target="_blank">外语培训</a></li>
+						<li><a href="{$CATEGORYS[243][url]}" target="_blank">少儿培训</a></li>
+						<li><a href="{$CATEGORYS[244][url]}" target="_blank">职业资格培训</a></li>
+						<li><a href="{$CATEGORYS[245][url]}" target="_blank">体育培训</a></li>
+						<li><a href="{$CATEGORYS[246][url]}" target="_blank">艺术培训</a></li>
+						<li><a href="{$CATEGORYS[247][url]}" target="_blank">留学培训</a></li>
+					</ul>
+				</li>
+				<li><a href="{$CATEGORYS[42][url]}" target="_blank">成功案例</a></li>
+				<li><a href="{$CATEGORYS[43][url]}" target="_blank">服务体系</a>
+					<ul class="s-nav">
+						{pc:content action="category" catid="43" siteid="$siteid" order="listorder ASC"}
+						{loop $data $r}
+						<li><a href="{$r[url]}" target="_blank">{$r[catname]}</a></li>
+						{/loop}
+						{/pc}
+					</ul>
+				</li>
+				<li><a href="{$CATEGORYS[44][url]}" target="_blank">产品资讯</a></li>
+				<li><a href="{$CATEGORYS[45][url]}" target="_blank">关于我们</a>
+					<ul class="s-nav">
+						{pc:content action="category" catid="45" siteid="$siteid" order="listorder ASC"}
+						{loop $data $r}
+						<li><a href="{$r[url]}" target="_blank">{$r[catname]}</a></li>
+						{/loop}
+						{/pc}
+					</ul>
+				</li>
+			</ul>
+			<a href="javascript:void(0)" class="head-right">申请试用</a>
+		</div>

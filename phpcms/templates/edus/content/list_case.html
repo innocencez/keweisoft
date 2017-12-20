@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+        <meta name="keywords" content="{$SEO['keyword']}" />
+        <meta name="description" content="{$SEO['description']}" />		
+		<link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+		<link type="text/css" href="{CSS_PATH}edus/case1.css?v={php echo rand(10,1000)}" rel="stylesheet">
+		<script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}edus/common.js?v={php echo rand(10,1000)}"></script>
+	</head>
+	<body>
+		{template "content","head"}
+		<div class="case-banner"></div>
+		<div class="case-content">
+			<div class="m-content">
+				<p class="case-blink">
+					<a href="{siteurl($siteid)}">首页</a>
+					<span>></span>
+					<a href="{$CATEGROYS[140][url]}">成功案例</a>
+				</p>
+				<div class="case-con">
+					<div class="case-head">
+						<ul class="case-title">
+							<li class="case-title-li case-title-active" style="border-left: none;">按所属行业</li>
+							<li class="case-title-li">按机构规模</li>
+							<li class="case-title-li">按应用模块</li>
+							<li class="case-title-li">按系统价值</li>
+						</ul>
+						<div class="case-sub-all">
+							<ul class="case-sub" data-origin="indus">
+								<li class="case-sub-li"><a href="javascript:void(0)">中小学培训</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">外语培训</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">少儿培训</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">职业资格培训</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">留学培训</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">艺术培训</a></li>
+								<div class="clearfix"></div>
+							</ul>
+							<ul class="case-sub" style="display:none;" data-origin="scale">
+								<li class="case-sub-li"><a href="javascript:void(0)" data-origin="3371">1-200人</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)" data-origin="3372">200-500人</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)" data-origin="3373">500-1000人</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)" data-origin="3374">1000-2000人</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)" data-origin="3375">2000-5000人</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)" data-origin="3376">5000人以上</a></li>
+								<div class="clearfix"></div>
+							</ul>
+							<ul class="case-sub" style="display:none;" data-origin="func_tags">
+								<li class="case-sub-li"><a href="javascript:void(0)">多校区管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">市场营销</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">教务管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">学员管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">考勤管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">财务管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">教学管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">家校通</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">移动APP</a></li>
+								<div class="clearfix"></div>
+							</ul>
+							<ul class="case-sub" style="display:none;" data-origin="pro_values">
+								<li class="case-sub-li"><a href="javascript:void(0)">一体化业务管控平台</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">提升工作效率</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">规范财务管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">减轻员工工作负担</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">优化跟单过程</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">降低市场成本</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">提升教学质量</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">高效考勤管理</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">智能化排课</a></li>
+								<li class="case-sub-li"><a href="javascript:void(0)">优化业务流程</a></li>
+								<div class="clearfix"></div>
+							</ul>
+						</div>
+					</div>
+					<div class="case-body">
+						<div class="case-inner">
+							<ul class="case-each">
+								{pc:get sql="select * from kewei_special where typeid = 3388 order by listorder desc" num="100" return="data"}
+								{loop $data $r}
+								<li class="case-each-li">
+									<div class="case-img">
+										<a href="{$r[url]}" target="_blank"><img src="{$r[thumb]}" width="380" height="200" alt="{$r[title]}"></a>
+									</div>
+									<div class="case-text">
+										<div class="case-text-subtitle">
+											<span>{$r[indus]}</span>
+											|
+											<span>{get_linkage($r[scale],3370,' >> ',0)}</span>
+										</div>
+										<p class="case-text-title">
+											<a href="{$r[url]}" target="_blank">{$r[title]}</a>
+										</p>
+										<p class="case-text-desc">{str_cut($r[description],120,'...')}</p>
+										<hr class="case-text-hr">
+										<p class="case-text-sub">应用模块：{str_cut($r[func_tags],50,'...')}</p>
+									</div>
+								</li>
+								{/loop}
+								{/pc}
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="s-ads">
+			<div class="m-content">
+				<div class="s-ads-tit">更多了解可为？<br />请联系我们</div>
+				<img src="{IMG_PATH}edus/process_bottom_arrow.png" alt="" title="" style="margin-top:55px;float:left;" />
+				<div class="s-ads-btn1"><a href="http://kf333.immivip.com/index/app?companyId=70722519&style=005&mode=5" target="_blank">告诉我们您的需求</a></div>
+				<div class="s-ads-btn2"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">预约演示</a></div>
+				<div class="s-ads-btn1"><a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank">在线咨询可为</a></div>
+				<div class="s-ads-tel"></div>
+			</div>
+		</div>	
+<!--********************************************************************-->		
+{template "content","footer"}
+	</body>	
+</html>

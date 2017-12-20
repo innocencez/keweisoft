@@ -1,0 +1,322 @@
+ .banner{
+ 	width:100%;
+ 	height:560px; 
+	overflow:hidden;
+ }
+  .banner1{
+ 	width:100%;
+ 	height:280px; 
+	background: url(../../images/edus/Information_banner.jpg) center center no-repeat;
+} 
+  .banner2{
+ 	width:100%;
+ 	height:280px; 
+	background: url(../../images/edus/Information_banner1.jpg) center center no-repeat;
+	position: relative;
+} 
+ .bannerBut{ width:219px;
+             height:44px;
+              position:absolute;
+              background:url(../../images/edus/Information_banner_but.png) top center no-repeat;
+              font-size:24px;
+			  color:#FFFFFF;
+			  line-height:44px;
+			  text-align:center;
+		     margin-left:983px;
+			  margin-top:49px;
+            }
+.bannerBut:hover{
+	          background: url(../../images/edus/Information_banner_but_hov.png) top center no-repeat;
+
+                }
+ /*新航道banner*/
+ .banner-s1{
+ 	width:100%;
+ 	height:560px;
+ 	overflow: hidden;
+ }
+ .banner-s1-1{
+ 	width: 100%;
+ 	height: 280px;
+ 	background: url(../../images/edus/Information_banner-s1.jpg) center center no-repeat;
+ }
+ .banner-s1-2{
+ 	width: 100%;
+ 	height: 280px;
+ 	background: url(../../images/edus/Information_banner-s2.jpg) center center no-repeat;
+ 	position: relative;
+ } 
+ .banner-sbt1{
+ 	width:242px;
+ 	height: 44px;
+ 	background: url(../../images/edus/Information_btn1.png) center center no-repeat;
+ 	position: absolute;
+ 	cursor: pointer;
+ 	top:196px;
+ 	left:650px;
+ }
+ .banner-sbt1:hover{
+ 	background: url(../../images/edus/Information_btn1h.png) center center no-repeat;
+ }
+  .banner-sbt2{
+ 	width:242px;
+ 	height: 44px;
+ 	background: url(../../images/edus/Information_btn2h.png) center center no-repeat;
+ 	position: absolute;
+ 	cursor: pointer;
+ 	top:196px;
+ 	left:950px;
+ }
+ .banner-sbt2:hover{
+ 	background: url(../../images/edus/Information_btn2.png) center center no-repeat;
+ }
+ /**/
+.main{
+	width:1180px;
+  	margin:0 auto;
+}
+.title{ 
+	width:1180px;
+    height:30px;
+	font-size:14px;
+	color:#000;
+	line-height:22px;
+	 margin-top:24px;
+    border-bottom:solid 3px #2e2e2f;
+}
+.title a{color:#000;}
+.Eng{color:#fc6e0f;font-weight:bold;float:right;}
+.left{width:800px;float:left;}
+.Font_Title{font-size:18px; color:#000;margin-top:15px; font-weight:normal;text-align:center;}
+.Data{ background:url(../../images/edus/Information_BlueUI_1.png) left center no-repeat;
+             float:left; 
+             margin-left:290px;
+			 font-size:16px;
+			  margin-top:20px;
+			  margin-right:42px;
+			  padding-left:30px;}
+.Eyes{ background:url(../../images/edus/Information_BlueUI_2.png) left center no-repeat;
+              float:left;
+			  font-size:16px;
+			  margin-top:20px;
+			  padding-left:30px;}
+.Text_Con{width:800px;margin:0 auto;font-size:14px;line-height:28px;margin:20px 0px;}
+.Text_Con p a{color:#f60;}
+.Text_desc{
+	background: #eee;
+	width:760px;
+	line-height: 24px;
+	padding:10px 20px;
+	margin:10px auto;
+	font-size: 12px;
+}
+.Text_keyword{
+	margin:10px auto 25px;
+}
+#tagscloud{
+	width:295px;
+	height: 120px;
+	position: relative;
+	text-align: center;
+}
+#tagscloud a{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0 10px 15px 0;
+	text-align:center;
+	padding:1px 5px;
+	display:inline-block;
+	border-radius:3px;
+}
+#tagscloud a:hover{color:#fff;background:#ff6600;}
+.case-conTit1{
+	width:100%;
+	height: 100px;
+	background: url(../../images/edus/show-problem.png) left center  no-repeat;
+	margin: 30px auto;
+}
+.case-conTit2{
+	width:100%;
+	height: 100px;
+	background: url(../../images/edus/show-solution.png) left center  no-repeat;
+	margin: 30px auto;
+}
+.case-conTit3{
+	width:100%;
+	height: 100px;
+	background: url(../../images/edus/show-value.png) left center  no-repeat;
+	margin: 30px auto;
+}
+.case-conTit4{
+	width:100%;
+	height: 100px;
+	background: url(../../images/edus/show-word.png) left center  no-repeat;
+	margin: 30px auto;
+}
+.case-conTit1-right{
+	width:585px;
+	height: 70px;
+	float: right;
+	padding-top:30px;
+	border-bottom: 3px solid #333;
+	text-align: left;
+	line-height: 30px;
+	color:#FF8C00;
+	font-size:28px;	
+}
+.case-subBtn{
+	padding:10px 15px;
+	background: #ff6600;
+	color:#fff;
+	text-align: center;
+	line-height: 20px;
+	font-size: 16px;
+	margin-top:35px;
+	display: inline-block;
+}
+.case-subBtn:hover{
+	background: #FF8C00;
+}
+.case-erweima{
+	width:100%;
+	height: 262px;
+	margin:35px 0px;
+	background: url(../../images/edus/wx.jpg) center top no-repeat;
+}
+.right_1{width:330px;height:170px;float:right;border:solid 1px #898989;margin-top:20px;}
+
+.Bar_1{width:320px;height:38px; background-color:#eeeeee;font-size:14px; font-weight:bold;line-height:35px;padding-left:10px;}
+.One{ font-size:14px; color:#666;margin-top:15px;margin-left:10px;float:left;}
+.Two{ font-size:14px; color:#666;margin-top:15px; margin-right:10px;float:right;}
+.Three{font-size:14px; color:#666; margin-top:8px;margin-left:10px;float:left;}
+.Four{font-size:14px; color:#666; margin-top:8px;margin-left:55px;float:left;}
+.Five{ font-size:14px; color:#666; margin-top:8px;margin-right:10px;float:right;}
+.Six{ font-size:14px; color:#666; margin-top:8px;margin-left:10px;float:left;}
+.Seven{ font-size:14px; color:#666; margin-top:8px;margin-left:55px;float:left;}
+.Eight{font-size:14px; color:#666;margin-top:8px;margin-left:10px;float:left;}
+.Nine{ font-size:14px; color:#666; margin-top:8px;margin-left:55px;float:left;}
+.Ton{ font-size:14px; color:#666; margin-top:8px;margin-right:10px;float:right;}
+.right_2{width:330px; float:right;border:solid 1px #898989; margin:20px 0px;}
+.Bar_2{width:320px;height:38px; background-color:#eeeeee;font-size:14px; color:#333; font-weight:bold; line-height:35px;padding-left:10px;}
+.img_1{width:286px;height:150px;margin:0 auto; margin-top:15px;}
+.LittleTit_1{text-align:center;margin-top:10px;margin-bottom:5px;}
+.ConY_1{width:280px;;margin:0 auto;}
+.img_2{width:286px;height:150px;margin:0 auto; margin-top:15px;}
+.LittleTit_2{text-align:center;margin-top:10px;margin-bottom:5px;}
+.ConY_2{width:280px;;margin:0 auto;}
+.img_3{width:286px;height:150px;margin:0 auto; margin-top:15px;}
+.LittleTit_3{text-align:center;margin-top:10px;margin-bottom:5px;}
+.ConY_3{width:280px;;margin:0 auto;}
+.img_4{width:286px;height:150px;margin:0 auto; margin-top:15px;}
+.LittleTit_4{text-align:center;margin-top:10px;margin-bottom:5px;}
+.ConY_4{width:280px;;margin:0 auto;}
+.left_bottom{width:706px;height:235px;border:solid 1px #898989;margin-top:234px;}
+.L_Top{width:696px;height:38px; background:url(../../images/edus/Information_Bar.png) top center no-repeat;font-size:18px;line-height:36px;padding-left:10px;}
+.UL_Left{width:352px;height:168px;;float:left;border-right:solid 1px #b4b3b3;margin-top:15px;}
+.Nub_1{margin-left:10px;float:left;margin-top:8px;}
+.Number_1{margin-right:20px;float:right;margin-top:8px;}
+.Nub_2{margin-left:10px;float:left;margin-top:5px;}
+.Number_2{margin-right:20px;float:right;margin-top:5px;}
+.Nub_3{margin-left:10px;float:left;margin-top:5px;}
+.Number_3{margin-right:20px;float:right;margin-top:5px;}
+.Nub_4{margin-left:10px;float:left;margin-top:5px;}
+.Number_4{margin-right:20px;float:right;margin-top:5px;}
+.Nub_5{margin-left:10px;float:left;margin-top:5px;}
+.Number_5{margin-right:20px;float:right;margin-top:5px;}
+.Nub_6{margin-left:10px;float:left;margin-top:5px;}
+.Number_6{margin-right:20px;float:right;margin-top:5px;}
+.UL_right{width:352px;height:168px;float:right;margin-top:15px;}
+.Nub_01{margin-left:20px;float:left;margin-top:8px;}
+.Number_01{margin-right:10px;float:right;margin-top:8px;}
+.Nub_02{margin-left:20px;float:left;margin-top:5px;}
+.Number_02{margin-right:10px;float:right;margin-top:5px;}
+.Nub_03{margin-left:20px;float:left;margin-top:5px;}
+.Number_03{margin-right:10px;float:right;margin-top:5px;}
+.Nub_04{margin-left:20px;float:left;margin-top:5px;}
+.Number_04{margin-right:10px;float:right;margin-top:5px;}
+.Nub_05{margin-left:20px;float:left;margin-top:5px;}
+.Number_05{margin-right:10px;float:right;margin-top:5px;}
+.Nub_06{margin-left:20px;float:left;margin-top:5px;}
+.Number_06{margin-right:10px;float:right;margin-top:5px;}
+.caseCon-line{
+	width:100%;
+	height: 29px;
+	background: url(../../images/edus/con-center-line.png) center center no-repeat;
+	margin:5px 0px;
+}
+.tags-blue{
+	font-size:14px;
+	padding: 7px 5px 5px;
+	color:#666;
+	display: inline-block;
+}
+.f14{
+	margin-top:20px;
+}
+.f14 a{
+	color:#333;
+}
+/**/
+table{
+	border-spacing: 0px;
+	border-collapse: collapse;	
+}
+table,td,tr{
+	border:1px solid #666;
+}
+.s-ads{
+	width:100%;
+	height:120px;
+	background: url(../../images/edus/process_bottom_bg.jpg) repeat-x;
+}
+.s-ads-tit{
+	width:180px;
+	margin-top:35px;
+	font-size:24px;
+	color:#46464a;
+	float: left;
+}
+.s-ads-btn1{
+	width:180px;
+	height:51px;
+	text-align:center;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads a{
+	color:#fff;
+}
+.s-ads-btn1:hover{
+	background: url(../../images/edus/process_bottom_btn_hover.png) no-repeat;
+}
+.s-ads-btn2{
+	width:143px;
+	padding-left:37px;
+	height:51px;
+	text-align:left;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn2.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads-btn2:hover{
+	background: url(../../images/edus/process_bottom_btn2_hover.png) no-repeat;
+}
+.s-ads-tel{
+	width:183px;
+	height:54px;
+	float: right;
+	margin:40px 0px 0px;
+	background: url(../../images/edus/process_bottom_btn_tel.png) no-repeat;
+}

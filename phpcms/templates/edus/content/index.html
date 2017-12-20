@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{if $catid && !$modelid}{$catname} — {/if}{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/>
+        <meta name="keywords" content="{$SEO['keyword']}" />
+        <meta name="description" content="{$SEO['description']}" />		
+		<link type="text/css" href="{CSS_PATH}edus/head.css" rel="stylesheet">
+		<link type="text/css" href="{CSS_PATH}edus/index.css" rel="stylesheet">
+		<link type="text/css" href="{CSS_PATH}edus/slick_index.css" rel="stylesheet">
+		<link type="text/css" href="{CSS_PATH}edus/animate.min.css" rel="stylesheet">
+		<link type="text/css" href="{CSS_PATH}edus/hover.css" rel="stylesheet">
+		<script type="text/javascript" src="{JS_PATH}edus/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="{JS_PATH}edus/index.js"></script>
+		<script type="text/javascript" src="{JS_PATH}edus/common.js"></script>
+		<script type="text/javascript" src="{JS_PATH}edus/new_scroll.js"></script>
+	</head>
+	<body>
+		{template "content","head"}
+		<div class="index-banner">
+			<div class="slider single-item">
+				<div class="index-banner-abroad">
+					<a href="http://edus.keweisoft.com/abroad-erp/" target="_blank"><div style="width:100%;height:100%;"></div></a>
+				</div>
+				<div class="index-banner1">
+					<div class="index-banner-center">
+						<a href="javascript:void(0)" class="scrolldown"><div class="btn1">申请试用</div></a>
+						<a href="http://tb.53kf.com/webCompany.php?arg=10140145&style=5" target="_blank"><div class="btn2">在线咨询</div></a>
+					</div>
+				</div>
+				<div class="index-banner-wexk">
+					<a href="http://edus.keweisoft.com/we-xk/" target="_blank"><div style="width:100%;height:100%;"></div></a>
+				</div>
+				<div class="index-banner-kuakao">
+					<a href="http://edus.keweisoft.com/special/kuakao/" target="_blank"><div style="width:100%;height:100%;"></div></a>
+				</div>	
+				<div class="index-banner-youjia">
+					<a href="http://edus.keweisoft.com/special/youjia/" target="_blank"><div style="width:100%;height:100%;"></div></a>
+				</div>							
+			</div>
+		</div>
+		<!--滚动案例-->	
+		<div class="last-case">
+			<div class="m-content">	
+				<div class="pro-topCase"><span class="pro-topCase-tit">最新签约动态：</span> 
+					<div id="intrends">
+						<div id="trends">
+							<div id="trend1">
+								{pc:content action="lists" catid="140" num="8" moreinfo="1" order="listorder DESC"}
+								{loop $data $r}
+								<a href="{$r[url]}" class="adv1_movingLink" target="_blank">  {$r[online_time]}  {str_cut($r[title],65,'...')}</a>
+								{/loop}
+								{/pc}
+							</div>
+							<div id="trend2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="index-block2">
+			<div class="m-content">
+				<p class="index-block2-tit"></p>
+				<div class="index-b2-topcon" id="flag3">
+					<div class="item" style="margin-left:2px;">
+						<div class="b2-pic1" id="animate7"></div>
+						<div class="b2-top-item-con">
+							<a href="{$CATEGORYS[124][url]}" target="_blank"><p class="tit">可为EDUS培训机构管理软件</p></a>
+							<p class="con">可为edus提供市场、销售、教务、财务、教学、报表分析一站式软件解决方案，帮助教育机构搭建全流程、可管控、可运营，可追溯的高质量信息化支撑体系...</p>
+							<p class="link"><a href="{$CATEGORYS[124][url]}" class="hvr-icon-wobble-horizontal" target="_blank">查看详情</a></p>
+						</div>
+					</div>
+					<div class="item" style="margin-left:82px;">
+						<div class="b2-pic2" id="animate8"></div>
+						<div class="b2-top-item-con">
+							<a href="{$CATEGORYS[256][url]}" target="_blank"><p class="tit">家校通学员端管理软件</p></a>
+							<p class="con">edus家校通是教育机构老师的家校互通神器，通过有效增强校方与家长的沟通交流，囊括学员考勤、作业、成绩、课表、教学评价等，移动互联网时代不可或缺的管理工具...</p>
+							<p class="link"><a href="{$CATEGORYS[256][url]}" class="hvr-icon-wobble-horizontal" target="_blank">查看详情</a></p>
+						</div>
+					</div>	
+					<div class="item" style="margin-left:82px;">
+						<div class="b2-pic3" id="animate9"></div>
+						<div class="b2-top-item-con">
+							<a href="{$CATEGORYS[257][url]}" target="_blank"><p class="tit">可为在线选课系统</p></a>
+							<p class="con">专为教育培训机构设计的在线选课报班系统，学员可综合考虑课程分类、适合人群、上课地点、时间、价格等多种因素，选报最合适的班级。实现与教务系统的无缝对接...</p> 
+							<p class="link"><a href="{$CATEGORYS[257][url]}" class="hvr-icon-wobble-horizontal" target="_blank">查看详情</a></p>
+						</div>
+					</div>										
+				</div>
+				<div class="index-b2-subcon">
+					<p class="index-b2-subtit">关于管理，我们不放过任何细节</p>
+					<p class="index-b2-ttit">涵盖市场、销售、客户服务、教学、教务、财务一体化、多校区多部门的多中心管理。</p>
+					<div class="dev">
+						<div class="each inb2-item">
+							<a href="{$CATEGORYS[114][url]}" target="_blank"><div class="pic1 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[114][url]}" target="_blank">多校区管理</a></p>
+							<p class="sub">支持集团多学校联网使用</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[115][url]}" target="_blank"><div class="pic2 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[115][url]}" target="_blank">市场营销管理</a></p>
+							<p class="sub">精细化的销售过程管理</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[116][url]}" target="_blank"><div class="pic3 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[116][url]}" target="_blank">学员端管理</a></p>
+							<p class="sub">教师、学员交流互动平台</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[119][url]}" target="_blank"><div class="pic4 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[119][url]}" target="_blank">教务管理</a></p>
+							<p class="sub">清晰透明的教务管理平台</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[117][url]}" target="_blank"><div class="pic5 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[117][url]}" target="_blank">一对一管理</a></p>
+							<p class="sub">让培训机构和客户双赢</p>
+						</div>																	
+					</div>		
+					<div class="dev" style="margin-top:44px;margin-bottom:47px;">
+						<div class="each inb2-item">
+							<a href="{$CATEGORYS[121][url]}" target="_blank"><div class="pic6 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[121][url]}" target="_blank">财务管理</a></p>
+							<p class="sub">多方位数据管理降低成本</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[118][url]}" target="_blank"><div class="pic7 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[118][url]}" target="_blank">一对多管理</a></p>
+							<p class="sub">让培训机构应收利益最大化</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[120][url]}" target="_blank"><div class="pic8 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[120][url]}" target="_blank">考勤管理</a></p>
+							<p class="sub">记录培训学校学员老师考勤</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[122][url]}" target="_blank"><div class="pic9 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[122][url]}" target="_blank">决策分析管理</a></p>
+							<p class="sub">便于管理日常的业务</p>
+						</div>
+						<div class="each inb2-item" style="margin-left:77.5px;">
+							<a href="{$CATEGORYS[123][url]}" target="_blank"><div class="pic10 im"></div></a>
+							<p class="tit"><a href="{$CATEGORYS[123][url]}" target="_blank">集成拓展</a></p>
+							<p class="sub">消除机构信息化孤岛弊端</p>
+						</div>																	
+					</div>						
+				</div>
+			</div>
+		</div>
+		<div class="index-block1">
+			<div class="m-content">
+				<p class="index-block1-tit"></p>
+				<div class="dev" id="flag1">
+					<div class="item" style="margin-left:70px;" id="animate1">
+						<a href="{$CATEGORYS[126][url]}" target="_blank"><div class="item1-pic" ></div></a>
+						<p class="item-tit"><a href="{$CATEGORYS[126][url]}" target="_blank">中小学培训解决方案</a></p>
+						<p class="item-btn"><a href="{$CATEGORYS[126][url]}" target="_blank"><span class="hvr-grow-shadow">>>点击进入</span></a></p>
+					</div>
+					<div class="item" style="margin-left:148px;" id="animate2">
+						<a href="{$CATEGORYS[127][url]}" target="_blank"><div class="item2-pic" ></div></a>
+						<p class="item-tit"><a href="{$CATEGORYS[127][url]}" target="_blank">外语培训解决方案</a></p>
+						<p class="item-btn"><a href="{$CATEGORYS[127][url]}" target="_blank"><span class="hvr-grow-shadow">>>点击进入</span></a></p>
+					</div>
+					<div class="item" style="margin-left:148px;" id="animate3">
+						<a href="{$CATEGORYS[128][url]}" target="_blank"><div class="item3-pic"></div></a>
+						<p class="item-tit"><a href="{$CATEGORYS[128][url]}" target="_blank">少儿培训解决方案</a></p>
+						<p class="item-btn"><a href="{$CATEGORYS[128][url]}" target="_blank"><span class="hvr-grow-shadow">>>点击进入</span></a></p>
+					</div>										
+				</div>
+				<div class="dev" id="flag2">
+					<div class="item" style="margin-left:70px;" id="animate4">
+						<a href="{$CATEGORYS[129][url]}" target="_blank"><div class="item4-pic"></div></a>
+						<p class="item-tit"><a href="{$CATEGORYS[129][url]}" target="_blank">职业资格培训解决方案</a></p>
+						<p class="item-btn"><a href="{$CATEGORYS[129][url]}" target="_blank"><span class="hvr-grow-shadow">>>点击进入</span></a></p>
+					</div>
+					<div class="item" style="margin-left:148px;" id="animate5">
+						<a href="{$CATEGORYS[130][url]}" target="_blank"><div class="item5-pic" ></div></a>
+						<p class="item-tit"><a href="{$CATEGORYS[130][url]}" target="_blank">留学培训解决方案</a></p>
+						<p class="item-btn"><a href="{$CATEGORYS[130][url]}" target="_blank"><span class="hvr-grow-shadow">>>点击进入</span></a></p>
+					</div>
+					<div class="item" style="margin-left:148px;" id="animate6">
+						<a href="{$CATEGORYS[133][url]}" target="_blank"><div class="item6-pic" ></div></a>
+						<p class="item-tit"><a href="{$CATEGORYS[133][url]}" target="_blank">艺术培训解决方案</a></p>
+						<p class="item-btn"><a href="{$CATEGORYS[133][url]}" target="_blank"><span class="hvr-grow-shadow">>>点击进入</span></a></p>
+					</div>										
+				</div>	
+				<a href="{$CATEGORYS[125][url]}" target="_blank"><div class="index-b2-btn hvr-wobble-horizontal">>>点击咨询行业方案</div></a>	
+			</div>
+		</div>
+		<div class="index-block3">
+			<div class="m-content">
+				<p class="index-block3-tit"></p>
+				<ul class="index-b3-dev">
+					<li>
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo1.jpg" width="240" height="240"/>
+							<a href="http://edus.keweisoft.com/special/xhd/" target="_blank">
+								<div class="mask">
+									<span class="c-title">北京新航道教育有限公司</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										外语辅导
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										新航道国际教育集团是由中国英语培训界著名领军人物、英语教育专家胡敏教授率领一批国内外语言培...
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li style="margin-left:73px;">
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo2.jpg" width="240" height="240"/>
+							<a href="http://edus.keweisoft.com/special/case_xnh/" target="_blank">
+								<div class="mask">
+									<span class="c-title">北京新年华教育集团</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										中小学辅导
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										新年华教育集团自2001年创立以来，以“打造未来社会精英”为宗旨，以提高学生的综合素质，适应未来社会要求为目标...
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>	
+					<li style="margin-left:73px;">
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo3.jpg" width="240" height="240"/>
+							<a href="http://edus.keweisoft.com/special/xintong/" target="_blank">
+								<div class="mask">
+									<span class="c-title">新通教育</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										留学培训
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										新通教育是国内领先的集出国留学中介,外语培训,游学预科,移民为一体的综合性国际教育集团新通教育全球30多家分支机构...
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li style="margin-left:74px;">
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo5.jpg" style="margin-top:-10px;" width="240" height="240"/>
+							<a href="http://edus.keweisoft.com/special/case_shangyuan/" target="_blank">
+								<div class="mask">
+									<span class="c-title">上元教育</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										职业教育
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										上元教育在线是一家专注“在线教育平台”的互联网公司,提供外语类,财会类...
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>														
+				</ul>
+				<ul class="index-b3-dev" style="margin-top:43px;">
+					<li>
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo4.jpg" width="240" height="240"/>
+							<a href="http://edus.keweisoft.com/special/case_renhe/" target="_blank">
+								<div class="mask">
+									<span class="c-title">武汉荣昌仁和会计</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										职业资格培训
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										逾十年来，仁和会计教育一直坚持“诚信办学，严谨治校”，努力打造行业品质，建立资深名师团队，实施...
+									</p>
+								</div>
+							</a>
+						</div>
+						
+					</li>
+					<li style="margin-left:73px;">
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo6.jpg" width="240" height="240"/>
+							<a href="http://edus.keweisoft.com/special/beile/" target="_blank">
+								<div class="mask">
+									<span class="c-title">北京倍乐优学教育</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										少儿培训
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										可为edus教务系统结合倍乐优学教育咨询自身业务特点，进行了详细的调研和梳理，规划了各个岗位的工作流程...
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>	
+					<li style="margin-left:73px;">
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo7.jpg" width="240" height="240"/>
+							<a target="_blank">
+								<div class="mask">
+									<span class="c-title">汉普森英语</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										语言培训
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										汉普森英语是中国第一家“洋家教”个性化外语研究及教学机构，采用外教一对一的授课方式...
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li style="margin-left:74px;">
+						<div class="view view-fourth">
+							<img class="succ-img" alt="" src="{IMG_PATH}/edus/index-case-logo8.jpg" width="240" height="240"/>
+							<a target="_blank">
+								<div class="mask">
+									<span class="c-title">文都网校</span>
+									<p class="case-industry">
+										<span style="font-weight:bold;">所属行业：</span>
+										职业教育培训
+									</p>
+									<p class="case-con">
+										<span style="font-weight:bold;">案例内容：</span>
+										文都网校是中国考试网络远程培训优秀品牌,考试辅导值得信赖的机构.突破传统课堂教学...
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>														
+				</ul>
+				<a href="{$CATEGORYS[140][url]}" target="_blank"><div class="index-b2-btn hvr-wobble-horizontal" style="margin-top:40px;margin-bottom:24px;">
+					点击查看更多案例
+				</div></a>				
+			</div>
+		</div>
+		<div class="index-block4">
+			<p class="index-block4-tit"></p>
+			<div class="index-block4-con" id="smark">
+				<div class="m-content">
+					<div class="index-b4-top" id="flag6">
+						<div class="item" id="animate16">
+							<div class="pic">
+								<a href="{$CATEGORYS[135][url]}" target="_blank"><div class="pic-sub">咨询服务</div></a>
+							</div>
+							<div class="con">
+								可为拥有最优质的咨询顾问服务团队，他们拥有多年的行业纵深经验，对企业的业务流程和盈利模式都有较深的了解，通过可为专业的咨询顾问，我们协助企业找到管理现状中存在的问题、优化企业现有流程中的各个环节......
+							</div>
+						</div>
+						<div class="item" id="animate17" style="margin-left:55px;">
+							<div class="pic1">
+								<a href="{$CATEGORYS[136][url]}" target="_blank"><div class="pic-sub">实施服务</div></a>
+							</div>
+							<div class="con">
+								可为软件凭借多年的项目成功实施经验，为企业提供标准的管理软件实施服务方案，引入专业的项目管理模式，可为一直坚持五分软件，五分实施，通过实施把企业的流程与软件流程相结合，搭建信息化平台......
+							</div>							
+						</div>
+						<div class="item" id="animate18" style="margin-left:55px;">
+							<div class="pic2">
+								<a href="{$CATEGORYS[137][url]}" target="_blank"><div class="pic-sub">售后服务</div></a>
+							</div>
+							<div class="con">
+								可为售后服务面向所有可为客户（包括可为伙伴客户）提供可为产品版本更新、版本升级、 知识库查询以及以热线、远程、在线等非现场方式提供的软件应用指导、问题诊断与解决等一站式服务......
+							</div>								
+						</div>
+						<div class="item" id="animate19" style="margin-left:55px;">
+							<div class="pic3">
+								<a href="{$CATEGORYS[138][url]}" target="_blank"><div class="pic-sub">个性化定制开发</div></a>
+							</div>
+							<div class="con">
+								市场上软件的通用模块无法满足您企业的要求？需要只针对您企业独有的管理系统？别担心，可为金牌研发团队蓄势待发，根据企业自身需求设计开发方案，设计软件系统，选择相应的开发平台及数据库的软件开发服务......
+							</div>								
+						</div>
+					</div>
+					<div class="index-b4-sub" id="flag7">						
+						<script language='javascript' src='{APP_PATH}index.php?m=formguide&c=index&a=show&formid=21&action=js&siteid=4'></script>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<!-- <div class="index-b5">
+			<div class="m-content">
+				<p class="index-b5-tit"></p>
+				<div class="index-b5-con">
+					<div class="dev">
+						<div class="item">
+							<div class="img">
+								<img src="{IMG_PATH}/edus/index-video-pic1.jpg" alt="" title="" width="330" height="219" />
+								<a href="" target="_blank"><div class="on-img"><span class="ico"></span></div></a>
+							</div>
+							<a href="" target="_blank"><p class="tit">EDUS市场招生与销售管理</p></a>
+						</div>
+						<div class="item" style="margin-left:25px;">
+							<div class="img">
+								<img src="{IMG_PATH}/edus/index-video-pic1.jpg" alt="" title="" width="330" height="219" />
+								<a href="" target="_blank"><div class="on-img"><span class="ico"></span></div></a>
+							</div>
+							<a href="" target="_blank"><p class="tit">EDUS教务排课管理</p></a>
+						</div>
+						<div class="item" style="margin-left:25px;">
+							<div class="img">
+								<img src="{IMG_PATH}/edus/index-video-pic1.jpg" alt="" title="" width="330" height="219" />
+								<a href="" target="_blank"><div class="on-img"><span class="ico"></span></div></a>
+							</div>
+							<a href="" target="_blank"><p class="tit">EDUS学员考勤管理</p></a>
+						</div>												
+					</div>
+					<div class="index-b5-btn hvr-wobble-horizontal">点击查看更多视频</div>
+				</div>
+			</div>
+		</div> -->
+		<div class="index-b6">
+			<div class="m-content">
+				<p class="index-b6-tit"></p>
+				<div class="b6-left">
+					<p class="b6-left-tit">管理知识<a href="" target="_blank" class="more">More>></a></p>
+					<ul>				
+						{pc:content action="lists" catid="139" order="listorder DESC" num="8"}
+						{loop $data $r}	
+							<li><a href="{$r[url]}" title="{$r[title]}" target="_blank">{str_cut($r[title],65,'...')}</a><span style="float:right;color:#666;">点击量：{php echo rand(100,300);}</span></li>
+						{/loop}
+						{/pc}											
+					</ul>
+				</div>
+				<div class="b6-right">
+					<p class="b6-right-tit">产品应用<a href="" target="_blank" class="more">More>></a></p>
+					<ul>								
+						{pc:content action="position" posid="27" catid="139" order="listorder ASC" num="8"}
+						{loop $data $r}
+							<li><a href="{$r[url]}" title="{$r[title]}" target="_blank">{str_cut($r[title],65,'...')}</a><span style="float:right;color:#666;">点击量：{php echo rand(100,300); }</span></li>
+						{/loop}
+						{/pc}						
+					</ul>
+				</div>
+			</div>
+		</div>
+		{template "content","footer"}
+	</body>	
+<script type="text/javascript" src="{JS_PATH}edus/slick.min.js"></script>	
+<script type="text/javascript">
+	function scrollLeftPanel(){
+		var speed = 30;
+		var demo = document.getElementById("trends");
+		var demo1 = document.getElementById("trend1");
+		var demo2 = document.getElementById("trend2");
+		demo2.innerHTML = demo1.innerHTML;
+		function marquee(){
+			if(demo2.offsetWidth-demo.scrollLeft<=0) 
+				demo.scrollLeft-=demo.offsetWidth; 
+			else 
+				demo.scrollLeft++; 
+			}
+		var MyMar=setInterval(marquee,speed); 
+		demo.onmouseover=function() {clearInterval(MyMar);} 
+		demo.onmouseout=function() {MyMar=setInterval(marquee,speed);} 
+	}
+</script>
+<script type="text/javascript">scrollLeftPanel();</script> 	
+</html>

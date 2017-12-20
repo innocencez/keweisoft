@@ -1,0 +1,273 @@
+.souke-banner{
+	width: 100%;
+	height: 560px;
+	background: url(../../images/edus/souke-banner.jpg) center center no-repeat;
+}
+.souke-banner-center{
+	width: 1040px;
+	height: 560px;
+	position: relative;
+	margin: 0 auto;
+}
+.souke-banner-btn{
+	width: 220px;
+	height: 38px;
+	text-align:center;
+	line-height: 38px;
+	background: #ef7d19;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	position: absolute;
+	left:0;
+	top:405px;
+	border-radius: 10px;
+}
+.souke-block1{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.souke-block1-tit{
+	width: 100%;
+	height: 57px;
+	background: url(../../images/edus/souke-b1-tit.png) center center no-repeat;
+}
+.souke-block1-con{
+	width: 100%;
+	height: 337px;
+	margin-top:48px;
+	overflow: hidden;
+	background: url(../../images/edus/souke-pic1.jpg) 718px center no-repeat;
+}
+.souke-block1-left{
+	width: 540px;
+	height: 247px;
+	float: left;
+	margin-top:35px;
+	position: relative;
+}
+.souke-b1-ltit{
+	width: 159px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	background: #ef7d19;
+	font-size: 18px;
+	color:#fff;
+}
+.souke-b1-con{
+	font-size: 16px;
+	color:#666;
+	text-indent: 32px;
+	line-height: 28px;
+	margin-top: 15px;
+}
+.souke-b1-subtit{
+	width: 635px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	margin:70px auto 0;
+	font-size: 24px;
+	color:#fff;
+	background: #ef7d19;
+	border-radius: 10px;
+}
+.souke-b1-subcon{
+	width: 100%;
+	height: 351px;
+	margin-top: 66px;
+	overflow: hidden;
+	background: url(../../images/edus/souke-b2-subconBg.png) center center no-repeat;
+	position: relative;
+}
+.souke-b1-subcon .left{
+	width: 520px;
+	height: 100%;
+	float: left;
+}
+.souke-b1-subcon .left .tit,.souke-b1-subcon .right .tit{
+	font-size: 24px;
+	color:#333;
+	text-align: center;
+}
+.souke-b1-subcon .left .con,.souke-b1-subcon .right .con{
+	width: 520px;
+	height: 169px;
+	background: #f2f3f6;
+	margin-top:35px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+.souke-b1-subcon .left .con ul{
+	float: left;
+	margin-top: 15px;
+}
+.souke-b1-subcon .left .con ul li{
+	font-size: 14px;
+	color:#333;
+	line-height: 30px;
+}
+.souke-b1-subcon .left .narrow,.souke-b1-subcon .right .narrow{
+	width: 100%;
+	height: 40px;
+	background: url(../../images/edus/souke-b1-narrow.png) center center no-repeat;
+	margin-top:10px;
+}
+.souke-b1-subcon .left .bottom{
+	width: 490px;
+	height: 46px;
+	background: #2eaeb7;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	font-size: 18px;
+	margin: 16px auto 0;
+}
+.souke-b1-subcon .right{
+	width: 520px;
+	height: 100%;
+	float: right;
+}
+.souke-b1-subcon .right .con p{
+	font-size: 14px;
+	color:#333;
+	padding-left:12px;
+	line-height: 30px;
+}
+.souke-b1-subcon .right .bottom{
+	width: 490px;
+	height: 46px;
+	background: #7cb9fd;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	font-size: 18px;
+	margin: 16px auto 0;
+}
+.souke-ads{
+	width: 100%;
+	height: 120px;
+	background: url(../../images/edus/souke-ads.jpg) center center no-repeat;
+	margin-top:60px;
+}
+.souke-ads-center{
+	width: 1180px;
+	height:120px;
+	margin: 0 auto;
+	position: relative;
+}
+.souke-ads-center .btn{
+	width: 158px;
+	height: 38px;
+	background: #ef7d19;
+	text-align: center;
+	line-height: 38px;
+	color:#fff;
+	font-size: 20px;
+	border-radius:7px;
+	right:0;
+	top:45px;
+	position: absolute;
+}
+.souke-block2{
+	width:100%;
+	overflow:hidden;
+	margin-top:60px;
+}
+.souke-block2-tit{
+	width: 100%;
+	height:57px;
+	background: url(../../images/edus/souke-b2-tit.png) center center no-repeat;
+}
+.souke-b2-con1{
+	width: 100%;
+	height: 210px;
+	margin-top: 91px;
+	background: url(../../images/edus/souke-pic2.png) 720px center no-repeat;
+}
+.souke-b2-con1 .left{
+	width: 540px;
+	height: 210px;
+	float: left;
+}
+.souke-b2-con1 .tit,.souke-b2-con2 .tit,.souke-b2-con3 .tit,.souke-b2-con4 .tit,.souke-b2-con5 .tit,.souke-b2-con6 .tit,.souke-b2-con7 .tit{
+	font-size: 30px;
+	color:#ef7d19;
+}
+.souke-b2-con1 .con,.souke-b2-con2 .con,.souke-b2-con3 .con,.souke-b2-con4 .con,.souke-b2-con5 .con,.souke-b2-con6 .con,.souke-b2-con7 .con{
+	font-size: 14px;
+	color:#333;
+	line-height: 26px;
+	margin-top:18px;
+}
+.souke-b2-con2{
+	width: 100%;
+	height: 185px;
+	overflow: hidden;
+	margin-top:70px;
+	background: url(../../images/edus/souke-pic3.png) 100px 35px no-repeat;
+}
+.souke-b2-con2 .right{
+	width: 540px;
+	float: right;
+}
+.souke-b2-con3{
+	width: 100%;
+	height: 216px;
+	overflow: hidden;
+	margin-top:70px;
+	background: url(../../images/edus/souke-pic4.png) 752px center no-repeat;
+}
+.souke-b2-con3 .left{
+	width: 540px;
+	height: 216px;
+	float: left;
+}
+.souke-b2-con4{
+	width: 100%;
+	height: 234px;
+	overflow: hidden;
+	margin-top:70px;
+	background: url(../../images/edus/souke-pic5.png) 150px top no-repeat;
+}
+.souke-b2-con4 .right{
+	width: 540px;
+	float: right;
+}
+.souke-b2-con5{
+	width: 100%;
+	height: 331px;
+	overflow: hidden;
+	margin-top:37px;
+	background: url(../../images/edus/souke-pic6.png) 755px top no-repeat;
+}
+.souke-b2-con5 .left{
+	width: 540px;
+	height: 331px;
+	float: left;
+}
+.souke-b2-con6{
+	width: 100%;
+	height: 191px;
+	overflow: hidden;
+	margin-top:52px;
+	background: url(../../images/edus/souke-pic7.png) 40px top no-repeat;
+}
+.souke-b2-con6 .right{
+	width: 540px;
+	float: right;
+}
+.souke-b2-con7{
+	width: 100%;
+	height: 194px;
+	overflow: hidden;
+	margin-top:70px;
+	background: url(../../images/edus/souke-pic8.png) 690px 5px no-repeat;
+	margin-bottom:62px;
+}
+.souke-b2-con7 .left{
+	width: 540px;
+	float: left;
+}

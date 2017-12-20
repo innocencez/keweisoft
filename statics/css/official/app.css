@@ -1,0 +1,140 @@
+.app-banner{
+	width:100%;
+	height: 560px;
+	background: #47a6ea;
+}
+.app-banner-center{
+	width: 1040px;
+	height: 560px;
+	margin: 0 auto;
+	background: url(../../images/official/app-banner.jpg) center center no-repeat;
+	position: relative;
+}
+.app-banner-btn{
+	width: 168px;
+	height:38px;
+	background: #f28317;
+	text-align: center;
+	line-height: 38px;
+	position: absolute;
+	right: 0px;
+	top:332px;
+	font-size: 20px;
+	color:#fff;
+}
+.app-banner-btn:hover{
+	color:#C60;
+}
+.app-b1{
+	height: 297px;
+	overflow:hidden;
+	margin-top:45px;
+}
+.app-b1-left{
+	width: 462px;
+	height: 165px;
+	float: left;
+	margin: 67px 0px 0px 29px;
+}
+.abl-tit{
+	font-size: 20px;
+	color:#ff9900;
+}
+.abl-con{
+	font-size: 14px;
+	color:#333;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.app-b1-pic1{
+	width: 320px;
+	height: 297px;
+	float: right;
+	background: url(../../images/official/app-pic1.png) center center no-repeat;
+	margin-right: 96px;
+}
+.app-ads1{
+	width:100%;
+	height: 120px;
+	background: url(../../images/official/app-ads.jpg) center center no-repeat;
+	margin-top: 50px;
+}
+.app-b2{
+	overflow: hidden;
+}
+.app-b2-item{
+	width: 100%;
+	height: 418px;
+	overflow: hidden;
+}
+.app-b2-pic1{
+	width: 408px;
+	height: 332px;
+	float: left;
+	background: url(../../images/official/app-pic2.jpg) center center no-repeat;
+	margin: 45px 0px 0px 52px;
+}
+.app-b2-conR{
+	width: 438px;
+	float: right;
+}
+.app-b2-tit{
+	font-size: 24px;
+	color:#ff9933;
+}
+.app-b2-con{
+	font-size: 14px;
+	color:#666;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.app-b2-link{
+	margin-top: 12px;
+	text-align: right;
+}
+.app-b2-link a{
+	font-size: 14px;
+	color: #ff9933;
+}
+.app-b2-link a:hover{
+	color:#333;
+}
+.app-b2-pic2{
+	width: 328px;
+	height: 349px;
+	float: right;
+	background: url(../../images/official/app-pic3.jpg) center center no-repeat;
+	margin: 32px 86px 0px 0px;
+}
+.app-b2-conL{
+	width: 438px;
+	float: left;
+}
+.app-b2-pic3{
+	width: 501px;
+	height: 229px;
+	float: left;
+	background: url(../../images/official/app-pic4.jpg) center center no-repeat;
+	margin: 108px 0px 0px 14px;
+}
+.app-b2-pic4{
+	width: 254px;
+	height: 349px;
+	float: right;
+	background: url(../../images/official/app-pic5.jpg) center center no-repeat;
+	margin: 32px 122px 0px 0px;
+}
+.app-b2-pic5{
+	width: 277px;
+	height: 368px;
+	float: left;
+	background: url(../../images/official/app-pic6.jpg) center center no-repeat;
+	margin: 25px 0px 0px 102px;
+}
+.app-b2-pic6{
+	width: 316px;
+	height: 362px;
+	float: right;
+	background: url(../../images/official/app-pic7.jpg) center center no-repeat;
+	margin: 35px 86px 0px 0px;
+}

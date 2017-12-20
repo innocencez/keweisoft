@@ -1,0 +1,696 @@
+@charset "utf-8";
+/*CSS Document*/
+/**************************************************************************************************
+*Author:  kewei
+*Version:  2.0
+*Level:  global
+*Explain:  关于我们
+*******************************************************************************/
+.banner-top{
+	width:100%;
+	height:280px;
+	background: url(../../images/edus/ab_banner1.jpg) center 0px no-repeat;
+}
+.banner-bottom{
+	width:100%;
+	height:280px;
+	background: url(../../images/edus/ab_banner2.jpg) center 0px no-repeat;
+}
+.top-link{
+	height:55px;
+	line-height:55px;
+}
+.top-link a{
+	color:#666;
+	font-size:16px;
+}
+.content{
+	background: #fff;
+}
+.ab-tit{
+	height:120px;
+	background: url(../../images/edus/ab-con-pic.png) no-repeat;
+}
+.ab-brief{
+	height:512px;
+}
+.ab-brief-tit{
+	background: url(../../images/edus/ab-tit-bg.png) left center no-repeat;
+	padding-left:40px;
+	font-size:24px;
+
+}
+.ab-brief-con{
+	font-size:14px;
+	color:#7d7d7d;
+	margin-top:20px;
+	line-height: 30px;
+}
+.ab-con-mission{
+	width: 100%;
+	height:198px;
+	line-height:198px;
+	margin-top:40px;
+}
+.ab-con-mission span{
+	color:#333;
+	font-size:26px;
+	font-size:bold;
+	margin-left:10px;
+}
+.ab-con-mission a{
+	float:right;
+	background: url(../../images/edus/ab-con-tel.png) left center no-repeat;
+	padding-left:30px;
+	font-size:24px;
+	color:#333;
+}
+
+.ab-vision{
+	width:100%;
+	height:561px;
+	background: url(../../images/edus/ab-con-bg1.png) center 0px no-repeat;
+	margin-top: 180px;
+}
+
+.vision1{
+	width:100%;
+	height:56px;
+	padding-top:25px;
+	background: url(../../images/edus/ab-con-index1.png) left 95% no-repeat;
+}
+.vision2{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index2.png) left 95% no-repeat;
+}
+.vision3{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index3.png) left 95% no-repeat;
+}
+.vision4{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index4.png) left 95% no-repeat;
+}
+.vision5{
+	width:100%;
+	height:56px;
+	margin-top:50px;
+	background: url(../../images/edus/ab-con-index5.png) left 95% no-repeat;
+}
+.vision-motto{
+	width:261px;
+	height:56px;
+	float: left;
+	background: #ff6600;
+	margin-left:87px;
+	color:#fff;
+	font-size:24px;
+	text-align: center;
+	line-height:56px;
+}
+.vision-line{
+	width:102px;
+	height:28px;
+	float: left;
+	border-bottom: 1px solid #333;
+}
+.vision1-con{
+	width:464px;
+	height:56px;
+	float: left;
+	margin-left:24px;
+	font-size:18px;
+	text-align: left;
+	line-height:56px;
+	color: #333;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+.vision2-con{
+	width:464px;
+	height:72px;
+	float: left;
+	margin-left:24px;
+	font-size:18px;
+	text-align: left;
+	line-height:36px;
+	color: #333;
+	font-weight:bold;
+	letter-spacing: 1px;
+}
+
+.ab-ads{
+	width:100%;
+	height:73px;
+	background: url(../../images/edus/ab-adv1.jpg) center 0px no-repeat;
+}
+.ab1-ads{
+	width:100%;
+	height:70px;
+	background: url(../../images/edus/ab-adv1-2.jpg) center 0px no-repeat;
+}
+.ab2-ads{
+	width:100%;
+	height:80px;
+	background: url(../../images/edus/ab-adv1-3.jpg) center 0px no-repeat;
+}
+.ab-sub{
+	width:100%;
+	height:302px;
+	margin-top:60px;
+}
+.ab-sub1{
+	width:100%;
+	height:345px;
+	margin-top:30px;
+}
+
+.ab-sub-con{
+	width:520px;
+	float: left;
+	margin-top:40px;
+}
+.ab-sub-con1{
+	width:520px;
+	height:198px;
+	float: left;
+	margin-top:75px;
+}
+
+.ab-sub-con h1{
+	color:#28282e;
+	font-size:24px;
+	letter-spacing:1px;
+	font-weight: normal;
+}
+
+.sub-con-line{
+	width:100%;
+	height:18px;
+	background: url(../../images/edus/ab-con-line.jpg) repeat-x;
+	margin-top:30px;
+}
+
+.ab-sub1-case{
+	width:100%;
+	height:39px;
+	margin-top:30px;
+}
+.ab-sub1-case-tit{
+	width:350px;
+	height:39px;
+	float: left;
+	line-height:39px;
+	color:#ff6600;
+	font-size:26px;
+}
+.ab-sub1-case-line{
+	width:830px;
+	height:39px;
+	float: left;
+	background: url(../../images/edus/ab-con-line.jpg) left center repeat-x ;
+}
+.ab-sub1-case-item1{
+	height: 74px;
+	width:100%;
+	margin-top:20px;
+}
+.ab-sub1-case-item2{
+	height: 74px;
+	width:100%;
+	margin-top:60px;
+}
+.ab-sub1-case-item1-items{
+	height: 74px;
+	float: left;
+}
+.ab-sub1-case-item2-items{
+	height: 74px;
+	float: left;
+}
+.ab-case-line{
+	width:100%;
+	height:29px;
+	background: url(../../images/edus/process_bottom_sline.jpg) center center no-repeat;
+	margin-top:34px;
+	margin-bottom:20px;
+}
+
+.ab-ads1{
+	width:100%;
+	height:60px;
+	line-height:60px;
+	margin-top:70px;
+	background: url(../../images/edus/ab-adv2.jpg) no-repeat;
+}
+.ab-ads1 span{
+	float: left;
+	margin-left:61px; 
+	color:#fff;
+	font-size:24px;
+	letter-spacing: 1px;
+}
+.ab-ads1 a{
+	float: right;
+	font-size:24px;
+	color:#fff;
+	letter-spacing: 1px;
+	margin-right:68px;
+}
+.ab-consult{
+	height:135px;
+	width:100%;
+	margin-top:55px;
+}
+.ab-consult-con{
+	width:945px;
+	float: right;
+	font-size:14px;
+	color:#45454a;
+	line-height:32px;
+	margin-top:25px;
+	text-indent:28px;
+}
+
+.ab-consult-process{
+	width:100%;
+	margin-top:20px;
+	color:#6b8de1;
+	font-size:24px;
+}
+
+.ab-consult-process-con{
+	width:100%;
+	height:219px;
+	margin-top:20px;
+}
+.ab-process-con1{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult1.jpg) no-repeat;
+	/*-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;*/
+}
+
+.ab-process-con2{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:31px;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult2.jpg) no-repeat;
+}
+.ab-process-con3{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:30px;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult3.jpg) no-repeat;
+}
+.ab-process-con4{
+	width:216px;
+	height:219px;
+	float: left;
+	text-align: center; 
+	font-size:18px;
+	color:#666;
+	margin-left:30px;
+	letter-spacing: 1px;
+	background: url(../../images/edus/ab-consult4.jpg) no-repeat;
+}
+/*.ab-process-con1:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}*/
+
+.ab-process-arrow{
+	width:44px;
+	height:50px;
+	background: url(../../images/edus/ab-process-arrow.jpg) no-repeat;
+	float: left;
+	margin:80px 0px 0px 31px;
+}
+
+.ab-implement{
+	width:100%;
+	height:114px;
+	margin-top:24px;
+}
+.ab-implement-item1{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico1.jpg) no-repeat;
+	float: left;
+	margin-left: 74px;
+}
+.ab-implement-item2{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico2.jpg) no-repeat;
+	float: left;
+	margin-left: 14px;
+}
+.ab-implement-item3{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico3.jpg) no-repeat;
+	float: left;
+	margin-left: 14px;
+}
+.ab-implement-item4{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico4.jpg) no-repeat;
+	float: left;
+	margin-left: 14px;
+}
+.ab-implement-item5{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico5.jpg) no-repeat;
+	float: left;
+	margin-left: 14px;
+}
+.ab-implement-item6{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico6.jpg) no-repeat;
+	float: left;
+	margin-left: 14px;
+}
+.ab-implement-item7{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico7.jpg) no-repeat;
+	float: left;
+	margin-left: 14px;
+}
+.ab-implement-item8{
+	width:120px;
+	height:114px;
+	background: url(../../images/edus/ab-con-ico8.jpg) no-repeat;
+	float: left;
+	margin-left: 14px;
+}
+
+.ab-aftersale-process{
+	width:100%;
+	height:117px;
+	margin-top:34px;
+	color:#6b8de1;
+	font-size:24px;
+}
+.ab-aftersale-process-type{
+	height:71px;
+	margin-top:25px;
+}
+.ab-afersale-process-item1{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	margin-left:70px;
+	background: url(../../images/edus/ab-aftersale-ico7.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item1:hover,.ab-afersale-process-item2:hover,.ab-afersale-process-item3:hover,.ab-afersale-process-item4:hover,.ab-afersale-process-item5:hover,.ab-afersale-process-item6:hover,.ab-afersale-process-item7:hover{
+	-webkit-transform: rotateZ(360deg);
+	-moz-transform: rotateZ(360deg);
+	-o-transform: rotateZ(360deg);
+	-ms-transform: rotateZ(360deg);
+	transform: rotateZ(360deg);
+}
+
+.ab-afersale-process-item2{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:60px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico6.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item3{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:60px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico5.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item4{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:60px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico4.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item5{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:60px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico3.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+
+.ab-afersale-process-item6{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:60px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico2.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.ab-afersale-process-item7{
+	width:97px;
+	text-align: center;
+	float: left;
+	font-size:14px;
+	margin-left:60px;
+	color:#333;
+	display: block;
+	cursor: pointer;
+	padding-top:40px;
+	background: url(../../images/edus/ab-aftersale-ico1.png) center top no-repeat;
+	-webkit-transition: -webkit-transform 2s ease-out;
+	-moz-transition: -moz-transform 2s ease-out;
+	-o-transition: -o-transform 2s ease-out;
+	-ms-transition: -ms-transform 2s ease-out;
+}
+.blank{
+	width:100%;
+	height:280px;
+	background: #fff;
+}
+.sline{
+	width:100%;
+	height:30px;
+	padding-top:35px;
+	background: url(../../images/edus/process_bottom_sline.jpg) 0 bottom no-repeat;
+}
+.scon{
+	width: 100%;
+	height:177px;
+	text-align: center;
+	padding-top:15px;
+}
+.s-ads{
+	width:100%;
+	height:120px;
+	background: url(../../images/edus/process_bottom_bg.jpg) repeat-x;
+}
+.s-ads-tit{
+	width:180px;
+	margin-top:35px;
+	font-size:24px;
+	color:#46464a;
+	float: left;
+}
+.s-ads-btn1{
+	width:180px;
+	height:51px;
+	text-align:center;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads a{
+	color:#fff;
+}
+.s-ads-btn1:hover{
+	background: url(../../images/edus/process_bottom_btn_hover.png) no-repeat;
+}
+.s-ads-btn2{
+	width:143px;
+	padding-left:37px;
+	height:51px;
+	text-align:left;
+	line-height:51px;
+	font-size:18px;
+	color:#fff;
+	letter-spacing: 1px;
+	background: url(../../images/edus/process_bottom_btn2.png) no-repeat;
+	float:left;
+	margin:43px 0px 0px 20px;
+	cursor:pointer;
+}
+.s-ads-btn2:hover{
+	background: url(../../images/edus/process_bottom_btn2_hover.png) no-repeat;
+}
+.s-ads-tel{
+	width:183px;
+	height:54px;
+	float: right;
+	margin:40px 0px 0px;
+	background: url(../../images/edus/process_bottom_btn_tel.png) no-repeat;
+}
+.bottom{
+	width:100%;
+	height:353px;
+	background:#394350;
+}
+.bottom-items{
+	width:119px;
+	height:172px;
+	float:left;
+	margin-top:30px;
+}
+.bottom-items dt{
+	width:100%;
+	height:42px;
+	line-height:42px;
+	text-align: left;
+}
+.bottom-items dt a{
+	color:#fff;
+	font-size:18px;
+	background: url(../../images/edus/bottom_pic1.png) left 6px no-repeat;
+	padding-left:24px;
+}
+.bottom-items dd{
+	width:100%;
+	height:31px;
+	line-height:31px;
+	text-align: center;
+}
+.bottom-items dd a{
+	color:#fff;
+	font-size:14px;
+}
+.items2{
+	margin-left:110px;
+}
+.items2 dt a{
+	background: url(../../images/edus/bottom_pic2.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items3{
+	margin-left:110px;
+}
+.items3 dt a{
+	background: url(../../images/edus/bottom_pic3.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items4{
+	margin-left:110px;
+}
+.items4 dt a{
+	background: url(../../images/edus/bottom_pic4.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.items5{
+	margin-left:110px;
+}
+.items5 dt a{
+	background: url(../../images/edus/bottom_pic5.png) left 6px no-repeat;
+	padding-left:26px;
+}
+.bottom-line{
+	width:100%;
+	height:38px;
+	padding-top:220px;
+	border-bottom: 1px solid #fff;
+}
+.bottom p a{
+	color:#fff;
+	font-size:13px;
+}
+.bottom p{
+	font-size:14px;
+}
